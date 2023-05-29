@@ -15,10 +15,10 @@ return new class extends Migration
     {
         Schema::create(Penduduk::tableName, function (Blueprint $table) {
             $table->id();
-            $table->string('nik')->nullable()->default(null);
+            $table->string('nik')->unique()->nullable()->default(null);
             $table->string('nama')->nullable()->default(null);
             $table->text('alamat')->nullable()->default(null);
-            $table->integer('status')->unique()->nullable()->default(0)->comment('0 diproses, 1 Sesuai, 2 Tidak Sesuai');
+            $table->integer('status')->nullable()->default(0)->comment('0 diproses, 1 Sesuai, 2 Tidak Sesuai');
             $table->bigInteger('import_id', false, true)->nullable()->default(null);
             $table->timestamps();
 

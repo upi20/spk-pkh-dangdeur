@@ -191,11 +191,6 @@ class Penduduk extends Model
         }
 
         // preprocess
-        $kecamatans = Kecamatan::select(['id', 'kode', 'nama'])->orderBy('kode')->get();
-        $kecamatan_kode = $kecamatans->map(fn ($query) => $query->kode)->toArray();
-        $kec_id = [];
-        foreach ($kecamatans as $kecamatan) $kec_id[$kecamatan->kode] = $kecamatan->id;
-
         $kriterias = Kriteria::select(['id', 'kode', 'nama'])->orderBy('kode')->get();
         $tah_id = [];
         foreach ($kriterias as $kriteria) $tah_id[$kriteria->kode] = $kriteria->id;
@@ -209,7 +204,10 @@ class Penduduk extends Model
             if ($header[$i] == null) {
                 break;
             } else {
-                $header_code[$i] = isset($tah_id[$header[$i]]) ? $tah_id[$header[$i]] : null;
+                $kode = $header[$i];
+                $kode = explode(' | ', $kode)[0];
+
+                $header_code[$i] = isset($tah_id[$kode]) ? $tah_id[$kode] : null;
                 $kriteria_end = $i + 1;
             }
         }
@@ -217,37 +215,19 @@ class Penduduk extends Model
         $count = 0;
         foreach ($array_from_excel as $i => $v) {
             if ($i < $start || $v[0] == null) continue;
-            // cek kode kecamatan
-            $kode = $v[1];
-            if (!in_array($kode, $kecamatan_kode)) return [
-                'status' => false,
-                'error' => response()->json(['message' => "Kode Kecamatan $kode Tidak ada di database, Silahkan cek data nomor {$v[0]}", 'error' => $v], 400),
-                'excel' => $file_excel
-            ];
-
-            // cek no pendaftaran
-            $nomor_pendaftaran = $v[3];
-            $cek = ModelsPenduduk::where('nomor_pendaftaran', $nomor_pendaftaran)->count();
+            // cek NIK
+            $nik = $v[1];
+            $cek = ModelsPenduduk::where('nik', $nik)->count();
             if ($cek > 0) return [
                 'status' => false,
-                'error' => response()->json(['message' => "Nomor Pendaftaran $nomor_pendaftaran Sudah di gunakan, Silahkan cek data nomor {$v[0]}", 'error' => $v], 400),
+                'error' => response()->json(['message' => "NIK $nik Sudah di gunakan, Silahkan cek data nomor {$v[0]}", 'error' => $v], 400),
                 'excel' => $file_excel
             ];
 
-            // set tanggal_lahir
-            $tanggal_lahir = null;
-            $tle = explode('/', $v[6] ?? ''); // tanggal lahir explode
-            if (count($tle) == 3) {
-                $tanggal_lahir = "$tle[2]-$tle[0]-$tle[1]";
-            }
-
             $penduduk = new ModelsPenduduk();
-            $penduduk->kecamatan_id = $kec_id[$kode];
-            $penduduk->nomor_pendaftaran = $nomor_pendaftaran;
-            $penduduk->nama = $v[4];
-            $penduduk->jenis_kelamin = $v[5];
-            $penduduk->tanggal_lahir = $tanggal_lahir;
-            $penduduk->nomor_telepon = $v[7];
+            $penduduk->nik = $nik;
+            $penduduk->nama = $v[2];
+            $penduduk->alamat = $v[3];
             $penduduk->import_id = $model->id;
             $penduduk->save();
 
@@ -300,7 +280,7 @@ class Penduduk extends Model
         $static = new static();
         $headers = $static->excelHeader;
 
-        $nilai_kodes = $kriterias->map(fn ($query) => $query->kode)->toArray();
+        $nilai_kodes = $kriterias->map(fn ($query) => "$query->kode | $query->nama")->toArray();
         $headers = array_merge($headers, $nilai_kodes);
 
         // laporan baru
@@ -308,7 +288,8 @@ class Penduduk extends Model
         $col_start = "A";
         $col_end = chr(64 + count($headers));
         $title_excel = "Formulir Import Penduduk";
-        $jml_body = 400;
+        $jml_body = 300;
+        $jml_body--;
         // Header excel ================================================================================================
         $spreadsheet = new Spreadsheet();
         $sheet = $spreadsheet->getActiveSheet();
@@ -412,37 +393,9 @@ class Penduduk extends Model
 
 
         // Set Keterangan =============================================================================================
-        // Kecamatan ==
-        $ket_kec_col_start = chr(64 + count($headers) + 2);
-        $ket_kec_col_end = chr(64 + count($headers) + 3);
-        $ket_kec_row = $row - 1;
-
-        // merge
-        $spreadsheet->getActiveSheet()->mergeCells("{$ket_kec_col_start}{$ket_kec_row}:{$ket_kec_col_end}{$ket_kec_row}");
-        // set value
-        $sheet->setCellValue($ket_kec_col_start . "$ket_kec_row", "Kecamatan");
-        // set style
-        $sheet->getStyle("{$ket_kec_col_start}{$ket_kec_row}:{$ket_kec_col_end}{$ket_kec_row}")->applyFromArray($styleHeader);
-
-        // set body value
-        $ket_kec_row++;
-        $ket_kec_row_start = $ket_kec_row;
-        foreach ($kecamatans as $kec) {
-            $sheet->setCellValue("{$ket_kec_col_start}{$ket_kec_row}", $kec->kode);
-            $sheet->setCellValue("{$ket_kec_col_end}{$ket_kec_row}", $kec->nama);
-            $ket_kec_row++;
-        }
-        $ket_kec_row_end = $ket_kec_row - 1;
-
-        // set style
-        $sheet->getStyle("{$ket_kec_col_start}{$ket_kec_row_start}:{$ket_kec_col_end}{$ket_kec_row_end}")->applyFromArray($styleBody);
-
-        $spreadsheet->getActiveSheet()->getColumnDimension($ket_kec_col_start)->setAutoSize(true);
-        $spreadsheet->getActiveSheet()->getColumnDimension($ket_kec_col_end)->setAutoSize(true);
-
         // Kriteria ==
-        $ket_kriteria_col_start = chr(64 + count($headers) + 5);
-        $ket_kriteria_col_end = chr(64 + count($headers) + 6);
+        $ket_kriteria_col_start = chr(64 + count($headers) + 2);
+        $ket_kriteria_col_end = chr(64 + count($headers) + 3);
         $ket_kriteria_row = $row - 1;
 
         // merge
@@ -468,69 +421,6 @@ class Penduduk extends Model
         $spreadsheet->getActiveSheet()->getColumnDimension($ket_kriteria_col_start)->setAutoSize(true);
         $spreadsheet->getActiveSheet()->getColumnDimension($ket_kriteria_col_end)->setAutoSize(true);
         // Set Keterangan =============================================================================================
-
-        // Set Validation =============================================================================================
-        // Jenis Kelamin ==
-        $dataList = ['LAKI-LAKI', 'PEREMPUAN']; // Set up the data validation list
-        $jk_col = chr(64 + 6);
-        $end_tabel = $start_tabel + $jml_body;
-
-        // Define the range where you want to apply the data validation
-        $validationRange = "{$jk_col}{$start_tabel}:{$jk_col}{$end_tabel}";
-
-        // Create a DataValidation object
-        $dataValidation = $sheet->getCell("{$jk_col}{$start_tabel}")->getDataValidation();
-
-        // Set the data validation type to lists
-        $dataValidation->setType(\PhpOffice\PhpSpreadsheet\Cell\DataValidation::TYPE_LIST);
-
-        // Set the formula1 property with the list of options
-        $dataValidation->setFormula1('"' . implode(',', $dataList) . '"');
-
-        // Set the showDropDown property to display a dropdown arrow
-        $dataValidation->setShowDropDown(true);
-
-        // Apply the data validation to the range
-        $sheet->setDataValidation($validationRange, $dataValidation);
-
-        // Kecamatan ==
-        $dataList = $kecamatans->map(fn ($query) => $query->kode)->toArray(); // Set up the data validation list
-        $kode_kec_col = chr(64 + 2);
-        $end_tabel = $start_tabel + $jml_body;
-
-        // Define the range where you want to apply the data validation
-        $validationRange = "{$kode_kec_col}{$start_tabel}:{$kode_kec_col}{$end_tabel}";
-
-        // Create a DataValidation object
-        $dataValidation = $sheet->getCell("{$kode_kec_col}{$start_tabel}")->getDataValidation();
-
-        // Set the data validation type to lists
-        $dataValidation->setType(\PhpOffice\PhpSpreadsheet\Cell\DataValidation::TYPE_LIST);
-
-        // Set the formula1 property with the list of options
-        $dataValidation->setFormula1('"' . implode(',', $dataList) . '"');
-
-        // Set the showDropDown property to display a dropdown arrow
-        $dataValidation->setShowDropDown(true);
-
-        // Apply the data validation to the range
-        $sheet->setDataValidation($validationRange, $dataValidation);
-        // Set Validation =============================================================================================
-
-        // Set Rumus ==================================================================================================
-        // Kecamatan
-        $col_kecamatan = chr(64 + 3);
-        $table_kecamatan = "\${$ket_kec_col_start}\${$ket_kec_row_start}:\${$ket_kec_col_end}\${$ket_kec_row_end}";
-        for ($i = $start_tabel; $i <= $end_tabel; $i++) {
-            $sheet->setCellValue("{$col_kecamatan}{$i}", ("=IFERROR(VLOOKUP(" . "{$kode_kec_col}{$i}" . "," . $table_kecamatan . ",2,FALSE),\"\")"));
-        }
-
-        // function for width column
-        function w($width)
-        {
-            return 0.71 + $width;
-        }
-
         // set width column
         for ($i = 65; $i < (65 + count($headers)); $i++) {
             $spreadsheet->getActiveSheet()->getColumnDimension(chr($i))->setAutoSize(true);

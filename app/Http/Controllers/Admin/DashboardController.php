@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Artikel\Artikel;
 use App\Models\Contact\Message as ContactMessage;
 use App\Models\Pendaftaran;
+use App\Models\Penduduk;
 use App\Models\Tracker;
 use Illuminate\Http\Request;
 
@@ -16,6 +17,7 @@ class DashboardController extends Controller
         $total_artikel = Artikel::count();
         $total_pesan = ContactMessage::count();
         $total_pendaftar = Pendaftaran::count();
+        $total_penduduk = Penduduk::count();
 
         $page_attr = adminBreadcumb(h_prefix(), addDashboard: false);
 
@@ -23,7 +25,7 @@ class DashboardController extends Controller
         $data = compact(
             'total_artikel',
             'total_pesan',
-            'total_pendaftar',
+            'total_penduduk',
             'page_attr',
             'view',
         );

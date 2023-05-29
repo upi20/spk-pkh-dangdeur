@@ -93,53 +93,13 @@ class PRoleHasMenuTableSeeder extends Seeder
             ),
             9 => 
             array (
-                'id' => 281,
-                'role_id' => 1,
-                'menu_id' => 397,
-                'created_at' => '2023-05-23 20:30:19',
-                'updated_at' => '2023-05-23 20:30:19',
-            ),
-            10 => 
-            array (
-                'id' => 282,
-                'role_id' => 9,
-                'menu_id' => 397,
-                'created_at' => '2023-05-23 20:30:19',
-                'updated_at' => '2023-05-23 20:30:19',
-            ),
-            11 => 
-            array (
                 'id' => 285,
                 'role_id' => 1,
                 'menu_id' => 346,
                 'created_at' => '2023-05-23 21:06:14',
                 'updated_at' => '2023-05-23 21:06:14',
             ),
-            12 => 
-            array (
-                'id' => 286,
-                'role_id' => 1,
-                'menu_id' => 433,
-                'created_at' => '2023-05-23 21:06:47',
-                'updated_at' => '2023-05-23 21:06:47',
-            ),
-            13 => 
-            array (
-                'id' => 289,
-                'role_id' => 1,
-                'menu_id' => 434,
-                'created_at' => '2023-05-24 00:01:20',
-                'updated_at' => '2023-05-24 00:01:20',
-            ),
-            14 => 
-            array (
-                'id' => 291,
-                'role_id' => 1,
-                'menu_id' => 435,
-                'created_at' => '2023-05-29 02:38:24',
-                'updated_at' => '2023-05-29 02:38:24',
-            ),
-            15 => 
+            10 => 
             array (
                 'id' => 294,
                 'role_id' => 1,
@@ -147,7 +107,7 @@ class PRoleHasMenuTableSeeder extends Seeder
                 'created_at' => '2023-05-29 15:00:38',
                 'updated_at' => '2023-05-29 15:00:38',
             ),
-            16 => 
+            11 => 
             array (
                 'id' => 295,
                 'role_id' => 1,
@@ -155,7 +115,7 @@ class PRoleHasMenuTableSeeder extends Seeder
                 'created_at' => '2023-05-29 15:14:11',
                 'updated_at' => '2023-05-29 15:14:11',
             ),
-            17 => 
+            12 => 
             array (
                 'id' => 296,
                 'role_id' => 1,
@@ -163,7 +123,7 @@ class PRoleHasMenuTableSeeder extends Seeder
                 'created_at' => '2023-05-29 15:14:17',
                 'updated_at' => '2023-05-29 15:14:17',
             ),
-            18 => 
+            13 => 
             array (
                 'id' => 297,
                 'role_id' => 9,
@@ -171,7 +131,7 @@ class PRoleHasMenuTableSeeder extends Seeder
                 'created_at' => '2023-05-29 15:14:17',
                 'updated_at' => '2023-05-29 15:14:17',
             ),
-            19 => 
+            14 => 
             array (
                 'id' => 298,
                 'role_id' => 1,
@@ -179,7 +139,7 @@ class PRoleHasMenuTableSeeder extends Seeder
                 'created_at' => '2023-05-29 15:15:08',
                 'updated_at' => '2023-05-29 15:15:08',
             ),
-            20 => 
+            15 => 
             array (
                 'id' => 299,
                 'role_id' => 1,
@@ -187,7 +147,7 @@ class PRoleHasMenuTableSeeder extends Seeder
                 'created_at' => '2023-05-29 15:15:25',
                 'updated_at' => '2023-05-29 15:15:25',
             ),
-            21 => 
+            16 => 
             array (
                 'id' => 300,
                 'role_id' => 1,
@@ -195,7 +155,7 @@ class PRoleHasMenuTableSeeder extends Seeder
                 'created_at' => '2023-05-29 15:15:33',
                 'updated_at' => '2023-05-29 15:15:33',
             ),
-            22 => 
+            17 => 
             array (
                 'id' => 301,
                 'role_id' => 1,
@@ -203,13 +163,45 @@ class PRoleHasMenuTableSeeder extends Seeder
                 'created_at' => '2023-05-29 15:15:40',
                 'updated_at' => '2023-05-29 15:15:40',
             ),
-            23 => 
+            18 => 
             array (
                 'id' => 302,
                 'role_id' => 1,
                 'menu_id' => 437,
                 'created_at' => '2023-05-29 18:08:18',
                 'updated_at' => '2023-05-29 18:08:18',
+            ),
+            19 => 
+            array (
+                'id' => 303,
+                'role_id' => 1,
+                'menu_id' => 435,
+                'created_at' => '2023-05-29 19:21:32',
+                'updated_at' => '2023-05-29 19:21:32',
+            ),
+            20 => 
+            array (
+                'id' => 304,
+                'role_id' => 1,
+                'menu_id' => 397,
+                'created_at' => '2023-05-29 20:03:31',
+                'updated_at' => '2023-05-29 20:03:31',
+            ),
+            21 => 
+            array (
+                'id' => 305,
+                'role_id' => 9,
+                'menu_id' => 397,
+                'created_at' => '2023-05-29 20:03:31',
+                'updated_at' => '2023-05-29 20:03:31',
+            ),
+            22 => 
+            array (
+                'id' => 306,
+                'role_id' => 1,
+                'menu_id' => 438,
+                'created_at' => '2023-05-29 20:03:50',
+                'updated_at' => '2023-05-29 20:03:50',
             ),
         ));
         

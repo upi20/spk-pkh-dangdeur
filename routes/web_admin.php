@@ -81,8 +81,10 @@ use App\Http\Controllers\Admin\SPK\WP\AlternatifController as SPK_WP_AlternatifC
 use App\Http\Controllers\Admin\Import\KecamatanController as ImportKecamatanController;
 use App\Http\Controllers\Admin\Import\CalonController as ImportCalonController;
 use App\Http\Controllers\Admin\Import\KriteriaController as ImportKriteriaController;
+use App\Http\Controllers\Admin\Import\PendudukController as ImportPendudukController;
 use App\Http\Controllers\Admin\KriteriaController;
 use App\Http\Controllers\Admin\PendudukController;
+use App\Http\Controllers\Admin\Setting\DashboardController as SettingDashboardController;
 
 // ====================================================================================================================
 
@@ -445,6 +447,13 @@ Route::prefix($prefix)->group(function () use ($name, $prefix) {
         Route::get('/', 'index')->name($name)->middleware("permission:$name");
         Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
     });
+
+    $prefix = 'dashboard';
+    Route::controller(SettingDashboardController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+        $name = "$name.$prefix"; // admin.setting.dashboard
+        Route::get('/', 'index')->name($name)->middleware("permission:$name");
+        Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+    });
 });
 
 $prefix = 'kontak';
@@ -771,6 +780,17 @@ Route::prefix($prefix)->group(function () use ($name, $prefix) {
     $prefix = 'calon';
     Route::controller(ImportCalonController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
         $name = "$name.$prefix"; // admin.import.calon
+        Route::get('/', 'index')->name($name)->middleware("permission:$name");
+        Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+        Route::get('/format', 'format')->name("$name.format")->middleware("permission:$name");
+        Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+        Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+        Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+    });
+
+    $prefix = 'penduduk';
+    Route::controller(ImportPendudukController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+        $name = "$name.$prefix"; // admin.import.penduduk
         Route::get('/', 'index')->name($name)->middleware("permission:$name");
         Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
         Route::get('/format', 'format')->name("$name.format")->middleware("permission:$name");

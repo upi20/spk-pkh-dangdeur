@@ -131,10 +131,10 @@ class PMenuTableSeeder extends Seeder
                 'icon' => 'fas fa-wrench',
                 'route' => NULL,
                 'sequence' => 10,
-                'active' => 0,
+                'active' => 1,
                 'type' => 1,
                 'created_at' => '2022-08-14 21:10:57',
-                'updated_at' => '2023-05-29 15:14:23',
+                'updated_at' => '2023-05-29 20:03:31',
             ),
             9 => 
             array (
@@ -203,44 +203,18 @@ class PMenuTableSeeder extends Seeder
             ),
             14 => 
             array (
-                'id' => 433,
-                'parent_id' => NULL,
-                'title' => 'Calon',
-                'icon' => 'fas fa-user',
-                'route' => 'admin.calon',
-                'sequence' => 3,
-                'active' => 1,
-                'type' => 1,
-                'created_at' => '2023-05-23 21:06:47',
-                'updated_at' => '2023-05-29 15:14:23',
-            ),
-            15 => 
-            array (
-                'id' => 434,
-                'parent_id' => NULL,
-                'title' => 'Calon Nilai',
-                'icon' => 'fas fa-user-edit',
-                'route' => 'admin.calon.nilai',
-                'sequence' => 4,
-                'active' => 1,
-                'type' => 1,
-                'created_at' => '2023-05-24 00:00:09',
-                'updated_at' => '2023-05-29 15:14:23',
-            ),
-            16 => 
-            array (
                 'id' => 435,
                 'parent_id' => 430,
-                'title' => 'Calon',
+                'title' => 'Penduduk',
                 'icon' => NULL,
-                'route' => 'admin.import.calon',
+                'route' => 'admin.import.penduduk',
                 'sequence' => 9,
                 'active' => 1,
                 'type' => 1,
                 'created_at' => '2023-05-29 02:19:06',
-                'updated_at' => '2023-05-29 15:14:23',
+                'updated_at' => '2023-05-29 19:21:32',
             ),
-            17 => 
+            15 => 
             array (
                 'id' => 436,
                 'parent_id' => 430,
@@ -253,7 +227,7 @@ class PMenuTableSeeder extends Seeder
                 'created_at' => '2023-05-29 14:59:27',
                 'updated_at' => '2023-05-29 18:08:25',
             ),
-            18 => 
+            16 => 
             array (
                 'id' => 437,
                 'parent_id' => NULL,
@@ -265,6 +239,19 @@ class PMenuTableSeeder extends Seeder
                 'type' => 1,
                 'created_at' => '2023-05-29 18:08:18',
                 'updated_at' => '2023-05-29 18:08:25',
+            ),
+            17 => 
+            array (
+                'id' => 438,
+                'parent_id' => 397,
+                'title' => 'Halaman Dashboard',
+                'icon' => NULL,
+                'route' => 'admin.setting.dashboard',
+                'sequence' => 19,
+                'active' => 1,
+                'type' => 1,
+                'created_at' => '2023-05-29 20:03:50',
+                'updated_at' => '2023-05-29 20:03:50',
             ),
         ));
         
