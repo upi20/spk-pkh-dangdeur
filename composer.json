@@ -1,7 +1,7 @@
 {
-    "name": "upi20/rmtahfidz",
+    "name": "upi20/spk-pkh-dangdeur",
     "type": "project",
-    "description": "Rumah Tahfidz Ar-rahman",
+    "description": "Sistem Pendukung Keputusan untuk Program Keluarga Harapan dengan studi kasus Desa Dangdeur Kecamatan Banyuresmi Garut Jawa Barat",
     "keywords": [
         "framework",
         "laravel",
@@ -10,7 +10,8 @@
         "bootstrap5",
         "rbac",
         "menu-management",
-        "tahfidz"
+        "spk",
+        "pkh"
     ],
     "license": "GNU",
     "require": {
