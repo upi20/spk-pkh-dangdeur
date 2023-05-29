@@ -80,6 +80,8 @@ use App\Http\Controllers\Admin\SPK\WP\AlternatifController as SPK_WP_AlternatifC
 // Portfolio ==========================================================================================================
 use App\Http\Controllers\Admin\Import\KecamatanController as ImportKecamatanController;
 use App\Http\Controllers\Admin\Import\CalonController as ImportCalonController;
+use App\Http\Controllers\Admin\Import\KriteriaController as ImportKriteriaController;
+use App\Http\Controllers\Admin\KriteriaController;
 
 // ====================================================================================================================
 
@@ -691,6 +693,17 @@ Route::controller(TahapanController::class)->prefix($prefix)->group(function () 
     Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
 });
 
+$prefix = 'kriteria';
+Route::controller(KriteriaController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+    $name = "$name.$prefix"; // admin.kriteria
+    Route::get('/', 'index')->name($name)->middleware("permission:$name");
+    Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+    Route::get('/export', 'export')->name("$name.export")->middleware("permission:$name");
+    Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+    Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+    Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+});
+
 $prefix = 'calon';
 Route::prefix($prefix)->group(function () use ($name, $prefix) {
     $name = "$name.$prefix"; // admin.calon
@@ -722,6 +735,17 @@ Route::prefix($prefix)->group(function () use ($name, $prefix) {
     $prefix = 'kecamatan';
     Route::controller(ImportKecamatanController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
         $name = "$name.$prefix"; // admin.import.kecamatan
+        Route::get('/', 'index')->name($name)->middleware("permission:$name");
+        Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+        Route::get('/format', 'format')->name("$name.format")->middleware("permission:$name");
+        Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+        Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+        Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+    });
+
+    $prefix = 'kriteria';
+    Route::controller(ImportKriteriaController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+        $name = "$name.$prefix"; // admin.import.kriteria
         Route::get('/', 'index')->name($name)->middleware("permission:$name");
         Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
         Route::get('/format', 'format')->name("$name.format")->middleware("permission:$name");

@@ -35,6 +35,14 @@ class PRolesTableSeeder extends Seeder
                 'created_at' => '2022-08-06 01:26:51',
                 'updated_at' => '2023-01-15 14:26:05',
             ),
+            2 => 
+            array (
+                'id' => 10,
+                'name' => 'Survey Lapangan',
+                'guard_name' => 'web',
+                'created_at' => '2023-05-29 15:16:13',
+                'updated_at' => '2023-05-29 15:16:13',
+            ),
         ));
         
         

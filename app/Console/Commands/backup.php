@@ -18,7 +18,9 @@ use App\Models\Galeri;
 use App\Models\Home\Testimonial;
 use App\Models\Import\Kecamatan as ImportKecamatan;
 use App\Models\Import\Calon as ImportCalon;
+use App\Models\Import\Kriteria as ImportKriteria;
 use App\Models\Kecamatan;
+use App\Models\Kriteria;
 use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\Menu\Frontend as MenuFrontend;
 use App\Models\Pendaftaran;
@@ -179,12 +181,14 @@ class backup extends Command
             'sipankab' => [
                 Kecamatan::tableName,
                 Tahapan::tableName,
+                Kriteria::tableName,
                 Calon::tableName,
                 CalonNilai::tableName,
             ],
             'import_sipankab' => [
                 ImportKecamatan::tableName,
                 ImportCalon::tableName,
+                ImportKriteria::tableName,
             ],
         ];
         if ($opt_users == 1 || $arg_type == 'users') echo shell_exec('php artisan iseed users --force');
