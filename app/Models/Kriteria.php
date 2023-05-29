@@ -26,7 +26,7 @@ class Kriteria extends Model
 
     public function nilais()
     {
-        return $this->hasMany(CalonNilai::class, 'kriteria_id', 'id');
+        return $this->hasMany(PendudukNilai::class, 'kriteria_id', 'id');
     }
 
     public static function datatable(Request $request): mixed

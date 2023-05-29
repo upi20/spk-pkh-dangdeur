@@ -19,12 +19,15 @@ use App\Models\Home\Testimonial;
 use App\Models\Import\Kecamatan as ImportKecamatan;
 use App\Models\Import\Calon as ImportCalon;
 use App\Models\Import\Kriteria as ImportKriteria;
+use App\Models\Import\Penduduk as ImportPenduduk;
 use App\Models\Kecamatan;
 use App\Models\Kriteria;
 use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\Menu\Frontend as MenuFrontend;
 use App\Models\Pendaftaran;
 use App\Models\Pendaftaran\GForm;
+use App\Models\Penduduk;
+use App\Models\PendudukNilai;
 use App\Models\Portfolio\Item as PortfolioItem;
 use App\Models\Portfolio\Kategori as PortfolioKategori;
 use App\Models\Portfolio\Portfolio;
@@ -182,6 +185,8 @@ class backup extends Command
                 Kecamatan::tableName,
                 Tahapan::tableName,
                 Kriteria::tableName,
+                Penduduk::tableName,
+                PendudukNilai::tableName,
                 Calon::tableName,
                 CalonNilai::tableName,
             ],
@@ -189,6 +194,7 @@ class backup extends Command
                 ImportKecamatan::tableName,
                 ImportCalon::tableName,
                 ImportKriteria::tableName,
+                ImportPenduduk::tableName,
             ],
         ];
         if ($opt_users == 1 || $arg_type == 'users') echo shell_exec('php artisan iseed users --force');
