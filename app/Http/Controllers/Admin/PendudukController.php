@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Import\Penduduk as ImportPenduduk;
 use App\Models\Kriteria;
 use App\Models\Penduduk;
 use App\Models\PendudukNilai;
@@ -123,5 +124,11 @@ class PendudukController extends Controller
     public function datatable(Request $request)
     {
         return PendudukNilai::datatable($request);
+    }
+
+
+    public function export(Request $request)
+    {
+        return ImportPenduduk::export($request);
     }
 }

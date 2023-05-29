@@ -719,6 +719,7 @@ Route::controller(PendudukController::class)->prefix($prefix)->group(function ()
     $name = "$name.$prefix"; // admin.calon.penduduk
     Route::get('/', 'index')->name($name)->middleware("permission:$name");
     Route::get('/datatable', 'datatable')->name($name)->middleware("permission:$name");
+    Route::get('/export', 'export')->name("$name.export")->middleware("permission:$name");
     Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
     Route::get('/datatable', 'datatable')->name("$name.datatable")->middleware("permission:$name");
     Route::get('/kriteria', 'kriteria')->name("$name.kriteria")->middleware("permission:$name");

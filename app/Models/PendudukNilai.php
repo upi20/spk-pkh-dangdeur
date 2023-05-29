@@ -34,7 +34,7 @@ class PendudukNilai extends Model
     public static function datatable(Request $request)
     {
         $kriterias = Kriteria::orderBy('kode')->get();
-        $alternatifs = Penduduk::with(['nilais.kriteria'])->get();
+        $alternatifs = Penduduk::with(['nilais.kriteria'])->orderBy('nama')->get();
 
         // sort nilai berdasarkan kriteria
         $results = [];
