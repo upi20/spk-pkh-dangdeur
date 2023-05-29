@@ -77,8 +77,8 @@ class DatabaseSeeder extends Seeder
         $this->call(CalonNilaiTableSeeder::class);
         $this->call(KriteriaTableSeeder::class);
         $this->call(ImportKriteriaTableSeeder::class);
-        $this->call(PendudukTableSeeder::class);
         $this->call(ImportPendudukTableSeeder::class);
+        $this->call(PendudukTableSeeder::class);
         $this->call(PendudukNilaiTableSeeder::class);
     }
 }
