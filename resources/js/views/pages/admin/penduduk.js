@@ -261,6 +261,7 @@ function getTable() {
                 <th>NIK</th>
                 <th>${page_title}</th>
                 ${table_head_html_item}
+                <th>Status</th>
                 <th>Aksi</th>
             </tr>`;
 
@@ -272,11 +273,16 @@ function getTable() {
                 table_body_html_item += ` <td>${j ? format_rupiah(j.nilai) : ''}</td> `;
             });
 
+            const status_class = e.status == 1 ? 'success' : (e.status == 0 ? 'primary' : 'danger');
+            const status_text = e.status == 1 ? 'Sesuai' : (e.status == 0 ? 'Diproses' : 'Tidak Sesuai');
+            const status = `<i class="fas fa-circle me-2 text-${status_class}"></i>${status_text}`;
+
             const id = e.id
             const btn_update = can_update ? `<button type="button" class="btn btn-rounded btn-primary btn-sm me-1 mt-1" data-toggle="tooltip" title="Ubah Data" onClick="editFunc('${id}')">
             <i class="fas fa-edit"></i></button>` : '';
             const btn_delete = can_delete ? `<button type="button" class="btn btn-rounded btn-danger btn-sm me-1 mt-1" data-toggle="tooltip" title="Hapus Data" onClick="deleteFunc('${id}')">
             <i class="fas fa-trash"></i></button>` : '';
+
             const btn = btn_update + btn_delete;
             table_body_html += `<tr>
                 <td></td>
@@ -286,8 +292,9 @@ function getTable() {
                     <small>${e.alamat}</small>
                 </td>
                  ${table_body_html_item}
+                <td class="text-nowrap">${status}</td>
                 <td class="text-nowrap">${btn}</td>
-            </tr> `;
+            </tr>`;
         });
 
         // render table
