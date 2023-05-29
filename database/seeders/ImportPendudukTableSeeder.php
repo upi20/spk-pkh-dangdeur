@@ -21,13 +21,13 @@ class ImportPendudukTableSeeder extends Seeder
         \DB::table('import_penduduk')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                'id' => 6,
                 'nama' => 'Testing',
                 'slug' => 'testing',
-                'file' => '20230529075231-testing.xlsx',
+                'file' => '20230529084428-testing.xlsx',
                 'count' => 269,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:38',
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:36',
             ),
         ));
         

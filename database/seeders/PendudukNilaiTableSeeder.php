@@ -21,14535 +21,14535 @@ class PendudukNilaiTableSeeder extends Seeder
         \DB::table('penduduk_nilai')->insert(array (
             0 => 
             array (
-                'id' => 1,
+                'id' => 3229,
                 'kriteria_id' => 1,
-                'penduduk_id' => 1,
-                'nilai' => 3339350.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            1 => 
-            array (
-                'id' => 2,
-                'kriteria_id' => 2,
-                'penduduk_id' => 1,
-                'nilai' => 40.41,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            2 => 
-            array (
-                'id' => 3,
-                'kriteria_id' => 3,
-                'penduduk_id' => 1,
-                'nilai' => 15636000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            3 => 
-            array (
-                'id' => 4,
-                'kriteria_id' => 4,
-                'penduduk_id' => 1,
-                'nilai' => 98.09,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            4 => 
-            array (
-                'id' => 5,
-                'kriteria_id' => 5,
-                'penduduk_id' => 1,
-                'nilai' => 51.59,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            5 => 
-            array (
-                'id' => 6,
-                'kriteria_id' => 6,
-                'penduduk_id' => 1,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            6 => 
-            array (
-                'id' => 7,
-                'kriteria_id' => 1,
-                'penduduk_id' => 2,
-                'nilai' => 1296750.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            7 => 
-            array (
-                'id' => 8,
-                'kriteria_id' => 2,
-                'penduduk_id' => 2,
-                'nilai' => 91.38,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            8 => 
-            array (
-                'id' => 9,
-                'kriteria_id' => 3,
-                'penduduk_id' => 2,
-                'nilai' => 29160000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            9 => 
-            array (
-                'id' => 10,
-                'kriteria_id' => 4,
-                'penduduk_id' => 2,
-                'nilai' => 96.06,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            10 => 
-            array (
-                'id' => 11,
-                'kriteria_id' => 5,
-                'penduduk_id' => 2,
-                'nilai' => 70.42,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            11 => 
-            array (
-                'id' => 12,
-                'kriteria_id' => 6,
-                'penduduk_id' => 2,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            12 => 
-            array (
-                'id' => 13,
-                'kriteria_id' => 1,
-                'penduduk_id' => 3,
-                'nilai' => 1457050.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            13 => 
-            array (
-                'id' => 14,
-                'kriteria_id' => 2,
-                'penduduk_id' => 3,
-                'nilai' => 62.06,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            14 => 
-            array (
-                'id' => 15,
-                'kriteria_id' => 3,
-                'penduduk_id' => 3,
-                'nilai' => 29988000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            15 => 
-            array (
-                'id' => 16,
-                'kriteria_id' => 4,
-                'penduduk_id' => 3,
-                'nilai' => 78.58,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            16 => 
-            array (
-                'id' => 17,
-                'kriteria_id' => 5,
-                'penduduk_id' => 3,
-                'nilai' => 69.65,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            17 => 
-            array (
-                'id' => 18,
-                'kriteria_id' => 6,
-                'penduduk_id' => 3,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            18 => 
-            array (
-                'id' => 19,
-                'kriteria_id' => 1,
-                'penduduk_id' => 4,
-                'nilai' => 1421350.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            19 => 
-            array (
-                'id' => 20,
-                'kriteria_id' => 2,
-                'penduduk_id' => 4,
-                'nilai' => 88.67,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            20 => 
-            array (
-                'id' => 21,
-                'kriteria_id' => 3,
-                'penduduk_id' => 4,
-                'nilai' => 38324000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            21 => 
-            array (
-                'id' => 22,
-                'kriteria_id' => 4,
-                'penduduk_id' => 4,
-                'nilai' => 70.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            22 => 
-            array (
-                'id' => 23,
-                'kriteria_id' => 5,
-                'penduduk_id' => 4,
-                'nilai' => 44.64,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            23 => 
-            array (
-                'id' => 24,
-                'kriteria_id' => 6,
-                'penduduk_id' => 4,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            24 => 
-            array (
-                'id' => 25,
-                'kriteria_id' => 1,
-                'penduduk_id' => 5,
-                'nilai' => 1455650.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            25 => 
-            array (
-                'id' => 26,
-                'kriteria_id' => 2,
-                'penduduk_id' => 5,
-                'nilai' => 32.35,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            26 => 
-            array (
-                'id' => 27,
-                'kriteria_id' => 3,
-                'penduduk_id' => 5,
-                'nilai' => 19500000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            27 => 
-            array (
-                'id' => 28,
-                'kriteria_id' => 4,
-                'penduduk_id' => 5,
-                'nilai' => 66.05,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            28 => 
-            array (
-                'id' => 29,
-                'kriteria_id' => 5,
-                'penduduk_id' => 5,
-                'nilai' => 37.3,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            29 => 
-            array (
-                'id' => 30,
-                'kriteria_id' => 6,
-                'penduduk_id' => 5,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            30 => 
-            array (
-                'id' => 31,
-                'kriteria_id' => 1,
-                'penduduk_id' => 6,
-                'nilai' => 3088050.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            31 => 
-            array (
-                'id' => 32,
-                'kriteria_id' => 2,
-                'penduduk_id' => 6,
-                'nilai' => 57.93,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            32 => 
-            array (
-                'id' => 33,
-                'kriteria_id' => 3,
-                'penduduk_id' => 6,
-                'nilai' => 17748000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            33 => 
-            array (
-                'id' => 34,
-                'kriteria_id' => 4,
-                'penduduk_id' => 6,
-                'nilai' => 57.58,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            34 => 
-            array (
-                'id' => 35,
-                'kriteria_id' => 5,
-                'penduduk_id' => 6,
-                'nilai' => 80.17,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            35 => 
-            array (
-                'id' => 36,
-                'kriteria_id' => 6,
-                'penduduk_id' => 6,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            36 => 
-            array (
-                'id' => 37,
-                'kriteria_id' => 1,
-                'penduduk_id' => 7,
-                'nilai' => 2446500.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            37 => 
-            array (
-                'id' => 38,
-                'kriteria_id' => 2,
-                'penduduk_id' => 7,
-                'nilai' => 80.91,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            38 => 
-            array (
-                'id' => 39,
-                'kriteria_id' => 3,
-                'penduduk_id' => 7,
-                'nilai' => 35544000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            39 => 
-            array (
-                'id' => 40,
-                'kriteria_id' => 4,
-                'penduduk_id' => 7,
-                'nilai' => 36.41,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            40 => 
-            array (
-                'id' => 41,
-                'kriteria_id' => 5,
-                'penduduk_id' => 7,
-                'nilai' => 80.67,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            41 => 
-            array (
-                'id' => 42,
-                'kriteria_id' => 6,
-                'penduduk_id' => 7,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            42 => 
-            array (
-                'id' => 43,
-                'kriteria_id' => 1,
-                'penduduk_id' => 8,
-                'nilai' => 2038050.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            43 => 
-            array (
-                'id' => 44,
-                'kriteria_id' => 2,
-                'penduduk_id' => 8,
-                'nilai' => 85.44,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            44 => 
-            array (
-                'id' => 45,
-                'kriteria_id' => 3,
-                'penduduk_id' => 8,
-                'nilai' => 26380000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            45 => 
-            array (
-                'id' => 46,
-                'kriteria_id' => 4,
-                'penduduk_id' => 8,
-                'nilai' => 48.73,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            46 => 
-            array (
-                'id' => 47,
-                'kriteria_id' => 5,
-                'penduduk_id' => 8,
-                'nilai' => 61.22,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            47 => 
-            array (
-                'id' => 48,
-                'kriteria_id' => 6,
-                'penduduk_id' => 8,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            48 => 
-            array (
-                'id' => 49,
-                'kriteria_id' => 1,
-                'penduduk_id' => 9,
-                'nilai' => 3331300.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            49 => 
-            array (
-                'id' => 50,
-                'kriteria_id' => 2,
-                'penduduk_id' => 9,
-                'nilai' => 29.69,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            50 => 
-            array (
-                'id' => 51,
-                'kriteria_id' => 3,
-                'penduduk_id' => 9,
-                'nilai' => 16540000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            51 => 
-            array (
-                'id' => 52,
-                'kriteria_id' => 4,
-                'penduduk_id' => 9,
-                'nilai' => 97.19,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            52 => 
-            array (
-                'id' => 53,
-                'kriteria_id' => 5,
-                'penduduk_id' => 9,
-                'nilai' => 35.9,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            53 => 
-            array (
-                'id' => 54,
-                'kriteria_id' => 6,
-                'penduduk_id' => 9,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            54 => 
-            array (
-                'id' => 55,
-                'kriteria_id' => 1,
-                'penduduk_id' => 10,
-                'nilai' => 2737350.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            55 => 
-            array (
-                'id' => 56,
-                'kriteria_id' => 2,
-                'penduduk_id' => 10,
-                'nilai' => 83.87,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            56 => 
-            array (
-                'id' => 57,
-                'kriteria_id' => 3,
-                'penduduk_id' => 10,
-                'nilai' => 19540000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            57 => 
-            array (
-                'id' => 58,
-                'kriteria_id' => 4,
-                'penduduk_id' => 10,
-                'nilai' => 95.11,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            58 => 
-            array (
-                'id' => 59,
-                'kriteria_id' => 5,
-                'penduduk_id' => 10,
-                'nilai' => 52.06,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            59 => 
-            array (
-                'id' => 60,
-                'kriteria_id' => 6,
-                'penduduk_id' => 10,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            60 => 
-            array (
-                'id' => 61,
-                'kriteria_id' => 1,
-                'penduduk_id' => 11,
-                'nilai' => 1331050.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            61 => 
-            array (
-                'id' => 62,
-                'kriteria_id' => 2,
-                'penduduk_id' => 11,
-                'nilai' => 72.05,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            62 => 
-            array (
-                'id' => 63,
-                'kriteria_id' => 3,
-                'penduduk_id' => 11,
-                'nilai' => 30092000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            63 => 
-            array (
-                'id' => 64,
-                'kriteria_id' => 4,
-                'penduduk_id' => 11,
-                'nilai' => 71.48,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            64 => 
-            array (
-                'id' => 65,
-                'kriteria_id' => 5,
-                'penduduk_id' => 11,
-                'nilai' => 40.67,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            65 => 
-            array (
-                'id' => 66,
-                'kriteria_id' => 6,
-                'penduduk_id' => 11,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            66 => 
-            array (
-                'id' => 67,
-                'kriteria_id' => 1,
-                'penduduk_id' => 12,
-                'nilai' => 1929200.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            67 => 
-            array (
-                'id' => 68,
-                'kriteria_id' => 2,
-                'penduduk_id' => 12,
-                'nilai' => 49.79,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            68 => 
-            array (
-                'id' => 69,
-                'kriteria_id' => 3,
-                'penduduk_id' => 12,
-                'nilai' => 34840000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            69 => 
-            array (
-                'id' => 70,
-                'kriteria_id' => 4,
-                'penduduk_id' => 12,
-                'nilai' => 34.63,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            70 => 
-            array (
-                'id' => 71,
-                'kriteria_id' => 5,
-                'penduduk_id' => 12,
-                'nilai' => 67.03,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            71 => 
-            array (
-                'id' => 72,
-                'kriteria_id' => 6,
-                'penduduk_id' => 12,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            72 => 
-            array (
-                'id' => 73,
-                'kriteria_id' => 1,
-                'penduduk_id' => 13,
-                'nilai' => 2850400.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            73 => 
-            array (
-                'id' => 74,
-                'kriteria_id' => 2,
-                'penduduk_id' => 13,
-                'nilai' => 90.37,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            74 => 
-            array (
-                'id' => 75,
-                'kriteria_id' => 3,
-                'penduduk_id' => 13,
-                'nilai' => 25392000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            75 => 
-            array (
-                'id' => 76,
-                'kriteria_id' => 4,
-                'penduduk_id' => 13,
-                'nilai' => 39.74,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            76 => 
-            array (
-                'id' => 77,
-                'kriteria_id' => 5,
-                'penduduk_id' => 13,
-                'nilai' => 53.21,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            77 => 
-            array (
-                'id' => 78,
-                'kriteria_id' => 6,
-                'penduduk_id' => 13,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            78 => 
-            array (
-                'id' => 79,
-                'kriteria_id' => 1,
-                'penduduk_id' => 14,
-                'nilai' => 1025500.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            79 => 
-            array (
-                'id' => 80,
-                'kriteria_id' => 2,
-                'penduduk_id' => 14,
-                'nilai' => 65.02,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            80 => 
-            array (
-                'id' => 81,
-                'kriteria_id' => 3,
-                'penduduk_id' => 14,
-                'nilai' => 30476000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            81 => 
-            array (
-                'id' => 82,
-                'kriteria_id' => 4,
-                'penduduk_id' => 14,
-                'nilai' => 69.31,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            82 => 
-            array (
-                'id' => 83,
-                'kriteria_id' => 5,
-                'penduduk_id' => 14,
-                'nilai' => 92.28,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            83 => 
-            array (
-                'id' => 84,
-                'kriteria_id' => 6,
-                'penduduk_id' => 14,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            84 => 
-            array (
-                'id' => 85,
-                'kriteria_id' => 1,
-                'penduduk_id' => 15,
-                'nilai' => 2425150.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            85 => 
-            array (
-                'id' => 86,
-                'kriteria_id' => 2,
-                'penduduk_id' => 15,
-                'nilai' => 59.86,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            86 => 
-            array (
-                'id' => 87,
-                'kriteria_id' => 3,
-                'penduduk_id' => 15,
-                'nilai' => 39480000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            87 => 
-            array (
-                'id' => 88,
-                'kriteria_id' => 4,
-                'penduduk_id' => 15,
-                'nilai' => 33.18,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            88 => 
-            array (
-                'id' => 89,
-                'kriteria_id' => 5,
-                'penduduk_id' => 15,
-                'nilai' => 80.94,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            89 => 
-            array (
-                'id' => 90,
-                'kriteria_id' => 6,
-                'penduduk_id' => 15,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            90 => 
-            array (
-                'id' => 91,
-                'kriteria_id' => 1,
-                'penduduk_id' => 16,
-                'nilai' => 1756300.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            91 => 
-            array (
-                'id' => 92,
-                'kriteria_id' => 2,
-                'penduduk_id' => 16,
-                'nilai' => 32.07,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            92 => 
-            array (
-                'id' => 93,
-                'kriteria_id' => 3,
-                'penduduk_id' => 16,
-                'nilai' => 14592000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            93 => 
-            array (
-                'id' => 94,
-                'kriteria_id' => 4,
-                'penduduk_id' => 16,
-                'nilai' => 39.82,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            94 => 
-            array (
-                'id' => 95,
-                'kriteria_id' => 5,
-                'penduduk_id' => 16,
-                'nilai' => 34.15,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            95 => 
-            array (
-                'id' => 96,
-                'kriteria_id' => 6,
-                'penduduk_id' => 16,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            96 => 
-            array (
-                'id' => 97,
-                'kriteria_id' => 1,
-                'penduduk_id' => 17,
-                'nilai' => 1404900.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            97 => 
-            array (
-                'id' => 98,
-                'kriteria_id' => 2,
-                'penduduk_id' => 17,
-                'nilai' => 64.9,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            98 => 
-            array (
-                'id' => 99,
-                'kriteria_id' => 3,
-                'penduduk_id' => 17,
-                'nilai' => 33284000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            99 => 
-            array (
-                'id' => 100,
-                'kriteria_id' => 4,
-                'penduduk_id' => 17,
-                'nilai' => 67.38,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            100 => 
-            array (
-                'id' => 101,
-                'kriteria_id' => 5,
-                'penduduk_id' => 17,
-                'nilai' => 66.37,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            101 => 
-            array (
-                'id' => 102,
-                'kriteria_id' => 6,
-                'penduduk_id' => 17,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            102 => 
-            array (
-                'id' => 103,
-                'kriteria_id' => 1,
-                'penduduk_id' => 18,
-                'nilai' => 2166850.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            103 => 
-            array (
-                'id' => 104,
-                'kriteria_id' => 2,
-                'penduduk_id' => 18,
-                'nilai' => 51.14,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            104 => 
-            array (
-                'id' => 105,
-                'kriteria_id' => 3,
-                'penduduk_id' => 18,
-                'nilai' => 29440000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            105 => 
-            array (
-                'id' => 106,
-                'kriteria_id' => 4,
-                'penduduk_id' => 18,
-                'nilai' => 46.34,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            106 => 
-            array (
-                'id' => 107,
-                'kriteria_id' => 5,
-                'penduduk_id' => 18,
-                'nilai' => 93.6,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            107 => 
-            array (
-                'id' => 108,
-                'kriteria_id' => 6,
-                'penduduk_id' => 18,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            108 => 
-            array (
-                'id' => 109,
-                'kriteria_id' => 1,
-                'penduduk_id' => 19,
-                'nilai' => 1814050.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            109 => 
-            array (
-                'id' => 110,
-                'kriteria_id' => 2,
-                'penduduk_id' => 19,
-                'nilai' => 31.79,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            110 => 
-            array (
-                'id' => 111,
-                'kriteria_id' => 3,
-                'penduduk_id' => 19,
-                'nilai' => 22760000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            111 => 
-            array (
-                'id' => 112,
-                'kriteria_id' => 4,
-                'penduduk_id' => 19,
-                'nilai' => 88.38,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            112 => 
-            array (
-                'id' => 113,
-                'kriteria_id' => 5,
-                'penduduk_id' => 19,
-                'nilai' => 68.24,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            113 => 
-            array (
-                'id' => 114,
-                'kriteria_id' => 6,
-                'penduduk_id' => 19,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            114 => 
-            array (
-                'id' => 115,
-                'kriteria_id' => 1,
-                'penduduk_id' => 20,
-                'nilai' => 2051350.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            115 => 
-            array (
-                'id' => 116,
-                'kriteria_id' => 2,
-                'penduduk_id' => 20,
-                'nilai' => 97.85,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            116 => 
-            array (
-                'id' => 117,
-                'kriteria_id' => 3,
-                'penduduk_id' => 20,
-                'nilai' => 37900000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            117 => 
-            array (
-                'id' => 118,
-                'kriteria_id' => 4,
-                'penduduk_id' => 20,
-                'nilai' => 91.4,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            118 => 
-            array (
-                'id' => 119,
-                'kriteria_id' => 5,
-                'penduduk_id' => 20,
-                'nilai' => 79.76,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            119 => 
-            array (
-                'id' => 120,
-                'kriteria_id' => 6,
-                'penduduk_id' => 20,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            120 => 
-            array (
-                'id' => 121,
-                'kriteria_id' => 1,
-                'penduduk_id' => 21,
-                'nilai' => 2018450.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            121 => 
-            array (
-                'id' => 122,
-                'kriteria_id' => 2,
-                'penduduk_id' => 21,
-                'nilai' => 28.58,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            122 => 
-            array (
-                'id' => 123,
-                'kriteria_id' => 3,
-                'penduduk_id' => 21,
-                'nilai' => 38760000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            123 => 
-            array (
-                'id' => 124,
-                'kriteria_id' => 4,
-                'penduduk_id' => 21,
-                'nilai' => 87.25,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            124 => 
-            array (
-                'id' => 125,
-                'kriteria_id' => 5,
-                'penduduk_id' => 21,
-                'nilai' => 52.28,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            125 => 
-            array (
-                'id' => 126,
-                'kriteria_id' => 6,
-                'penduduk_id' => 21,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            126 => 
-            array (
-                'id' => 127,
-                'kriteria_id' => 1,
-                'penduduk_id' => 22,
-                'nilai' => 1554700.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            127 => 
-            array (
-                'id' => 128,
-                'kriteria_id' => 2,
-                'penduduk_id' => 22,
-                'nilai' => 39.24,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            128 => 
-            array (
-                'id' => 129,
-                'kriteria_id' => 3,
-                'penduduk_id' => 22,
-                'nilai' => 29780000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            129 => 
-            array (
-                'id' => 130,
-                'kriteria_id' => 4,
-                'penduduk_id' => 22,
-                'nilai' => 28.52,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            130 => 
-            array (
-                'id' => 131,
-                'kriteria_id' => 5,
-                'penduduk_id' => 22,
-                'nilai' => 62.67,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            131 => 
-            array (
-                'id' => 132,
-                'kriteria_id' => 6,
-                'penduduk_id' => 22,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            132 => 
-            array (
-                'id' => 133,
-                'kriteria_id' => 1,
-                'penduduk_id' => 23,
-                'nilai' => 2804900.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            133 => 
-            array (
-                'id' => 134,
-                'kriteria_id' => 2,
-                'penduduk_id' => 23,
-                'nilai' => 89.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            134 => 
-            array (
-                'id' => 135,
-                'kriteria_id' => 3,
-                'penduduk_id' => 23,
-                'nilai' => 37672000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            135 => 
-            array (
-                'id' => 136,
-                'kriteria_id' => 4,
-                'penduduk_id' => 23,
-                'nilai' => 98.83,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            136 => 
-            array (
-                'id' => 137,
-                'kriteria_id' => 5,
-                'penduduk_id' => 23,
-                'nilai' => 92.4,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            137 => 
-            array (
-                'id' => 138,
-                'kriteria_id' => 6,
-                'penduduk_id' => 23,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            138 => 
-            array (
-                'id' => 139,
-                'kriteria_id' => 1,
-                'penduduk_id' => 24,
-                'nilai' => 1316350.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            139 => 
-            array (
-                'id' => 140,
-                'kriteria_id' => 2,
-                'penduduk_id' => 24,
-                'nilai' => 50.38,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            140 => 
-            array (
-                'id' => 141,
-                'kriteria_id' => 3,
-                'penduduk_id' => 24,
-                'nilai' => 13092000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            141 => 
-            array (
-                'id' => 142,
-                'kriteria_id' => 4,
-                'penduduk_id' => 24,
-                'nilai' => 58.48,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            142 => 
-            array (
-                'id' => 143,
-                'kriteria_id' => 5,
-                'penduduk_id' => 24,
-                'nilai' => 62.55,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            143 => 
-            array (
-                'id' => 144,
-                'kriteria_id' => 6,
-                'penduduk_id' => 24,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            144 => 
-            array (
-                'id' => 145,
-                'kriteria_id' => 1,
-                'penduduk_id' => 25,
-                'nilai' => 2420600.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            145 => 
-            array (
-                'id' => 146,
-                'kriteria_id' => 2,
-                'penduduk_id' => 25,
-                'nilai' => 79.01,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            146 => 
-            array (
-                'id' => 147,
-                'kriteria_id' => 3,
-                'penduduk_id' => 25,
-                'nilai' => 30352000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            147 => 
-            array (
-                'id' => 148,
-                'kriteria_id' => 4,
-                'penduduk_id' => 25,
-                'nilai' => 32.37,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            148 => 
-            array (
-                'id' => 149,
-                'kriteria_id' => 5,
-                'penduduk_id' => 25,
-                'nilai' => 93.85,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            149 => 
-            array (
-                'id' => 150,
-                'kriteria_id' => 6,
-                'penduduk_id' => 25,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            150 => 
-            array (
-                'id' => 151,
-                'kriteria_id' => 1,
-                'penduduk_id' => 26,
-                'nilai' => 2064650.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            151 => 
-            array (
-                'id' => 152,
-                'kriteria_id' => 2,
-                'penduduk_id' => 26,
-                'nilai' => 85.56,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            152 => 
-            array (
-                'id' => 153,
-                'kriteria_id' => 3,
-                'penduduk_id' => 26,
-                'nilai' => 23768000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            153 => 
-            array (
-                'id' => 154,
-                'kriteria_id' => 4,
-                'penduduk_id' => 26,
-                'nilai' => 50.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            154 => 
-            array (
-                'id' => 155,
-                'kriteria_id' => 5,
-                'penduduk_id' => 26,
-                'nilai' => 80.88,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            155 => 
-            array (
-                'id' => 156,
-                'kriteria_id' => 6,
-                'penduduk_id' => 26,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            156 => 
-            array (
-                'id' => 157,
-                'kriteria_id' => 1,
-                'penduduk_id' => 27,
-                'nilai' => 3074750.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            157 => 
-            array (
-                'id' => 158,
-                'kriteria_id' => 2,
-                'penduduk_id' => 27,
-                'nilai' => 46.15,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            158 => 
-            array (
-                'id' => 159,
-                'kriteria_id' => 3,
-                'penduduk_id' => 27,
-                'nilai' => 38812000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            159 => 
-            array (
-                'id' => 160,
-                'kriteria_id' => 4,
-                'penduduk_id' => 27,
-                'nilai' => 93.11,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            160 => 
-            array (
-                'id' => 161,
-                'kriteria_id' => 5,
-                'penduduk_id' => 27,
-                'nilai' => 75.47,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            161 => 
-            array (
-                'id' => 162,
-                'kriteria_id' => 6,
-                'penduduk_id' => 27,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            162 => 
-            array (
-                'id' => 163,
-                'kriteria_id' => 1,
-                'penduduk_id' => 28,
-                'nilai' => 2768150.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            163 => 
-            array (
-                'id' => 164,
-                'kriteria_id' => 2,
-                'penduduk_id' => 28,
-                'nilai' => 69.07,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            164 => 
-            array (
-                'id' => 165,
-                'kriteria_id' => 3,
-                'penduduk_id' => 28,
-                'nilai' => 17620000.0,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            165 => 
-            array (
-                'id' => 166,
-                'kriteria_id' => 4,
-                'penduduk_id' => 28,
-                'nilai' => 32.06,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            166 => 
-            array (
-                'id' => 167,
-                'kriteria_id' => 5,
-                'penduduk_id' => 28,
-                'nilai' => 82.22,
-                'created_at' => '2023-05-29 19:52:31',
-                'updated_at' => '2023-05-29 19:52:31',
-            ),
-            167 => 
-            array (
-                'id' => 168,
-                'kriteria_id' => 6,
-                'penduduk_id' => 28,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            168 => 
-            array (
-                'id' => 169,
-                'kriteria_id' => 1,
-                'penduduk_id' => 29,
-                'nilai' => 907550.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            169 => 
-            array (
-                'id' => 170,
-                'kriteria_id' => 2,
-                'penduduk_id' => 29,
-                'nilai' => 52.38,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            170 => 
-            array (
-                'id' => 171,
-                'kriteria_id' => 3,
-                'penduduk_id' => 29,
-                'nilai' => 26952000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            171 => 
-            array (
-                'id' => 172,
-                'kriteria_id' => 4,
-                'penduduk_id' => 29,
-                'nilai' => 47.72,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            172 => 
-            array (
-                'id' => 173,
-                'kriteria_id' => 5,
-                'penduduk_id' => 29,
-                'nilai' => 34.55,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            173 => 
-            array (
-                'id' => 174,
-                'kriteria_id' => 6,
-                'penduduk_id' => 29,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            174 => 
-            array (
-                'id' => 175,
-                'kriteria_id' => 1,
-                'penduduk_id' => 30,
-                'nilai' => 2420600.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            175 => 
-            array (
-                'id' => 176,
-                'kriteria_id' => 2,
-                'penduduk_id' => 30,
-                'nilai' => 93.64,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            176 => 
-            array (
-                'id' => 177,
-                'kriteria_id' => 3,
-                'penduduk_id' => 30,
-                'nilai' => 11416000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            177 => 
-            array (
-                'id' => 178,
-                'kriteria_id' => 4,
-                'penduduk_id' => 30,
-                'nilai' => 79.82,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            178 => 
-            array (
-                'id' => 179,
-                'kriteria_id' => 5,
-                'penduduk_id' => 30,
-                'nilai' => 60.23,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            179 => 
-            array (
-                'id' => 180,
-                'kriteria_id' => 6,
-                'penduduk_id' => 30,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            180 => 
-            array (
-                'id' => 181,
-                'kriteria_id' => 1,
-                'penduduk_id' => 31,
-                'nilai' => 1729000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            181 => 
-            array (
-                'id' => 182,
-                'kriteria_id' => 2,
-                'penduduk_id' => 31,
-                'nilai' => 63.34,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            182 => 
-            array (
-                'id' => 183,
-                'kriteria_id' => 3,
-                'penduduk_id' => 31,
-                'nilai' => 31720000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            183 => 
-            array (
-                'id' => 184,
-                'kriteria_id' => 4,
-                'penduduk_id' => 31,
-                'nilai' => 94.11,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            184 => 
-            array (
-                'id' => 185,
-                'kriteria_id' => 5,
-                'penduduk_id' => 31,
-                'nilai' => 68.95,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            185 => 
-            array (
-                'id' => 186,
-                'kriteria_id' => 6,
-                'penduduk_id' => 31,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            186 => 
-            array (
-                'id' => 187,
-                'kriteria_id' => 1,
-                'penduduk_id' => 32,
-                'nilai' => 2970800.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            187 => 
-            array (
-                'id' => 188,
-                'kriteria_id' => 2,
-                'penduduk_id' => 32,
-                'nilai' => 76.29,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            188 => 
-            array (
-                'id' => 189,
-                'kriteria_id' => 3,
-                'penduduk_id' => 32,
-                'nilai' => 12360000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            189 => 
-            array (
-                'id' => 190,
-                'kriteria_id' => 4,
-                'penduduk_id' => 32,
-                'nilai' => 92.35,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            190 => 
-            array (
-                'id' => 191,
-                'kriteria_id' => 5,
-                'penduduk_id' => 32,
-                'nilai' => 26.73,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            191 => 
-            array (
-                'id' => 192,
-                'kriteria_id' => 6,
-                'penduduk_id' => 32,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            192 => 
-            array (
-                'id' => 193,
-                'kriteria_id' => 1,
-                'penduduk_id' => 33,
-                'nilai' => 2497600.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            193 => 
-            array (
-                'id' => 194,
-                'kriteria_id' => 2,
-                'penduduk_id' => 33,
-                'nilai' => 94.46,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            194 => 
-            array (
-                'id' => 195,
-                'kriteria_id' => 3,
-                'penduduk_id' => 33,
-                'nilai' => 14480000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            195 => 
-            array (
-                'id' => 196,
-                'kriteria_id' => 4,
-                'penduduk_id' => 33,
-                'nilai' => 72.5,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            196 => 
-            array (
-                'id' => 197,
-                'kriteria_id' => 5,
-                'penduduk_id' => 33,
-                'nilai' => 81.27,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            197 => 
-            array (
-                'id' => 198,
-                'kriteria_id' => 6,
-                'penduduk_id' => 33,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            198 => 
-            array (
-                'id' => 199,
-                'kriteria_id' => 1,
-                'penduduk_id' => 34,
-                'nilai' => 1705200.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            199 => 
-            array (
-                'id' => 200,
-                'kriteria_id' => 2,
-                'penduduk_id' => 34,
-                'nilai' => 98.19,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            200 => 
-            array (
-                'id' => 201,
-                'kriteria_id' => 3,
-                'penduduk_id' => 34,
-                'nilai' => 13796000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            201 => 
-            array (
-                'id' => 202,
-                'kriteria_id' => 4,
-                'penduduk_id' => 34,
-                'nilai' => 95.99,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            202 => 
-            array (
-                'id' => 203,
-                'kriteria_id' => 5,
-                'penduduk_id' => 34,
-                'nilai' => 90.99,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            203 => 
-            array (
-                'id' => 204,
-                'kriteria_id' => 6,
-                'penduduk_id' => 34,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            204 => 
-            array (
-                'id' => 205,
-                'kriteria_id' => 1,
-                'penduduk_id' => 35,
-                'nilai' => 2152850.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            205 => 
-            array (
-                'id' => 206,
-                'kriteria_id' => 2,
-                'penduduk_id' => 35,
-                'nilai' => 86.93,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            206 => 
-            array (
-                'id' => 207,
-                'kriteria_id' => 3,
-                'penduduk_id' => 35,
-                'nilai' => 11308000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            207 => 
-            array (
-                'id' => 208,
-                'kriteria_id' => 4,
-                'penduduk_id' => 35,
-                'nilai' => 71.49,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            208 => 
-            array (
-                'id' => 209,
-                'kriteria_id' => 5,
-                'penduduk_id' => 35,
-                'nilai' => 92.36,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            209 => 
-            array (
-                'id' => 210,
-                'kriteria_id' => 6,
-                'penduduk_id' => 35,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            210 => 
-            array (
-                'id' => 211,
-                'kriteria_id' => 1,
-                'penduduk_id' => 36,
-                'nilai' => 2245950.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            211 => 
-            array (
-                'id' => 212,
-                'kriteria_id' => 2,
-                'penduduk_id' => 36,
-                'nilai' => 34.57,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            212 => 
-            array (
-                'id' => 213,
-                'kriteria_id' => 3,
-                'penduduk_id' => 36,
-                'nilai' => 39400000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            213 => 
-            array (
-                'id' => 214,
-                'kriteria_id' => 4,
-                'penduduk_id' => 36,
-                'nilai' => 37.67,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            214 => 
-            array (
-                'id' => 215,
-                'kriteria_id' => 5,
-                'penduduk_id' => 36,
-                'nilai' => 92.39,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            215 => 
-            array (
-                'id' => 216,
-                'kriteria_id' => 6,
-                'penduduk_id' => 36,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            216 => 
-            array (
-                'id' => 217,
-                'kriteria_id' => 1,
-                'penduduk_id' => 37,
-                'nilai' => 1146950.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            217 => 
-            array (
-                'id' => 218,
-                'kriteria_id' => 2,
-                'penduduk_id' => 37,
-                'nilai' => 82.89,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            218 => 
-            array (
-                'id' => 219,
-                'kriteria_id' => 3,
-                'penduduk_id' => 37,
-                'nilai' => 13968000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            219 => 
-            array (
-                'id' => 220,
-                'kriteria_id' => 4,
-                'penduduk_id' => 37,
-                'nilai' => 82.2,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            220 => 
-            array (
-                'id' => 221,
-                'kriteria_id' => 5,
-                'penduduk_id' => 37,
-                'nilai' => 36.63,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            221 => 
-            array (
-                'id' => 222,
-                'kriteria_id' => 6,
-                'penduduk_id' => 37,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            222 => 
-            array (
-                'id' => 223,
-                'kriteria_id' => 1,
-                'penduduk_id' => 38,
-                'nilai' => 2691150.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            223 => 
-            array (
-                'id' => 224,
-                'kriteria_id' => 2,
-                'penduduk_id' => 38,
-                'nilai' => 26.59,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            224 => 
-            array (
-                'id' => 225,
-                'kriteria_id' => 3,
-                'penduduk_id' => 38,
-                'nilai' => 25628000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            225 => 
-            array (
-                'id' => 226,
-                'kriteria_id' => 4,
-                'penduduk_id' => 38,
-                'nilai' => 99.47,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            226 => 
-            array (
-                'id' => 227,
-                'kriteria_id' => 5,
-                'penduduk_id' => 38,
-                'nilai' => 68.33,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            227 => 
-            array (
-                'id' => 228,
-                'kriteria_id' => 6,
-                'penduduk_id' => 38,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            228 => 
-            array (
-                'id' => 229,
-                'kriteria_id' => 1,
-                'penduduk_id' => 39,
-                'nilai' => 2644950.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            229 => 
-            array (
-                'id' => 230,
-                'kriteria_id' => 2,
-                'penduduk_id' => 39,
-                'nilai' => 69.79,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            230 => 
-            array (
-                'id' => 231,
-                'kriteria_id' => 3,
-                'penduduk_id' => 39,
-                'nilai' => 34888000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            231 => 
-            array (
-                'id' => 232,
-                'kriteria_id' => 4,
-                'penduduk_id' => 39,
-                'nilai' => 68.68,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            232 => 
-            array (
-                'id' => 233,
-                'kriteria_id' => 5,
-                'penduduk_id' => 39,
-                'nilai' => 83.37,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            233 => 
-            array (
-                'id' => 234,
-                'kriteria_id' => 6,
-                'penduduk_id' => 39,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            234 => 
-            array (
-                'id' => 235,
-                'kriteria_id' => 1,
-                'penduduk_id' => 40,
-                'nilai' => 3074400.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            235 => 
-            array (
-                'id' => 236,
-                'kriteria_id' => 2,
-                'penduduk_id' => 40,
-                'nilai' => 53.1,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            236 => 
-            array (
-                'id' => 237,
-                'kriteria_id' => 3,
-                'penduduk_id' => 40,
-                'nilai' => 33724000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            237 => 
-            array (
-                'id' => 238,
-                'kriteria_id' => 4,
-                'penduduk_id' => 40,
-                'nilai' => 71.13,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            238 => 
-            array (
-                'id' => 239,
-                'kriteria_id' => 5,
-                'penduduk_id' => 40,
-                'nilai' => 60.41,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            239 => 
-            array (
-                'id' => 240,
-                'kriteria_id' => 6,
-                'penduduk_id' => 40,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            240 => 
-            array (
-                'id' => 241,
-                'kriteria_id' => 1,
-                'penduduk_id' => 41,
-                'nilai' => 2970100.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            241 => 
-            array (
-                'id' => 242,
-                'kriteria_id' => 2,
-                'penduduk_id' => 41,
-                'nilai' => 65.23,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            242 => 
-            array (
-                'id' => 243,
-                'kriteria_id' => 3,
-                'penduduk_id' => 41,
-                'nilai' => 27012000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            243 => 
-            array (
-                'id' => 244,
-                'kriteria_id' => 4,
-                'penduduk_id' => 41,
-                'nilai' => 48.79,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            244 => 
-            array (
-                'id' => 245,
-                'kriteria_id' => 5,
-                'penduduk_id' => 41,
-                'nilai' => 71.65,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            245 => 
-            array (
-                'id' => 246,
-                'kriteria_id' => 6,
-                'penduduk_id' => 41,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            246 => 
-            array (
-                'id' => 247,
-                'kriteria_id' => 1,
-                'penduduk_id' => 42,
-                'nilai' => 1214500.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            247 => 
-            array (
-                'id' => 248,
-                'kriteria_id' => 2,
-                'penduduk_id' => 42,
-                'nilai' => 51.35,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            248 => 
-            array (
-                'id' => 249,
-                'kriteria_id' => 3,
-                'penduduk_id' => 42,
-                'nilai' => 18728000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            249 => 
-            array (
-                'id' => 250,
-                'kriteria_id' => 4,
-                'penduduk_id' => 42,
-                'nilai' => 82.33,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            250 => 
-            array (
-                'id' => 251,
-                'kriteria_id' => 5,
-                'penduduk_id' => 42,
-                'nilai' => 77.88,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            251 => 
-            array (
-                'id' => 252,
-                'kriteria_id' => 6,
-                'penduduk_id' => 42,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            252 => 
-            array (
-                'id' => 253,
-                'kriteria_id' => 1,
-                'penduduk_id' => 43,
-                'nilai' => 3306800.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            253 => 
-            array (
-                'id' => 254,
-                'kriteria_id' => 2,
-                'penduduk_id' => 43,
-                'nilai' => 57.99,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            254 => 
-            array (
-                'id' => 255,
-                'kriteria_id' => 3,
-                'penduduk_id' => 43,
-                'nilai' => 10488000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            255 => 
-            array (
-                'id' => 256,
-                'kriteria_id' => 4,
-                'penduduk_id' => 43,
-                'nilai' => 96.94,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            256 => 
-            array (
-                'id' => 257,
-                'kriteria_id' => 5,
-                'penduduk_id' => 43,
-                'nilai' => 34.78,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            257 => 
-            array (
-                'id' => 258,
-                'kriteria_id' => 6,
-                'penduduk_id' => 43,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            258 => 
-            array (
-                'id' => 259,
-                'kriteria_id' => 1,
-                'penduduk_id' => 44,
-                'nilai' => 1718500.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            259 => 
-            array (
-                'id' => 260,
-                'kriteria_id' => 2,
-                'penduduk_id' => 44,
-                'nilai' => 58.4,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            260 => 
-            array (
-                'id' => 261,
-                'kriteria_id' => 3,
-                'penduduk_id' => 44,
-                'nilai' => 20344000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            261 => 
-            array (
-                'id' => 262,
-                'kriteria_id' => 4,
-                'penduduk_id' => 44,
-                'nilai' => 47.42,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            262 => 
-            array (
-                'id' => 263,
-                'kriteria_id' => 5,
-                'penduduk_id' => 44,
-                'nilai' => 79.77,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            263 => 
-            array (
-                'id' => 264,
-                'kriteria_id' => 6,
-                'penduduk_id' => 44,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            264 => 
-            array (
-                'id' => 265,
-                'kriteria_id' => 1,
-                'penduduk_id' => 45,
-                'nilai' => 1296750.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            265 => 
-            array (
-                'id' => 266,
-                'kriteria_id' => 2,
-                'penduduk_id' => 45,
-                'nilai' => 51.67,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            266 => 
-            array (
-                'id' => 267,
-                'kriteria_id' => 3,
-                'penduduk_id' => 45,
-                'nilai' => 33444000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            267 => 
-            array (
-                'id' => 268,
-                'kriteria_id' => 4,
-                'penduduk_id' => 45,
-                'nilai' => 79.61,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            268 => 
-            array (
-                'id' => 269,
-                'kriteria_id' => 5,
-                'penduduk_id' => 45,
-                'nilai' => 94.63,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            269 => 
-            array (
-                'id' => 270,
-                'kriteria_id' => 6,
-                'penduduk_id' => 45,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            270 => 
-            array (
-                'id' => 271,
-                'kriteria_id' => 1,
-                'penduduk_id' => 46,
-                'nilai' => 1535800.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            271 => 
-            array (
-                'id' => 272,
-                'kriteria_id' => 2,
-                'penduduk_id' => 46,
-                'nilai' => 61.17,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            272 => 
-            array (
-                'id' => 273,
-                'kriteria_id' => 3,
-                'penduduk_id' => 46,
-                'nilai' => 33964000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            273 => 
-            array (
-                'id' => 274,
-                'kriteria_id' => 4,
-                'penduduk_id' => 46,
-                'nilai' => 84.69,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            274 => 
-            array (
-                'id' => 275,
-                'kriteria_id' => 5,
-                'penduduk_id' => 46,
-                'nilai' => 31.92,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            275 => 
-            array (
-                'id' => 276,
-                'kriteria_id' => 6,
-                'penduduk_id' => 46,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            276 => 
-            array (
-                'id' => 277,
-                'kriteria_id' => 1,
-                'penduduk_id' => 47,
-                'nilai' => 2850050.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            277 => 
-            array (
-                'id' => 278,
-                'kriteria_id' => 2,
-                'penduduk_id' => 47,
-                'nilai' => 87.37,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            278 => 
-            array (
-                'id' => 279,
-                'kriteria_id' => 3,
-                'penduduk_id' => 47,
-                'nilai' => 36408000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            279 => 
-            array (
-                'id' => 280,
-                'kriteria_id' => 4,
-                'penduduk_id' => 47,
-                'nilai' => 69.87,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            280 => 
-            array (
-                'id' => 281,
-                'kriteria_id' => 5,
-                'penduduk_id' => 47,
-                'nilai' => 25.89,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            281 => 
-            array (
-                'id' => 282,
-                'kriteria_id' => 6,
-                'penduduk_id' => 47,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            282 => 
-            array (
-                'id' => 283,
-                'kriteria_id' => 1,
-                'penduduk_id' => 48,
-                'nilai' => 3323950.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            283 => 
-            array (
-                'id' => 284,
-                'kriteria_id' => 2,
-                'penduduk_id' => 48,
-                'nilai' => 73.75,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            284 => 
-            array (
-                'id' => 285,
-                'kriteria_id' => 3,
-                'penduduk_id' => 48,
-                'nilai' => 11816000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            285 => 
-            array (
-                'id' => 286,
-                'kriteria_id' => 4,
-                'penduduk_id' => 48,
-                'nilai' => 50.01,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            286 => 
-            array (
-                'id' => 287,
-                'kriteria_id' => 5,
-                'penduduk_id' => 48,
-                'nilai' => 69.65,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            287 => 
-            array (
-                'id' => 288,
-                'kriteria_id' => 6,
-                'penduduk_id' => 48,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            288 => 
-            array (
-                'id' => 289,
-                'kriteria_id' => 1,
-                'penduduk_id' => 49,
-                'nilai' => 1312150.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            289 => 
-            array (
-                'id' => 290,
-                'kriteria_id' => 2,
-                'penduduk_id' => 49,
-                'nilai' => 65.54,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            290 => 
-            array (
-                'id' => 291,
-                'kriteria_id' => 3,
-                'penduduk_id' => 49,
-                'nilai' => 23768000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            291 => 
-            array (
-                'id' => 292,
-                'kriteria_id' => 4,
-                'penduduk_id' => 49,
-                'nilai' => 93.15,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            292 => 
-            array (
-                'id' => 293,
-                'kriteria_id' => 5,
-                'penduduk_id' => 49,
-                'nilai' => 89.6,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            293 => 
-            array (
-                'id' => 294,
-                'kriteria_id' => 6,
-                'penduduk_id' => 49,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            294 => 
-            array (
-                'id' => 295,
-                'kriteria_id' => 1,
-                'penduduk_id' => 50,
-                'nilai' => 1529500.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            295 => 
-            array (
-                'id' => 296,
-                'kriteria_id' => 2,
-                'penduduk_id' => 50,
-                'nilai' => 46.2,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            296 => 
-            array (
-                'id' => 297,
-                'kriteria_id' => 3,
-                'penduduk_id' => 50,
-                'nilai' => 39708000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            297 => 
-            array (
-                'id' => 298,
-                'kriteria_id' => 4,
-                'penduduk_id' => 50,
-                'nilai' => 59.95,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            298 => 
-            array (
-                'id' => 299,
-                'kriteria_id' => 5,
-                'penduduk_id' => 50,
-                'nilai' => 81.9,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            299 => 
-            array (
-                'id' => 300,
-                'kriteria_id' => 6,
-                'penduduk_id' => 50,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            300 => 
-            array (
-                'id' => 301,
-                'kriteria_id' => 1,
-                'penduduk_id' => 51,
-                'nilai' => 1131550.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            301 => 
-            array (
-                'id' => 302,
-                'kriteria_id' => 2,
-                'penduduk_id' => 51,
-                'nilai' => 56.05,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            302 => 
-            array (
-                'id' => 303,
-                'kriteria_id' => 3,
-                'penduduk_id' => 51,
-                'nilai' => 35508000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            303 => 
-            array (
-                'id' => 304,
-                'kriteria_id' => 4,
-                'penduduk_id' => 51,
-                'nilai' => 93.43,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            304 => 
-            array (
-                'id' => 305,
-                'kriteria_id' => 5,
-                'penduduk_id' => 51,
-                'nilai' => 62.34,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            305 => 
-            array (
-                'id' => 306,
-                'kriteria_id' => 6,
-                'penduduk_id' => 51,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            306 => 
-            array (
-                'id' => 307,
-                'kriteria_id' => 1,
-                'penduduk_id' => 52,
-                'nilai' => 1594950.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            307 => 
-            array (
-                'id' => 308,
-                'kriteria_id' => 2,
-                'penduduk_id' => 52,
-                'nilai' => 55.51,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            308 => 
-            array (
-                'id' => 309,
-                'kriteria_id' => 3,
-                'penduduk_id' => 52,
-                'nilai' => 12008000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            309 => 
-            array (
-                'id' => 310,
-                'kriteria_id' => 4,
-                'penduduk_id' => 52,
-                'nilai' => 66.08,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            310 => 
-            array (
-                'id' => 311,
-                'kriteria_id' => 5,
-                'penduduk_id' => 52,
-                'nilai' => 72.14,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            311 => 
-            array (
-                'id' => 312,
-                'kriteria_id' => 6,
-                'penduduk_id' => 52,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            312 => 
-            array (
-                'id' => 313,
-                'kriteria_id' => 1,
-                'penduduk_id' => 53,
-                'nilai' => 2898000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            313 => 
-            array (
-                'id' => 314,
-                'kriteria_id' => 2,
-                'penduduk_id' => 53,
-                'nilai' => 69.03,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            314 => 
-            array (
-                'id' => 315,
-                'kriteria_id' => 3,
-                'penduduk_id' => 53,
-                'nilai' => 35796000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            315 => 
-            array (
-                'id' => 316,
-                'kriteria_id' => 4,
-                'penduduk_id' => 53,
-                'nilai' => 62.42,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            316 => 
-            array (
-                'id' => 317,
-                'kriteria_id' => 5,
-                'penduduk_id' => 53,
-                'nilai' => 46.69,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            317 => 
-            array (
-                'id' => 318,
-                'kriteria_id' => 6,
-                'penduduk_id' => 53,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            318 => 
-            array (
-                'id' => 319,
-                'kriteria_id' => 1,
-                'penduduk_id' => 54,
-                'nilai' => 2014950.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            319 => 
-            array (
-                'id' => 320,
-                'kriteria_id' => 2,
-                'penduduk_id' => 54,
-                'nilai' => 91.98,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            320 => 
-            array (
-                'id' => 321,
-                'kriteria_id' => 3,
-                'penduduk_id' => 54,
-                'nilai' => 22712000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            321 => 
-            array (
-                'id' => 322,
-                'kriteria_id' => 4,
-                'penduduk_id' => 54,
-                'nilai' => 46.61,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            322 => 
-            array (
-                'id' => 323,
-                'kriteria_id' => 5,
-                'penduduk_id' => 54,
-                'nilai' => 38.61,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            323 => 
-            array (
-                'id' => 324,
-                'kriteria_id' => 6,
-                'penduduk_id' => 54,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            324 => 
-            array (
-                'id' => 325,
-                'kriteria_id' => 1,
-                'penduduk_id' => 55,
-                'nilai' => 2921450.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            325 => 
-            array (
-                'id' => 326,
-                'kriteria_id' => 2,
-                'penduduk_id' => 55,
-                'nilai' => 28.55,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            326 => 
-            array (
-                'id' => 327,
-                'kriteria_id' => 3,
-                'penduduk_id' => 55,
-                'nilai' => 37648000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            327 => 
-            array (
-                'id' => 328,
-                'kriteria_id' => 4,
-                'penduduk_id' => 55,
-                'nilai' => 64.23,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            328 => 
-            array (
-                'id' => 329,
-                'kriteria_id' => 5,
-                'penduduk_id' => 55,
-                'nilai' => 50.28,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            329 => 
-            array (
-                'id' => 330,
-                'kriteria_id' => 6,
-                'penduduk_id' => 55,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            330 => 
-            array (
-                'id' => 331,
-                'kriteria_id' => 1,
-                'penduduk_id' => 56,
-                'nilai' => 1361850.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            331 => 
-            array (
-                'id' => 332,
-                'kriteria_id' => 2,
-                'penduduk_id' => 56,
-                'nilai' => 42.28,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            332 => 
-            array (
-                'id' => 333,
-                'kriteria_id' => 3,
-                'penduduk_id' => 56,
-                'nilai' => 33664000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            333 => 
-            array (
-                'id' => 334,
-                'kriteria_id' => 4,
-                'penduduk_id' => 56,
-                'nilai' => 36.39,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            334 => 
-            array (
-                'id' => 335,
-                'kriteria_id' => 5,
-                'penduduk_id' => 56,
-                'nilai' => 66.59,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            335 => 
-            array (
-                'id' => 336,
-                'kriteria_id' => 6,
-                'penduduk_id' => 56,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            336 => 
-            array (
-                'id' => 337,
-                'kriteria_id' => 1,
-                'penduduk_id' => 57,
-                'nilai' => 2566550.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            337 => 
-            array (
-                'id' => 338,
-                'kriteria_id' => 2,
-                'penduduk_id' => 57,
-                'nilai' => 83.7,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            338 => 
-            array (
-                'id' => 339,
-                'kriteria_id' => 3,
-                'penduduk_id' => 57,
-                'nilai' => 34292000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            339 => 
-            array (
-                'id' => 340,
-                'kriteria_id' => 4,
-                'penduduk_id' => 57,
-                'nilai' => 98.04,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            340 => 
-            array (
-                'id' => 341,
-                'kriteria_id' => 5,
-                'penduduk_id' => 57,
-                'nilai' => 39.7,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            341 => 
-            array (
-                'id' => 342,
-                'kriteria_id' => 6,
-                'penduduk_id' => 57,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            342 => 
-            array (
-                'id' => 343,
-                'kriteria_id' => 1,
-                'penduduk_id' => 58,
-                'nilai' => 3286850.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            343 => 
-            array (
-                'id' => 344,
-                'kriteria_id' => 2,
-                'penduduk_id' => 58,
-                'nilai' => 99.43,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            344 => 
-            array (
-                'id' => 345,
-                'kriteria_id' => 3,
-                'penduduk_id' => 58,
-                'nilai' => 34996000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            345 => 
-            array (
-                'id' => 346,
-                'kriteria_id' => 4,
-                'penduduk_id' => 58,
-                'nilai' => 55.84,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            346 => 
-            array (
-                'id' => 347,
-                'kriteria_id' => 5,
-                'penduduk_id' => 58,
-                'nilai' => 80.54,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            347 => 
-            array (
-                'id' => 348,
-                'kriteria_id' => 6,
-                'penduduk_id' => 58,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            348 => 
-            array (
-                'id' => 349,
-                'kriteria_id' => 1,
-                'penduduk_id' => 59,
-                'nilai' => 2012500.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            349 => 
-            array (
-                'id' => 350,
-                'kriteria_id' => 2,
-                'penduduk_id' => 59,
-                'nilai' => 70.04,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            350 => 
-            array (
-                'id' => 351,
-                'kriteria_id' => 3,
-                'penduduk_id' => 59,
-                'nilai' => 38192000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            351 => 
-            array (
-                'id' => 352,
-                'kriteria_id' => 4,
-                'penduduk_id' => 59,
-                'nilai' => 54.06,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            352 => 
-            array (
-                'id' => 353,
-                'kriteria_id' => 5,
-                'penduduk_id' => 59,
-                'nilai' => 31.24,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            353 => 
-            array (
-                'id' => 354,
-                'kriteria_id' => 6,
-                'penduduk_id' => 59,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            354 => 
-            array (
-                'id' => 355,
-                'kriteria_id' => 1,
-                'penduduk_id' => 60,
-                'nilai' => 2282350.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            355 => 
-            array (
-                'id' => 356,
-                'kriteria_id' => 2,
-                'penduduk_id' => 60,
-                'nilai' => 67.51,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            356 => 
-            array (
-                'id' => 357,
-                'kriteria_id' => 3,
-                'penduduk_id' => 60,
-                'nilai' => 23260000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            357 => 
-            array (
-                'id' => 358,
-                'kriteria_id' => 4,
-                'penduduk_id' => 60,
-                'nilai' => 90.47,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            358 => 
-            array (
-                'id' => 359,
-                'kriteria_id' => 5,
-                'penduduk_id' => 60,
-                'nilai' => 83.96,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            359 => 
-            array (
-                'id' => 360,
-                'kriteria_id' => 6,
-                'penduduk_id' => 60,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            360 => 
-            array (
-                'id' => 361,
-                'kriteria_id' => 1,
-                'penduduk_id' => 61,
-                'nilai' => 1311800.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            361 => 
-            array (
-                'id' => 362,
-                'kriteria_id' => 2,
-                'penduduk_id' => 61,
-                'nilai' => 62.96,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            362 => 
-            array (
-                'id' => 363,
-                'kriteria_id' => 3,
-                'penduduk_id' => 61,
-                'nilai' => 11436000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            363 => 
-            array (
-                'id' => 364,
-                'kriteria_id' => 4,
-                'penduduk_id' => 61,
-                'nilai' => 53.05,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            364 => 
-            array (
-                'id' => 365,
-                'kriteria_id' => 5,
-                'penduduk_id' => 61,
-                'nilai' => 56.87,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            365 => 
-            array (
-                'id' => 366,
-                'kriteria_id' => 6,
-                'penduduk_id' => 61,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            366 => 
-            array (
-                'id' => 367,
-                'kriteria_id' => 1,
-                'penduduk_id' => 62,
-                'nilai' => 1584800.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            367 => 
-            array (
-                'id' => 368,
-                'kriteria_id' => 2,
-                'penduduk_id' => 62,
-                'nilai' => 89.56,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            368 => 
-            array (
-                'id' => 369,
-                'kriteria_id' => 3,
-                'penduduk_id' => 62,
-                'nilai' => 36488000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            369 => 
-            array (
-                'id' => 370,
-                'kriteria_id' => 4,
-                'penduduk_id' => 62,
-                'nilai' => 62.21,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            370 => 
-            array (
-                'id' => 371,
-                'kriteria_id' => 5,
-                'penduduk_id' => 62,
-                'nilai' => 26.56,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            371 => 
-            array (
-                'id' => 372,
-                'kriteria_id' => 6,
-                'penduduk_id' => 62,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            372 => 
-            array (
-                'id' => 373,
-                'kriteria_id' => 1,
-                'penduduk_id' => 63,
-                'nilai' => 1548050.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            373 => 
-            array (
-                'id' => 374,
-                'kriteria_id' => 2,
-                'penduduk_id' => 63,
-                'nilai' => 34.93,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            374 => 
-            array (
-                'id' => 375,
-                'kriteria_id' => 3,
-                'penduduk_id' => 63,
-                'nilai' => 12788000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            375 => 
-            array (
-                'id' => 376,
-                'kriteria_id' => 4,
-                'penduduk_id' => 63,
-                'nilai' => 95.7,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            376 => 
-            array (
-                'id' => 377,
-                'kriteria_id' => 5,
-                'penduduk_id' => 63,
-                'nilai' => 83.68,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            377 => 
-            array (
-                'id' => 378,
-                'kriteria_id' => 6,
-                'penduduk_id' => 63,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            378 => 
-            array (
-                'id' => 379,
-                'kriteria_id' => 1,
-                'penduduk_id' => 64,
-                'nilai' => 3228400.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            379 => 
-            array (
-                'id' => 380,
-                'kriteria_id' => 2,
-                'penduduk_id' => 64,
-                'nilai' => 57.11,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            380 => 
-            array (
-                'id' => 381,
-                'kriteria_id' => 3,
-                'penduduk_id' => 64,
-                'nilai' => 31552000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            381 => 
-            array (
-                'id' => 382,
-                'kriteria_id' => 4,
-                'penduduk_id' => 64,
-                'nilai' => 64.26,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            382 => 
-            array (
-                'id' => 383,
-                'kriteria_id' => 5,
-                'penduduk_id' => 64,
-                'nilai' => 45.4,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            383 => 
-            array (
-                'id' => 384,
-                'kriteria_id' => 6,
-                'penduduk_id' => 64,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            384 => 
-            array (
-                'id' => 385,
-                'kriteria_id' => 1,
-                'penduduk_id' => 65,
-                'nilai' => 936950.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            385 => 
-            array (
-                'id' => 386,
-                'kriteria_id' => 2,
-                'penduduk_id' => 65,
-                'nilai' => 52.04,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            386 => 
-            array (
-                'id' => 387,
-                'kriteria_id' => 3,
-                'penduduk_id' => 65,
-                'nilai' => 15940000.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            387 => 
-            array (
-                'id' => 388,
-                'kriteria_id' => 4,
-                'penduduk_id' => 65,
-                'nilai' => 49.77,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            388 => 
-            array (
-                'id' => 389,
-                'kriteria_id' => 5,
-                'penduduk_id' => 65,
-                'nilai' => 72.7,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            389 => 
-            array (
-                'id' => 390,
-                'kriteria_id' => 6,
-                'penduduk_id' => 65,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:32',
-                'updated_at' => '2023-05-29 19:52:32',
-            ),
-            390 => 
-            array (
-                'id' => 391,
-                'kriteria_id' => 1,
-                'penduduk_id' => 66,
-                'nilai' => 2396800.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            391 => 
-            array (
-                'id' => 392,
-                'kriteria_id' => 2,
-                'penduduk_id' => 66,
-                'nilai' => 56.78,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            392 => 
-            array (
-                'id' => 393,
-                'kriteria_id' => 3,
-                'penduduk_id' => 66,
-                'nilai' => 22648000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            393 => 
-            array (
-                'id' => 394,
-                'kriteria_id' => 4,
-                'penduduk_id' => 66,
-                'nilai' => 46.64,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            394 => 
-            array (
-                'id' => 395,
-                'kriteria_id' => 5,
-                'penduduk_id' => 66,
-                'nilai' => 89.31,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            395 => 
-            array (
-                'id' => 396,
-                'kriteria_id' => 6,
-                'penduduk_id' => 66,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            396 => 
-            array (
-                'id' => 397,
-                'kriteria_id' => 1,
-                'penduduk_id' => 67,
-                'nilai' => 3433150.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            397 => 
-            array (
-                'id' => 398,
-                'kriteria_id' => 2,
-                'penduduk_id' => 67,
-                'nilai' => 51.59,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            398 => 
-            array (
-                'id' => 399,
-                'kriteria_id' => 3,
-                'penduduk_id' => 67,
-                'nilai' => 14632000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            399 => 
-            array (
-                'id' => 400,
-                'kriteria_id' => 4,
-                'penduduk_id' => 67,
-                'nilai' => 67.01,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            400 => 
-            array (
-                'id' => 401,
-                'kriteria_id' => 5,
-                'penduduk_id' => 67,
-                'nilai' => 34.99,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            401 => 
-            array (
-                'id' => 402,
-                'kriteria_id' => 6,
-                'penduduk_id' => 67,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            402 => 
-            array (
-                'id' => 403,
-                'kriteria_id' => 1,
-                'penduduk_id' => 68,
-                'nilai' => 3362100.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            403 => 
-            array (
-                'id' => 404,
-                'kriteria_id' => 2,
-                'penduduk_id' => 68,
-                'nilai' => 70.42,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            404 => 
-            array (
-                'id' => 405,
-                'kriteria_id' => 3,
-                'penduduk_id' => 68,
-                'nilai' => 25968000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            405 => 
-            array (
-                'id' => 406,
-                'kriteria_id' => 4,
-                'penduduk_id' => 68,
-                'nilai' => 37.16,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            406 => 
-            array (
-                'id' => 407,
-                'kriteria_id' => 5,
-                'penduduk_id' => 68,
-                'nilai' => 35.34,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            407 => 
-            array (
-                'id' => 408,
-                'kriteria_id' => 6,
-                'penduduk_id' => 68,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            408 => 
-            array (
-                'id' => 409,
-                'kriteria_id' => 1,
-                'penduduk_id' => 69,
-                'nilai' => 2750300.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            409 => 
-            array (
-                'id' => 410,
-                'kriteria_id' => 2,
-                'penduduk_id' => 69,
-                'nilai' => 69.65,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            410 => 
-            array (
-                'id' => 411,
-                'kriteria_id' => 3,
-                'penduduk_id' => 69,
-                'nilai' => 21244000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            411 => 
-            array (
-                'id' => 412,
-                'kriteria_id' => 4,
-                'penduduk_id' => 69,
-                'nilai' => 42.16,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            412 => 
-            array (
-                'id' => 413,
-                'kriteria_id' => 5,
-                'penduduk_id' => 69,
-                'nilai' => 73.06,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            413 => 
-            array (
-                'id' => 414,
-                'kriteria_id' => 6,
-                'penduduk_id' => 69,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            414 => 
-            array (
-                'id' => 415,
-                'kriteria_id' => 1,
-                'penduduk_id' => 70,
-                'nilai' => 2450000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            415 => 
-            array (
-                'id' => 416,
-                'kriteria_id' => 2,
-                'penduduk_id' => 70,
-                'nilai' => 44.64,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            416 => 
-            array (
-                'id' => 417,
-                'kriteria_id' => 3,
-                'penduduk_id' => 70,
-                'nilai' => 17008000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            417 => 
-            array (
-                'id' => 418,
-                'kriteria_id' => 4,
-                'penduduk_id' => 70,
-                'nilai' => 33.21,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            418 => 
-            array (
-                'id' => 419,
-                'kriteria_id' => 5,
-                'penduduk_id' => 70,
-                'nilai' => 57.45,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            419 => 
-            array (
-                'id' => 420,
-                'kriteria_id' => 6,
-                'penduduk_id' => 70,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            420 => 
-            array (
-                'id' => 421,
-                'kriteria_id' => 1,
-                'penduduk_id' => 71,
-                'nilai' => 2311750.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            421 => 
-            array (
-                'id' => 422,
-                'kriteria_id' => 2,
-                'penduduk_id' => 71,
-                'nilai' => 37.3,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            422 => 
-            array (
-                'id' => 423,
-                'kriteria_id' => 3,
-                'penduduk_id' => 71,
-                'nilai' => 14264000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            423 => 
-            array (
-                'id' => 424,
-                'kriteria_id' => 4,
-                'penduduk_id' => 71,
-                'nilai' => 57.86,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            424 => 
-            array (
-                'id' => 425,
-                'kriteria_id' => 5,
-                'penduduk_id' => 71,
-                'nilai' => 31.91,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            425 => 
-            array (
-                'id' => 426,
-                'kriteria_id' => 6,
-                'penduduk_id' => 71,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            426 => 
-            array (
-                'id' => 427,
-                'kriteria_id' => 1,
-                'penduduk_id' => 72,
-                'nilai' => 2015300.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            427 => 
-            array (
-                'id' => 428,
-                'kriteria_id' => 2,
-                'penduduk_id' => 72,
-                'nilai' => 80.17,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            428 => 
-            array (
-                'id' => 429,
-                'kriteria_id' => 3,
-                'penduduk_id' => 72,
-                'nilai' => 10724000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            429 => 
-            array (
-                'id' => 430,
-                'kriteria_id' => 4,
-                'penduduk_id' => 72,
-                'nilai' => 63.44,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            430 => 
-            array (
-                'id' => 431,
-                'kriteria_id' => 5,
-                'penduduk_id' => 72,
-                'nilai' => 86.41,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            431 => 
-            array (
-                'id' => 432,
-                'kriteria_id' => 6,
-                'penduduk_id' => 72,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            432 => 
-            array (
-                'id' => 433,
-                'kriteria_id' => 1,
-                'penduduk_id' => 73,
-                'nilai' => 1274350.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            433 => 
-            array (
-                'id' => 434,
-                'kriteria_id' => 2,
-                'penduduk_id' => 73,
-                'nilai' => 80.67,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            434 => 
-            array (
-                'id' => 435,
-                'kriteria_id' => 3,
-                'penduduk_id' => 73,
-                'nilai' => 29580000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            435 => 
-            array (
-                'id' => 436,
-                'kriteria_id' => 4,
-                'penduduk_id' => 73,
-                'nilai' => 73.52,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            436 => 
-            array (
-                'id' => 437,
-                'kriteria_id' => 5,
-                'penduduk_id' => 73,
-                'nilai' => 78.02,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            437 => 
-            array (
-                'id' => 438,
-                'kriteria_id' => 6,
-                'penduduk_id' => 73,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            438 => 
-            array (
-                'id' => 439,
-                'kriteria_id' => 1,
-                'penduduk_id' => 74,
-                'nilai' => 1705550.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            439 => 
-            array (
-                'id' => 440,
-                'kriteria_id' => 2,
-                'penduduk_id' => 74,
-                'nilai' => 61.22,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            440 => 
-            array (
-                'id' => 441,
-                'kriteria_id' => 3,
-                'penduduk_id' => 74,
-                'nilai' => 16988000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            441 => 
-            array (
-                'id' => 442,
-                'kriteria_id' => 4,
-                'penduduk_id' => 74,
-                'nilai' => 78.43,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            442 => 
-            array (
-                'id' => 443,
-                'kriteria_id' => 5,
-                'penduduk_id' => 74,
-                'nilai' => 69.05,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            443 => 
-            array (
-                'id' => 444,
-                'kriteria_id' => 6,
-                'penduduk_id' => 74,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            444 => 
-            array (
-                'id' => 445,
-                'kriteria_id' => 1,
-                'penduduk_id' => 75,
-                'nilai' => 3401650.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            445 => 
-            array (
-                'id' => 446,
-                'kriteria_id' => 2,
-                'penduduk_id' => 75,
-                'nilai' => 35.9,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            446 => 
-            array (
-                'id' => 447,
-                'kriteria_id' => 3,
-                'penduduk_id' => 75,
-                'nilai' => 35548000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            447 => 
-            array (
-                'id' => 448,
-                'kriteria_id' => 4,
-                'penduduk_id' => 75,
-                'nilai' => 26.27,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            448 => 
-            array (
-                'id' => 449,
-                'kriteria_id' => 5,
-                'penduduk_id' => 75,
-                'nilai' => 60.43,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            449 => 
-            array (
-                'id' => 450,
-                'kriteria_id' => 6,
-                'penduduk_id' => 75,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            450 => 
-            array (
-                'id' => 451,
-                'kriteria_id' => 1,
-                'penduduk_id' => 76,
-                'nilai' => 3328850.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            451 => 
-            array (
-                'id' => 452,
-                'kriteria_id' => 2,
-                'penduduk_id' => 76,
-                'nilai' => 52.06,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            452 => 
-            array (
-                'id' => 453,
-                'kriteria_id' => 3,
-                'penduduk_id' => 76,
-                'nilai' => 34696000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            453 => 
-            array (
-                'id' => 454,
-                'kriteria_id' => 4,
-                'penduduk_id' => 76,
-                'nilai' => 37.25,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            454 => 
-            array (
-                'id' => 455,
-                'kriteria_id' => 5,
-                'penduduk_id' => 76,
-                'nilai' => 97.74,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            455 => 
-            array (
-                'id' => 456,
-                'kriteria_id' => 6,
-                'penduduk_id' => 76,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            456 => 
-            array (
-                'id' => 457,
-                'kriteria_id' => 1,
-                'penduduk_id' => 77,
-                'nilai' => 2501800.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            457 => 
-            array (
-                'id' => 458,
-                'kriteria_id' => 2,
-                'penduduk_id' => 77,
-                'nilai' => 40.67,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            458 => 
-            array (
-                'id' => 459,
-                'kriteria_id' => 3,
-                'penduduk_id' => 77,
-                'nilai' => 25872000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            459 => 
-            array (
-                'id' => 460,
-                'kriteria_id' => 4,
-                'penduduk_id' => 77,
-                'nilai' => 91.84,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            460 => 
-            array (
-                'id' => 461,
-                'kriteria_id' => 5,
-                'penduduk_id' => 77,
-                'nilai' => 83.46,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            461 => 
-            array (
-                'id' => 462,
-                'kriteria_id' => 6,
-                'penduduk_id' => 77,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            462 => 
-            array (
-                'id' => 463,
-                'kriteria_id' => 1,
-                'penduduk_id' => 78,
-                'nilai' => 1212050.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            463 => 
-            array (
-                'id' => 464,
-                'kriteria_id' => 2,
-                'penduduk_id' => 78,
-                'nilai' => 67.03,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            464 => 
-            array (
-                'id' => 465,
-                'kriteria_id' => 3,
-                'penduduk_id' => 78,
-                'nilai' => 14176000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            465 => 
-            array (
-                'id' => 466,
-                'kriteria_id' => 4,
-                'penduduk_id' => 78,
-                'nilai' => 80.31,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            466 => 
-            array (
-                'id' => 467,
-                'kriteria_id' => 5,
-                'penduduk_id' => 78,
-                'nilai' => 30.15,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            467 => 
-            array (
-                'id' => 468,
-                'kriteria_id' => 6,
-                'penduduk_id' => 78,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            468 => 
-            array (
-                'id' => 469,
-                'kriteria_id' => 1,
-                'penduduk_id' => 79,
-                'nilai' => 1390900.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            469 => 
-            array (
-                'id' => 470,
-                'kriteria_id' => 2,
-                'penduduk_id' => 79,
-                'nilai' => 53.21,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            470 => 
-            array (
-                'id' => 471,
-                'kriteria_id' => 3,
-                'penduduk_id' => 79,
-                'nilai' => 31284000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            471 => 
-            array (
-                'id' => 472,
-                'kriteria_id' => 4,
-                'penduduk_id' => 79,
-                'nilai' => 77.45,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            472 => 
-            array (
-                'id' => 473,
-                'kriteria_id' => 5,
-                'penduduk_id' => 79,
-                'nilai' => 57.89,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            473 => 
-            array (
-                'id' => 474,
-                'kriteria_id' => 6,
-                'penduduk_id' => 79,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            474 => 
-            array (
-                'id' => 475,
-                'kriteria_id' => 1,
-                'penduduk_id' => 80,
-                'nilai' => 2425850.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            475 => 
-            array (
-                'id' => 476,
-                'kriteria_id' => 2,
-                'penduduk_id' => 80,
-                'nilai' => 92.28,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            476 => 
-            array (
-                'id' => 477,
-                'kriteria_id' => 3,
-                'penduduk_id' => 80,
-                'nilai' => 25488000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            477 => 
-            array (
-                'id' => 478,
-                'kriteria_id' => 4,
-                'penduduk_id' => 80,
-                'nilai' => 42.83,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            478 => 
-            array (
-                'id' => 479,
-                'kriteria_id' => 5,
-                'penduduk_id' => 80,
-                'nilai' => 48.21,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            479 => 
-            array (
-                'id' => 480,
-                'kriteria_id' => 6,
-                'penduduk_id' => 80,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            480 => 
-            array (
-                'id' => 481,
-                'kriteria_id' => 1,
-                'penduduk_id' => 81,
-                'nilai' => 1161300.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            481 => 
-            array (
-                'id' => 482,
-                'kriteria_id' => 2,
-                'penduduk_id' => 81,
-                'nilai' => 80.94,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            482 => 
-            array (
-                'id' => 483,
-                'kriteria_id' => 3,
-                'penduduk_id' => 81,
-                'nilai' => 12520000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            483 => 
-            array (
-                'id' => 484,
-                'kriteria_id' => 4,
-                'penduduk_id' => 81,
-                'nilai' => 44.99,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            484 => 
-            array (
-                'id' => 485,
-                'kriteria_id' => 5,
-                'penduduk_id' => 81,
-                'nilai' => 86.77,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            485 => 
-            array (
-                'id' => 486,
-                'kriteria_id' => 6,
-                'penduduk_id' => 81,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            486 => 
-            array (
-                'id' => 487,
-                'kriteria_id' => 1,
-                'penduduk_id' => 82,
-                'nilai' => 1393700.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            487 => 
-            array (
-                'id' => 488,
-                'kriteria_id' => 2,
-                'penduduk_id' => 82,
-                'nilai' => 34.15,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            488 => 
-            array (
-                'id' => 489,
-                'kriteria_id' => 3,
-                'penduduk_id' => 82,
-                'nilai' => 17148000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            489 => 
-            array (
-                'id' => 490,
-                'kriteria_id' => 4,
-                'penduduk_id' => 82,
-                'nilai' => 51.38,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            490 => 
-            array (
-                'id' => 491,
-                'kriteria_id' => 5,
-                'penduduk_id' => 82,
-                'nilai' => 41.84,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            491 => 
-            array (
-                'id' => 492,
-                'kriteria_id' => 6,
-                'penduduk_id' => 82,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            492 => 
-            array (
-                'id' => 493,
-                'kriteria_id' => 1,
-                'penduduk_id' => 83,
-                'nilai' => 2358300.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            493 => 
-            array (
-                'id' => 494,
-                'kriteria_id' => 2,
-                'penduduk_id' => 83,
-                'nilai' => 66.37,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            494 => 
-            array (
-                'id' => 495,
-                'kriteria_id' => 3,
-                'penduduk_id' => 83,
-                'nilai' => 39088000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            495 => 
-            array (
-                'id' => 496,
-                'kriteria_id' => 4,
-                'penduduk_id' => 83,
-                'nilai' => 92.53,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            496 => 
-            array (
-                'id' => 497,
-                'kriteria_id' => 5,
-                'penduduk_id' => 83,
-                'nilai' => 40.47,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            497 => 
-            array (
-                'id' => 498,
-                'kriteria_id' => 6,
-                'penduduk_id' => 83,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            498 => 
-            array (
-                'id' => 499,
-                'kriteria_id' => 1,
-                'penduduk_id' => 84,
-                'nilai' => 1621900.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            499 => 
-            array (
-                'id' => 500,
-                'kriteria_id' => 2,
-                'penduduk_id' => 84,
-                'nilai' => 93.6,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-        ));
-        \DB::table('penduduk_nilai')->insert(array (
-            0 => 
-            array (
-                'id' => 501,
-                'kriteria_id' => 3,
-                'penduduk_id' => 84,
-                'nilai' => 25120000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            1 => 
-            array (
-                'id' => 502,
-                'kriteria_id' => 4,
-                'penduduk_id' => 84,
-                'nilai' => 73.7,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            2 => 
-            array (
-                'id' => 503,
-                'kriteria_id' => 5,
-                'penduduk_id' => 84,
-                'nilai' => 78.46,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            3 => 
-            array (
-                'id' => 504,
-                'kriteria_id' => 6,
-                'penduduk_id' => 84,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            4 => 
-            array (
-                'id' => 505,
-                'kriteria_id' => 1,
-                'penduduk_id' => 85,
-                'nilai' => 3093300.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            5 => 
-            array (
-                'id' => 506,
-                'kriteria_id' => 2,
-                'penduduk_id' => 85,
-                'nilai' => 68.24,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            6 => 
-            array (
-                'id' => 507,
-                'kriteria_id' => 3,
-                'penduduk_id' => 85,
-                'nilai' => 37720000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            7 => 
-            array (
-                'id' => 508,
-                'kriteria_id' => 4,
-                'penduduk_id' => 85,
-                'nilai' => 42.57,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            8 => 
-            array (
-                'id' => 509,
-                'kriteria_id' => 5,
-                'penduduk_id' => 85,
-                'nilai' => 74.14,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            9 => 
-            array (
-                'id' => 510,
-                'kriteria_id' => 6,
-                'penduduk_id' => 85,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            10 => 
-            array (
-                'id' => 511,
-                'kriteria_id' => 1,
-                'penduduk_id' => 86,
-                'nilai' => 3199000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            11 => 
-            array (
-                'id' => 512,
-                'kriteria_id' => 2,
-                'penduduk_id' => 86,
-                'nilai' => 79.76,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            12 => 
-            array (
-                'id' => 513,
-                'kriteria_id' => 3,
-                'penduduk_id' => 86,
-                'nilai' => 35640000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            13 => 
-            array (
-                'id' => 514,
-                'kriteria_id' => 4,
-                'penduduk_id' => 86,
-                'nilai' => 98.98,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            14 => 
-            array (
-                'id' => 515,
-                'kriteria_id' => 5,
-                'penduduk_id' => 86,
-                'nilai' => 27.15,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            15 => 
-            array (
-                'id' => 516,
-                'kriteria_id' => 6,
-                'penduduk_id' => 86,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            16 => 
-            array (
-                'id' => 517,
-                'kriteria_id' => 1,
-                'penduduk_id' => 87,
-                'nilai' => 3053750.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            17 => 
-            array (
-                'id' => 518,
-                'kriteria_id' => 2,
-                'penduduk_id' => 87,
-                'nilai' => 52.28,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            18 => 
-            array (
-                'id' => 519,
-                'kriteria_id' => 3,
-                'penduduk_id' => 87,
-                'nilai' => 26804000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            19 => 
-            array (
-                'id' => 520,
-                'kriteria_id' => 4,
-                'penduduk_id' => 87,
-                'nilai' => 32.97,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            20 => 
-            array (
-                'id' => 521,
-                'kriteria_id' => 5,
-                'penduduk_id' => 87,
-                'nilai' => 29.74,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            21 => 
-            array (
-                'id' => 522,
-                'kriteria_id' => 6,
-                'penduduk_id' => 87,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            22 => 
-            array (
-                'id' => 523,
-                'kriteria_id' => 1,
-                'penduduk_id' => 88,
-                'nilai' => 998200.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            23 => 
-            array (
-                'id' => 524,
-                'kriteria_id' => 2,
-                'penduduk_id' => 88,
-                'nilai' => 62.67,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            24 => 
-            array (
-                'id' => 525,
-                'kriteria_id' => 3,
-                'penduduk_id' => 88,
-                'nilai' => 24496000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            25 => 
-            array (
-                'id' => 526,
-                'kriteria_id' => 4,
-                'penduduk_id' => 88,
-                'nilai' => 96.92,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            26 => 
-            array (
-                'id' => 527,
-                'kriteria_id' => 5,
-                'penduduk_id' => 88,
-                'nilai' => 85.28,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            27 => 
-            array (
-                'id' => 528,
-                'kriteria_id' => 6,
-                'penduduk_id' => 88,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            28 => 
-            array (
-                'id' => 529,
-                'kriteria_id' => 1,
-                'penduduk_id' => 89,
-                'nilai' => 3459050.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            29 => 
-            array (
-                'id' => 530,
-                'kriteria_id' => 2,
-                'penduduk_id' => 89,
-                'nilai' => 92.4,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            30 => 
-            array (
-                'id' => 531,
-                'kriteria_id' => 3,
-                'penduduk_id' => 89,
-                'nilai' => 16164000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            31 => 
-            array (
-                'id' => 532,
-                'kriteria_id' => 4,
-                'penduduk_id' => 89,
-                'nilai' => 34.97,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            32 => 
-            array (
-                'id' => 533,
-                'kriteria_id' => 5,
-                'penduduk_id' => 89,
-                'nilai' => 45.94,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            33 => 
-            array (
-                'id' => 534,
-                'kriteria_id' => 6,
-                'penduduk_id' => 89,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            34 => 
-            array (
-                'id' => 535,
-                'kriteria_id' => 1,
-                'penduduk_id' => 90,
-                'nilai' => 2046800.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            35 => 
-            array (
-                'id' => 536,
-                'kriteria_id' => 2,
-                'penduduk_id' => 90,
-                'nilai' => 62.55,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            36 => 
-            array (
-                'id' => 537,
-                'kriteria_id' => 3,
-                'penduduk_id' => 90,
-                'nilai' => 36632000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            37 => 
-            array (
-                'id' => 538,
-                'kriteria_id' => 4,
-                'penduduk_id' => 90,
-                'nilai' => 65.48,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            38 => 
-            array (
-                'id' => 539,
-                'kriteria_id' => 5,
-                'penduduk_id' => 90,
-                'nilai' => 61.87,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            39 => 
-            array (
-                'id' => 540,
-                'kriteria_id' => 6,
-                'penduduk_id' => 90,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            40 => 
-            array (
-                'id' => 541,
-                'kriteria_id' => 1,
-                'penduduk_id' => 91,
-                'nilai' => 1132950.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            41 => 
-            array (
-                'id' => 542,
-                'kriteria_id' => 2,
-                'penduduk_id' => 91,
-                'nilai' => 93.85,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            42 => 
-            array (
-                'id' => 543,
-                'kriteria_id' => 3,
-                'penduduk_id' => 91,
-                'nilai' => 16444000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            43 => 
-            array (
-                'id' => 544,
-                'kriteria_id' => 4,
-                'penduduk_id' => 91,
-                'nilai' => 97.03,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            44 => 
-            array (
-                'id' => 545,
-                'kriteria_id' => 5,
-                'penduduk_id' => 91,
-                'nilai' => 74.45,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            45 => 
-            array (
-                'id' => 546,
-                'kriteria_id' => 6,
-                'penduduk_id' => 91,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            46 => 
-            array (
-                'id' => 547,
-                'kriteria_id' => 1,
-                'penduduk_id' => 92,
-                'nilai' => 1750000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            47 => 
-            array (
-                'id' => 548,
-                'kriteria_id' => 2,
-                'penduduk_id' => 92,
-                'nilai' => 80.88,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            48 => 
-            array (
-                'id' => 549,
-                'kriteria_id' => 3,
-                'penduduk_id' => 92,
-                'nilai' => 19752000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            49 => 
-            array (
-                'id' => 550,
-                'kriteria_id' => 4,
-                'penduduk_id' => 92,
-                'nilai' => 64.47,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            50 => 
-            array (
-                'id' => 551,
-                'kriteria_id' => 5,
-                'penduduk_id' => 92,
-                'nilai' => 85.76,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            51 => 
-            array (
-                'id' => 552,
-                'kriteria_id' => 6,
-                'penduduk_id' => 92,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            52 => 
-            array (
-                'id' => 553,
-                'kriteria_id' => 1,
-                'penduduk_id' => 93,
-                'nilai' => 3258850.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            53 => 
-            array (
-                'id' => 554,
-                'kriteria_id' => 2,
-                'penduduk_id' => 93,
-                'nilai' => 75.47,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            54 => 
-            array (
-                'id' => 555,
-                'kriteria_id' => 3,
-                'penduduk_id' => 93,
-                'nilai' => 21004000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            55 => 
-            array (
-                'id' => 556,
-                'kriteria_id' => 4,
-                'penduduk_id' => 93,
-                'nilai' => 32.73,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            56 => 
-            array (
-                'id' => 557,
-                'kriteria_id' => 5,
-                'penduduk_id' => 93,
-                'nilai' => 95.18,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            57 => 
-            array (
-                'id' => 558,
-                'kriteria_id' => 6,
-                'penduduk_id' => 93,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            58 => 
-            array (
-                'id' => 559,
-                'kriteria_id' => 1,
-                'penduduk_id' => 94,
-                'nilai' => 1122100.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            59 => 
-            array (
-                'id' => 560,
-                'kriteria_id' => 2,
-                'penduduk_id' => 94,
-                'nilai' => 82.22,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            60 => 
-            array (
-                'id' => 561,
-                'kriteria_id' => 3,
-                'penduduk_id' => 94,
-                'nilai' => 18616000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            61 => 
-            array (
-                'id' => 562,
-                'kriteria_id' => 4,
-                'penduduk_id' => 94,
-                'nilai' => 50.34,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            62 => 
-            array (
-                'id' => 563,
-                'kriteria_id' => 5,
-                'penduduk_id' => 94,
-                'nilai' => 83.19,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            63 => 
-            array (
-                'id' => 564,
-                'kriteria_id' => 6,
-                'penduduk_id' => 94,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            64 => 
-            array (
-                'id' => 565,
-                'kriteria_id' => 1,
-                'penduduk_id' => 95,
-                'nilai' => 1670200.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            65 => 
-            array (
-                'id' => 566,
-                'kriteria_id' => 2,
-                'penduduk_id' => 95,
-                'nilai' => 34.55,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            66 => 
-            array (
-                'id' => 567,
-                'kriteria_id' => 3,
-                'penduduk_id' => 95,
-                'nilai' => 27700000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            67 => 
-            array (
-                'id' => 568,
-                'kriteria_id' => 4,
-                'penduduk_id' => 95,
-                'nilai' => 29.45,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            68 => 
-            array (
-                'id' => 569,
-                'kriteria_id' => 5,
-                'penduduk_id' => 95,
-                'nilai' => 70.01,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            69 => 
-            array (
-                'id' => 570,
-                'kriteria_id' => 6,
-                'penduduk_id' => 95,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            70 => 
-            array (
-                'id' => 571,
-                'kriteria_id' => 1,
-                'penduduk_id' => 96,
-                'nilai' => 2793700.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            71 => 
-            array (
-                'id' => 572,
-                'kriteria_id' => 2,
-                'penduduk_id' => 96,
-                'nilai' => 60.23,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            72 => 
-            array (
-                'id' => 573,
-                'kriteria_id' => 3,
-                'penduduk_id' => 96,
-                'nilai' => 27384000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            73 => 
-            array (
-                'id' => 574,
-                'kriteria_id' => 4,
-                'penduduk_id' => 96,
-                'nilai' => 73.78,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            74 => 
-            array (
-                'id' => 575,
-                'kriteria_id' => 5,
-                'penduduk_id' => 96,
-                'nilai' => 34.81,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            75 => 
-            array (
-                'id' => 576,
-                'kriteria_id' => 6,
-                'penduduk_id' => 96,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            76 => 
-            array (
-                'id' => 577,
-                'kriteria_id' => 1,
-                'penduduk_id' => 97,
-                'nilai' => 3293850.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            77 => 
-            array (
-                'id' => 578,
-                'kriteria_id' => 2,
-                'penduduk_id' => 97,
-                'nilai' => 68.95,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            78 => 
-            array (
-                'id' => 579,
-                'kriteria_id' => 3,
-                'penduduk_id' => 97,
-                'nilai' => 35124000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            79 => 
-            array (
-                'id' => 580,
-                'kriteria_id' => 4,
-                'penduduk_id' => 97,
-                'nilai' => 48.29,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            80 => 
-            array (
-                'id' => 581,
-                'kriteria_id' => 5,
-                'penduduk_id' => 97,
-                'nilai' => 61.19,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            81 => 
-            array (
-                'id' => 582,
-                'kriteria_id' => 6,
-                'penduduk_id' => 97,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            82 => 
-            array (
-                'id' => 583,
-                'kriteria_id' => 1,
-                'penduduk_id' => 98,
-                'nilai' => 3232250.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            83 => 
-            array (
-                'id' => 584,
-                'kriteria_id' => 2,
-                'penduduk_id' => 98,
-                'nilai' => 26.73,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            84 => 
-            array (
-                'id' => 585,
-                'kriteria_id' => 3,
-                'penduduk_id' => 98,
-                'nilai' => 24536000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            85 => 
-            array (
-                'id' => 586,
-                'kriteria_id' => 4,
-                'penduduk_id' => 98,
-                'nilai' => 95.06,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            86 => 
-            array (
-                'id' => 587,
-                'kriteria_id' => 5,
-                'penduduk_id' => 98,
-                'nilai' => 58.87,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            87 => 
-            array (
-                'id' => 588,
-                'kriteria_id' => 6,
-                'penduduk_id' => 98,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            88 => 
-            array (
-                'id' => 589,
-                'kriteria_id' => 1,
-                'penduduk_id' => 99,
-                'nilai' => 2537500.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            89 => 
-            array (
-                'id' => 590,
-                'kriteria_id' => 2,
-                'penduduk_id' => 99,
-                'nilai' => 81.27,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            90 => 
-            array (
-                'id' => 591,
-                'kriteria_id' => 3,
-                'penduduk_id' => 99,
-                'nilai' => 33268000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            91 => 
-            array (
-                'id' => 592,
-                'kriteria_id' => 4,
-                'penduduk_id' => 99,
-                'nilai' => 60.54,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            92 => 
-            array (
-                'id' => 593,
-                'kriteria_id' => 5,
-                'penduduk_id' => 99,
-                'nilai' => 54.75,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            93 => 
-            array (
-                'id' => 594,
-                'kriteria_id' => 6,
-                'penduduk_id' => 99,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            94 => 
-            array (
-                'id' => 595,
-                'kriteria_id' => 1,
-                'penduduk_id' => 100,
-                'nilai' => 3359650.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            95 => 
-            array (
-                'id' => 596,
-                'kriteria_id' => 2,
-                'penduduk_id' => 100,
-                'nilai' => 90.99,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            96 => 
-            array (
-                'id' => 597,
-                'kriteria_id' => 3,
-                'penduduk_id' => 100,
-                'nilai' => 18868000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            97 => 
-            array (
-                'id' => 598,
-                'kriteria_id' => 4,
-                'penduduk_id' => 100,
-                'nilai' => 47.68,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            98 => 
-            array (
-                'id' => 599,
-                'kriteria_id' => 5,
-                'penduduk_id' => 100,
-                'nilai' => 66.93,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            99 => 
-            array (
-                'id' => 600,
-                'kriteria_id' => 6,
-                'penduduk_id' => 100,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            100 => 
-            array (
-                'id' => 601,
-                'kriteria_id' => 1,
-                'penduduk_id' => 101,
-                'nilai' => 2502150.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            101 => 
-            array (
-                'id' => 602,
-                'kriteria_id' => 2,
-                'penduduk_id' => 101,
-                'nilai' => 92.36,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            102 => 
-            array (
-                'id' => 603,
-                'kriteria_id' => 3,
-                'penduduk_id' => 101,
-                'nilai' => 12596000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            103 => 
-            array (
-                'id' => 604,
-                'kriteria_id' => 4,
-                'penduduk_id' => 101,
-                'nilai' => 38.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            104 => 
-            array (
-                'id' => 605,
-                'kriteria_id' => 5,
-                'penduduk_id' => 101,
-                'nilai' => 46.85,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            105 => 
-            array (
-                'id' => 606,
-                'kriteria_id' => 6,
-                'penduduk_id' => 101,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            106 => 
-            array (
-                'id' => 607,
-                'kriteria_id' => 1,
-                'penduduk_id' => 102,
-                'nilai' => 1318450.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            107 => 
-            array (
-                'id' => 608,
-                'kriteria_id' => 2,
-                'penduduk_id' => 102,
-                'nilai' => 92.39,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            108 => 
-            array (
-                'id' => 609,
-                'kriteria_id' => 3,
-                'penduduk_id' => 102,
-                'nilai' => 34424000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            109 => 
-            array (
-                'id' => 610,
-                'kriteria_id' => 4,
-                'penduduk_id' => 102,
-                'nilai' => 76.21,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            110 => 
-            array (
-                'id' => 611,
-                'kriteria_id' => 5,
-                'penduduk_id' => 102,
-                'nilai' => 42.58,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            111 => 
-            array (
-                'id' => 612,
-                'kriteria_id' => 6,
-                'penduduk_id' => 102,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            112 => 
-            array (
-                'id' => 613,
-                'kriteria_id' => 1,
-                'penduduk_id' => 103,
-                'nilai' => 2877000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            113 => 
-            array (
-                'id' => 614,
-                'kriteria_id' => 2,
-                'penduduk_id' => 103,
-                'nilai' => 36.63,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            114 => 
-            array (
-                'id' => 615,
-                'kriteria_id' => 3,
-                'penduduk_id' => 103,
-                'nilai' => 22648000.0,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            115 => 
-            array (
-                'id' => 616,
-                'kriteria_id' => 4,
-                'penduduk_id' => 103,
-                'nilai' => 63.91,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            116 => 
-            array (
-                'id' => 617,
-                'kriteria_id' => 5,
-                'penduduk_id' => 103,
-                'nilai' => 57.35,
-                'created_at' => '2023-05-29 19:52:33',
-                'updated_at' => '2023-05-29 19:52:33',
-            ),
-            117 => 
-            array (
-                'id' => 618,
-                'kriteria_id' => 6,
-                'penduduk_id' => 103,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            118 => 
-            array (
-                'id' => 619,
-                'kriteria_id' => 1,
-                'penduduk_id' => 104,
-                'nilai' => 3481450.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            119 => 
-            array (
-                'id' => 620,
-                'kriteria_id' => 2,
-                'penduduk_id' => 104,
-                'nilai' => 68.33,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            120 => 
-            array (
-                'id' => 621,
-                'kriteria_id' => 3,
-                'penduduk_id' => 104,
-                'nilai' => 27044000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            121 => 
-            array (
-                'id' => 622,
-                'kriteria_id' => 4,
-                'penduduk_id' => 104,
-                'nilai' => 38.66,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            122 => 
-            array (
-                'id' => 623,
-                'kriteria_id' => 5,
-                'penduduk_id' => 104,
-                'nilai' => 41.97,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            123 => 
-            array (
-                'id' => 624,
-                'kriteria_id' => 6,
-                'penduduk_id' => 104,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            124 => 
-            array (
-                'id' => 625,
-                'kriteria_id' => 1,
-                'penduduk_id' => 105,
-                'nilai' => 2403800.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            125 => 
-            array (
-                'id' => 626,
-                'kriteria_id' => 2,
-                'penduduk_id' => 105,
-                'nilai' => 83.37,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            126 => 
-            array (
-                'id' => 627,
-                'kriteria_id' => 3,
-                'penduduk_id' => 105,
-                'nilai' => 32352000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            127 => 
-            array (
-                'id' => 628,
-                'kriteria_id' => 4,
-                'penduduk_id' => 105,
-                'nilai' => 62.17,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            128 => 
-            array (
-                'id' => 629,
-                'kriteria_id' => 5,
-                'penduduk_id' => 105,
-                'nilai' => 51.16,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            129 => 
-            array (
-                'id' => 630,
-                'kriteria_id' => 6,
-                'penduduk_id' => 105,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            130 => 
-            array (
-                'id' => 631,
-                'kriteria_id' => 1,
-                'penduduk_id' => 106,
-                'nilai' => 2489550.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            131 => 
-            array (
-                'id' => 632,
-                'kriteria_id' => 2,
-                'penduduk_id' => 106,
-                'nilai' => 60.41,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            132 => 
-            array (
-                'id' => 633,
-                'kriteria_id' => 3,
-                'penduduk_id' => 106,
-                'nilai' => 37372000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            133 => 
-            array (
-                'id' => 634,
-                'kriteria_id' => 4,
-                'penduduk_id' => 106,
-                'nilai' => 67.29,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            134 => 
-            array (
-                'id' => 635,
-                'kriteria_id' => 5,
-                'penduduk_id' => 106,
-                'nilai' => 39.48,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            135 => 
-            array (
-                'id' => 636,
-                'kriteria_id' => 6,
-                'penduduk_id' => 106,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            136 => 
-            array (
-                'id' => 637,
-                'kriteria_id' => 1,
-                'penduduk_id' => 107,
-                'nilai' => 1707650.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            137 => 
-            array (
-                'id' => 638,
-                'kriteria_id' => 2,
-                'penduduk_id' => 107,
-                'nilai' => 71.65,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            138 => 
-            array (
-                'id' => 639,
-                'kriteria_id' => 3,
-                'penduduk_id' => 107,
-                'nilai' => 37516000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            139 => 
-            array (
-                'id' => 640,
-                'kriteria_id' => 4,
-                'penduduk_id' => 107,
-                'nilai' => 37.78,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            140 => 
-            array (
-                'id' => 641,
-                'kriteria_id' => 5,
-                'penduduk_id' => 107,
-                'nilai' => 40.91,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            141 => 
-            array (
-                'id' => 642,
-                'kriteria_id' => 6,
-                'penduduk_id' => 107,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            142 => 
-            array (
-                'id' => 643,
-                'kriteria_id' => 1,
-                'penduduk_id' => 108,
-                'nilai' => 2881550.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            143 => 
-            array (
-                'id' => 644,
-                'kriteria_id' => 2,
-                'penduduk_id' => 108,
-                'nilai' => 77.88,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            144 => 
-            array (
-                'id' => 645,
-                'kriteria_id' => 3,
-                'penduduk_id' => 108,
-                'nilai' => 35504000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            145 => 
-            array (
-                'id' => 646,
-                'kriteria_id' => 4,
-                'penduduk_id' => 108,
-                'nilai' => 91.19,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            146 => 
-            array (
-                'id' => 647,
-                'kriteria_id' => 5,
-                'penduduk_id' => 108,
-                'nilai' => 57.95,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            147 => 
-            array (
-                'id' => 648,
-                'kriteria_id' => 6,
-                'penduduk_id' => 108,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            148 => 
-            array (
-                'id' => 649,
-                'kriteria_id' => 1,
-                'penduduk_id' => 109,
-                'nilai' => 3392900.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            149 => 
-            array (
-                'id' => 650,
-                'kriteria_id' => 2,
-                'penduduk_id' => 109,
-                'nilai' => 34.78,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            150 => 
-            array (
-                'id' => 651,
-                'kriteria_id' => 3,
-                'penduduk_id' => 109,
-                'nilai' => 34832000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            151 => 
-            array (
-                'id' => 652,
-                'kriteria_id' => 4,
-                'penduduk_id' => 109,
-                'nilai' => 98.67,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            152 => 
-            array (
-                'id' => 653,
-                'kriteria_id' => 5,
-                'penduduk_id' => 109,
-                'nilai' => 34.39,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            153 => 
-            array (
-                'id' => 654,
-                'kriteria_id' => 6,
-                'penduduk_id' => 109,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            154 => 
-            array (
-                'id' => 655,
-                'kriteria_id' => 1,
-                'penduduk_id' => 110,
-                'nilai' => 1659700.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            155 => 
-            array (
-                'id' => 656,
-                'kriteria_id' => 2,
-                'penduduk_id' => 110,
-                'nilai' => 79.77,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            156 => 
-            array (
-                'id' => 657,
-                'kriteria_id' => 3,
-                'penduduk_id' => 110,
-                'nilai' => 38440000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            157 => 
-            array (
-                'id' => 658,
-                'kriteria_id' => 4,
-                'penduduk_id' => 110,
-                'nilai' => 90.86,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            158 => 
-            array (
-                'id' => 659,
-                'kriteria_id' => 5,
-                'penduduk_id' => 110,
-                'nilai' => 80.59,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            159 => 
-            array (
-                'id' => 660,
-                'kriteria_id' => 6,
-                'penduduk_id' => 110,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            160 => 
-            array (
-                'id' => 661,
-                'kriteria_id' => 1,
-                'penduduk_id' => 111,
-                'nilai' => 2786350.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            161 => 
-            array (
-                'id' => 662,
-                'kriteria_id' => 2,
-                'penduduk_id' => 111,
-                'nilai' => 94.63,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            162 => 
-            array (
-                'id' => 663,
-                'kriteria_id' => 3,
-                'penduduk_id' => 111,
-                'nilai' => 32784000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            163 => 
-            array (
-                'id' => 664,
-                'kriteria_id' => 4,
-                'penduduk_id' => 111,
-                'nilai' => 40.26,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            164 => 
-            array (
-                'id' => 665,
-                'kriteria_id' => 5,
-                'penduduk_id' => 111,
-                'nilai' => 34.99,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            165 => 
-            array (
-                'id' => 666,
-                'kriteria_id' => 6,
-                'penduduk_id' => 111,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            166 => 
-            array (
-                'id' => 667,
-                'kriteria_id' => 1,
-                'penduduk_id' => 112,
-                'nilai' => 2964150.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            167 => 
-            array (
-                'id' => 668,
-                'kriteria_id' => 2,
-                'penduduk_id' => 112,
-                'nilai' => 31.92,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            168 => 
-            array (
-                'id' => 669,
-                'kriteria_id' => 3,
-                'penduduk_id' => 112,
-                'nilai' => 30888000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            169 => 
-            array (
-                'id' => 670,
-                'kriteria_id' => 4,
-                'penduduk_id' => 112,
-                'nilai' => 25.5,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            170 => 
-            array (
-                'id' => 671,
-                'kriteria_id' => 5,
-                'penduduk_id' => 112,
-                'nilai' => 29.78,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            171 => 
-            array (
-                'id' => 672,
-                'kriteria_id' => 6,
-                'penduduk_id' => 112,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            172 => 
-            array (
-                'id' => 673,
-                'kriteria_id' => 1,
-                'penduduk_id' => 113,
-                'nilai' => 2445450.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            173 => 
-            array (
-                'id' => 674,
-                'kriteria_id' => 2,
-                'penduduk_id' => 113,
-                'nilai' => 25.89,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            174 => 
-            array (
-                'id' => 675,
-                'kriteria_id' => 3,
-                'penduduk_id' => 113,
-                'nilai' => 17904000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            175 => 
-            array (
-                'id' => 676,
-                'kriteria_id' => 4,
-                'penduduk_id' => 113,
-                'nilai' => 43.53,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            176 => 
-            array (
-                'id' => 677,
-                'kriteria_id' => 5,
-                'penduduk_id' => 113,
-                'nilai' => 27.62,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            177 => 
-            array (
-                'id' => 678,
-                'kriteria_id' => 6,
-                'penduduk_id' => 113,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            178 => 
-            array (
-                'id' => 679,
-                'kriteria_id' => 1,
-                'penduduk_id' => 114,
-                'nilai' => 1750350.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            179 => 
-            array (
-                'id' => 680,
-                'kriteria_id' => 2,
-                'penduduk_id' => 114,
-                'nilai' => 69.65,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            180 => 
-            array (
-                'id' => 681,
-                'kriteria_id' => 3,
-                'penduduk_id' => 114,
-                'nilai' => 39176000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            181 => 
-            array (
-                'id' => 682,
-                'kriteria_id' => 4,
-                'penduduk_id' => 114,
-                'nilai' => 94.3,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            182 => 
-            array (
-                'id' => 683,
-                'kriteria_id' => 5,
-                'penduduk_id' => 114,
-                'nilai' => 56.97,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            183 => 
-            array (
-                'id' => 684,
-                'kriteria_id' => 6,
-                'penduduk_id' => 114,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            184 => 
-            array (
-                'id' => 685,
-                'kriteria_id' => 1,
-                'penduduk_id' => 115,
-                'nilai' => 3260250.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            185 => 
-            array (
-                'id' => 686,
-                'kriteria_id' => 2,
-                'penduduk_id' => 115,
-                'nilai' => 89.6,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            186 => 
-            array (
-                'id' => 687,
-                'kriteria_id' => 3,
-                'penduduk_id' => 115,
-                'nilai' => 20836000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            187 => 
-            array (
-                'id' => 688,
-                'kriteria_id' => 4,
-                'penduduk_id' => 115,
-                'nilai' => 91.07,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            188 => 
-            array (
-                'id' => 689,
-                'kriteria_id' => 5,
-                'penduduk_id' => 115,
-                'nilai' => 65.61,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            189 => 
-            array (
-                'id' => 690,
-                'kriteria_id' => 6,
-                'penduduk_id' => 115,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            190 => 
-            array (
-                'id' => 691,
-                'kriteria_id' => 1,
-                'penduduk_id' => 116,
-                'nilai' => 2098250.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            191 => 
-            array (
-                'id' => 692,
-                'kriteria_id' => 2,
-                'penduduk_id' => 116,
-                'nilai' => 81.9,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            192 => 
-            array (
-                'id' => 693,
-                'kriteria_id' => 3,
-                'penduduk_id' => 116,
-                'nilai' => 27004000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            193 => 
-            array (
-                'id' => 694,
-                'kriteria_id' => 4,
-                'penduduk_id' => 116,
-                'nilai' => 80.07,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            194 => 
-            array (
-                'id' => 695,
-                'kriteria_id' => 5,
-                'penduduk_id' => 116,
-                'nilai' => 66.09,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            195 => 
-            array (
-                'id' => 696,
-                'kriteria_id' => 6,
-                'penduduk_id' => 116,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            196 => 
-            array (
-                'id' => 697,
-                'kriteria_id' => 1,
-                'penduduk_id' => 117,
-                'nilai' => 3270050.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            197 => 
-            array (
-                'id' => 698,
-                'kriteria_id' => 2,
-                'penduduk_id' => 117,
-                'nilai' => 62.34,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            198 => 
-            array (
-                'id' => 699,
-                'kriteria_id' => 3,
-                'penduduk_id' => 117,
-                'nilai' => 27820000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            199 => 
-            array (
-                'id' => 700,
-                'kriteria_id' => 4,
-                'penduduk_id' => 117,
-                'nilai' => 66.34,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            200 => 
-            array (
-                'id' => 701,
-                'kriteria_id' => 5,
-                'penduduk_id' => 117,
-                'nilai' => 54.08,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            201 => 
-            array (
-                'id' => 702,
-                'kriteria_id' => 6,
-                'penduduk_id' => 117,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            202 => 
-            array (
-                'id' => 703,
-                'kriteria_id' => 1,
-                'penduduk_id' => 118,
-                'nilai' => 2312800.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            203 => 
-            array (
-                'id' => 704,
-                'kriteria_id' => 2,
-                'penduduk_id' => 118,
-                'nilai' => 72.14,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            204 => 
-            array (
-                'id' => 705,
-                'kriteria_id' => 3,
-                'penduduk_id' => 118,
-                'nilai' => 17584000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            205 => 
-            array (
-                'id' => 706,
-                'kriteria_id' => 4,
-                'penduduk_id' => 118,
-                'nilai' => 46.39,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            206 => 
-            array (
-                'id' => 707,
-                'kriteria_id' => 5,
-                'penduduk_id' => 118,
-                'nilai' => 53.7,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            207 => 
-            array (
-                'id' => 708,
-                'kriteria_id' => 6,
-                'penduduk_id' => 118,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            208 => 
-            array (
-                'id' => 709,
-                'kriteria_id' => 1,
-                'penduduk_id' => 119,
-                'nilai' => 2184700.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            209 => 
-            array (
-                'id' => 710,
-                'kriteria_id' => 2,
-                'penduduk_id' => 119,
-                'nilai' => 46.69,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            210 => 
-            array (
-                'id' => 711,
-                'kriteria_id' => 3,
-                'penduduk_id' => 119,
-                'nilai' => 29864000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            211 => 
-            array (
-                'id' => 712,
-                'kriteria_id' => 4,
-                'penduduk_id' => 119,
-                'nilai' => 61.79,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            212 => 
-            array (
-                'id' => 713,
-                'kriteria_id' => 5,
-                'penduduk_id' => 119,
-                'nilai' => 34.67,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            213 => 
-            array (
-                'id' => 714,
-                'kriteria_id' => 6,
-                'penduduk_id' => 119,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            214 => 
-            array (
-                'id' => 715,
-                'kriteria_id' => 1,
-                'penduduk_id' => 120,
-                'nilai' => 1631350.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            215 => 
-            array (
-                'id' => 716,
-                'kriteria_id' => 2,
-                'penduduk_id' => 120,
-                'nilai' => 38.61,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            216 => 
-            array (
-                'id' => 717,
-                'kriteria_id' => 3,
-                'penduduk_id' => 120,
-                'nilai' => 20000000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            217 => 
-            array (
-                'id' => 718,
-                'kriteria_id' => 4,
-                'penduduk_id' => 120,
-                'nilai' => 44.93,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            218 => 
-            array (
-                'id' => 719,
-                'kriteria_id' => 5,
-                'penduduk_id' => 120,
-                'nilai' => 59.39,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            219 => 
-            array (
-                'id' => 720,
-                'kriteria_id' => 6,
-                'penduduk_id' => 120,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            220 => 
-            array (
-                'id' => 721,
-                'kriteria_id' => 1,
-                'penduduk_id' => 121,
-                'nilai' => 2248050.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            221 => 
-            array (
-                'id' => 722,
-                'kriteria_id' => 2,
-                'penduduk_id' => 121,
-                'nilai' => 50.28,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            222 => 
-            array (
-                'id' => 723,
-                'kriteria_id' => 3,
-                'penduduk_id' => 121,
-                'nilai' => 38840000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            223 => 
-            array (
-                'id' => 724,
-                'kriteria_id' => 4,
-                'penduduk_id' => 121,
-                'nilai' => 56.4,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            224 => 
-            array (
-                'id' => 725,
-                'kriteria_id' => 5,
-                'penduduk_id' => 121,
-                'nilai' => 56.99,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            225 => 
-            array (
-                'id' => 726,
-                'kriteria_id' => 6,
-                'penduduk_id' => 121,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            226 => 
-            array (
-                'id' => 727,
-                'kriteria_id' => 1,
-                'penduduk_id' => 122,
-                'nilai' => 1273650.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            227 => 
-            array (
-                'id' => 728,
-                'kriteria_id' => 2,
-                'penduduk_id' => 122,
-                'nilai' => 66.59,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            228 => 
-            array (
-                'id' => 729,
-                'kriteria_id' => 3,
-                'penduduk_id' => 122,
-                'nilai' => 18332000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            229 => 
-            array (
-                'id' => 730,
-                'kriteria_id' => 4,
-                'penduduk_id' => 122,
-                'nilai' => 76.03,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            230 => 
-            array (
-                'id' => 731,
-                'kriteria_id' => 5,
-                'penduduk_id' => 122,
-                'nilai' => 30.69,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            231 => 
-            array (
-                'id' => 732,
-                'kriteria_id' => 6,
-                'penduduk_id' => 122,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            232 => 
-            array (
-                'id' => 733,
-                'kriteria_id' => 1,
-                'penduduk_id' => 123,
-                'nilai' => 3431400.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            233 => 
-            array (
-                'id' => 734,
-                'kriteria_id' => 2,
-                'penduduk_id' => 123,
-                'nilai' => 39.7,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            234 => 
-            array (
-                'id' => 735,
-                'kriteria_id' => 3,
-                'penduduk_id' => 123,
-                'nilai' => 35836000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            235 => 
-            array (
-                'id' => 736,
-                'kriteria_id' => 4,
-                'penduduk_id' => 123,
-                'nilai' => 99.98,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            236 => 
-            array (
-                'id' => 737,
-                'kriteria_id' => 5,
-                'penduduk_id' => 123,
-                'nilai' => 53.09,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            237 => 
-            array (
-                'id' => 738,
-                'kriteria_id' => 6,
-                'penduduk_id' => 123,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            238 => 
-            array (
-                'id' => 739,
-                'kriteria_id' => 1,
-                'penduduk_id' => 124,
-                'nilai' => 1954400.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            239 => 
-            array (
-                'id' => 740,
-                'kriteria_id' => 2,
-                'penduduk_id' => 124,
-                'nilai' => 80.54,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            240 => 
-            array (
-                'id' => 741,
-                'kriteria_id' => 3,
-                'penduduk_id' => 124,
-                'nilai' => 21364000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            241 => 
-            array (
-                'id' => 742,
-                'kriteria_id' => 4,
-                'penduduk_id' => 124,
-                'nilai' => 52.1,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            242 => 
-            array (
-                'id' => 743,
-                'kriteria_id' => 5,
-                'penduduk_id' => 124,
-                'nilai' => 72.72,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            243 => 
-            array (
-                'id' => 744,
-                'kriteria_id' => 6,
-                'penduduk_id' => 124,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            244 => 
-            array (
-                'id' => 745,
-                'kriteria_id' => 1,
-                'penduduk_id' => 125,
-                'nilai' => 1892100.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            245 => 
-            array (
-                'id' => 746,
-                'kriteria_id' => 2,
-                'penduduk_id' => 125,
-                'nilai' => 31.24,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            246 => 
-            array (
-                'id' => 747,
-                'kriteria_id' => 3,
-                'penduduk_id' => 125,
-                'nilai' => 18328000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            247 => 
-            array (
-                'id' => 748,
-                'kriteria_id' => 4,
-                'penduduk_id' => 125,
-                'nilai' => 80.59,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            248 => 
-            array (
-                'id' => 749,
-                'kriteria_id' => 5,
-                'penduduk_id' => 125,
-                'nilai' => 33.11,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            249 => 
-            array (
-                'id' => 750,
-                'kriteria_id' => 6,
-                'penduduk_id' => 125,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            250 => 
-            array (
-                'id' => 751,
-                'kriteria_id' => 1,
-                'penduduk_id' => 126,
-                'nilai' => 3166450.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            251 => 
-            array (
-                'id' => 752,
-                'kriteria_id' => 2,
-                'penduduk_id' => 126,
-                'nilai' => 83.96,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            252 => 
-            array (
-                'id' => 753,
-                'kriteria_id' => 3,
-                'penduduk_id' => 126,
-                'nilai' => 38008000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            253 => 
-            array (
-                'id' => 754,
-                'kriteria_id' => 4,
-                'penduduk_id' => 126,
-                'nilai' => 77.52,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            254 => 
-            array (
-                'id' => 755,
-                'kriteria_id' => 5,
-                'penduduk_id' => 126,
-                'nilai' => 82.3,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            255 => 
-            array (
-                'id' => 756,
-                'kriteria_id' => 6,
-                'penduduk_id' => 126,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            256 => 
-            array (
-                'id' => 757,
-                'kriteria_id' => 1,
-                'penduduk_id' => 127,
-                'nilai' => 1856750.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            257 => 
-            array (
-                'id' => 758,
-                'kriteria_id' => 2,
-                'penduduk_id' => 127,
-                'nilai' => 56.87,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            258 => 
-            array (
-                'id' => 759,
-                'kriteria_id' => 3,
-                'penduduk_id' => 127,
-                'nilai' => 36656000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            259 => 
-            array (
-                'id' => 760,
-                'kriteria_id' => 4,
-                'penduduk_id' => 127,
-                'nilai' => 47.19,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            260 => 
-            array (
-                'id' => 761,
-                'kriteria_id' => 5,
-                'penduduk_id' => 127,
-                'nilai' => 75.42,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            261 => 
-            array (
-                'id' => 762,
-                'kriteria_id' => 6,
-                'penduduk_id' => 127,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            262 => 
-            array (
-                'id' => 763,
-                'kriteria_id' => 1,
-                'penduduk_id' => 128,
-                'nilai' => 2177350.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            263 => 
-            array (
-                'id' => 764,
-                'kriteria_id' => 2,
-                'penduduk_id' => 128,
-                'nilai' => 26.56,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            264 => 
-            array (
-                'id' => 765,
-                'kriteria_id' => 3,
-                'penduduk_id' => 128,
-                'nilai' => 11244000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            265 => 
-            array (
-                'id' => 766,
-                'kriteria_id' => 4,
-                'penduduk_id' => 128,
-                'nilai' => 30.82,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            266 => 
-            array (
-                'id' => 767,
-                'kriteria_id' => 5,
-                'penduduk_id' => 128,
-                'nilai' => 66.91,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            267 => 
-            array (
-                'id' => 768,
-                'kriteria_id' => 6,
-                'penduduk_id' => 128,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            268 => 
-            array (
-                'id' => 769,
-                'kriteria_id' => 1,
-                'penduduk_id' => 129,
-                'nilai' => 3349500.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            269 => 
-            array (
-                'id' => 770,
-                'kriteria_id' => 2,
-                'penduduk_id' => 129,
-                'nilai' => 83.68,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            270 => 
-            array (
-                'id' => 771,
-                'kriteria_id' => 3,
-                'penduduk_id' => 129,
-                'nilai' => 35716000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            271 => 
-            array (
-                'id' => 772,
-                'kriteria_id' => 4,
-                'penduduk_id' => 129,
-                'nilai' => 80.06,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            272 => 
-            array (
-                'id' => 773,
-                'kriteria_id' => 5,
-                'penduduk_id' => 129,
-                'nilai' => 34.65,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            273 => 
-            array (
-                'id' => 774,
-                'kriteria_id' => 6,
-                'penduduk_id' => 129,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            274 => 
-            array (
-                'id' => 775,
-                'kriteria_id' => 1,
-                'penduduk_id' => 130,
-                'nilai' => 2249100.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            275 => 
-            array (
-                'id' => 776,
-                'kriteria_id' => 2,
-                'penduduk_id' => 130,
-                'nilai' => 45.4,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            276 => 
-            array (
-                'id' => 777,
-                'kriteria_id' => 3,
-                'penduduk_id' => 130,
-                'nilai' => 12100000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            277 => 
-            array (
-                'id' => 778,
-                'kriteria_id' => 4,
-                'penduduk_id' => 130,
-                'nilai' => 34.87,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            278 => 
-            array (
-                'id' => 779,
-                'kriteria_id' => 5,
-                'penduduk_id' => 130,
-                'nilai' => 60.16,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            279 => 
-            array (
-                'id' => 780,
-                'kriteria_id' => 6,
-                'penduduk_id' => 130,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            280 => 
-            array (
-                'id' => 781,
-                'kriteria_id' => 1,
-                'penduduk_id' => 131,
-                'nilai' => 1741950.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            281 => 
-            array (
-                'id' => 782,
-                'kriteria_id' => 2,
-                'penduduk_id' => 131,
-                'nilai' => 72.7,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            282 => 
-            array (
-                'id' => 783,
-                'kriteria_id' => 3,
-                'penduduk_id' => 131,
-                'nilai' => 29508000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            283 => 
-            array (
-                'id' => 784,
-                'kriteria_id' => 4,
-                'penduduk_id' => 131,
-                'nilai' => 31.35,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            284 => 
-            array (
-                'id' => 785,
-                'kriteria_id' => 5,
-                'penduduk_id' => 131,
-                'nilai' => 33.24,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            285 => 
-            array (
-                'id' => 786,
-                'kriteria_id' => 6,
-                'penduduk_id' => 131,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            286 => 
-            array (
-                'id' => 787,
-                'kriteria_id' => 1,
-                'penduduk_id' => 132,
-                'nilai' => 1632400.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            287 => 
-            array (
-                'id' => 788,
-                'kriteria_id' => 2,
-                'penduduk_id' => 132,
-                'nilai' => 89.31,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            288 => 
-            array (
-                'id' => 789,
-                'kriteria_id' => 3,
-                'penduduk_id' => 132,
-                'nilai' => 23644000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            289 => 
-            array (
-                'id' => 790,
-                'kriteria_id' => 4,
-                'penduduk_id' => 132,
-                'nilai' => 35.06,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            290 => 
-            array (
-                'id' => 791,
-                'kriteria_id' => 5,
-                'penduduk_id' => 132,
-                'nilai' => 72.29,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            291 => 
-            array (
-                'id' => 792,
-                'kriteria_id' => 6,
-                'penduduk_id' => 132,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            292 => 
-            array (
-                'id' => 793,
-                'kriteria_id' => 1,
-                'penduduk_id' => 133,
-                'nilai' => 2345350.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            293 => 
-            array (
-                'id' => 794,
-                'kriteria_id' => 2,
-                'penduduk_id' => 133,
-                'nilai' => 34.99,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            294 => 
-            array (
-                'id' => 795,
-                'kriteria_id' => 3,
-                'penduduk_id' => 133,
-                'nilai' => 27756000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            295 => 
-            array (
-                'id' => 796,
-                'kriteria_id' => 4,
-                'penduduk_id' => 133,
-                'nilai' => 48.84,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            296 => 
-            array (
-                'id' => 797,
-                'kriteria_id' => 5,
-                'penduduk_id' => 133,
-                'nilai' => 74.98,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            297 => 
-            array (
-                'id' => 798,
-                'kriteria_id' => 6,
-                'penduduk_id' => 133,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            298 => 
-            array (
-                'id' => 799,
-                'kriteria_id' => 1,
-                'penduduk_id' => 134,
-                'nilai' => 1300600.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            299 => 
-            array (
-                'id' => 800,
-                'kriteria_id' => 2,
-                'penduduk_id' => 134,
-                'nilai' => 35.34,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            300 => 
-            array (
-                'id' => 801,
-                'kriteria_id' => 3,
-                'penduduk_id' => 134,
-                'nilai' => 35400000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            301 => 
-            array (
-                'id' => 802,
-                'kriteria_id' => 4,
-                'penduduk_id' => 134,
-                'nilai' => 99.44,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            302 => 
-            array (
-                'id' => 803,
-                'kriteria_id' => 5,
-                'penduduk_id' => 134,
-                'nilai' => 53.63,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            303 => 
-            array (
-                'id' => 804,
-                'kriteria_id' => 6,
-                'penduduk_id' => 134,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            304 => 
-            array (
-                'id' => 805,
-                'kriteria_id' => 1,
-                'penduduk_id' => 135,
-                'nilai' => 1475600.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            305 => 
-            array (
-                'id' => 806,
-                'kriteria_id' => 2,
-                'penduduk_id' => 135,
-                'nilai' => 73.06,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            306 => 
-            array (
-                'id' => 807,
-                'kriteria_id' => 3,
-                'penduduk_id' => 135,
-                'nilai' => 26628000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            307 => 
-            array (
-                'id' => 808,
-                'kriteria_id' => 4,
-                'penduduk_id' => 135,
-                'nilai' => 73.54,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            308 => 
-            array (
-                'id' => 809,
-                'kriteria_id' => 5,
-                'penduduk_id' => 135,
-                'nilai' => 37.7,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            309 => 
-            array (
-                'id' => 810,
-                'kriteria_id' => 6,
-                'penduduk_id' => 135,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            310 => 
-            array (
-                'id' => 811,
-                'kriteria_id' => 1,
-                'penduduk_id' => 136,
-                'nilai' => 1162350.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            311 => 
-            array (
-                'id' => 812,
-                'kriteria_id' => 2,
-                'penduduk_id' => 136,
-                'nilai' => 57.45,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            312 => 
-            array (
-                'id' => 813,
-                'kriteria_id' => 3,
-                'penduduk_id' => 136,
-                'nilai' => 29948000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            313 => 
-            array (
-                'id' => 814,
-                'kriteria_id' => 4,
-                'penduduk_id' => 136,
-                'nilai' => 59.38,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            314 => 
-            array (
-                'id' => 815,
-                'kriteria_id' => 5,
-                'penduduk_id' => 136,
-                'nilai' => 60.15,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            315 => 
-            array (
-                'id' => 816,
-                'kriteria_id' => 6,
-                'penduduk_id' => 136,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            316 => 
-            array (
-                'id' => 817,
-                'kriteria_id' => 1,
-                'penduduk_id' => 137,
-                'nilai' => 2025100.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            317 => 
-            array (
-                'id' => 818,
-                'kriteria_id' => 2,
-                'penduduk_id' => 137,
-                'nilai' => 31.91,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            318 => 
-            array (
-                'id' => 819,
-                'kriteria_id' => 3,
-                'penduduk_id' => 137,
-                'nilai' => 28056000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            319 => 
-            array (
-                'id' => 820,
-                'kriteria_id' => 4,
-                'penduduk_id' => 137,
-                'nilai' => 79.86,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            320 => 
-            array (
-                'id' => 821,
-                'kriteria_id' => 5,
-                'penduduk_id' => 137,
-                'nilai' => 90.15,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            321 => 
-            array (
-                'id' => 822,
-                'kriteria_id' => 6,
-                'penduduk_id' => 137,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            322 => 
-            array (
-                'id' => 823,
-                'kriteria_id' => 1,
-                'penduduk_id' => 138,
-                'nilai' => 2220400.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            323 => 
-            array (
-                'id' => 824,
-                'kriteria_id' => 2,
-                'penduduk_id' => 138,
-                'nilai' => 86.41,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            324 => 
-            array (
-                'id' => 825,
-                'kriteria_id' => 3,
-                'penduduk_id' => 138,
-                'nilai' => 28268000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            325 => 
-            array (
-                'id' => 826,
-                'kriteria_id' => 4,
-                'penduduk_id' => 138,
-                'nilai' => 76.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            326 => 
-            array (
-                'id' => 827,
-                'kriteria_id' => 5,
-                'penduduk_id' => 138,
-                'nilai' => 73.28,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            327 => 
-            array (
-                'id' => 828,
-                'kriteria_id' => 6,
-                'penduduk_id' => 138,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            328 => 
-            array (
-                'id' => 829,
-                'kriteria_id' => 1,
-                'penduduk_id' => 139,
-                'nilai' => 2573200.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            329 => 
-            array (
-                'id' => 830,
-                'kriteria_id' => 2,
-                'penduduk_id' => 139,
-                'nilai' => 78.02,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            330 => 
-            array (
-                'id' => 831,
-                'kriteria_id' => 3,
-                'penduduk_id' => 139,
-                'nilai' => 11276000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            331 => 
-            array (
-                'id' => 832,
-                'kriteria_id' => 4,
-                'penduduk_id' => 139,
-                'nilai' => 90.23,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            332 => 
-            array (
-                'id' => 833,
-                'kriteria_id' => 5,
-                'penduduk_id' => 139,
-                'nilai' => 92.91,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            333 => 
-            array (
-                'id' => 834,
-                'kriteria_id' => 6,
-                'penduduk_id' => 139,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            334 => 
-            array (
-                'id' => 835,
-                'kriteria_id' => 1,
-                'penduduk_id' => 140,
-                'nilai' => 2745050.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            335 => 
-            array (
-                'id' => 836,
-                'kriteria_id' => 2,
-                'penduduk_id' => 140,
-                'nilai' => 69.05,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            336 => 
-            array (
-                'id' => 837,
-                'kriteria_id' => 3,
-                'penduduk_id' => 140,
-                'nilai' => 15152000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            337 => 
-            array (
-                'id' => 838,
-                'kriteria_id' => 4,
-                'penduduk_id' => 140,
-                'nilai' => 54.13,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            338 => 
-            array (
-                'id' => 839,
-                'kriteria_id' => 5,
-                'penduduk_id' => 140,
-                'nilai' => 33.34,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            339 => 
-            array (
-                'id' => 840,
-                'kriteria_id' => 6,
-                'penduduk_id' => 140,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            340 => 
-            array (
-                'id' => 841,
-                'kriteria_id' => 1,
-                'penduduk_id' => 141,
-                'nilai' => 919450.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            341 => 
-            array (
-                'id' => 842,
-                'kriteria_id' => 2,
-                'penduduk_id' => 141,
-                'nilai' => 60.43,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            342 => 
-            array (
-                'id' => 843,
-                'kriteria_id' => 3,
-                'penduduk_id' => 141,
-                'nilai' => 17544000.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            343 => 
-            array (
-                'id' => 844,
-                'kriteria_id' => 4,
-                'penduduk_id' => 141,
-                'nilai' => 91.38,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            344 => 
-            array (
-                'id' => 845,
-                'kriteria_id' => 5,
-                'penduduk_id' => 141,
-                'nilai' => 94.76,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            345 => 
-            array (
-                'id' => 846,
-                'kriteria_id' => 6,
-                'penduduk_id' => 141,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            346 => 
-            array (
-                'id' => 847,
-                'kriteria_id' => 1,
-                'penduduk_id' => 142,
-                'nilai' => 1303750.0,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            347 => 
-            array (
-                'id' => 848,
-                'kriteria_id' => 2,
-                'penduduk_id' => 142,
-                'nilai' => 97.74,
-                'created_at' => '2023-05-29 19:52:34',
-                'updated_at' => '2023-05-29 19:52:34',
-            ),
-            348 => 
-            array (
-                'id' => 849,
-                'kriteria_id' => 3,
-                'penduduk_id' => 142,
-                'nilai' => 17640000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            349 => 
-            array (
-                'id' => 850,
-                'kriteria_id' => 4,
-                'penduduk_id' => 142,
-                'nilai' => 30.67,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            350 => 
-            array (
-                'id' => 851,
-                'kriteria_id' => 5,
-                'penduduk_id' => 142,
-                'nilai' => 99.27,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            351 => 
-            array (
-                'id' => 852,
-                'kriteria_id' => 6,
-                'penduduk_id' => 142,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            352 => 
-            array (
-                'id' => 853,
-                'kriteria_id' => 1,
-                'penduduk_id' => 143,
-                'nilai' => 3214400.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            353 => 
-            array (
-                'id' => 854,
-                'kriteria_id' => 2,
-                'penduduk_id' => 143,
-                'nilai' => 83.46,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            354 => 
-            array (
-                'id' => 855,
-                'kriteria_id' => 3,
-                'penduduk_id' => 143,
-                'nilai' => 12484000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            355 => 
-            array (
-                'id' => 856,
-                'kriteria_id' => 4,
-                'penduduk_id' => 143,
-                'nilai' => 61.27,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            356 => 
-            array (
-                'id' => 857,
-                'kriteria_id' => 5,
-                'penduduk_id' => 143,
-                'nilai' => 69.81,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            357 => 
-            array (
-                'id' => 858,
-                'kriteria_id' => 6,
-                'penduduk_id' => 143,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            358 => 
-            array (
-                'id' => 859,
-                'kriteria_id' => 1,
-                'penduduk_id' => 144,
-                'nilai' => 2810850.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            359 => 
-            array (
-                'id' => 860,
-                'kriteria_id' => 2,
-                'penduduk_id' => 144,
-                'nilai' => 30.15,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            360 => 
-            array (
-                'id' => 861,
-                'kriteria_id' => 3,
-                'penduduk_id' => 144,
-                'nilai' => 19604000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            361 => 
-            array (
-                'id' => 862,
-                'kriteria_id' => 4,
-                'penduduk_id' => 144,
-                'nilai' => 29.2,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            362 => 
-            array (
-                'id' => 863,
-                'kriteria_id' => 5,
-                'penduduk_id' => 144,
-                'nilai' => 29.81,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            363 => 
-            array (
-                'id' => 864,
-                'kriteria_id' => 6,
-                'penduduk_id' => 144,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            364 => 
-            array (
-                'id' => 865,
-                'kriteria_id' => 1,
-                'penduduk_id' => 145,
-                'nilai' => 2710750.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            365 => 
-            array (
-                'id' => 866,
-                'kriteria_id' => 2,
-                'penduduk_id' => 145,
-                'nilai' => 57.89,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            366 => 
-            array (
-                'id' => 867,
-                'kriteria_id' => 3,
-                'penduduk_id' => 145,
-                'nilai' => 24092000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            367 => 
-            array (
-                'id' => 868,
-                'kriteria_id' => 4,
-                'penduduk_id' => 145,
-                'nilai' => 86.55,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            368 => 
-            array (
-                'id' => 869,
-                'kriteria_id' => 5,
-                'penduduk_id' => 145,
-                'nilai' => 50.63,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            369 => 
-            array (
-                'id' => 870,
-                'kriteria_id' => 6,
-                'penduduk_id' => 145,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            370 => 
-            array (
-                'id' => 871,
-                'kriteria_id' => 1,
-                'penduduk_id' => 146,
-                'nilai' => 1499050.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            371 => 
-            array (
-                'id' => 872,
-                'kriteria_id' => 2,
-                'penduduk_id' => 146,
-                'nilai' => 48.21,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            372 => 
-            array (
-                'id' => 873,
-                'kriteria_id' => 3,
-                'penduduk_id' => 146,
-                'nilai' => 32724000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            373 => 
-            array (
-                'id' => 874,
-                'kriteria_id' => 4,
-                'penduduk_id' => 146,
-                'nilai' => 41.8,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            374 => 
-            array (
-                'id' => 875,
-                'kriteria_id' => 5,
-                'penduduk_id' => 146,
-                'nilai' => 34.29,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            375 => 
-            array (
-                'id' => 876,
-                'kriteria_id' => 6,
-                'penduduk_id' => 146,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            376 => 
-            array (
-                'id' => 877,
-                'kriteria_id' => 1,
-                'penduduk_id' => 147,
-                'nilai' => 1574650.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            377 => 
-            array (
-                'id' => 878,
-                'kriteria_id' => 2,
-                'penduduk_id' => 147,
-                'nilai' => 86.77,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            378 => 
-            array (
-                'id' => 879,
-                'kriteria_id' => 3,
-                'penduduk_id' => 147,
-                'nilai' => 29508000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            379 => 
-            array (
-                'id' => 880,
-                'kriteria_id' => 4,
-                'penduduk_id' => 147,
-                'nilai' => 60.54,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            380 => 
-            array (
-                'id' => 881,
-                'kriteria_id' => 5,
-                'penduduk_id' => 147,
-                'nilai' => 78.06,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            381 => 
-            array (
-                'id' => 882,
-                'kriteria_id' => 6,
-                'penduduk_id' => 147,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            382 => 
-            array (
-                'id' => 883,
-                'kriteria_id' => 1,
-                'penduduk_id' => 148,
-                'nilai' => 1798300.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            383 => 
-            array (
-                'id' => 884,
-                'kriteria_id' => 2,
-                'penduduk_id' => 148,
-                'nilai' => 41.84,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            384 => 
-            array (
-                'id' => 885,
-                'kriteria_id' => 3,
-                'penduduk_id' => 148,
-                'nilai' => 27296000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            385 => 
-            array (
-                'id' => 886,
-                'kriteria_id' => 4,
-                'penduduk_id' => 148,
-                'nilai' => 51.4,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            386 => 
-            array (
-                'id' => 887,
-                'kriteria_id' => 5,
-                'penduduk_id' => 148,
-                'nilai' => 61.91,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            387 => 
-            array (
-                'id' => 888,
-                'kriteria_id' => 6,
-                'penduduk_id' => 148,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            388 => 
-            array (
-                'id' => 889,
-                'kriteria_id' => 1,
-                'penduduk_id' => 149,
-                'nilai' => 3238550.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            389 => 
-            array (
-                'id' => 890,
-                'kriteria_id' => 2,
-                'penduduk_id' => 149,
-                'nilai' => 40.47,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            390 => 
-            array (
-                'id' => 891,
-                'kriteria_id' => 3,
-                'penduduk_id' => 149,
-                'nilai' => 34512000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            391 => 
-            array (
-                'id' => 892,
-                'kriteria_id' => 4,
-                'penduduk_id' => 149,
-                'nilai' => 96.65,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            392 => 
-            array (
-                'id' => 893,
-                'kriteria_id' => 5,
-                'penduduk_id' => 149,
-                'nilai' => 54.86,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            393 => 
-            array (
-                'id' => 894,
-                'kriteria_id' => 6,
-                'penduduk_id' => 149,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            394 => 
-            array (
-                'id' => 895,
-                'kriteria_id' => 1,
-                'penduduk_id' => 150,
-                'nilai' => 2579500.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            395 => 
-            array (
-                'id' => 896,
-                'kriteria_id' => 2,
-                'penduduk_id' => 150,
-                'nilai' => 78.46,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            396 => 
-            array (
-                'id' => 897,
-                'kriteria_id' => 3,
-                'penduduk_id' => 150,
-                'nilai' => 33528000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            397 => 
-            array (
-                'id' => 898,
-                'kriteria_id' => 4,
-                'penduduk_id' => 150,
-                'nilai' => 34.03,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            398 => 
-            array (
-                'id' => 899,
-                'kriteria_id' => 5,
-                'penduduk_id' => 150,
-                'nilai' => 47.85,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            399 => 
-            array (
-                'id' => 900,
-                'kriteria_id' => 6,
-                'penduduk_id' => 150,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            400 => 
-            array (
-                'id' => 901,
-                'kriteria_id' => 1,
-                'penduduk_id' => 151,
-                'nilai' => 1489950.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            401 => 
-            array (
-                'id' => 902,
-                'kriteria_id' => 2,
-                'penduduk_id' => 151,
-                'nilai' => 74.14,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            402 => 
-            array (
-                'id' => 903,
-                'kriteria_id' => 3,
-                'penduduk_id' => 151,
-                'nilai' => 13180000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            403 => 
-            array (
-                'id' => 904,
-                'kriteria_id' => 4,
-                'penduduk_id' => 151,
-                'nilai' => 72.84,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            404 => 
-            array (
-                'id' => 905,
-                'kriteria_id' => 5,
-                'penduduk_id' => 151,
-                'nilai' => 68.2,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            405 => 
-            array (
-                'id' => 906,
-                'kriteria_id' => 6,
-                'penduduk_id' => 151,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            406 => 
-            array (
-                'id' => 907,
-                'kriteria_id' => 1,
-                'penduduk_id' => 152,
-                'nilai' => 3464300.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            407 => 
-            array (
-                'id' => 908,
-                'kriteria_id' => 2,
-                'penduduk_id' => 152,
-                'nilai' => 27.15,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            408 => 
-            array (
-                'id' => 909,
-                'kriteria_id' => 3,
-                'penduduk_id' => 152,
-                'nilai' => 20976000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            409 => 
-            array (
-                'id' => 910,
-                'kriteria_id' => 4,
-                'penduduk_id' => 152,
-                'nilai' => 30.9,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            410 => 
-            array (
-                'id' => 911,
-                'kriteria_id' => 5,
-                'penduduk_id' => 152,
-                'nilai' => 52.73,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            411 => 
-            array (
-                'id' => 912,
-                'kriteria_id' => 6,
-                'penduduk_id' => 152,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            412 => 
-            array (
-                'id' => 913,
-                'kriteria_id' => 1,
-                'penduduk_id' => 153,
-                'nilai' => 1153950.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            413 => 
-            array (
-                'id' => 914,
-                'kriteria_id' => 2,
-                'penduduk_id' => 153,
-                'nilai' => 29.74,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            414 => 
-            array (
-                'id' => 915,
-                'kriteria_id' => 3,
-                'penduduk_id' => 153,
-                'nilai' => 31684000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            415 => 
-            array (
-                'id' => 916,
-                'kriteria_id' => 4,
-                'penduduk_id' => 153,
-                'nilai' => 41.51,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            416 => 
-            array (
-                'id' => 917,
-                'kriteria_id' => 5,
-                'penduduk_id' => 153,
-                'nilai' => 86.52,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            417 => 
-            array (
-                'id' => 918,
-                'kriteria_id' => 6,
-                'penduduk_id' => 153,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            418 => 
-            array (
-                'id' => 919,
-                'kriteria_id' => 1,
-                'penduduk_id' => 154,
-                'nilai' => 3392200.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            419 => 
-            array (
-                'id' => 920,
-                'kriteria_id' => 2,
-                'penduduk_id' => 154,
-                'nilai' => 85.28,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            420 => 
-            array (
-                'id' => 921,
-                'kriteria_id' => 3,
-                'penduduk_id' => 154,
-                'nilai' => 32224000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            421 => 
-            array (
-                'id' => 922,
-                'kriteria_id' => 4,
-                'penduduk_id' => 154,
-                'nilai' => 27.45,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            422 => 
-            array (
-                'id' => 923,
-                'kriteria_id' => 5,
-                'penduduk_id' => 154,
-                'nilai' => 66.37,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            423 => 
-            array (
-                'id' => 924,
-                'kriteria_id' => 6,
-                'penduduk_id' => 154,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            424 => 
-            array (
-                'id' => 925,
-                'kriteria_id' => 1,
-                'penduduk_id' => 155,
-                'nilai' => 1223950.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            425 => 
-            array (
-                'id' => 926,
-                'kriteria_id' => 2,
-                'penduduk_id' => 155,
-                'nilai' => 45.94,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            426 => 
-            array (
-                'id' => 927,
-                'kriteria_id' => 3,
-                'penduduk_id' => 155,
-                'nilai' => 33148000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            427 => 
-            array (
-                'id' => 928,
-                'kriteria_id' => 4,
-                'penduduk_id' => 155,
-                'nilai' => 57.02,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            428 => 
-            array (
-                'id' => 929,
-                'kriteria_id' => 5,
-                'penduduk_id' => 155,
-                'nilai' => 29.08,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            429 => 
-            array (
-                'id' => 930,
-                'kriteria_id' => 6,
-                'penduduk_id' => 155,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            430 => 
-            array (
-                'id' => 931,
-                'kriteria_id' => 1,
-                'penduduk_id' => 156,
-                'nilai' => 2291800.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            431 => 
-            array (
-                'id' => 932,
-                'kriteria_id' => 2,
-                'penduduk_id' => 156,
-                'nilai' => 61.87,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            432 => 
-            array (
-                'id' => 933,
-                'kriteria_id' => 3,
-                'penduduk_id' => 156,
-                'nilai' => 38972000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            433 => 
-            array (
-                'id' => 934,
-                'kriteria_id' => 4,
-                'penduduk_id' => 156,
-                'nilai' => 83.93,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            434 => 
-            array (
-                'id' => 935,
-                'kriteria_id' => 5,
-                'penduduk_id' => 156,
-                'nilai' => 91.47,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            435 => 
-            array (
-                'id' => 936,
-                'kriteria_id' => 6,
-                'penduduk_id' => 156,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            436 => 
-            array (
-                'id' => 937,
-                'kriteria_id' => 1,
-                'penduduk_id' => 157,
-                'nilai' => 3396050.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            437 => 
-            array (
-                'id' => 938,
-                'kriteria_id' => 2,
-                'penduduk_id' => 157,
-                'nilai' => 74.45,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            438 => 
-            array (
-                'id' => 939,
-                'kriteria_id' => 3,
-                'penduduk_id' => 157,
-                'nilai' => 30752000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            439 => 
-            array (
-                'id' => 940,
-                'kriteria_id' => 4,
-                'penduduk_id' => 157,
-                'nilai' => 34.46,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            440 => 
-            array (
-                'id' => 941,
-                'kriteria_id' => 5,
-                'penduduk_id' => 157,
-                'nilai' => 45.61,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            441 => 
-            array (
-                'id' => 942,
-                'kriteria_id' => 6,
-                'penduduk_id' => 157,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            442 => 
-            array (
-                'id' => 943,
-                'kriteria_id' => 1,
-                'penduduk_id' => 158,
-                'nilai' => 2256450.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            443 => 
-            array (
-                'id' => 944,
-                'kriteria_id' => 2,
-                'penduduk_id' => 158,
-                'nilai' => 85.76,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            444 => 
-            array (
-                'id' => 945,
-                'kriteria_id' => 3,
-                'penduduk_id' => 158,
-                'nilai' => 25088000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            445 => 
-            array (
-                'id' => 946,
-                'kriteria_id' => 4,
-                'penduduk_id' => 158,
-                'nilai' => 98.09,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            446 => 
-            array (
-                'id' => 947,
-                'kriteria_id' => 5,
-                'penduduk_id' => 158,
-                'nilai' => 51.59,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            447 => 
-            array (
-                'id' => 948,
-                'kriteria_id' => 6,
-                'penduduk_id' => 158,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            448 => 
-            array (
-                'id' => 949,
-                'kriteria_id' => 1,
-                'penduduk_id' => 159,
-                'nilai' => 1145550.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            449 => 
-            array (
-                'id' => 950,
-                'kriteria_id' => 2,
-                'penduduk_id' => 159,
-                'nilai' => 95.18,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            450 => 
-            array (
-                'id' => 951,
-                'kriteria_id' => 3,
-                'penduduk_id' => 159,
-                'nilai' => 27564000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            451 => 
-            array (
-                'id' => 952,
-                'kriteria_id' => 4,
-                'penduduk_id' => 159,
-                'nilai' => 96.06,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            452 => 
-            array (
-                'id' => 953,
-                'kriteria_id' => 5,
-                'penduduk_id' => 159,
-                'nilai' => 70.42,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            453 => 
-            array (
-                'id' => 954,
-                'kriteria_id' => 6,
-                'penduduk_id' => 159,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            454 => 
-            array (
-                'id' => 955,
-                'kriteria_id' => 1,
-                'penduduk_id' => 160,
-                'nilai' => 1761900.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            455 => 
-            array (
-                'id' => 956,
-                'kriteria_id' => 2,
-                'penduduk_id' => 160,
-                'nilai' => 83.19,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            456 => 
-            array (
-                'id' => 957,
-                'kriteria_id' => 3,
-                'penduduk_id' => 160,
-                'nilai' => 14900000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            457 => 
-            array (
-                'id' => 958,
-                'kriteria_id' => 4,
-                'penduduk_id' => 160,
-                'nilai' => 78.58,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            458 => 
-            array (
-                'id' => 959,
-                'kriteria_id' => 5,
-                'penduduk_id' => 160,
-                'nilai' => 69.65,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            459 => 
-            array (
-                'id' => 960,
-                'kriteria_id' => 6,
-                'penduduk_id' => 160,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            460 => 
-            array (
-                'id' => 961,
-                'kriteria_id' => 1,
-                'penduduk_id' => 161,
-                'nilai' => 1030750.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            461 => 
-            array (
-                'id' => 962,
-                'kriteria_id' => 2,
-                'penduduk_id' => 161,
-                'nilai' => 70.01,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            462 => 
-            array (
-                'id' => 963,
-                'kriteria_id' => 3,
-                'penduduk_id' => 161,
-                'nilai' => 34044000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            463 => 
-            array (
-                'id' => 964,
-                'kriteria_id' => 4,
-                'penduduk_id' => 161,
-                'nilai' => 70.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            464 => 
-            array (
-                'id' => 965,
-                'kriteria_id' => 5,
-                'penduduk_id' => 161,
-                'nilai' => 44.64,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            465 => 
-            array (
-                'id' => 966,
-                'kriteria_id' => 6,
-                'penduduk_id' => 161,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            466 => 
-            array (
-                'id' => 967,
-                'kriteria_id' => 1,
-                'penduduk_id' => 162,
-                'nilai' => 2582300.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            467 => 
-            array (
-                'id' => 968,
-                'kriteria_id' => 2,
-                'penduduk_id' => 162,
-                'nilai' => 34.81,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            468 => 
-            array (
-                'id' => 969,
-                'kriteria_id' => 3,
-                'penduduk_id' => 162,
-                'nilai' => 37208000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            469 => 
-            array (
-                'id' => 970,
-                'kriteria_id' => 4,
-                'penduduk_id' => 162,
-                'nilai' => 66.05,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            470 => 
-            array (
-                'id' => 971,
-                'kriteria_id' => 5,
-                'penduduk_id' => 162,
-                'nilai' => 37.3,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            471 => 
-            array (
-                'id' => 972,
-                'kriteria_id' => 6,
-                'penduduk_id' => 162,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            472 => 
-            array (
-                'id' => 973,
-                'kriteria_id' => 1,
-                'penduduk_id' => 163,
-                'nilai' => 1690150.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            473 => 
-            array (
-                'id' => 974,
-                'kriteria_id' => 2,
-                'penduduk_id' => 163,
-                'nilai' => 61.19,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            474 => 
-            array (
-                'id' => 975,
-                'kriteria_id' => 3,
-                'penduduk_id' => 163,
-                'nilai' => 25624000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            475 => 
-            array (
-                'id' => 976,
-                'kriteria_id' => 4,
-                'penduduk_id' => 163,
-                'nilai' => 57.58,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            476 => 
-            array (
-                'id' => 977,
-                'kriteria_id' => 5,
-                'penduduk_id' => 163,
-                'nilai' => 80.17,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            477 => 
-            array (
-                'id' => 978,
-                'kriteria_id' => 6,
-                'penduduk_id' => 163,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            478 => 
-            array (
-                'id' => 979,
-                'kriteria_id' => 1,
-                'penduduk_id' => 164,
-                'nilai' => 3327100.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            479 => 
-            array (
-                'id' => 980,
-                'kriteria_id' => 2,
-                'penduduk_id' => 164,
-                'nilai' => 58.87,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            480 => 
-            array (
-                'id' => 981,
-                'kriteria_id' => 3,
-                'penduduk_id' => 164,
-                'nilai' => 28752000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            481 => 
-            array (
-                'id' => 982,
-                'kriteria_id' => 4,
-                'penduduk_id' => 164,
-                'nilai' => 36.41,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            482 => 
-            array (
-                'id' => 983,
-                'kriteria_id' => 5,
-                'penduduk_id' => 164,
-                'nilai' => 80.67,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            483 => 
-            array (
-                'id' => 984,
-                'kriteria_id' => 6,
-                'penduduk_id' => 164,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            484 => 
-            array (
-                'id' => 985,
-                'kriteria_id' => 1,
-                'penduduk_id' => 165,
-                'nilai' => 2118900.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            485 => 
-            array (
-                'id' => 986,
-                'kriteria_id' => 2,
-                'penduduk_id' => 165,
-                'nilai' => 54.75,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            486 => 
-            array (
-                'id' => 987,
-                'kriteria_id' => 3,
-                'penduduk_id' => 165,
-                'nilai' => 39296000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            487 => 
-            array (
-                'id' => 988,
-                'kriteria_id' => 4,
-                'penduduk_id' => 165,
-                'nilai' => 48.73,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            488 => 
-            array (
-                'id' => 989,
-                'kriteria_id' => 5,
-                'penduduk_id' => 165,
-                'nilai' => 61.22,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            489 => 
-            array (
-                'id' => 990,
-                'kriteria_id' => 6,
-                'penduduk_id' => 165,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            490 => 
-            array (
-                'id' => 991,
-                'kriteria_id' => 1,
-                'penduduk_id' => 166,
-                'nilai' => 1668800.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            491 => 
-            array (
-                'id' => 992,
-                'kriteria_id' => 2,
-                'penduduk_id' => 166,
-                'nilai' => 66.93,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            492 => 
-            array (
-                'id' => 993,
-                'kriteria_id' => 3,
-                'penduduk_id' => 166,
-                'nilai' => 27716000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            493 => 
-            array (
-                'id' => 994,
-                'kriteria_id' => 4,
-                'penduduk_id' => 166,
-                'nilai' => 97.19,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            494 => 
-            array (
-                'id' => 995,
-                'kriteria_id' => 5,
-                'penduduk_id' => 166,
-                'nilai' => 35.9,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            495 => 
-            array (
-                'id' => 996,
-                'kriteria_id' => 6,
-                'penduduk_id' => 166,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            496 => 
-            array (
-                'id' => 997,
-                'kriteria_id' => 1,
-                'penduduk_id' => 167,
-                'nilai' => 1330000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            497 => 
-            array (
-                'id' => 998,
-                'kriteria_id' => 2,
-                'penduduk_id' => 167,
-                'nilai' => 46.85,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            498 => 
-            array (
-                'id' => 999,
-                'kriteria_id' => 3,
-                'penduduk_id' => 167,
-                'nilai' => 24552000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            499 => 
-            array (
-                'id' => 1000,
-                'kriteria_id' => 4,
-                'penduduk_id' => 167,
-                'nilai' => 95.11,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-        ));
-        \DB::table('penduduk_nilai')->insert(array (
-            0 => 
-            array (
-                'id' => 1001,
-                'kriteria_id' => 5,
-                'penduduk_id' => 167,
-                'nilai' => 52.06,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            1 => 
-            array (
-                'id' => 1002,
-                'kriteria_id' => 6,
-                'penduduk_id' => 167,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            2 => 
-            array (
-                'id' => 1003,
-                'kriteria_id' => 1,
-                'penduduk_id' => 168,
-                'nilai' => 2667350.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            3 => 
-            array (
-                'id' => 1004,
-                'kriteria_id' => 2,
-                'penduduk_id' => 168,
-                'nilai' => 42.58,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            4 => 
-            array (
-                'id' => 1005,
-                'kriteria_id' => 3,
-                'penduduk_id' => 168,
-                'nilai' => 12344000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            5 => 
-            array (
-                'id' => 1006,
-                'kriteria_id' => 4,
-                'penduduk_id' => 168,
-                'nilai' => 71.48,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            6 => 
-            array (
-                'id' => 1007,
-                'kriteria_id' => 5,
-                'penduduk_id' => 168,
-                'nilai' => 40.67,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            7 => 
-            array (
-                'id' => 1008,
-                'kriteria_id' => 6,
-                'penduduk_id' => 168,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            8 => 
-            array (
-                'id' => 1009,
-                'kriteria_id' => 1,
-                'penduduk_id' => 169,
-                'nilai' => 2236850.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            9 => 
-            array (
-                'id' => 1010,
-                'kriteria_id' => 2,
-                'penduduk_id' => 169,
-                'nilai' => 57.35,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            10 => 
-            array (
-                'id' => 1011,
-                'kriteria_id' => 3,
-                'penduduk_id' => 169,
-                'nilai' => 25496000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            11 => 
-            array (
-                'id' => 1012,
-                'kriteria_id' => 4,
-                'penduduk_id' => 169,
-                'nilai' => 34.63,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            12 => 
-            array (
-                'id' => 1013,
-                'kriteria_id' => 5,
-                'penduduk_id' => 169,
-                'nilai' => 67.03,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            13 => 
-            array (
-                'id' => 1014,
-                'kriteria_id' => 6,
-                'penduduk_id' => 169,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            14 => 
-            array (
-                'id' => 1015,
-                'kriteria_id' => 1,
-                'penduduk_id' => 170,
-                'nilai' => 1353100.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            15 => 
-            array (
-                'id' => 1016,
-                'kriteria_id' => 2,
-                'penduduk_id' => 170,
-                'nilai' => 41.97,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            16 => 
-            array (
-                'id' => 1017,
-                'kriteria_id' => 3,
-                'penduduk_id' => 170,
-                'nilai' => 29924000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            17 => 
-            array (
-                'id' => 1018,
-                'kriteria_id' => 4,
-                'penduduk_id' => 170,
-                'nilai' => 39.74,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            18 => 
-            array (
-                'id' => 1019,
-                'kriteria_id' => 5,
-                'penduduk_id' => 170,
-                'nilai' => 53.21,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            19 => 
-            array (
-                'id' => 1020,
-                'kriteria_id' => 6,
-                'penduduk_id' => 170,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            20 => 
-            array (
-                'id' => 1021,
-                'kriteria_id' => 1,
-                'penduduk_id' => 171,
-                'nilai' => 2175950.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            21 => 
-            array (
-                'id' => 1022,
-                'kriteria_id' => 2,
-                'penduduk_id' => 171,
-                'nilai' => 51.16,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            22 => 
-            array (
-                'id' => 1023,
-                'kriteria_id' => 3,
-                'penduduk_id' => 171,
-                'nilai' => 33632000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            23 => 
-            array (
-                'id' => 1024,
-                'kriteria_id' => 4,
-                'penduduk_id' => 171,
-                'nilai' => 69.31,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            24 => 
-            array (
-                'id' => 1025,
-                'kriteria_id' => 5,
-                'penduduk_id' => 171,
-                'nilai' => 92.28,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            25 => 
-            array (
-                'id' => 1026,
-                'kriteria_id' => 6,
-                'penduduk_id' => 171,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            26 => 
-            array (
-                'id' => 1027,
-                'kriteria_id' => 1,
-                'penduduk_id' => 172,
-                'nilai' => 2355150.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            27 => 
-            array (
-                'id' => 1028,
-                'kriteria_id' => 2,
-                'penduduk_id' => 172,
-                'nilai' => 39.48,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            28 => 
-            array (
-                'id' => 1029,
-                'kriteria_id' => 3,
-                'penduduk_id' => 172,
-                'nilai' => 39216000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            29 => 
-            array (
-                'id' => 1030,
-                'kriteria_id' => 4,
-                'penduduk_id' => 172,
-                'nilai' => 33.18,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            30 => 
-            array (
-                'id' => 1031,
-                'kriteria_id' => 5,
-                'penduduk_id' => 172,
-                'nilai' => 80.94,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            31 => 
-            array (
-                'id' => 1032,
-                'kriteria_id' => 6,
-                'penduduk_id' => 172,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            32 => 
-            array (
-                'id' => 1033,
-                'kriteria_id' => 1,
-                'penduduk_id' => 173,
-                'nilai' => 1322300.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            33 => 
-            array (
-                'id' => 1034,
-                'kriteria_id' => 2,
-                'penduduk_id' => 173,
-                'nilai' => 40.91,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            34 => 
-            array (
-                'id' => 1035,
-                'kriteria_id' => 3,
-                'penduduk_id' => 173,
-                'nilai' => 28740000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            35 => 
-            array (
-                'id' => 1036,
-                'kriteria_id' => 4,
-                'penduduk_id' => 173,
-                'nilai' => 39.82,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            36 => 
-            array (
-                'id' => 1037,
-                'kriteria_id' => 5,
-                'penduduk_id' => 173,
-                'nilai' => 34.15,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            37 => 
-            array (
-                'id' => 1038,
-                'kriteria_id' => 6,
-                'penduduk_id' => 173,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            38 => 
-            array (
-                'id' => 1039,
-                'kriteria_id' => 1,
-                'penduduk_id' => 174,
-                'nilai' => 3191650.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            39 => 
-            array (
-                'id' => 1040,
-                'kriteria_id' => 2,
-                'penduduk_id' => 174,
-                'nilai' => 57.95,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            40 => 
-            array (
-                'id' => 1041,
-                'kriteria_id' => 3,
-                'penduduk_id' => 174,
-                'nilai' => 22524000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            41 => 
-            array (
-                'id' => 1042,
-                'kriteria_id' => 4,
-                'penduduk_id' => 174,
-                'nilai' => 67.38,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            42 => 
-            array (
-                'id' => 1043,
-                'kriteria_id' => 5,
-                'penduduk_id' => 174,
-                'nilai' => 66.37,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            43 => 
-            array (
-                'id' => 1044,
-                'kriteria_id' => 6,
-                'penduduk_id' => 174,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            44 => 
-            array (
-                'id' => 1045,
-                'kriteria_id' => 1,
-                'penduduk_id' => 175,
-                'nilai' => 3453450.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            45 => 
-            array (
-                'id' => 1046,
-                'kriteria_id' => 2,
-                'penduduk_id' => 175,
-                'nilai' => 34.39,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            46 => 
-            array (
-                'id' => 1047,
-                'kriteria_id' => 3,
-                'penduduk_id' => 175,
-                'nilai' => 30276000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            47 => 
-            array (
-                'id' => 1048,
-                'kriteria_id' => 4,
-                'penduduk_id' => 175,
-                'nilai' => 46.34,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            48 => 
-            array (
-                'id' => 1049,
-                'kriteria_id' => 5,
-                'penduduk_id' => 175,
-                'nilai' => 93.6,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            49 => 
-            array (
-                'id' => 1050,
-                'kriteria_id' => 6,
-                'penduduk_id' => 175,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            50 => 
-            array (
-                'id' => 1051,
-                'kriteria_id' => 1,
-                'penduduk_id' => 176,
-                'nilai' => 3180100.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            51 => 
-            array (
-                'id' => 1052,
-                'kriteria_id' => 2,
-                'penduduk_id' => 176,
-                'nilai' => 80.59,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            52 => 
-            array (
-                'id' => 1053,
-                'kriteria_id' => 3,
-                'penduduk_id' => 176,
-                'nilai' => 29712000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            53 => 
-            array (
-                'id' => 1054,
-                'kriteria_id' => 4,
-                'penduduk_id' => 176,
-                'nilai' => 88.38,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            54 => 
-            array (
-                'id' => 1055,
-                'kriteria_id' => 5,
-                'penduduk_id' => 176,
-                'nilai' => 68.24,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            55 => 
-            array (
-                'id' => 1056,
-                'kriteria_id' => 6,
-                'penduduk_id' => 176,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            56 => 
-            array (
-                'id' => 1057,
-                'kriteria_id' => 1,
-                'penduduk_id' => 177,
-                'nilai' => 1409100.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            57 => 
-            array (
-                'id' => 1058,
-                'kriteria_id' => 2,
-                'penduduk_id' => 177,
-                'nilai' => 34.99,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            58 => 
-            array (
-                'id' => 1059,
-                'kriteria_id' => 3,
-                'penduduk_id' => 177,
-                'nilai' => 28072000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            59 => 
-            array (
-                'id' => 1060,
-                'kriteria_id' => 4,
-                'penduduk_id' => 177,
-                'nilai' => 91.4,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            60 => 
-            array (
-                'id' => 1061,
-                'kriteria_id' => 5,
-                'penduduk_id' => 177,
-                'nilai' => 79.76,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            61 => 
-            array (
-                'id' => 1062,
-                'kriteria_id' => 6,
-                'penduduk_id' => 177,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            62 => 
-            array (
-                'id' => 1063,
-                'kriteria_id' => 1,
-                'penduduk_id' => 178,
-                'nilai' => 892500.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            63 => 
-            array (
-                'id' => 1064,
-                'kriteria_id' => 2,
-                'penduduk_id' => 178,
-                'nilai' => 29.78,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            64 => 
-            array (
-                'id' => 1065,
-                'kriteria_id' => 3,
-                'penduduk_id' => 178,
-                'nilai' => 37612000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            65 => 
-            array (
-                'id' => 1066,
-                'kriteria_id' => 4,
-                'penduduk_id' => 178,
-                'nilai' => 87.25,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            66 => 
-            array (
-                'id' => 1067,
-                'kriteria_id' => 5,
-                'penduduk_id' => 178,
-                'nilai' => 52.28,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            67 => 
-            array (
-                'id' => 1068,
-                'kriteria_id' => 6,
-                'penduduk_id' => 178,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            68 => 
-            array (
-                'id' => 1069,
-                'kriteria_id' => 1,
-                'penduduk_id' => 179,
-                'nilai' => 1523550.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            69 => 
-            array (
-                'id' => 1070,
-                'kriteria_id' => 2,
-                'penduduk_id' => 179,
-                'nilai' => 27.62,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            70 => 
-            array (
-                'id' => 1071,
-                'kriteria_id' => 3,
-                'penduduk_id' => 179,
-                'nilai' => 28952000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            71 => 
-            array (
-                'id' => 1072,
-                'kriteria_id' => 4,
-                'penduduk_id' => 179,
-                'nilai' => 28.52,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            72 => 
-            array (
-                'id' => 1073,
-                'kriteria_id' => 5,
-                'penduduk_id' => 179,
-                'nilai' => 62.67,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            73 => 
-            array (
-                'id' => 1074,
-                'kriteria_id' => 6,
-                'penduduk_id' => 179,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            74 => 
-            array (
-                'id' => 1075,
-                'kriteria_id' => 1,
-                'penduduk_id' => 180,
-                'nilai' => 3300500.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            75 => 
-            array (
-                'id' => 1076,
-                'kriteria_id' => 2,
-                'penduduk_id' => 180,
-                'nilai' => 56.97,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            76 => 
-            array (
-                'id' => 1077,
-                'kriteria_id' => 3,
-                'penduduk_id' => 180,
-                'nilai' => 15452000.0,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            77 => 
-            array (
-                'id' => 1078,
-                'kriteria_id' => 4,
-                'penduduk_id' => 180,
-                'nilai' => 98.83,
-                'created_at' => '2023-05-29 19:52:35',
-                'updated_at' => '2023-05-29 19:52:35',
-            ),
-            78 => 
-            array (
-                'id' => 1079,
-                'kriteria_id' => 5,
-                'penduduk_id' => 180,
-                'nilai' => 92.4,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            79 => 
-            array (
-                'id' => 1080,
-                'kriteria_id' => 6,
-                'penduduk_id' => 180,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            80 => 
-            array (
-                'id' => 1081,
-                'kriteria_id' => 1,
-                'penduduk_id' => 181,
-                'nilai' => 3187450.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            81 => 
-            array (
-                'id' => 1082,
-                'kriteria_id' => 2,
-                'penduduk_id' => 181,
-                'nilai' => 65.61,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            82 => 
-            array (
-                'id' => 1083,
-                'kriteria_id' => 3,
-                'penduduk_id' => 181,
-                'nilai' => 22524000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            83 => 
-            array (
-                'id' => 1084,
-                'kriteria_id' => 4,
-                'penduduk_id' => 181,
-                'nilai' => 58.48,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            84 => 
-            array (
-                'id' => 1085,
-                'kriteria_id' => 5,
-                'penduduk_id' => 181,
-                'nilai' => 62.55,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            85 => 
-            array (
-                'id' => 1086,
-                'kriteria_id' => 6,
-                'penduduk_id' => 181,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            86 => 
-            array (
-                'id' => 1087,
-                'kriteria_id' => 1,
-                'penduduk_id' => 182,
-                'nilai' => 2802450.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            87 => 
-            array (
-                'id' => 1088,
-                'kriteria_id' => 2,
-                'penduduk_id' => 182,
-                'nilai' => 66.09,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            88 => 
-            array (
-                'id' => 1089,
-                'kriteria_id' => 3,
-                'penduduk_id' => 182,
-                'nilai' => 27368000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            89 => 
-            array (
-                'id' => 1090,
-                'kriteria_id' => 4,
-                'penduduk_id' => 182,
-                'nilai' => 32.37,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            90 => 
-            array (
-                'id' => 1091,
-                'kriteria_id' => 5,
-                'penduduk_id' => 182,
-                'nilai' => 93.85,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            91 => 
-            array (
-                'id' => 1092,
-                'kriteria_id' => 6,
-                'penduduk_id' => 182,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            92 => 
-            array (
-                'id' => 1093,
-                'kriteria_id' => 1,
-                'penduduk_id' => 183,
-                'nilai' => 2321900.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            93 => 
-            array (
-                'id' => 1094,
-                'kriteria_id' => 2,
-                'penduduk_id' => 183,
-                'nilai' => 54.08,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            94 => 
-            array (
-                'id' => 1095,
-                'kriteria_id' => 3,
-                'penduduk_id' => 183,
-                'nilai' => 15144000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            95 => 
-            array (
-                'id' => 1096,
-                'kriteria_id' => 4,
-                'penduduk_id' => 183,
-                'nilai' => 50.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            96 => 
-            array (
-                'id' => 1097,
-                'kriteria_id' => 5,
-                'penduduk_id' => 183,
-                'nilai' => 80.88,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            97 => 
-            array (
-                'id' => 1098,
-                'kriteria_id' => 6,
-                'penduduk_id' => 183,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            98 => 
-            array (
-                'id' => 1099,
-                'kriteria_id' => 1,
-                'penduduk_id' => 184,
-                'nilai' => 1623650.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            99 => 
-            array (
-                'id' => 1100,
-                'kriteria_id' => 2,
-                'penduduk_id' => 184,
-                'nilai' => 53.7,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            100 => 
-            array (
-                'id' => 1101,
-                'kriteria_id' => 3,
-                'penduduk_id' => 184,
-                'nilai' => 34372000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            101 => 
-            array (
-                'id' => 1102,
-                'kriteria_id' => 4,
-                'penduduk_id' => 184,
-                'nilai' => 93.11,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            102 => 
-            array (
-                'id' => 1103,
-                'kriteria_id' => 5,
-                'penduduk_id' => 184,
-                'nilai' => 75.47,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            103 => 
-            array (
-                'id' => 1104,
-                'kriteria_id' => 6,
-                'penduduk_id' => 184,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            104 => 
-            array (
-                'id' => 1105,
-                'kriteria_id' => 1,
-                'penduduk_id' => 185,
-                'nilai' => 2162650.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            105 => 
-            array (
-                'id' => 1106,
-                'kriteria_id' => 2,
-                'penduduk_id' => 185,
-                'nilai' => 34.67,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            106 => 
-            array (
-                'id' => 1107,
-                'kriteria_id' => 3,
-                'penduduk_id' => 185,
-                'nilai' => 16532000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            107 => 
-            array (
-                'id' => 1108,
-                'kriteria_id' => 4,
-                'penduduk_id' => 185,
-                'nilai' => 32.06,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            108 => 
-            array (
-                'id' => 1109,
-                'kriteria_id' => 5,
-                'penduduk_id' => 185,
-                'nilai' => 82.22,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            109 => 
-            array (
-                'id' => 1110,
-                'kriteria_id' => 6,
-                'penduduk_id' => 185,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            110 => 
-            array (
-                'id' => 1111,
-                'kriteria_id' => 1,
-                'penduduk_id' => 186,
-                'nilai' => 1572550.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            111 => 
-            array (
-                'id' => 1112,
-                'kriteria_id' => 2,
-                'penduduk_id' => 186,
-                'nilai' => 59.39,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            112 => 
-            array (
-                'id' => 1113,
-                'kriteria_id' => 3,
-                'penduduk_id' => 186,
-                'nilai' => 29176000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            113 => 
-            array (
-                'id' => 1114,
-                'kriteria_id' => 4,
-                'penduduk_id' => 186,
-                'nilai' => 47.72,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            114 => 
-            array (
-                'id' => 1115,
-                'kriteria_id' => 5,
-                'penduduk_id' => 186,
-                'nilai' => 34.55,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            115 => 
-            array (
-                'id' => 1116,
-                'kriteria_id' => 6,
-                'penduduk_id' => 186,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            116 => 
-            array (
-                'id' => 1117,
-                'kriteria_id' => 1,
-                'penduduk_id' => 187,
-                'nilai' => 1974000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            117 => 
-            array (
-                'id' => 1118,
-                'kriteria_id' => 2,
-                'penduduk_id' => 187,
-                'nilai' => 56.99,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            118 => 
-            array (
-                'id' => 1119,
-                'kriteria_id' => 3,
-                'penduduk_id' => 187,
-                'nilai' => 39972000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            119 => 
-            array (
-                'id' => 1120,
-                'kriteria_id' => 4,
-                'penduduk_id' => 187,
-                'nilai' => 79.82,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            120 => 
-            array (
-                'id' => 1121,
-                'kriteria_id' => 5,
-                'penduduk_id' => 187,
-                'nilai' => 60.23,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            121 => 
-            array (
-                'id' => 1122,
-                'kriteria_id' => 6,
-                'penduduk_id' => 187,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            122 => 
-            array (
-                'id' => 1123,
-                'kriteria_id' => 1,
-                'penduduk_id' => 188,
-                'nilai' => 2661050.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            123 => 
-            array (
-                'id' => 1124,
-                'kriteria_id' => 2,
-                'penduduk_id' => 188,
-                'nilai' => 30.69,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            124 => 
-            array (
-                'id' => 1125,
-                'kriteria_id' => 3,
-                'penduduk_id' => 188,
-                'nilai' => 18800000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            125 => 
-            array (
-                'id' => 1126,
-                'kriteria_id' => 4,
-                'penduduk_id' => 188,
-                'nilai' => 94.11,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            126 => 
-            array (
-                'id' => 1127,
-                'kriteria_id' => 5,
-                'penduduk_id' => 188,
-                'nilai' => 68.95,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            127 => 
-            array (
-                'id' => 1128,
-                'kriteria_id' => 6,
-                'penduduk_id' => 188,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            128 => 
-            array (
-                'id' => 1129,
-                'kriteria_id' => 1,
-                'penduduk_id' => 189,
-                'nilai' => 3499300.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            129 => 
-            array (
-                'id' => 1130,
-                'kriteria_id' => 2,
-                'penduduk_id' => 189,
-                'nilai' => 53.09,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            130 => 
-            array (
-                'id' => 1131,
-                'kriteria_id' => 3,
-                'penduduk_id' => 189,
-                'nilai' => 17020000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            131 => 
-            array (
-                'id' => 1132,
-                'kriteria_id' => 4,
-                'penduduk_id' => 189,
-                'nilai' => 92.35,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            132 => 
-            array (
-                'id' => 1133,
-                'kriteria_id' => 5,
-                'penduduk_id' => 189,
-                'nilai' => 26.73,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            133 => 
-            array (
-                'id' => 1134,
-                'kriteria_id' => 6,
-                'penduduk_id' => 189,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            134 => 
-            array (
-                'id' => 1135,
-                'kriteria_id' => 1,
-                'penduduk_id' => 190,
-                'nilai' => 1823500.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            135 => 
-            array (
-                'id' => 1136,
-                'kriteria_id' => 2,
-                'penduduk_id' => 190,
-                'nilai' => 72.72,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            136 => 
-            array (
-                'id' => 1137,
-                'kriteria_id' => 3,
-                'penduduk_id' => 190,
-                'nilai' => 15472000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            137 => 
-            array (
-                'id' => 1138,
-                'kriteria_id' => 4,
-                'penduduk_id' => 190,
-                'nilai' => 72.5,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            138 => 
-            array (
-                'id' => 1139,
-                'kriteria_id' => 5,
-                'penduduk_id' => 190,
-                'nilai' => 81.27,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            139 => 
-            array (
-                'id' => 1140,
-                'kriteria_id' => 6,
-                'penduduk_id' => 190,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            140 => 
-            array (
-                'id' => 1141,
-                'kriteria_id' => 1,
-                'penduduk_id' => 191,
-                'nilai' => 2820650.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            141 => 
-            array (
-                'id' => 1142,
-                'kriteria_id' => 2,
-                'penduduk_id' => 191,
-                'nilai' => 33.11,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            142 => 
-            array (
-                'id' => 1143,
-                'kriteria_id' => 3,
-                'penduduk_id' => 191,
-                'nilai' => 30344000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            143 => 
-            array (
-                'id' => 1144,
-                'kriteria_id' => 4,
-                'penduduk_id' => 191,
-                'nilai' => 95.99,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            144 => 
-            array (
-                'id' => 1145,
-                'kriteria_id' => 5,
-                'penduduk_id' => 191,
-                'nilai' => 90.99,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            145 => 
-            array (
-                'id' => 1146,
-                'kriteria_id' => 6,
-                'penduduk_id' => 191,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            146 => 
-            array (
-                'id' => 1147,
-                'kriteria_id' => 1,
-                'penduduk_id' => 192,
-                'nilai' => 2713200.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            147 => 
-            array (
-                'id' => 1148,
-                'kriteria_id' => 2,
-                'penduduk_id' => 192,
-                'nilai' => 82.3,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            148 => 
-            array (
-                'id' => 1149,
-                'kriteria_id' => 3,
-                'penduduk_id' => 192,
-                'nilai' => 39780000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            149 => 
-            array (
-                'id' => 1150,
-                'kriteria_id' => 4,
-                'penduduk_id' => 192,
-                'nilai' => 71.49,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            150 => 
-            array (
-                'id' => 1151,
-                'kriteria_id' => 5,
-                'penduduk_id' => 192,
-                'nilai' => 92.36,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            151 => 
-            array (
-                'id' => 1152,
-                'kriteria_id' => 6,
-                'penduduk_id' => 192,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            152 => 
-            array (
-                'id' => 1153,
-                'kriteria_id' => 1,
-                'penduduk_id' => 193,
-                'nilai' => 1651650.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            153 => 
-            array (
-                'id' => 1154,
-                'kriteria_id' => 2,
-                'penduduk_id' => 193,
-                'nilai' => 75.42,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            154 => 
-            array (
-                'id' => 1155,
-                'kriteria_id' => 3,
-                'penduduk_id' => 193,
-                'nilai' => 18012000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            155 => 
-            array (
-                'id' => 1156,
-                'kriteria_id' => 4,
-                'penduduk_id' => 193,
-                'nilai' => 37.67,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            156 => 
-            array (
-                'id' => 1157,
-                'kriteria_id' => 5,
-                'penduduk_id' => 193,
-                'nilai' => 92.39,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            157 => 
-            array (
-                'id' => 1158,
-                'kriteria_id' => 6,
-                'penduduk_id' => 193,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            158 => 
-            array (
-                'id' => 1159,
-                'kriteria_id' => 1,
-                'penduduk_id' => 194,
-                'nilai' => 1078700.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            159 => 
-            array (
-                'id' => 1160,
-                'kriteria_id' => 2,
-                'penduduk_id' => 194,
-                'nilai' => 66.91,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            160 => 
-            array (
-                'id' => 1161,
-                'kriteria_id' => 3,
-                'penduduk_id' => 194,
-                'nilai' => 35116000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            161 => 
-            array (
-                'id' => 1162,
-                'kriteria_id' => 4,
-                'penduduk_id' => 194,
-                'nilai' => 82.2,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            162 => 
-            array (
-                'id' => 1163,
-                'kriteria_id' => 5,
-                'penduduk_id' => 194,
-                'nilai' => 36.63,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            163 => 
-            array (
-                'id' => 1164,
-                'kriteria_id' => 6,
-                'penduduk_id' => 194,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            164 => 
-            array (
-                'id' => 1165,
-                'kriteria_id' => 1,
-                'penduduk_id' => 195,
-                'nilai' => 2802100.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            165 => 
-            array (
-                'id' => 1166,
-                'kriteria_id' => 2,
-                'penduduk_id' => 195,
-                'nilai' => 34.65,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            166 => 
-            array (
-                'id' => 1167,
-                'kriteria_id' => 3,
-                'penduduk_id' => 195,
-                'nilai' => 19880000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            167 => 
-            array (
-                'id' => 1168,
-                'kriteria_id' => 4,
-                'penduduk_id' => 195,
-                'nilai' => 99.47,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            168 => 
-            array (
-                'id' => 1169,
-                'kriteria_id' => 5,
-                'penduduk_id' => 195,
-                'nilai' => 68.33,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            169 => 
-            array (
-                'id' => 1170,
-                'kriteria_id' => 6,
-                'penduduk_id' => 195,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            170 => 
-            array (
-                'id' => 1171,
-                'kriteria_id' => 1,
-                'penduduk_id' => 196,
-                'nilai' => 1220450.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            171 => 
-            array (
-                'id' => 1172,
-                'kriteria_id' => 2,
-                'penduduk_id' => 196,
-                'nilai' => 60.16,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            172 => 
-            array (
-                'id' => 1173,
-                'kriteria_id' => 3,
-                'penduduk_id' => 196,
-                'nilai' => 21408000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            173 => 
-            array (
-                'id' => 1174,
-                'kriteria_id' => 4,
-                'penduduk_id' => 196,
-                'nilai' => 68.68,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            174 => 
-            array (
-                'id' => 1175,
-                'kriteria_id' => 5,
-                'penduduk_id' => 196,
-                'nilai' => 83.37,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            175 => 
-            array (
-                'id' => 1176,
-                'kriteria_id' => 6,
-                'penduduk_id' => 196,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            176 => 
-            array (
-                'id' => 1177,
-                'kriteria_id' => 1,
-                'penduduk_id' => 197,
-                'nilai' => 1097250.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            177 => 
-            array (
-                'id' => 1178,
-                'kriteria_id' => 2,
-                'penduduk_id' => 197,
-                'nilai' => 33.24,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            178 => 
-            array (
-                'id' => 1179,
-                'kriteria_id' => 3,
-                'penduduk_id' => 197,
-                'nilai' => 31512000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            179 => 
-            array (
-                'id' => 1180,
-                'kriteria_id' => 4,
-                'penduduk_id' => 197,
-                'nilai' => 71.13,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            180 => 
-            array (
-                'id' => 1181,
-                'kriteria_id' => 5,
-                'penduduk_id' => 197,
-                'nilai' => 60.41,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            181 => 
-            array (
-                'id' => 1182,
-                'kriteria_id' => 6,
-                'penduduk_id' => 197,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            182 => 
-            array (
-                'id' => 1183,
-                'kriteria_id' => 1,
-                'penduduk_id' => 198,
-                'nilai' => 1227100.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            183 => 
-            array (
-                'id' => 1184,
-                'kriteria_id' => 2,
-                'penduduk_id' => 198,
-                'nilai' => 72.29,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            184 => 
-            array (
-                'id' => 1185,
-                'kriteria_id' => 3,
-                'penduduk_id' => 198,
-                'nilai' => 13760000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            185 => 
-            array (
-                'id' => 1186,
-                'kriteria_id' => 4,
-                'penduduk_id' => 198,
-                'nilai' => 48.79,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            186 => 
-            array (
-                'id' => 1187,
-                'kriteria_id' => 5,
-                'penduduk_id' => 198,
-                'nilai' => 71.65,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            187 => 
-            array (
-                'id' => 1188,
-                'kriteria_id' => 6,
-                'penduduk_id' => 198,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            188 => 
-            array (
-                'id' => 1189,
-                'kriteria_id' => 1,
-                'penduduk_id' => 199,
-                'nilai' => 1709400.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            189 => 
-            array (
-                'id' => 1190,
-                'kriteria_id' => 2,
-                'penduduk_id' => 199,
-                'nilai' => 74.98,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            190 => 
-            array (
-                'id' => 1191,
-                'kriteria_id' => 3,
-                'penduduk_id' => 199,
-                'nilai' => 27860000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            191 => 
-            array (
-                'id' => 1192,
-                'kriteria_id' => 4,
-                'penduduk_id' => 199,
-                'nilai' => 82.33,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            192 => 
-            array (
-                'id' => 1193,
-                'kriteria_id' => 5,
-                'penduduk_id' => 199,
-                'nilai' => 77.88,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            193 => 
-            array (
-                'id' => 1194,
-                'kriteria_id' => 6,
-                'penduduk_id' => 199,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            194 => 
-            array (
-                'id' => 1195,
-                'kriteria_id' => 1,
-                'penduduk_id' => 200,
-                'nilai' => 3480400.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            195 => 
-            array (
-                'id' => 1196,
-                'kriteria_id' => 2,
-                'penduduk_id' => 200,
-                'nilai' => 53.63,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            196 => 
-            array (
-                'id' => 1197,
-                'kriteria_id' => 3,
-                'penduduk_id' => 200,
-                'nilai' => 38052000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            197 => 
-            array (
-                'id' => 1198,
-                'kriteria_id' => 4,
-                'penduduk_id' => 200,
-                'nilai' => 96.94,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            198 => 
-            array (
-                'id' => 1199,
-                'kriteria_id' => 5,
-                'penduduk_id' => 200,
-                'nilai' => 34.78,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            199 => 
-            array (
-                'id' => 1200,
-                'kriteria_id' => 6,
-                'penduduk_id' => 200,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            200 => 
-            array (
-                'id' => 1201,
-                'kriteria_id' => 1,
-                'penduduk_id' => 201,
-                'nilai' => 2573900.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            201 => 
-            array (
-                'id' => 1202,
-                'kriteria_id' => 2,
-                'penduduk_id' => 201,
-                'nilai' => 37.7,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            202 => 
-            array (
-                'id' => 1203,
-                'kriteria_id' => 3,
-                'penduduk_id' => 201,
-                'nilai' => 18136000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            203 => 
-            array (
-                'id' => 1204,
-                'kriteria_id' => 4,
-                'penduduk_id' => 201,
-                'nilai' => 47.42,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            204 => 
-            array (
-                'id' => 1205,
-                'kriteria_id' => 5,
-                'penduduk_id' => 201,
-                'nilai' => 79.77,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            205 => 
-            array (
-                'id' => 1206,
-                'kriteria_id' => 6,
-                'penduduk_id' => 201,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            206 => 
-            array (
-                'id' => 1207,
-                'kriteria_id' => 1,
-                'penduduk_id' => 202,
-                'nilai' => 2078300.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            207 => 
-            array (
-                'id' => 1208,
-                'kriteria_id' => 2,
-                'penduduk_id' => 202,
-                'nilai' => 60.15,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            208 => 
-            array (
-                'id' => 1209,
-                'kriteria_id' => 3,
-                'penduduk_id' => 202,
-                'nilai' => 39236000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            209 => 
-            array (
-                'id' => 1210,
-                'kriteria_id' => 4,
-                'penduduk_id' => 202,
-                'nilai' => 79.61,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            210 => 
-            array (
-                'id' => 1211,
-                'kriteria_id' => 5,
-                'penduduk_id' => 202,
-                'nilai' => 94.63,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            211 => 
-            array (
-                'id' => 1212,
-                'kriteria_id' => 6,
-                'penduduk_id' => 202,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            212 => 
-            array (
-                'id' => 1213,
-                'kriteria_id' => 1,
-                'penduduk_id' => 203,
-                'nilai' => 2795100.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            213 => 
-            array (
-                'id' => 1214,
-                'kriteria_id' => 2,
-                'penduduk_id' => 203,
-                'nilai' => 90.15,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            214 => 
-            array (
-                'id' => 1215,
-                'kriteria_id' => 3,
-                'penduduk_id' => 203,
-                'nilai' => 31776000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            215 => 
-            array (
-                'id' => 1216,
-                'kriteria_id' => 4,
-                'penduduk_id' => 203,
-                'nilai' => 84.69,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            216 => 
-            array (
-                'id' => 1217,
-                'kriteria_id' => 5,
-                'penduduk_id' => 203,
-                'nilai' => 31.92,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            217 => 
-            array (
-                'id' => 1218,
-                'kriteria_id' => 6,
-                'penduduk_id' => 203,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            218 => 
-            array (
-                'id' => 1219,
-                'kriteria_id' => 1,
-                'penduduk_id' => 204,
-                'nilai' => 2660000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            219 => 
-            array (
-                'id' => 1220,
-                'kriteria_id' => 2,
-                'penduduk_id' => 204,
-                'nilai' => 73.28,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            220 => 
-            array (
-                'id' => 1221,
-                'kriteria_id' => 3,
-                'penduduk_id' => 204,
-                'nilai' => 31376000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            221 => 
-            array (
-                'id' => 1222,
-                'kriteria_id' => 4,
-                'penduduk_id' => 204,
-                'nilai' => 69.87,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            222 => 
-            array (
-                'id' => 1223,
-                'kriteria_id' => 5,
-                'penduduk_id' => 204,
-                'nilai' => 25.89,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            223 => 
-            array (
-                'id' => 1224,
-                'kriteria_id' => 6,
-                'penduduk_id' => 204,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            224 => 
-            array (
-                'id' => 1225,
-                'kriteria_id' => 1,
-                'penduduk_id' => 205,
-                'nilai' => 3158050.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            225 => 
-            array (
-                'id' => 1226,
-                'kriteria_id' => 2,
-                'penduduk_id' => 205,
-                'nilai' => 92.91,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            226 => 
-            array (
-                'id' => 1227,
-                'kriteria_id' => 3,
-                'penduduk_id' => 205,
-                'nilai' => 12272000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            227 => 
-            array (
-                'id' => 1228,
-                'kriteria_id' => 4,
-                'penduduk_id' => 205,
-                'nilai' => 50.01,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            228 => 
-            array (
-                'id' => 1229,
-                'kriteria_id' => 5,
-                'penduduk_id' => 205,
-                'nilai' => 69.65,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            229 => 
-            array (
-                'id' => 1230,
-                'kriteria_id' => 6,
-                'penduduk_id' => 205,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            230 => 
-            array (
-                'id' => 1231,
-                'kriteria_id' => 1,
-                'penduduk_id' => 206,
-                'nilai' => 1894550.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            231 => 
-            array (
-                'id' => 1232,
-                'kriteria_id' => 2,
-                'penduduk_id' => 206,
-                'nilai' => 33.34,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            232 => 
-            array (
-                'id' => 1233,
-                'kriteria_id' => 3,
-                'penduduk_id' => 206,
-                'nilai' => 30548000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            233 => 
-            array (
-                'id' => 1234,
-                'kriteria_id' => 4,
-                'penduduk_id' => 206,
-                'nilai' => 93.15,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            234 => 
-            array (
-                'id' => 1235,
-                'kriteria_id' => 5,
-                'penduduk_id' => 206,
-                'nilai' => 89.6,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            235 => 
-            array (
-                'id' => 1236,
-                'kriteria_id' => 6,
-                'penduduk_id' => 206,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            236 => 
-            array (
-                'id' => 1237,
-                'kriteria_id' => 1,
-                'penduduk_id' => 207,
-                'nilai' => 3198300.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            237 => 
-            array (
-                'id' => 1238,
-                'kriteria_id' => 2,
-                'penduduk_id' => 207,
-                'nilai' => 94.76,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            238 => 
-            array (
-                'id' => 1239,
-                'kriteria_id' => 3,
-                'penduduk_id' => 207,
-                'nilai' => 10472000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            239 => 
-            array (
-                'id' => 1240,
-                'kriteria_id' => 4,
-                'penduduk_id' => 207,
-                'nilai' => 59.95,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            240 => 
-            array (
-                'id' => 1241,
-                'kriteria_id' => 5,
-                'penduduk_id' => 207,
-                'nilai' => 81.9,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            241 => 
-            array (
-                'id' => 1242,
-                'kriteria_id' => 6,
-                'penduduk_id' => 207,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            242 => 
-            array (
-                'id' => 1243,
-                'kriteria_id' => 1,
-                'penduduk_id' => 208,
-                'nilai' => 1073450.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            243 => 
-            array (
-                'id' => 1244,
-                'kriteria_id' => 2,
-                'penduduk_id' => 208,
-                'nilai' => 99.27,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            244 => 
-            array (
-                'id' => 1245,
-                'kriteria_id' => 3,
-                'penduduk_id' => 208,
-                'nilai' => 17584000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            245 => 
-            array (
-                'id' => 1246,
-                'kriteria_id' => 4,
-                'penduduk_id' => 208,
-                'nilai' => 93.43,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            246 => 
-            array (
-                'id' => 1247,
-                'kriteria_id' => 5,
-                'penduduk_id' => 208,
-                'nilai' => 62.34,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            247 => 
-            array (
-                'id' => 1248,
-                'kriteria_id' => 6,
-                'penduduk_id' => 208,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
-            ),
-            248 => 
-            array (
-                'id' => 1249,
-                'kriteria_id' => 1,
-                'penduduk_id' => 209,
+                'penduduk_id' => 539,
                 'nilai' => 2144450.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            1 => 
+            array (
+                'id' => 3230,
+                'kriteria_id' => 2,
+                'penduduk_id' => 539,
+                'nilai' => 69.81,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            2 => 
+            array (
+                'id' => 3231,
+                'kriteria_id' => 3,
+                'penduduk_id' => 539,
+                'nilai' => 39136000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            3 => 
+            array (
+                'id' => 3232,
+                'kriteria_id' => 4,
+                'penduduk_id' => 539,
+                'nilai' => 66.08,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            4 => 
+            array (
+                'id' => 3233,
+                'kriteria_id' => 5,
+                'penduduk_id' => 539,
+                'nilai' => 72.14,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            5 => 
+            array (
+                'id' => 3234,
+                'kriteria_id' => 6,
+                'penduduk_id' => 539,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            6 => 
+            array (
+                'id' => 3235,
+                'kriteria_id' => 1,
+                'penduduk_id' => 540,
+                'nilai' => 3327100.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            7 => 
+            array (
+                'id' => 3236,
+                'kriteria_id' => 2,
+                'penduduk_id' => 540,
+                'nilai' => 58.87,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            8 => 
+            array (
+                'id' => 3237,
+                'kriteria_id' => 3,
+                'penduduk_id' => 540,
+                'nilai' => 28752000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            9 => 
+            array (
+                'id' => 3238,
+                'kriteria_id' => 4,
+                'penduduk_id' => 540,
+                'nilai' => 36.41,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            10 => 
+            array (
+                'id' => 3239,
+                'kriteria_id' => 5,
+                'penduduk_id' => 540,
+                'nilai' => 80.67,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            11 => 
+            array (
+                'id' => 3240,
+                'kriteria_id' => 6,
+                'penduduk_id' => 540,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            12 => 
+            array (
+                'id' => 3241,
+                'kriteria_id' => 1,
+                'penduduk_id' => 541,
+                'nilai' => 3158050.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            13 => 
+            array (
+                'id' => 3242,
+                'kriteria_id' => 2,
+                'penduduk_id' => 541,
+                'nilai' => 92.91,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            14 => 
+            array (
+                'id' => 3243,
+                'kriteria_id' => 3,
+                'penduduk_id' => 541,
+                'nilai' => 12272000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            15 => 
+            array (
+                'id' => 3244,
+                'kriteria_id' => 4,
+                'penduduk_id' => 541,
+                'nilai' => 50.01,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            16 => 
+            array (
+                'id' => 3245,
+                'kriteria_id' => 5,
+                'penduduk_id' => 541,
+                'nilai' => 69.65,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            17 => 
+            array (
+                'id' => 3246,
+                'kriteria_id' => 6,
+                'penduduk_id' => 541,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            18 => 
+            array (
+                'id' => 3247,
+                'kriteria_id' => 1,
+                'penduduk_id' => 542,
+                'nilai' => 1212050.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            19 => 
+            array (
+                'id' => 3248,
+                'kriteria_id' => 2,
+                'penduduk_id' => 542,
+                'nilai' => 67.03,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            20 => 
+            array (
+                'id' => 3249,
+                'kriteria_id' => 3,
+                'penduduk_id' => 542,
+                'nilai' => 14176000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            21 => 
+            array (
+                'id' => 3250,
+                'kriteria_id' => 4,
+                'penduduk_id' => 542,
+                'nilai' => 80.31,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            22 => 
+            array (
+                'id' => 3251,
+                'kriteria_id' => 5,
+                'penduduk_id' => 542,
+                'nilai' => 30.15,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            23 => 
+            array (
+                'id' => 3252,
+                'kriteria_id' => 6,
+                'penduduk_id' => 542,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            24 => 
+            array (
+                'id' => 3253,
+                'kriteria_id' => 1,
+                'penduduk_id' => 543,
+                'nilai' => 2014950.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            25 => 
+            array (
+                'id' => 3254,
+                'kriteria_id' => 2,
+                'penduduk_id' => 543,
+                'nilai' => 91.98,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            26 => 
+            array (
+                'id' => 3255,
+                'kriteria_id' => 3,
+                'penduduk_id' => 543,
+                'nilai' => 22712000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            27 => 
+            array (
+                'id' => 3256,
+                'kriteria_id' => 4,
+                'penduduk_id' => 543,
+                'nilai' => 46.61,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            28 => 
+            array (
+                'id' => 3257,
+                'kriteria_id' => 5,
+                'penduduk_id' => 543,
+                'nilai' => 38.61,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            29 => 
+            array (
+                'id' => 3258,
+                'kriteria_id' => 6,
+                'penduduk_id' => 543,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            30 => 
+            array (
+                'id' => 3259,
+                'kriteria_id' => 1,
+                'penduduk_id' => 544,
+                'nilai' => 2710750.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            31 => 
+            array (
+                'id' => 3260,
+                'kriteria_id' => 2,
+                'penduduk_id' => 544,
+                'nilai' => 57.89,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            32 => 
+            array (
+                'id' => 3261,
+                'kriteria_id' => 3,
+                'penduduk_id' => 544,
+                'nilai' => 24092000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            33 => 
+            array (
+                'id' => 3262,
+                'kriteria_id' => 4,
+                'penduduk_id' => 544,
+                'nilai' => 86.55,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            34 => 
+            array (
+                'id' => 3263,
+                'kriteria_id' => 5,
+                'penduduk_id' => 544,
+                'nilai' => 50.63,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            35 => 
+            array (
+                'id' => 3264,
+                'kriteria_id' => 6,
+                'penduduk_id' => 544,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            36 => 
+            array (
+                'id' => 3265,
+                'kriteria_id' => 1,
+                'penduduk_id' => 545,
+                'nilai' => 3214400.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            37 => 
+            array (
+                'id' => 3266,
+                'kriteria_id' => 2,
+                'penduduk_id' => 545,
+                'nilai' => 83.46,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            38 => 
+            array (
+                'id' => 3267,
+                'kriteria_id' => 3,
+                'penduduk_id' => 545,
+                'nilai' => 12484000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            39 => 
+            array (
+                'id' => 3268,
+                'kriteria_id' => 4,
+                'penduduk_id' => 545,
+                'nilai' => 61.27,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            40 => 
+            array (
+                'id' => 3269,
+                'kriteria_id' => 5,
+                'penduduk_id' => 545,
+                'nilai' => 69.81,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            41 => 
+            array (
+                'id' => 3270,
+                'kriteria_id' => 6,
+                'penduduk_id' => 545,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            42 => 
+            array (
+                'id' => 3271,
+                'kriteria_id' => 1,
+                'penduduk_id' => 546,
+                'nilai' => 3451700.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            43 => 
+            array (
+                'id' => 3272,
+                'kriteria_id' => 2,
+                'penduduk_id' => 546,
+                'nilai' => 44.36,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            44 => 
+            array (
+                'id' => 3273,
+                'kriteria_id' => 3,
+                'penduduk_id' => 546,
+                'nilai' => 21592000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            45 => 
+            array (
+                'id' => 3274,
+                'kriteria_id' => 4,
+                'penduduk_id' => 546,
+                'nilai' => 91.19,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            46 => 
+            array (
+                'id' => 3275,
+                'kriteria_id' => 5,
+                'penduduk_id' => 546,
+                'nilai' => 57.95,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            47 => 
+            array (
+                'id' => 3276,
+                'kriteria_id' => 6,
+                'penduduk_id' => 546,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            48 => 
+            array (
+                'id' => 3277,
+                'kriteria_id' => 1,
+                'penduduk_id' => 547,
+                'nilai' => 2644950.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            49 => 
+            array (
+                'id' => 3278,
+                'kriteria_id' => 2,
+                'penduduk_id' => 547,
+                'nilai' => 69.79,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            50 => 
+            array (
+                'id' => 3279,
+                'kriteria_id' => 3,
+                'penduduk_id' => 547,
+                'nilai' => 34888000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            51 => 
+            array (
+                'id' => 3280,
+                'kriteria_id' => 4,
+                'penduduk_id' => 547,
+                'nilai' => 68.68,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            52 => 
+            array (
+                'id' => 3281,
+                'kriteria_id' => 5,
+                'penduduk_id' => 547,
+                'nilai' => 83.37,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            53 => 
+            array (
+                'id' => 3282,
+                'kriteria_id' => 6,
+                'penduduk_id' => 547,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            54 => 
+            array (
+                'id' => 3283,
+                'kriteria_id' => 1,
+                'penduduk_id' => 548,
+                'nilai' => 2098250.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            55 => 
+            array (
+                'id' => 3284,
+                'kriteria_id' => 2,
+                'penduduk_id' => 548,
+                'nilai' => 81.9,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            56 => 
+            array (
+                'id' => 3285,
+                'kriteria_id' => 3,
+                'penduduk_id' => 548,
+                'nilai' => 27004000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            57 => 
+            array (
+                'id' => 3286,
+                'kriteria_id' => 4,
+                'penduduk_id' => 548,
+                'nilai' => 80.07,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            58 => 
+            array (
+                'id' => 3287,
+                'kriteria_id' => 5,
+                'penduduk_id' => 548,
+                'nilai' => 66.09,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            59 => 
+            array (
+                'id' => 3288,
+                'kriteria_id' => 6,
+                'penduduk_id' => 548,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            60 => 
+            array (
+                'id' => 3289,
+                'kriteria_id' => 1,
+                'penduduk_id' => 549,
+                'nilai' => 1574650.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            61 => 
+            array (
+                'id' => 3290,
+                'kriteria_id' => 2,
+                'penduduk_id' => 549,
+                'nilai' => 86.77,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            62 => 
+            array (
+                'id' => 3291,
+                'kriteria_id' => 3,
+                'penduduk_id' => 549,
+                'nilai' => 29508000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            63 => 
+            array (
+                'id' => 3292,
+                'kriteria_id' => 4,
+                'penduduk_id' => 549,
+                'nilai' => 60.54,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            64 => 
+            array (
+                'id' => 3293,
+                'kriteria_id' => 5,
+                'penduduk_id' => 549,
+                'nilai' => 78.06,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            65 => 
+            array (
+                'id' => 3294,
+                'kriteria_id' => 6,
+                'penduduk_id' => 549,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            66 => 
+            array (
+                'id' => 3295,
+                'kriteria_id' => 1,
+                'penduduk_id' => 550,
+                'nilai' => 1594950.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            67 => 
+            array (
+                'id' => 3296,
+                'kriteria_id' => 2,
+                'penduduk_id' => 550,
+                'nilai' => 55.51,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            68 => 
+            array (
+                'id' => 3297,
+                'kriteria_id' => 3,
+                'penduduk_id' => 550,
+                'nilai' => 12008000.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            69 => 
+            array (
+                'id' => 3298,
+                'kriteria_id' => 4,
+                'penduduk_id' => 550,
+                'nilai' => 66.08,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            70 => 
+            array (
+                'id' => 3299,
+                'kriteria_id' => 5,
+                'penduduk_id' => 550,
+                'nilai' => 72.14,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            71 => 
+            array (
+                'id' => 3300,
+                'kriteria_id' => 6,
+                'penduduk_id' => 550,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:28',
+                'updated_at' => '2023-05-29 20:44:28',
+            ),
+            72 => 
+            array (
+                'id' => 3301,
+                'kriteria_id' => 1,
+                'penduduk_id' => 551,
+                'nilai' => 2256450.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            73 => 
+            array (
+                'id' => 3302,
+                'kriteria_id' => 2,
+                'penduduk_id' => 551,
+                'nilai' => 85.76,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            74 => 
+            array (
+                'id' => 3303,
+                'kriteria_id' => 3,
+                'penduduk_id' => 551,
+                'nilai' => 25088000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            75 => 
+            array (
+                'id' => 3304,
+                'kriteria_id' => 4,
+                'penduduk_id' => 551,
+                'nilai' => 98.09,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            76 => 
+            array (
+                'id' => 3305,
+                'kriteria_id' => 5,
+                'penduduk_id' => 551,
+                'nilai' => 51.59,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            77 => 
+            array (
+                'id' => 3306,
+                'kriteria_id' => 6,
+                'penduduk_id' => 551,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            78 => 
+            array (
+                'id' => 3307,
+                'kriteria_id' => 1,
+                'penduduk_id' => 552,
+                'nilai' => 2573200.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            79 => 
+            array (
+                'id' => 3308,
+                'kriteria_id' => 2,
+                'penduduk_id' => 552,
+                'nilai' => 78.02,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            80 => 
+            array (
+                'id' => 3309,
+                'kriteria_id' => 3,
+                'penduduk_id' => 552,
+                'nilai' => 11276000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            81 => 
+            array (
+                'id' => 3310,
+                'kriteria_id' => 4,
+                'penduduk_id' => 552,
+                'nilai' => 90.23,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            82 => 
+            array (
+                'id' => 3311,
+                'kriteria_id' => 5,
+                'penduduk_id' => 552,
+                'nilai' => 92.91,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            83 => 
+            array (
+                'id' => 3312,
+                'kriteria_id' => 6,
+                'penduduk_id' => 552,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            84 => 
+            array (
+                'id' => 3313,
+                'kriteria_id' => 1,
+                'penduduk_id' => 553,
+                'nilai' => 3253600.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            85 => 
+            array (
+                'id' => 3314,
+                'kriteria_id' => 2,
+                'penduduk_id' => 553,
+                'nilai' => 28.08,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            86 => 
+            array (
+                'id' => 3315,
+                'kriteria_id' => 3,
+                'penduduk_id' => 553,
+                'nilai' => 15520000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            87 => 
+            array (
+                'id' => 3316,
+                'kriteria_id' => 4,
+                'penduduk_id' => 553,
+                'nilai' => 98.67,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            88 => 
+            array (
+                'id' => 3317,
+                'kriteria_id' => 5,
+                'penduduk_id' => 553,
+                'nilai' => 34.39,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            89 => 
+            array (
+                'id' => 3318,
+                'kriteria_id' => 6,
+                'penduduk_id' => 553,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            90 => 
+            array (
+                'id' => 3319,
+                'kriteria_id' => 1,
+                'penduduk_id' => 554,
+                'nilai' => 960750.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            91 => 
+            array (
+                'id' => 3320,
+                'kriteria_id' => 2,
+                'penduduk_id' => 554,
+                'nilai' => 66.37,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            92 => 
+            array (
+                'id' => 3321,
+                'kriteria_id' => 3,
+                'penduduk_id' => 554,
+                'nilai' => 17124000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            93 => 
+            array (
+                'id' => 3322,
+                'kriteria_id' => 4,
+                'penduduk_id' => 554,
+                'nilai' => 95.7,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            94 => 
+            array (
+                'id' => 3323,
+                'kriteria_id' => 5,
+                'penduduk_id' => 554,
+                'nilai' => 83.68,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            95 => 
+            array (
+                'id' => 3324,
+                'kriteria_id' => 6,
+                'penduduk_id' => 554,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            96 => 
+            array (
+                'id' => 3325,
+                'kriteria_id' => 1,
+                'penduduk_id' => 555,
+                'nilai' => 1454950.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            97 => 
+            array (
+                'id' => 3326,
+                'kriteria_id' => 2,
+                'penduduk_id' => 555,
+                'nilai' => 89.93,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            98 => 
+            array (
+                'id' => 3327,
+                'kriteria_id' => 3,
+                'penduduk_id' => 555,
+                'nilai' => 37444000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            99 => 
+            array (
+                'id' => 3328,
+                'kriteria_id' => 4,
+                'penduduk_id' => 555,
+                'nilai' => 40.26,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            100 => 
+            array (
+                'id' => 3329,
+                'kriteria_id' => 5,
+                'penduduk_id' => 555,
+                'nilai' => 34.99,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            101 => 
+            array (
+                'id' => 3330,
+                'kriteria_id' => 6,
+                'penduduk_id' => 555,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            102 => 
+            array (
+                'id' => 3331,
+                'kriteria_id' => 1,
+                'penduduk_id' => 556,
+                'nilai' => 1651650.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            103 => 
+            array (
+                'id' => 3332,
+                'kriteria_id' => 2,
+                'penduduk_id' => 556,
+                'nilai' => 77.94,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            104 => 
+            array (
+                'id' => 3333,
+                'kriteria_id' => 3,
+                'penduduk_id' => 556,
+                'nilai' => 18812000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            105 => 
+            array (
+                'id' => 3334,
+                'kriteria_id' => 4,
+                'penduduk_id' => 556,
+                'nilai' => 37.16,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            106 => 
+            array (
+                'id' => 3335,
+                'kriteria_id' => 5,
+                'penduduk_id' => 556,
+                'nilai' => 35.34,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            107 => 
+            array (
+                'id' => 3336,
+                'kriteria_id' => 6,
+                'penduduk_id' => 556,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            108 => 
+            array (
+                'id' => 3337,
+                'kriteria_id' => 1,
+                'penduduk_id' => 557,
+                'nilai' => 2425850.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            109 => 
+            array (
+                'id' => 3338,
+                'kriteria_id' => 2,
+                'penduduk_id' => 557,
+                'nilai' => 92.28,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            110 => 
+            array (
+                'id' => 3339,
+                'kriteria_id' => 3,
+                'penduduk_id' => 557,
+                'nilai' => 25488000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            111 => 
+            array (
+                'id' => 3340,
+                'kriteria_id' => 4,
+                'penduduk_id' => 557,
+                'nilai' => 42.83,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            112 => 
+            array (
+                'id' => 3341,
+                'kriteria_id' => 5,
+                'penduduk_id' => 557,
+                'nilai' => 48.21,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            113 => 
+            array (
+                'id' => 3342,
+                'kriteria_id' => 6,
+                'penduduk_id' => 557,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            114 => 
+            array (
+                'id' => 3343,
+                'kriteria_id' => 1,
+                'penduduk_id' => 558,
+                'nilai' => 1223950.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            115 => 
+            array (
+                'id' => 3344,
+                'kriteria_id' => 2,
+                'penduduk_id' => 558,
+                'nilai' => 45.94,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            116 => 
+            array (
+                'id' => 3345,
+                'kriteria_id' => 3,
+                'penduduk_id' => 558,
+                'nilai' => 33148000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            117 => 
+            array (
+                'id' => 3346,
+                'kriteria_id' => 4,
+                'penduduk_id' => 558,
+                'nilai' => 57.02,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            118 => 
+            array (
+                'id' => 3347,
+                'kriteria_id' => 5,
+                'penduduk_id' => 558,
+                'nilai' => 29.08,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            119 => 
+            array (
+                'id' => 3348,
+                'kriteria_id' => 6,
+                'penduduk_id' => 558,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            120 => 
+            array (
+                'id' => 3349,
+                'kriteria_id' => 1,
+                'penduduk_id' => 559,
+                'nilai' => 2970100.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            121 => 
+            array (
+                'id' => 3350,
+                'kriteria_id' => 2,
+                'penduduk_id' => 559,
+                'nilai' => 65.23,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            122 => 
+            array (
+                'id' => 3351,
+                'kriteria_id' => 3,
+                'penduduk_id' => 559,
+                'nilai' => 27012000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            123 => 
+            array (
+                'id' => 3352,
+                'kriteria_id' => 4,
+                'penduduk_id' => 559,
+                'nilai' => 48.79,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            124 => 
+            array (
+                'id' => 3353,
+                'kriteria_id' => 5,
+                'penduduk_id' => 559,
+                'nilai' => 71.65,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            125 => 
+            array (
+                'id' => 3354,
+                'kriteria_id' => 6,
+                'penduduk_id' => 559,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            126 => 
+            array (
+                'id' => 3355,
+                'kriteria_id' => 1,
+                'penduduk_id' => 560,
+                'nilai' => 1623650.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            127 => 
+            array (
+                'id' => 3356,
+                'kriteria_id' => 2,
+                'penduduk_id' => 560,
+                'nilai' => 53.7,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            128 => 
+            array (
+                'id' => 3357,
+                'kriteria_id' => 3,
+                'penduduk_id' => 560,
+                'nilai' => 34372000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            129 => 
+            array (
+                'id' => 3358,
+                'kriteria_id' => 4,
+                'penduduk_id' => 560,
+                'nilai' => 93.11,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            130 => 
+            array (
+                'id' => 3359,
+                'kriteria_id' => 5,
+                'penduduk_id' => 560,
+                'nilai' => 75.47,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            131 => 
+            array (
+                'id' => 3360,
+                'kriteria_id' => 6,
+                'penduduk_id' => 560,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            132 => 
+            array (
+                'id' => 3361,
+                'kriteria_id' => 1,
+                'penduduk_id' => 561,
+                'nilai' => 2207450.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            133 => 
+            array (
+                'id' => 3362,
+                'kriteria_id' => 2,
+                'penduduk_id' => 561,
+                'nilai' => 63.14,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            134 => 
+            array (
+                'id' => 3363,
+                'kriteria_id' => 3,
+                'penduduk_id' => 561,
+                'nilai' => 26840000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            135 => 
+            array (
+                'id' => 3364,
+                'kriteria_id' => 4,
+                'penduduk_id' => 561,
+                'nilai' => 80.31,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            136 => 
+            array (
+                'id' => 3365,
+                'kriteria_id' => 5,
+                'penduduk_id' => 561,
+                'nilai' => 30.15,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            137 => 
+            array (
+                'id' => 3366,
+                'kriteria_id' => 6,
+                'penduduk_id' => 561,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            138 => 
+            array (
+                'id' => 3367,
+                'kriteria_id' => 1,
+                'penduduk_id' => 562,
+                'nilai' => 2403800.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            139 => 
+            array (
+                'id' => 3368,
+                'kriteria_id' => 2,
+                'penduduk_id' => 562,
+                'nilai' => 83.37,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            140 => 
+            array (
+                'id' => 3369,
+                'kriteria_id' => 3,
+                'penduduk_id' => 562,
+                'nilai' => 32352000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            141 => 
+            array (
+                'id' => 3370,
+                'kriteria_id' => 4,
+                'penduduk_id' => 562,
+                'nilai' => 62.17,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            142 => 
+            array (
+                'id' => 3371,
+                'kriteria_id' => 5,
+                'penduduk_id' => 562,
+                'nilai' => 51.16,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            143 => 
+            array (
+                'id' => 3372,
+                'kriteria_id' => 6,
+                'penduduk_id' => 562,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            144 => 
+            array (
+                'id' => 3373,
+                'kriteria_id' => 1,
+                'penduduk_id' => 563,
+                'nilai' => 2175950.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            145 => 
+            array (
+                'id' => 3374,
+                'kriteria_id' => 2,
+                'penduduk_id' => 563,
+                'nilai' => 51.16,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            146 => 
+            array (
+                'id' => 3375,
+                'kriteria_id' => 3,
+                'penduduk_id' => 563,
+                'nilai' => 33632000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            147 => 
+            array (
+                'id' => 3376,
+                'kriteria_id' => 4,
+                'penduduk_id' => 563,
+                'nilai' => 69.31,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            148 => 
+            array (
+                'id' => 3377,
+                'kriteria_id' => 5,
+                'penduduk_id' => 563,
+                'nilai' => 92.28,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            149 => 
+            array (
+                'id' => 3378,
+                'kriteria_id' => 6,
+                'penduduk_id' => 563,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            150 => 
+            array (
+                'id' => 3379,
+                'kriteria_id' => 1,
+                'penduduk_id' => 564,
+                'nilai' => 3300500.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            151 => 
+            array (
+                'id' => 3380,
+                'kriteria_id' => 2,
+                'penduduk_id' => 564,
+                'nilai' => 56.97,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            152 => 
+            array (
+                'id' => 3381,
+                'kriteria_id' => 3,
+                'penduduk_id' => 564,
+                'nilai' => 15452000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            153 => 
+            array (
+                'id' => 3382,
+                'kriteria_id' => 4,
+                'penduduk_id' => 564,
+                'nilai' => 98.83,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            154 => 
+            array (
+                'id' => 3383,
+                'kriteria_id' => 5,
+                'penduduk_id' => 564,
+                'nilai' => 92.4,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            155 => 
+            array (
+                'id' => 3384,
+                'kriteria_id' => 6,
+                'penduduk_id' => 564,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            156 => 
+            array (
+                'id' => 3385,
+                'kriteria_id' => 1,
+                'penduduk_id' => 565,
+                'nilai' => 2038050.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            157 => 
+            array (
+                'id' => 3386,
+                'kriteria_id' => 2,
+                'penduduk_id' => 565,
+                'nilai' => 85.44,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            158 => 
+            array (
+                'id' => 3387,
+                'kriteria_id' => 3,
+                'penduduk_id' => 565,
+                'nilai' => 26380000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            159 => 
+            array (
+                'id' => 3388,
+                'kriteria_id' => 4,
+                'penduduk_id' => 565,
+                'nilai' => 48.73,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            160 => 
+            array (
+                'id' => 3389,
+                'kriteria_id' => 5,
+                'penduduk_id' => 565,
+                'nilai' => 61.22,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            161 => 
+            array (
+                'id' => 3390,
+                'kriteria_id' => 6,
+                'penduduk_id' => 565,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            162 => 
+            array (
+                'id' => 3391,
+                'kriteria_id' => 1,
+                'penduduk_id' => 566,
+                'nilai' => 3286850.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            163 => 
+            array (
+                'id' => 3392,
+                'kriteria_id' => 2,
+                'penduduk_id' => 566,
+                'nilai' => 99.43,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            164 => 
+            array (
+                'id' => 3393,
+                'kriteria_id' => 3,
+                'penduduk_id' => 566,
+                'nilai' => 34996000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            165 => 
+            array (
+                'id' => 3394,
+                'kriteria_id' => 4,
+                'penduduk_id' => 566,
+                'nilai' => 55.84,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            166 => 
+            array (
+                'id' => 3395,
+                'kriteria_id' => 5,
+                'penduduk_id' => 566,
+                'nilai' => 80.54,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            167 => 
+            array (
+                'id' => 3396,
+                'kriteria_id' => 6,
+                'penduduk_id' => 566,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            168 => 
+            array (
+                'id' => 3397,
+                'kriteria_id' => 1,
+                'penduduk_id' => 567,
+                'nilai' => 2195550.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            169 => 
+            array (
+                'id' => 3398,
+                'kriteria_id' => 2,
+                'penduduk_id' => 567,
+                'nilai' => 77.33,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            170 => 
+            array (
+                'id' => 3399,
+                'kriteria_id' => 3,
+                'penduduk_id' => 567,
+                'nilai' => 23488000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            171 => 
+            array (
+                'id' => 3400,
+                'kriteria_id' => 4,
+                'penduduk_id' => 567,
+                'nilai' => 38.66,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            172 => 
+            array (
+                'id' => 3401,
+                'kriteria_id' => 5,
+                'penduduk_id' => 567,
+                'nilai' => 41.97,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            173 => 
+            array (
+                'id' => 3402,
+                'kriteria_id' => 6,
+                'penduduk_id' => 567,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            174 => 
+            array (
+                'id' => 3403,
+                'kriteria_id' => 1,
+                'penduduk_id' => 568,
+                'nilai' => 2537500.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            175 => 
+            array (
+                'id' => 3404,
+                'kriteria_id' => 2,
+                'penduduk_id' => 568,
+                'nilai' => 81.27,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            176 => 
+            array (
+                'id' => 3405,
+                'kriteria_id' => 3,
+                'penduduk_id' => 568,
+                'nilai' => 33268000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            177 => 
+            array (
+                'id' => 3406,
+                'kriteria_id' => 4,
+                'penduduk_id' => 568,
+                'nilai' => 60.54,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            178 => 
+            array (
+                'id' => 3407,
+                'kriteria_id' => 5,
+                'penduduk_id' => 568,
+                'nilai' => 54.75,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            179 => 
+            array (
+                'id' => 3408,
+                'kriteria_id' => 6,
+                'penduduk_id' => 568,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            180 => 
+            array (
+                'id' => 3409,
+                'kriteria_id' => 1,
+                'penduduk_id' => 569,
+                'nilai' => 1690150.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            181 => 
+            array (
+                'id' => 3410,
+                'kriteria_id' => 2,
+                'penduduk_id' => 569,
+                'nilai' => 61.19,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            182 => 
+            array (
+                'id' => 3411,
+                'kriteria_id' => 3,
+                'penduduk_id' => 569,
+                'nilai' => 25624000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            183 => 
+            array (
+                'id' => 3412,
+                'kriteria_id' => 4,
+                'penduduk_id' => 569,
+                'nilai' => 57.58,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            184 => 
+            array (
+                'id' => 3413,
+                'kriteria_id' => 5,
+                'penduduk_id' => 569,
+                'nilai' => 80.17,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            185 => 
+            array (
+                'id' => 3414,
+                'kriteria_id' => 6,
+                'penduduk_id' => 569,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            186 => 
+            array (
+                'id' => 3415,
+                'kriteria_id' => 1,
+                'penduduk_id' => 570,
+                'nilai' => 2975000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            187 => 
+            array (
+                'id' => 3416,
+                'kriteria_id' => 2,
+                'penduduk_id' => 570,
+                'nilai' => 28.51,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            188 => 
+            array (
+                'id' => 3417,
+                'kriteria_id' => 3,
+                'penduduk_id' => 570,
+                'nilai' => 28416000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            189 => 
+            array (
+                'id' => 3418,
+                'kriteria_id' => 4,
+                'penduduk_id' => 570,
+                'nilai' => 37.78,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            190 => 
+            array (
+                'id' => 3419,
+                'kriteria_id' => 5,
+                'penduduk_id' => 570,
+                'nilai' => 40.91,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            191 => 
+            array (
+                'id' => 3420,
+                'kriteria_id' => 6,
+                'penduduk_id' => 570,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            192 => 
+            array (
+                'id' => 3421,
+                'kriteria_id' => 1,
+                'penduduk_id' => 571,
+                'nilai' => 2582300.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            193 => 
+            array (
+                'id' => 3422,
+                'kriteria_id' => 2,
+                'penduduk_id' => 571,
+                'nilai' => 34.81,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            194 => 
+            array (
+                'id' => 3423,
+                'kriteria_id' => 3,
+                'penduduk_id' => 571,
+                'nilai' => 37208000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            195 => 
+            array (
+                'id' => 3424,
+                'kriteria_id' => 4,
+                'penduduk_id' => 571,
+                'nilai' => 66.05,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            196 => 
+            array (
+                'id' => 3425,
+                'kriteria_id' => 5,
+                'penduduk_id' => 571,
+                'nilai' => 37.3,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            197 => 
+            array (
+                'id' => 3426,
+                'kriteria_id' => 6,
+                'penduduk_id' => 571,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            198 => 
+            array (
+                'id' => 3427,
+                'kriteria_id' => 1,
+                'penduduk_id' => 572,
+                'nilai' => 3314850.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            199 => 
+            array (
+                'id' => 3428,
+                'kriteria_id' => 2,
+                'penduduk_id' => 572,
+                'nilai' => 36.49,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            200 => 
+            array (
+                'id' => 3429,
+                'kriteria_id' => 3,
+                'penduduk_id' => 572,
+                'nilai' => 35672000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            201 => 
+            array (
+                'id' => 3430,
+                'kriteria_id' => 4,
+                'penduduk_id' => 572,
+                'nilai' => 50.34,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            202 => 
+            array (
+                'id' => 3431,
+                'kriteria_id' => 5,
+                'penduduk_id' => 572,
+                'nilai' => 83.19,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            203 => 
+            array (
+                'id' => 3432,
+                'kriteria_id' => 6,
+                'penduduk_id' => 572,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            204 => 
+            array (
+                'id' => 3433,
+                'kriteria_id' => 1,
+                'penduduk_id' => 573,
+                'nilai' => 1876000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            205 => 
+            array (
+                'id' => 3434,
+                'kriteria_id' => 2,
+                'penduduk_id' => 573,
+                'nilai' => 58.67,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            206 => 
+            array (
+                'id' => 3435,
+                'kriteria_id' => 3,
+                'penduduk_id' => 573,
+                'nilai' => 19308000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            207 => 
+            array (
+                'id' => 3436,
+                'kriteria_id' => 4,
+                'penduduk_id' => 573,
+                'nilai' => 42.83,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            208 => 
+            array (
+                'id' => 3437,
+                'kriteria_id' => 5,
+                'penduduk_id' => 573,
+                'nilai' => 48.21,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            209 => 
+            array (
+                'id' => 3438,
+                'kriteria_id' => 6,
+                'penduduk_id' => 573,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            210 => 
+            array (
+                'id' => 3439,
+                'kriteria_id' => 1,
+                'penduduk_id' => 574,
+                'nilai' => 2248050.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            211 => 
+            array (
+                'id' => 3440,
+                'kriteria_id' => 2,
+                'penduduk_id' => 574,
+                'nilai' => 50.28,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            212 => 
+            array (
+                'id' => 3441,
+                'kriteria_id' => 3,
+                'penduduk_id' => 574,
+                'nilai' => 38840000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            213 => 
+            array (
+                'id' => 3442,
+                'kriteria_id' => 4,
+                'penduduk_id' => 574,
+                'nilai' => 56.4,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            214 => 
+            array (
+                'id' => 3443,
+                'kriteria_id' => 5,
+                'penduduk_id' => 574,
+                'nilai' => 56.99,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            215 => 
+            array (
+                'id' => 3444,
+                'kriteria_id' => 6,
+                'penduduk_id' => 574,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            216 => 
+            array (
+                'id' => 3445,
+                'kriteria_id' => 1,
+                'penduduk_id' => 575,
+                'nilai' => 3074750.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            217 => 
+            array (
+                'id' => 3446,
+                'kriteria_id' => 2,
+                'penduduk_id' => 575,
+                'nilai' => 46.15,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            218 => 
+            array (
+                'id' => 3447,
+                'kriteria_id' => 3,
+                'penduduk_id' => 575,
+                'nilai' => 38812000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            219 => 
+            array (
+                'id' => 3448,
+                'kriteria_id' => 4,
+                'penduduk_id' => 575,
+                'nilai' => 93.11,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            220 => 
+            array (
+                'id' => 3449,
+                'kriteria_id' => 5,
+                'penduduk_id' => 575,
+                'nilai' => 75.47,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            221 => 
+            array (
+                'id' => 3450,
+                'kriteria_id' => 6,
+                'penduduk_id' => 575,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            222 => 
+            array (
+                'id' => 3451,
+                'kriteria_id' => 1,
+                'penduduk_id' => 576,
+                'nilai' => 2517550.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            223 => 
+            array (
+                'id' => 3452,
+                'kriteria_id' => 2,
+                'penduduk_id' => 576,
+                'nilai' => 55.85,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            224 => 
+            array (
+                'id' => 3453,
+                'kriteria_id' => 3,
+                'penduduk_id' => 576,
+                'nilai' => 17976000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            225 => 
+            array (
+                'id' => 3454,
+                'kriteria_id' => 4,
+                'penduduk_id' => 576,
+                'nilai' => 77.45,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            226 => 
+            array (
+                'id' => 3455,
+                'kriteria_id' => 5,
+                'penduduk_id' => 576,
+                'nilai' => 57.89,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            227 => 
+            array (
+                'id' => 3456,
+                'kriteria_id' => 6,
+                'penduduk_id' => 576,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            228 => 
+            array (
+                'id' => 3457,
+                'kriteria_id' => 1,
+                'penduduk_id' => 577,
+                'nilai' => 2802100.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            229 => 
+            array (
+                'id' => 3458,
+                'kriteria_id' => 2,
+                'penduduk_id' => 577,
+                'nilai' => 34.65,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            230 => 
+            array (
+                'id' => 3459,
+                'kriteria_id' => 3,
+                'penduduk_id' => 577,
+                'nilai' => 19880000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            231 => 
+            array (
+                'id' => 3460,
+                'kriteria_id' => 4,
+                'penduduk_id' => 577,
+                'nilai' => 99.47,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            232 => 
+            array (
+                'id' => 3461,
+                'kriteria_id' => 5,
+                'penduduk_id' => 577,
+                'nilai' => 68.33,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            233 => 
+            array (
+                'id' => 3462,
+                'kriteria_id' => 6,
+                'penduduk_id' => 577,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            234 => 
+            array (
+                'id' => 3463,
+                'kriteria_id' => 1,
+                'penduduk_id' => 578,
+                'nilai' => 3180100.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            235 => 
+            array (
+                'id' => 3464,
+                'kriteria_id' => 2,
+                'penduduk_id' => 578,
+                'nilai' => 80.59,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            236 => 
+            array (
+                'id' => 3465,
+                'kriteria_id' => 3,
+                'penduduk_id' => 578,
+                'nilai' => 29712000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            237 => 
+            array (
+                'id' => 3466,
+                'kriteria_id' => 4,
+                'penduduk_id' => 578,
+                'nilai' => 88.38,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            238 => 
+            array (
+                'id' => 3467,
+                'kriteria_id' => 5,
+                'penduduk_id' => 578,
+                'nilai' => 68.24,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            239 => 
+            array (
+                'id' => 3468,
+                'kriteria_id' => 6,
+                'penduduk_id' => 578,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            240 => 
+            array (
+                'id' => 3469,
+                'kriteria_id' => 1,
+                'penduduk_id' => 579,
+                'nilai' => 1153950.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            241 => 
+            array (
+                'id' => 3470,
+                'kriteria_id' => 2,
+                'penduduk_id' => 579,
+                'nilai' => 29.74,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            242 => 
+            array (
+                'id' => 3471,
+                'kriteria_id' => 3,
+                'penduduk_id' => 579,
+                'nilai' => 31684000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            243 => 
+            array (
+                'id' => 3472,
+                'kriteria_id' => 4,
+                'penduduk_id' => 579,
+                'nilai' => 41.51,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            244 => 
+            array (
+                'id' => 3473,
+                'kriteria_id' => 5,
+                'penduduk_id' => 579,
+                'nilai' => 86.52,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            245 => 
+            array (
+                'id' => 3474,
+                'kriteria_id' => 6,
+                'penduduk_id' => 579,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            246 => 
+            array (
+                'id' => 3475,
+                'kriteria_id' => 1,
+                'penduduk_id' => 580,
+                'nilai' => 2312800.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            247 => 
+            array (
+                'id' => 3476,
+                'kriteria_id' => 2,
+                'penduduk_id' => 580,
+                'nilai' => 72.14,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
+            ),
+            248 => 
+            array (
+                'id' => 3477,
+                'kriteria_id' => 3,
+                'penduduk_id' => 580,
+                'nilai' => 17584000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             249 => 
             array (
-                'id' => 1250,
-                'kriteria_id' => 2,
-                'penduduk_id' => 209,
-                'nilai' => 69.81,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3478,
+                'kriteria_id' => 4,
+                'penduduk_id' => 580,
+                'nilai' => 46.39,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             250 => 
             array (
-                'id' => 1251,
-                'kriteria_id' => 3,
-                'penduduk_id' => 209,
-                'nilai' => 39136000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3479,
+                'kriteria_id' => 5,
+                'penduduk_id' => 580,
+                'nilai' => 53.7,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             251 => 
             array (
-                'id' => 1252,
-                'kriteria_id' => 4,
-                'penduduk_id' => 209,
-                'nilai' => 66.08,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3480,
+                'kriteria_id' => 6,
+                'penduduk_id' => 580,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             252 => 
             array (
-                'id' => 1253,
-                'kriteria_id' => 5,
-                'penduduk_id' => 209,
-                'nilai' => 72.14,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3481,
+                'kriteria_id' => 1,
+                'penduduk_id' => 581,
+                'nilai' => 2502150.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             253 => 
             array (
-                'id' => 1254,
-                'kriteria_id' => 6,
-                'penduduk_id' => 209,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3482,
+                'kriteria_id' => 2,
+                'penduduk_id' => 581,
+                'nilai' => 92.36,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             254 => 
             array (
-                'id' => 1255,
-                'kriteria_id' => 1,
-                'penduduk_id' => 210,
-                'nilai' => 1022000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3483,
+                'kriteria_id' => 3,
+                'penduduk_id' => 581,
+                'nilai' => 12596000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             255 => 
             array (
-                'id' => 1256,
-                'kriteria_id' => 2,
-                'penduduk_id' => 210,
-                'nilai' => 29.81,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3484,
+                'kriteria_id' => 4,
+                'penduduk_id' => 581,
+                'nilai' => 38.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             256 => 
             array (
-                'id' => 1257,
-                'kriteria_id' => 3,
-                'penduduk_id' => 210,
-                'nilai' => 28812000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3485,
+                'kriteria_id' => 5,
+                'penduduk_id' => 581,
+                'nilai' => 46.85,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             257 => 
             array (
-                'id' => 1258,
-                'kriteria_id' => 4,
-                'penduduk_id' => 210,
-                'nilai' => 62.42,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3486,
+                'kriteria_id' => 6,
+                'penduduk_id' => 581,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             258 => 
             array (
-                'id' => 1259,
-                'kriteria_id' => 5,
-                'penduduk_id' => 210,
-                'nilai' => 46.69,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3487,
+                'kriteria_id' => 1,
+                'penduduk_id' => 582,
+                'nilai' => 3323950.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             259 => 
             array (
-                'id' => 1260,
-                'kriteria_id' => 6,
-                'penduduk_id' => 210,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3488,
+                'kriteria_id' => 2,
+                'penduduk_id' => 582,
+                'nilai' => 73.75,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             260 => 
             array (
-                'id' => 1261,
-                'kriteria_id' => 1,
-                'penduduk_id' => 211,
-                'nilai' => 3029250.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3489,
+                'kriteria_id' => 3,
+                'penduduk_id' => 582,
+                'nilai' => 11816000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             261 => 
             array (
-                'id' => 1262,
-                'kriteria_id' => 2,
-                'penduduk_id' => 211,
-                'nilai' => 50.63,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3490,
+                'kriteria_id' => 4,
+                'penduduk_id' => 582,
+                'nilai' => 50.01,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             262 => 
             array (
-                'id' => 1263,
-                'kriteria_id' => 3,
-                'penduduk_id' => 211,
-                'nilai' => 17936000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3491,
+                'kriteria_id' => 5,
+                'penduduk_id' => 582,
+                'nilai' => 69.65,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             263 => 
             array (
-                'id' => 1264,
-                'kriteria_id' => 4,
-                'penduduk_id' => 211,
-                'nilai' => 46.61,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3492,
+                'kriteria_id' => 6,
+                'penduduk_id' => 582,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             264 => 
             array (
-                'id' => 1265,
-                'kriteria_id' => 5,
-                'penduduk_id' => 211,
-                'nilai' => 38.61,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3493,
+                'kriteria_id' => 1,
+                'penduduk_id' => 583,
+                'nilai' => 3029250.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             265 => 
             array (
-                'id' => 1266,
-                'kriteria_id' => 6,
-                'penduduk_id' => 211,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3494,
+                'kriteria_id' => 2,
+                'penduduk_id' => 583,
+                'nilai' => 50.63,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             266 => 
             array (
-                'id' => 1267,
-                'kriteria_id' => 1,
-                'penduduk_id' => 212,
-                'nilai' => 1463000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3495,
+                'kriteria_id' => 3,
+                'penduduk_id' => 583,
+                'nilai' => 17936000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             267 => 
             array (
-                'id' => 1268,
-                'kriteria_id' => 2,
-                'penduduk_id' => 212,
-                'nilai' => 34.29,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3496,
+                'kriteria_id' => 4,
+                'penduduk_id' => 583,
+                'nilai' => 46.61,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             268 => 
             array (
-                'id' => 1269,
-                'kriteria_id' => 3,
-                'penduduk_id' => 212,
-                'nilai' => 22096000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3497,
+                'kriteria_id' => 5,
+                'penduduk_id' => 583,
+                'nilai' => 38.61,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             269 => 
             array (
-                'id' => 1270,
-                'kriteria_id' => 4,
-                'penduduk_id' => 212,
-                'nilai' => 64.23,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3498,
+                'kriteria_id' => 6,
+                'penduduk_id' => 583,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             270 => 
             array (
-                'id' => 1271,
-                'kriteria_id' => 5,
-                'penduduk_id' => 212,
-                'nilai' => 50.28,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3499,
+                'kriteria_id' => 1,
+                'penduduk_id' => 584,
+                'nilai' => 3392900.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             271 => 
             array (
-                'id' => 1272,
-                'kriteria_id' => 6,
-                'penduduk_id' => 212,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3500,
+                'kriteria_id' => 2,
+                'penduduk_id' => 584,
+                'nilai' => 34.78,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             272 => 
             array (
-                'id' => 1273,
-                'kriteria_id' => 1,
-                'penduduk_id' => 213,
-                'nilai' => 2118900.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3501,
+                'kriteria_id' => 3,
+                'penduduk_id' => 584,
+                'nilai' => 34832000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             273 => 
             array (
-                'id' => 1274,
-                'kriteria_id' => 2,
-                'penduduk_id' => 213,
-                'nilai' => 78.06,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3502,
+                'kriteria_id' => 4,
+                'penduduk_id' => 584,
+                'nilai' => 98.67,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             274 => 
             array (
-                'id' => 1275,
-                'kriteria_id' => 3,
-                'penduduk_id' => 213,
-                'nilai' => 20564000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3503,
+                'kriteria_id' => 5,
+                'penduduk_id' => 584,
+                'nilai' => 34.39,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             275 => 
             array (
-                'id' => 1276,
-                'kriteria_id' => 4,
-                'penduduk_id' => 213,
-                'nilai' => 36.39,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3504,
+                'kriteria_id' => 6,
+                'penduduk_id' => 584,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             276 => 
             array (
-                'id' => 1277,
-                'kriteria_id' => 5,
-                'penduduk_id' => 213,
-                'nilai' => 66.59,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3505,
+                'kriteria_id' => 1,
+                'penduduk_id' => 585,
+                'nilai' => 2579500.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             277 => 
             array (
-                'id' => 1278,
-                'kriteria_id' => 6,
-                'penduduk_id' => 213,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3506,
+                'kriteria_id' => 2,
+                'penduduk_id' => 585,
+                'nilai' => 78.46,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             278 => 
             array (
-                'id' => 1279,
-                'kriteria_id' => 1,
-                'penduduk_id' => 214,
-                'nilai' => 1799000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3507,
+                'kriteria_id' => 3,
+                'penduduk_id' => 585,
+                'nilai' => 33528000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             279 => 
             array (
-                'id' => 1280,
-                'kriteria_id' => 2,
-                'penduduk_id' => 214,
-                'nilai' => 61.91,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3508,
+                'kriteria_id' => 4,
+                'penduduk_id' => 585,
+                'nilai' => 34.03,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             280 => 
             array (
-                'id' => 1281,
-                'kriteria_id' => 3,
-                'penduduk_id' => 214,
-                'nilai' => 25704000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3509,
+                'kriteria_id' => 5,
+                'penduduk_id' => 585,
+                'nilai' => 47.85,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             281 => 
             array (
-                'id' => 1282,
-                'kriteria_id' => 4,
-                'penduduk_id' => 214,
-                'nilai' => 98.04,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3510,
+                'kriteria_id' => 6,
+                'penduduk_id' => 585,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             282 => 
             array (
-                'id' => 1283,
-                'kriteria_id' => 5,
-                'penduduk_id' => 214,
-                'nilai' => 39.7,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3511,
+                'kriteria_id' => 1,
+                'penduduk_id' => 586,
+                'nilai' => 1025500.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             283 => 
             array (
-                'id' => 1284,
-                'kriteria_id' => 6,
-                'penduduk_id' => 214,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3512,
+                'kriteria_id' => 2,
+                'penduduk_id' => 586,
+                'nilai' => 65.02,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             284 => 
             array (
-                'id' => 1285,
-                'kriteria_id' => 1,
-                'penduduk_id' => 215,
-                'nilai' => 3382750.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3513,
+                'kriteria_id' => 3,
+                'penduduk_id' => 586,
+                'nilai' => 30476000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             285 => 
             array (
-                'id' => 1286,
-                'kriteria_id' => 2,
-                'penduduk_id' => 215,
-                'nilai' => 54.86,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3514,
+                'kriteria_id' => 4,
+                'penduduk_id' => 586,
+                'nilai' => 69.31,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             286 => 
             array (
-                'id' => 1287,
-                'kriteria_id' => 3,
-                'penduduk_id' => 215,
-                'nilai' => 27792000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3515,
+                'kriteria_id' => 5,
+                'penduduk_id' => 586,
+                'nilai' => 92.28,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             287 => 
             array (
-                'id' => 1288,
-                'kriteria_id' => 4,
-                'penduduk_id' => 215,
-                'nilai' => 55.84,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3516,
+                'kriteria_id' => 6,
+                'penduduk_id' => 586,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             288 => 
             array (
-                'id' => 1289,
-                'kriteria_id' => 5,
-                'penduduk_id' => 215,
-                'nilai' => 80.54,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3517,
+                'kriteria_id' => 1,
+                'penduduk_id' => 587,
+                'nilai' => 2804900.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             289 => 
             array (
-                'id' => 1290,
-                'kriteria_id' => 6,
-                'penduduk_id' => 215,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3518,
+                'kriteria_id' => 2,
+                'penduduk_id' => 587,
+                'nilai' => 89.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             290 => 
             array (
-                'id' => 1291,
-                'kriteria_id' => 1,
-                'penduduk_id' => 216,
-                'nilai' => 1191050.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3519,
+                'kriteria_id' => 3,
+                'penduduk_id' => 587,
+                'nilai' => 37672000.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             291 => 
             array (
-                'id' => 1292,
-                'kriteria_id' => 2,
-                'penduduk_id' => 216,
-                'nilai' => 47.85,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3520,
+                'kriteria_id' => 4,
+                'penduduk_id' => 587,
+                'nilai' => 98.83,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             292 => 
             array (
-                'id' => 1293,
-                'kriteria_id' => 3,
-                'penduduk_id' => 216,
-                'nilai' => 11640000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3521,
+                'kriteria_id' => 5,
+                'penduduk_id' => 587,
+                'nilai' => 92.4,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             293 => 
             array (
-                'id' => 1294,
-                'kriteria_id' => 4,
-                'penduduk_id' => 216,
-                'nilai' => 54.06,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3522,
+                'kriteria_id' => 6,
+                'penduduk_id' => 587,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             294 => 
             array (
-                'id' => 1295,
-                'kriteria_id' => 5,
-                'penduduk_id' => 216,
-                'nilai' => 31.24,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3523,
+                'kriteria_id' => 1,
+                'penduduk_id' => 588,
+                'nilai' => 1548050.0,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             295 => 
             array (
-                'id' => 1296,
-                'kriteria_id' => 6,
-                'penduduk_id' => 216,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3524,
+                'kriteria_id' => 2,
+                'penduduk_id' => 588,
+                'nilai' => 34.93,
+                'created_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-29 20:44:29',
             ),
             296 => 
             array (
-                'id' => 1297,
-                'kriteria_id' => 1,
-                'penduduk_id' => 217,
-                'nilai' => 2549400.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3525,
+                'kriteria_id' => 3,
+                'penduduk_id' => 588,
+                'nilai' => 12788000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             297 => 
             array (
-                'id' => 1298,
-                'kriteria_id' => 2,
-                'penduduk_id' => 217,
-                'nilai' => 68.2,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3526,
+                'kriteria_id' => 4,
+                'penduduk_id' => 588,
+                'nilai' => 95.7,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             298 => 
             array (
-                'id' => 1299,
-                'kriteria_id' => 3,
-                'penduduk_id' => 217,
-                'nilai' => 25492000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3527,
+                'kriteria_id' => 5,
+                'penduduk_id' => 588,
+                'nilai' => 83.68,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             299 => 
             array (
-                'id' => 1300,
-                'kriteria_id' => 4,
-                'penduduk_id' => 217,
-                'nilai' => 90.47,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3528,
+                'kriteria_id' => 6,
+                'penduduk_id' => 588,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             300 => 
             array (
-                'id' => 1301,
-                'kriteria_id' => 5,
-                'penduduk_id' => 217,
-                'nilai' => 83.96,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3529,
+                'kriteria_id' => 1,
+                'penduduk_id' => 589,
+                'nilai' => 3499300.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             301 => 
             array (
-                'id' => 1302,
-                'kriteria_id' => 6,
-                'penduduk_id' => 217,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3530,
+                'kriteria_id' => 2,
+                'penduduk_id' => 589,
+                'nilai' => 53.09,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             302 => 
             array (
-                'id' => 1303,
-                'kriteria_id' => 1,
-                'penduduk_id' => 218,
-                'nilai' => 1081500.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3531,
+                'kriteria_id' => 3,
+                'penduduk_id' => 589,
+                'nilai' => 17020000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             303 => 
             array (
-                'id' => 1304,
-                'kriteria_id' => 2,
-                'penduduk_id' => 218,
-                'nilai' => 52.73,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3532,
+                'kriteria_id' => 4,
+                'penduduk_id' => 589,
+                'nilai' => 92.35,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             304 => 
             array (
-                'id' => 1305,
-                'kriteria_id' => 3,
-                'penduduk_id' => 218,
-                'nilai' => 24228000.0,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3533,
+                'kriteria_id' => 5,
+                'penduduk_id' => 589,
+                'nilai' => 26.73,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             305 => 
             array (
-                'id' => 1306,
-                'kriteria_id' => 4,
-                'penduduk_id' => 218,
-                'nilai' => 53.05,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3534,
+                'kriteria_id' => 6,
+                'penduduk_id' => 589,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             306 => 
             array (
-                'id' => 1307,
-                'kriteria_id' => 5,
-                'penduduk_id' => 218,
-                'nilai' => 56.87,
-                'created_at' => '2023-05-29 19:52:36',
-                'updated_at' => '2023-05-29 19:52:36',
+                'id' => 3535,
+                'kriteria_id' => 1,
+                'penduduk_id' => 590,
+                'nilai' => 2425150.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             307 => 
             array (
-                'id' => 1308,
-                'kriteria_id' => 6,
-                'penduduk_id' => 218,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3536,
+                'kriteria_id' => 2,
+                'penduduk_id' => 590,
+                'nilai' => 59.86,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             308 => 
             array (
-                'id' => 1309,
-                'kriteria_id' => 1,
-                'penduduk_id' => 219,
-                'nilai' => 1452850.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3537,
+                'kriteria_id' => 3,
+                'penduduk_id' => 590,
+                'nilai' => 39480000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             309 => 
             array (
-                'id' => 1310,
-                'kriteria_id' => 2,
-                'penduduk_id' => 219,
-                'nilai' => 86.52,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3538,
+                'kriteria_id' => 4,
+                'penduduk_id' => 590,
+                'nilai' => 33.18,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             310 => 
             array (
-                'id' => 1311,
-                'kriteria_id' => 3,
-                'penduduk_id' => 219,
-                'nilai' => 10868000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3539,
+                'kriteria_id' => 5,
+                'penduduk_id' => 590,
+                'nilai' => 80.94,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             311 => 
             array (
-                'id' => 1312,
-                'kriteria_id' => 4,
-                'penduduk_id' => 219,
-                'nilai' => 62.21,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3540,
+                'kriteria_id' => 6,
+                'penduduk_id' => 590,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             312 => 
             array (
-                'id' => 1313,
-                'kriteria_id' => 5,
-                'penduduk_id' => 219,
-                'nilai' => 26.56,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3541,
+                'kriteria_id' => 1,
+                'penduduk_id' => 591,
+                'nilai' => 2355150.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             313 => 
             array (
-                'id' => 1314,
-                'kriteria_id' => 6,
-                'penduduk_id' => 219,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3542,
+                'kriteria_id' => 2,
+                'penduduk_id' => 591,
+                'nilai' => 39.48,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             314 => 
             array (
-                'id' => 1315,
-                'kriteria_id' => 1,
-                'penduduk_id' => 220,
-                'nilai' => 960750.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3543,
+                'kriteria_id' => 3,
+                'penduduk_id' => 591,
+                'nilai' => 39216000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             315 => 
             array (
-                'id' => 1316,
-                'kriteria_id' => 2,
-                'penduduk_id' => 220,
-                'nilai' => 66.37,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3544,
+                'kriteria_id' => 4,
+                'penduduk_id' => 591,
+                'nilai' => 33.18,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             316 => 
             array (
-                'id' => 1317,
-                'kriteria_id' => 3,
-                'penduduk_id' => 220,
-                'nilai' => 17124000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3545,
+                'kriteria_id' => 5,
+                'penduduk_id' => 591,
+                'nilai' => 80.94,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             317 => 
             array (
-                'id' => 1318,
-                'kriteria_id' => 4,
-                'penduduk_id' => 220,
-                'nilai' => 95.7,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3546,
+                'kriteria_id' => 6,
+                'penduduk_id' => 591,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             318 => 
             array (
-                'id' => 1319,
-                'kriteria_id' => 5,
-                'penduduk_id' => 220,
-                'nilai' => 83.68,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3547,
+                'kriteria_id' => 1,
+                'penduduk_id' => 592,
+                'nilai' => 2786350.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             319 => 
             array (
-                'id' => 1320,
-                'kriteria_id' => 6,
-                'penduduk_id' => 220,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3548,
+                'kriteria_id' => 2,
+                'penduduk_id' => 592,
+                'nilai' => 94.63,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             320 => 
             array (
-                'id' => 1321,
-                'kriteria_id' => 1,
-                'penduduk_id' => 221,
-                'nilai' => 1995700.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3549,
+                'kriteria_id' => 3,
+                'penduduk_id' => 592,
+                'nilai' => 32784000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             321 => 
             array (
-                'id' => 1322,
-                'kriteria_id' => 2,
-                'penduduk_id' => 221,
-                'nilai' => 29.08,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3550,
+                'kriteria_id' => 4,
+                'penduduk_id' => 592,
+                'nilai' => 40.26,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             322 => 
             array (
-                'id' => 1323,
-                'kriteria_id' => 3,
-                'penduduk_id' => 221,
-                'nilai' => 32676000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3551,
+                'kriteria_id' => 5,
+                'penduduk_id' => 592,
+                'nilai' => 34.99,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             323 => 
             array (
-                'id' => 1324,
-                'kriteria_id' => 4,
-                'penduduk_id' => 221,
-                'nilai' => 64.26,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3552,
+                'kriteria_id' => 6,
+                'penduduk_id' => 592,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             324 => 
             array (
-                'id' => 1325,
-                'kriteria_id' => 5,
-                'penduduk_id' => 221,
-                'nilai' => 45.4,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3553,
+                'kriteria_id' => 1,
+                'penduduk_id' => 593,
+                'nilai' => 1668800.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             325 => 
             array (
-                'id' => 1326,
-                'kriteria_id' => 6,
-                'penduduk_id' => 221,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3554,
+                'kriteria_id' => 2,
+                'penduduk_id' => 593,
+                'nilai' => 66.93,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             326 => 
             array (
-                'id' => 1327,
-                'kriteria_id' => 1,
-                'penduduk_id' => 222,
-                'nilai' => 2937550.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3555,
+                'kriteria_id' => 3,
+                'penduduk_id' => 593,
+                'nilai' => 27716000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             327 => 
             array (
-                'id' => 1328,
-                'kriteria_id' => 2,
-                'penduduk_id' => 222,
-                'nilai' => 91.47,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3556,
+                'kriteria_id' => 4,
+                'penduduk_id' => 593,
+                'nilai' => 97.19,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             328 => 
             array (
-                'id' => 1329,
-                'kriteria_id' => 3,
-                'penduduk_id' => 222,
-                'nilai' => 28736000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3557,
+                'kriteria_id' => 5,
+                'penduduk_id' => 593,
+                'nilai' => 35.9,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             329 => 
             array (
-                'id' => 1330,
-                'kriteria_id' => 4,
-                'penduduk_id' => 222,
-                'nilai' => 49.77,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3558,
+                'kriteria_id' => 6,
+                'penduduk_id' => 593,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             330 => 
             array (
-                'id' => 1331,
-                'kriteria_id' => 5,
-                'penduduk_id' => 222,
-                'nilai' => 72.7,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3559,
+                'kriteria_id' => 1,
+                'penduduk_id' => 594,
+                'nilai' => 1798300.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             331 => 
             array (
-                'id' => 1332,
-                'kriteria_id' => 6,
-                'penduduk_id' => 222,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3560,
+                'kriteria_id' => 2,
+                'penduduk_id' => 594,
+                'nilai' => 41.84,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             332 => 
             array (
-                'id' => 1333,
-                'kriteria_id' => 1,
-                'penduduk_id' => 223,
-                'nilai' => 1206100.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3561,
+                'kriteria_id' => 3,
+                'penduduk_id' => 594,
+                'nilai' => 27296000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             333 => 
             array (
-                'id' => 1334,
-                'kriteria_id' => 2,
-                'penduduk_id' => 223,
-                'nilai' => 45.61,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3562,
+                'kriteria_id' => 4,
+                'penduduk_id' => 594,
+                'nilai' => 51.4,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             334 => 
             array (
-                'id' => 1335,
-                'kriteria_id' => 3,
-                'penduduk_id' => 223,
-                'nilai' => 11080000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3563,
+                'kriteria_id' => 5,
+                'penduduk_id' => 594,
+                'nilai' => 61.91,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             335 => 
             array (
-                'id' => 1336,
-                'kriteria_id' => 4,
-                'penduduk_id' => 223,
-                'nilai' => 46.64,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3564,
+                'kriteria_id' => 6,
+                'penduduk_id' => 594,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             336 => 
             array (
-                'id' => 1337,
-                'kriteria_id' => 5,
-                'penduduk_id' => 223,
-                'nilai' => 89.31,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3565,
+                'kriteria_id' => 1,
+                'penduduk_id' => 595,
+                'nilai' => 2573900.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             337 => 
             array (
-                'id' => 1338,
-                'kriteria_id' => 6,
-                'penduduk_id' => 223,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3566,
+                'kriteria_id' => 2,
+                'penduduk_id' => 595,
+                'nilai' => 37.7,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             338 => 
             array (
-                'id' => 1339,
-                'kriteria_id' => 1,
-                'penduduk_id' => 224,
-                'nilai' => 1069250.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3567,
+                'kriteria_id' => 3,
+                'penduduk_id' => 595,
+                'nilai' => 18136000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             339 => 
             array (
-                'id' => 1340,
-                'kriteria_id' => 2,
-                'penduduk_id' => 224,
-                'nilai' => 79.54,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3568,
+                'kriteria_id' => 4,
+                'penduduk_id' => 595,
+                'nilai' => 47.42,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             340 => 
             array (
-                'id' => 1341,
-                'kriteria_id' => 3,
-                'penduduk_id' => 224,
-                'nilai' => 32984000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3569,
+                'kriteria_id' => 5,
+                'penduduk_id' => 595,
+                'nilai' => 79.77,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             341 => 
             array (
-                'id' => 1342,
-                'kriteria_id' => 4,
-                'penduduk_id' => 224,
-                'nilai' => 67.01,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3570,
+                'kriteria_id' => 6,
+                'penduduk_id' => 595,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             342 => 
             array (
-                'id' => 1343,
-                'kriteria_id' => 5,
-                'penduduk_id' => 224,
-                'nilai' => 34.99,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3571,
+                'kriteria_id' => 1,
+                'penduduk_id' => 596,
+                'nilai' => 2737350.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             343 => 
             array (
-                'id' => 1344,
-                'kriteria_id' => 6,
-                'penduduk_id' => 224,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3572,
+                'kriteria_id' => 2,
+                'penduduk_id' => 596,
+                'nilai' => 83.87,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             344 => 
             array (
-                'id' => 1345,
-                'kriteria_id' => 1,
-                'penduduk_id' => 225,
-                'nilai' => 1651650.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3573,
+                'kriteria_id' => 3,
+                'penduduk_id' => 596,
+                'nilai' => 19540000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             345 => 
             array (
-                'id' => 1346,
-                'kriteria_id' => 2,
-                'penduduk_id' => 225,
-                'nilai' => 77.94,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3574,
+                'kriteria_id' => 4,
+                'penduduk_id' => 596,
+                'nilai' => 95.11,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             346 => 
             array (
-                'id' => 1347,
-                'kriteria_id' => 3,
-                'penduduk_id' => 225,
-                'nilai' => 18812000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3575,
+                'kriteria_id' => 5,
+                'penduduk_id' => 596,
+                'nilai' => 52.06,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             347 => 
             array (
-                'id' => 1348,
-                'kriteria_id' => 4,
-                'penduduk_id' => 225,
-                'nilai' => 37.16,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3576,
+                'kriteria_id' => 6,
+                'penduduk_id' => 596,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             348 => 
             array (
-                'id' => 1349,
-                'kriteria_id' => 5,
-                'penduduk_id' => 225,
-                'nilai' => 35.34,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3577,
+                'kriteria_id' => 1,
+                'penduduk_id' => 597,
+                'nilai' => 1572550.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             349 => 
             array (
-                'id' => 1350,
-                'kriteria_id' => 6,
-                'penduduk_id' => 225,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3578,
+                'kriteria_id' => 2,
+                'penduduk_id' => 597,
+                'nilai' => 59.39,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             350 => 
             array (
-                'id' => 1351,
-                'kriteria_id' => 1,
-                'penduduk_id' => 226,
-                'nilai' => 1929200.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3579,
+                'kriteria_id' => 3,
+                'penduduk_id' => 597,
+                'nilai' => 29176000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             351 => 
             array (
-                'id' => 1352,
-                'kriteria_id' => 2,
-                'penduduk_id' => 226,
-                'nilai' => 90.44,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3580,
+                'kriteria_id' => 4,
+                'penduduk_id' => 597,
+                'nilai' => 47.72,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             352 => 
             array (
-                'id' => 1353,
-                'kriteria_id' => 3,
-                'penduduk_id' => 226,
-                'nilai' => 22032000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3581,
+                'kriteria_id' => 5,
+                'penduduk_id' => 597,
+                'nilai' => 34.55,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             353 => 
             array (
-                'id' => 1354,
-                'kriteria_id' => 4,
-                'penduduk_id' => 226,
-                'nilai' => 42.16,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3582,
+                'kriteria_id' => 6,
+                'penduduk_id' => 597,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             354 => 
             array (
-                'id' => 1355,
-                'kriteria_id' => 5,
-                'penduduk_id' => 226,
-                'nilai' => 73.06,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3583,
+                'kriteria_id' => 1,
+                'penduduk_id' => 598,
+                'nilai' => 1273650.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             355 => 
             array (
-                'id' => 1356,
-                'kriteria_id' => 6,
-                'penduduk_id' => 226,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3584,
+                'kriteria_id' => 2,
+                'penduduk_id' => 598,
+                'nilai' => 66.59,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             356 => 
             array (
-                'id' => 1357,
-                'kriteria_id' => 1,
-                'penduduk_id' => 227,
-                'nilai' => 3233650.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3585,
+                'kriteria_id' => 3,
+                'penduduk_id' => 598,
+                'nilai' => 18332000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             357 => 
             array (
-                'id' => 1358,
-                'kriteria_id' => 2,
-                'penduduk_id' => 227,
-                'nilai' => 29.69,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3586,
+                'kriteria_id' => 4,
+                'penduduk_id' => 598,
+                'nilai' => 76.03,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             358 => 
             array (
-                'id' => 1359,
-                'kriteria_id' => 3,
-                'penduduk_id' => 227,
-                'nilai' => 28332000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3587,
+                'kriteria_id' => 5,
+                'penduduk_id' => 598,
+                'nilai' => 30.69,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             359 => 
             array (
-                'id' => 1360,
-                'kriteria_id' => 4,
-                'penduduk_id' => 227,
-                'nilai' => 33.21,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3588,
+                'kriteria_id' => 6,
+                'penduduk_id' => 598,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             360 => 
             array (
-                'id' => 1361,
-                'kriteria_id' => 5,
-                'penduduk_id' => 227,
-                'nilai' => 57.45,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3589,
+                'kriteria_id' => 1,
+                'penduduk_id' => 599,
+                'nilai' => 3362100.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             361 => 
             array (
-                'id' => 1362,
-                'kriteria_id' => 6,
-                'penduduk_id' => 227,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3590,
+                'kriteria_id' => 2,
+                'penduduk_id' => 599,
+                'nilai' => 70.42,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             362 => 
             array (
-                'id' => 1363,
-                'kriteria_id' => 1,
-                'penduduk_id' => 228,
-                'nilai' => 2052050.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3591,
+                'kriteria_id' => 3,
+                'penduduk_id' => 599,
+                'nilai' => 25968000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             363 => 
             array (
-                'id' => 1364,
-                'kriteria_id' => 2,
-                'penduduk_id' => 228,
-                'nilai' => 77.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3592,
+                'kriteria_id' => 4,
+                'penduduk_id' => 599,
+                'nilai' => 37.16,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             364 => 
             array (
-                'id' => 1365,
-                'kriteria_id' => 3,
-                'penduduk_id' => 228,
-                'nilai' => 16120000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3593,
+                'kriteria_id' => 5,
+                'penduduk_id' => 599,
+                'nilai' => 35.34,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             365 => 
             array (
-                'id' => 1366,
-                'kriteria_id' => 4,
-                'penduduk_id' => 228,
-                'nilai' => 57.86,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3594,
+                'kriteria_id' => 6,
+                'penduduk_id' => 599,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             366 => 
             array (
-                'id' => 1367,
-                'kriteria_id' => 5,
-                'penduduk_id' => 228,
-                'nilai' => 31.91,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3595,
+                'kriteria_id' => 1,
+                'penduduk_id' => 600,
+                'nilai' => 2867550.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             367 => 
             array (
-                'id' => 1368,
-                'kriteria_id' => 6,
-                'penduduk_id' => 228,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3596,
+                'kriteria_id' => 2,
+                'penduduk_id' => 600,
+                'nilai' => 51.71,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             368 => 
             array (
-                'id' => 1369,
-                'kriteria_id' => 1,
-                'penduduk_id' => 229,
-                'nilai' => 2774800.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3597,
+                'kriteria_id' => 3,
+                'penduduk_id' => 600,
+                'nilai' => 35168000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             369 => 
             array (
-                'id' => 1370,
-                'kriteria_id' => 2,
-                'penduduk_id' => 229,
-                'nilai' => 64.6,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3598,
+                'kriteria_id' => 4,
+                'penduduk_id' => 600,
+                'nilai' => 73.52,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             370 => 
             array (
-                'id' => 1371,
-                'kriteria_id' => 3,
-                'penduduk_id' => 229,
-                'nilai' => 37148000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3599,
+                'kriteria_id' => 5,
+                'penduduk_id' => 600,
+                'nilai' => 78.02,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             371 => 
             array (
-                'id' => 1372,
-                'kriteria_id' => 4,
-                'penduduk_id' => 229,
-                'nilai' => 63.44,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3600,
+                'kriteria_id' => 6,
+                'penduduk_id' => 600,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             372 => 
             array (
-                'id' => 1373,
-                'kriteria_id' => 5,
-                'penduduk_id' => 229,
-                'nilai' => 86.41,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3601,
+                'kriteria_id' => 1,
+                'penduduk_id' => 601,
+                'nilai' => 2599800.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             373 => 
             array (
-                'id' => 1374,
-                'kriteria_id' => 6,
-                'penduduk_id' => 229,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3602,
+                'kriteria_id' => 2,
+                'penduduk_id' => 601,
+                'nilai' => 51.48,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             374 => 
             array (
-                'id' => 1375,
-                'kriteria_id' => 1,
-                'penduduk_id' => 230,
-                'nilai' => 2867550.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3603,
+                'kriteria_id' => 3,
+                'penduduk_id' => 601,
+                'nilai' => 13264000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             375 => 
             array (
-                'id' => 1376,
-                'kriteria_id' => 2,
-                'penduduk_id' => 230,
-                'nilai' => 51.71,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3604,
+                'kriteria_id' => 4,
+                'penduduk_id' => 601,
+                'nilai' => 62.17,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             376 => 
             array (
-                'id' => 1377,
-                'kriteria_id' => 3,
-                'penduduk_id' => 230,
-                'nilai' => 35168000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3605,
+                'kriteria_id' => 5,
+                'penduduk_id' => 601,
+                'nilai' => 51.16,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             377 => 
             array (
-                'id' => 1378,
-                'kriteria_id' => 4,
-                'penduduk_id' => 230,
-                'nilai' => 73.52,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3606,
+                'kriteria_id' => 6,
+                'penduduk_id' => 601,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             378 => 
             array (
-                'id' => 1379,
-                'kriteria_id' => 5,
-                'penduduk_id' => 230,
-                'nilai' => 78.02,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3607,
+                'kriteria_id' => 1,
+                'penduduk_id' => 602,
+                'nilai' => 1621900.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             379 => 
             array (
-                'id' => 1380,
-                'kriteria_id' => 6,
-                'penduduk_id' => 230,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3608,
+                'kriteria_id' => 2,
+                'penduduk_id' => 602,
+                'nilai' => 93.6,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             380 => 
             array (
-                'id' => 1381,
-                'kriteria_id' => 1,
-                'penduduk_id' => 231,
-                'nilai' => 1189300.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3609,
+                'kriteria_id' => 3,
+                'penduduk_id' => 602,
+                'nilai' => 25120000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             381 => 
             array (
-                'id' => 1382,
-                'kriteria_id' => 2,
-                'penduduk_id' => 231,
-                'nilai' => 26.04,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3610,
+                'kriteria_id' => 4,
+                'penduduk_id' => 602,
+                'nilai' => 73.7,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             382 => 
             array (
-                'id' => 1383,
-                'kriteria_id' => 3,
-                'penduduk_id' => 231,
-                'nilai' => 21284000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3611,
+                'kriteria_id' => 5,
+                'penduduk_id' => 602,
+                'nilai' => 78.46,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             383 => 
             array (
-                'id' => 1384,
-                'kriteria_id' => 4,
-                'penduduk_id' => 231,
-                'nilai' => 78.43,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3612,
+                'kriteria_id' => 6,
+                'penduduk_id' => 602,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             384 => 
             array (
-                'id' => 1385,
-                'kriteria_id' => 5,
-                'penduduk_id' => 231,
-                'nilai' => 69.05,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3613,
+                'kriteria_id' => 1,
+                'penduduk_id' => 603,
+                'nilai' => 1312150.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             385 => 
             array (
-                'id' => 1386,
-                'kriteria_id' => 6,
-                'penduduk_id' => 231,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3614,
+                'kriteria_id' => 2,
+                'penduduk_id' => 603,
+                'nilai' => 65.54,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             386 => 
             array (
-                'id' => 1387,
-                'kriteria_id' => 1,
-                'penduduk_id' => 232,
-                'nilai' => 1157800.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3615,
+                'kriteria_id' => 3,
+                'penduduk_id' => 603,
+                'nilai' => 23768000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             387 => 
             array (
-                'id' => 1388,
-                'kriteria_id' => 2,
-                'penduduk_id' => 232,
-                'nilai' => 30.88,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3616,
+                'kriteria_id' => 4,
+                'penduduk_id' => 603,
+                'nilai' => 93.15,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             388 => 
             array (
-                'id' => 1389,
-                'kriteria_id' => 3,
-                'penduduk_id' => 232,
-                'nilai' => 32948000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3617,
+                'kriteria_id' => 5,
+                'penduduk_id' => 603,
+                'nilai' => 89.6,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             389 => 
             array (
-                'id' => 1390,
-                'kriteria_id' => 4,
-                'penduduk_id' => 232,
-                'nilai' => 26.27,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3618,
+                'kriteria_id' => 6,
+                'penduduk_id' => 603,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             390 => 
             array (
-                'id' => 1391,
-                'kriteria_id' => 5,
-                'penduduk_id' => 232,
-                'nilai' => 60.43,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3619,
+                'kriteria_id' => 1,
+                'penduduk_id' => 604,
+                'nilai' => 3238550.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             391 => 
             array (
-                'id' => 1392,
-                'kriteria_id' => 6,
-                'penduduk_id' => 232,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3620,
+                'kriteria_id' => 2,
+                'penduduk_id' => 604,
+                'nilai' => 40.47,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             392 => 
             array (
-                'id' => 1393,
-                'kriteria_id' => 1,
-                'penduduk_id' => 233,
-                'nilai' => 2364600.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3621,
+                'kriteria_id' => 3,
+                'penduduk_id' => 604,
+                'nilai' => 34512000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             393 => 
             array (
-                'id' => 1394,
-                'kriteria_id' => 2,
-                'penduduk_id' => 233,
-                'nilai' => 97.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3622,
+                'kriteria_id' => 4,
+                'penduduk_id' => 604,
+                'nilai' => 96.65,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             394 => 
             array (
-                'id' => 1395,
-                'kriteria_id' => 3,
-                'penduduk_id' => 233,
-                'nilai' => 33152000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3623,
+                'kriteria_id' => 5,
+                'penduduk_id' => 604,
+                'nilai' => 54.86,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             395 => 
             array (
-                'id' => 1396,
-                'kriteria_id' => 4,
-                'penduduk_id' => 233,
-                'nilai' => 37.25,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3624,
+                'kriteria_id' => 6,
+                'penduduk_id' => 604,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             396 => 
             array (
-                'id' => 1397,
-                'kriteria_id' => 5,
-                'penduduk_id' => 233,
-                'nilai' => 97.74,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3625,
+                'kriteria_id' => 1,
+                'penduduk_id' => 605,
+                'nilai' => 1707650.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             397 => 
             array (
-                'id' => 1398,
-                'kriteria_id' => 6,
-                'penduduk_id' => 233,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3626,
+                'kriteria_id' => 2,
+                'penduduk_id' => 605,
+                'nilai' => 71.65,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             398 => 
             array (
-                'id' => 1399,
-                'kriteria_id' => 1,
-                'penduduk_id' => 234,
-                'nilai' => 2663850.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3627,
+                'kriteria_id' => 3,
+                'penduduk_id' => 605,
+                'nilai' => 37516000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             399 => 
             array (
-                'id' => 1400,
-                'kriteria_id' => 2,
-                'penduduk_id' => 234,
-                'nilai' => 39.03,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3628,
+                'kriteria_id' => 4,
+                'penduduk_id' => 605,
+                'nilai' => 37.78,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             400 => 
             array (
-                'id' => 1401,
-                'kriteria_id' => 3,
-                'penduduk_id' => 234,
-                'nilai' => 31484000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3629,
+                'kriteria_id' => 5,
+                'penduduk_id' => 605,
+                'nilai' => 40.91,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             401 => 
             array (
-                'id' => 1402,
-                'kriteria_id' => 4,
-                'penduduk_id' => 234,
-                'nilai' => 91.84,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3630,
+                'kriteria_id' => 6,
+                'penduduk_id' => 605,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             402 => 
             array (
-                'id' => 1403,
-                'kriteria_id' => 5,
-                'penduduk_id' => 234,
-                'nilai' => 83.46,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3631,
+                'kriteria_id' => 1,
+                'penduduk_id' => 606,
+                'nilai' => 1529500.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             403 => 
             array (
-                'id' => 1404,
-                'kriteria_id' => 6,
-                'penduduk_id' => 234,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3632,
+                'kriteria_id' => 2,
+                'penduduk_id' => 606,
+                'nilai' => 46.2,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             404 => 
             array (
-                'id' => 1405,
-                'kriteria_id' => 1,
-                'penduduk_id' => 235,
-                'nilai' => 2207450.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3633,
+                'kriteria_id' => 3,
+                'penduduk_id' => 606,
+                'nilai' => 39708000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             405 => 
             array (
-                'id' => 1406,
-                'kriteria_id' => 2,
-                'penduduk_id' => 235,
-                'nilai' => 63.14,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3634,
+                'kriteria_id' => 4,
+                'penduduk_id' => 606,
+                'nilai' => 59.95,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             406 => 
             array (
-                'id' => 1407,
-                'kriteria_id' => 3,
-                'penduduk_id' => 235,
-                'nilai' => 26840000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3635,
+                'kriteria_id' => 5,
+                'penduduk_id' => 606,
+                'nilai' => 81.9,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             407 => 
             array (
-                'id' => 1408,
-                'kriteria_id' => 4,
-                'penduduk_id' => 235,
-                'nilai' => 80.31,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3636,
+                'kriteria_id' => 6,
+                'penduduk_id' => 606,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             408 => 
             array (
-                'id' => 1409,
-                'kriteria_id' => 5,
-                'penduduk_id' => 235,
-                'nilai' => 30.15,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3637,
+                'kriteria_id' => 1,
+                'penduduk_id' => 607,
+                'nilai' => 2793700.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             409 => 
             array (
-                'id' => 1410,
-                'kriteria_id' => 6,
-                'penduduk_id' => 235,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3638,
+                'kriteria_id' => 2,
+                'penduduk_id' => 607,
+                'nilai' => 60.23,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             410 => 
             array (
-                'id' => 1411,
-                'kriteria_id' => 1,
-                'penduduk_id' => 236,
-                'nilai' => 2517550.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3639,
+                'kriteria_id' => 3,
+                'penduduk_id' => 607,
+                'nilai' => 27384000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             411 => 
             array (
-                'id' => 1412,
-                'kriteria_id' => 2,
-                'penduduk_id' => 236,
-                'nilai' => 55.85,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3640,
+                'kriteria_id' => 4,
+                'penduduk_id' => 607,
+                'nilai' => 73.78,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             412 => 
             array (
-                'id' => 1413,
-                'kriteria_id' => 3,
-                'penduduk_id' => 236,
-                'nilai' => 17976000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3641,
+                'kriteria_id' => 5,
+                'penduduk_id' => 607,
+                'nilai' => 34.81,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             413 => 
             array (
-                'id' => 1414,
-                'kriteria_id' => 4,
-                'penduduk_id' => 236,
-                'nilai' => 77.45,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3642,
+                'kriteria_id' => 6,
+                'penduduk_id' => 607,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             414 => 
             array (
-                'id' => 1415,
-                'kriteria_id' => 5,
-                'penduduk_id' => 236,
-                'nilai' => 57.89,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3643,
+                'kriteria_id' => 1,
+                'penduduk_id' => 608,
+                'nilai' => 998200.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             415 => 
             array (
-                'id' => 1416,
-                'kriteria_id' => 6,
-                'penduduk_id' => 236,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3644,
+                'kriteria_id' => 2,
+                'penduduk_id' => 608,
+                'nilai' => 62.67,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             416 => 
             array (
-                'id' => 1417,
-                'kriteria_id' => 1,
-                'penduduk_id' => 237,
-                'nilai' => 1876000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3645,
+                'kriteria_id' => 3,
+                'penduduk_id' => 608,
+                'nilai' => 24496000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             417 => 
             array (
-                'id' => 1418,
-                'kriteria_id' => 2,
-                'penduduk_id' => 237,
-                'nilai' => 58.67,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3646,
+                'kriteria_id' => 4,
+                'penduduk_id' => 608,
+                'nilai' => 96.92,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             418 => 
             array (
-                'id' => 1419,
-                'kriteria_id' => 3,
-                'penduduk_id' => 237,
-                'nilai' => 19308000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3647,
+                'kriteria_id' => 5,
+                'penduduk_id' => 608,
+                'nilai' => 85.28,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             419 => 
             array (
-                'id' => 1420,
-                'kriteria_id' => 4,
-                'penduduk_id' => 237,
-                'nilai' => 42.83,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3648,
+                'kriteria_id' => 6,
+                'penduduk_id' => 608,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             420 => 
             array (
-                'id' => 1421,
-                'kriteria_id' => 5,
-                'penduduk_id' => 237,
-                'nilai' => 48.21,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3649,
+                'kriteria_id' => 1,
+                'penduduk_id' => 609,
+                'nilai' => 3232250.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             421 => 
             array (
-                'id' => 1422,
-                'kriteria_id' => 6,
-                'penduduk_id' => 237,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3650,
+                'kriteria_id' => 2,
+                'penduduk_id' => 609,
+                'nilai' => 26.73,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             422 => 
             array (
-                'id' => 1423,
-                'kriteria_id' => 1,
-                'penduduk_id' => 238,
-                'nilai' => 1038800.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3651,
+                'kriteria_id' => 3,
+                'penduduk_id' => 609,
+                'nilai' => 24536000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             423 => 
             array (
-                'id' => 1424,
-                'kriteria_id' => 2,
-                'penduduk_id' => 238,
-                'nilai' => 44.56,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3652,
+                'kriteria_id' => 4,
+                'penduduk_id' => 609,
+                'nilai' => 95.06,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             424 => 
             array (
-                'id' => 1425,
-                'kriteria_id' => 3,
-                'penduduk_id' => 238,
-                'nilai' => 10796000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3653,
+                'kriteria_id' => 5,
+                'penduduk_id' => 609,
+                'nilai' => 58.87,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             425 => 
             array (
-                'id' => 1426,
-                'kriteria_id' => 4,
-                'penduduk_id' => 238,
-                'nilai' => 44.99,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3654,
+                'kriteria_id' => 6,
+                'penduduk_id' => 609,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             426 => 
             array (
-                'id' => 1427,
-                'kriteria_id' => 5,
-                'penduduk_id' => 238,
-                'nilai' => 86.77,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3655,
+                'kriteria_id' => 1,
+                'penduduk_id' => 610,
+                'nilai' => 1741950.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             427 => 
             array (
-                'id' => 1428,
-                'kriteria_id' => 6,
-                'penduduk_id' => 238,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3656,
+                'kriteria_id' => 2,
+                'penduduk_id' => 610,
+                'nilai' => 72.7,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             428 => 
             array (
-                'id' => 1429,
-                'kriteria_id' => 1,
-                'penduduk_id' => 239,
-                'nilai' => 1238650.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3657,
+                'kriteria_id' => 3,
+                'penduduk_id' => 610,
+                'nilai' => 29508000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             429 => 
             array (
-                'id' => 1430,
-                'kriteria_id' => 2,
-                'penduduk_id' => 239,
-                'nilai' => 38.78,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3658,
+                'kriteria_id' => 4,
+                'penduduk_id' => 610,
+                'nilai' => 31.35,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             430 => 
             array (
-                'id' => 1431,
-                'kriteria_id' => 3,
-                'penduduk_id' => 239,
-                'nilai' => 37688000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3659,
+                'kriteria_id' => 5,
+                'penduduk_id' => 610,
+                'nilai' => 33.24,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             431 => 
             array (
-                'id' => 1432,
-                'kriteria_id' => 4,
-                'penduduk_id' => 239,
-                'nilai' => 51.38,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3660,
+                'kriteria_id' => 6,
+                'penduduk_id' => 610,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             432 => 
             array (
-                'id' => 1433,
-                'kriteria_id' => 5,
-                'penduduk_id' => 239,
-                'nilai' => 41.84,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3661,
+                'kriteria_id' => 1,
+                'penduduk_id' => 611,
+                'nilai' => 3035550.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             433 => 
             array (
-                'id' => 1434,
-                'kriteria_id' => 6,
-                'penduduk_id' => 239,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3662,
+                'kriteria_id' => 2,
+                'penduduk_id' => 611,
+                'nilai' => 63.41,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             434 => 
             array (
-                'id' => 1435,
-                'kriteria_id' => 1,
-                'penduduk_id' => 240,
-                'nilai' => 2642150.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3663,
+                'kriteria_id' => 3,
+                'penduduk_id' => 611,
+                'nilai' => 18940000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             435 => 
             array (
-                'id' => 1436,
-                'kriteria_id' => 2,
-                'penduduk_id' => 240,
-                'nilai' => 43.18,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3664,
+                'kriteria_id' => 4,
+                'penduduk_id' => 611,
+                'nilai' => 65.48,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             436 => 
             array (
-                'id' => 1437,
-                'kriteria_id' => 3,
-                'penduduk_id' => 240,
-                'nilai' => 35080000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3665,
+                'kriteria_id' => 5,
+                'penduduk_id' => 611,
+                'nilai' => 61.87,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             437 => 
             array (
-                'id' => 1438,
-                'kriteria_id' => 4,
-                'penduduk_id' => 240,
-                'nilai' => 92.53,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3666,
+                'kriteria_id' => 6,
+                'penduduk_id' => 611,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             438 => 
             array (
-                'id' => 1439,
-                'kriteria_id' => 5,
-                'penduduk_id' => 240,
-                'nilai' => 40.47,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3667,
+                'kriteria_id' => 1,
+                'penduduk_id' => 612,
+                'nilai' => 3232600.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             439 => 
             array (
-                'id' => 1440,
-                'kriteria_id' => 6,
-                'penduduk_id' => 240,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3668,
+                'kriteria_id' => 2,
+                'penduduk_id' => 612,
+                'nilai' => 82.64,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             440 => 
             array (
-                'id' => 1441,
-                'kriteria_id' => 1,
-                'penduduk_id' => 241,
-                'nilai' => 3117450.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3669,
+                'kriteria_id' => 3,
+                'penduduk_id' => 612,
+                'nilai' => 39872000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             441 => 
             array (
-                'id' => 1442,
-                'kriteria_id' => 2,
-                'penduduk_id' => 241,
-                'nilai' => 51.25,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3670,
+                'kriteria_id' => 4,
+                'penduduk_id' => 612,
+                'nilai' => 32.97,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             442 => 
             array (
-                'id' => 1443,
-                'kriteria_id' => 3,
-                'penduduk_id' => 241,
-                'nilai' => 39484000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3671,
+                'kriteria_id' => 5,
+                'penduduk_id' => 612,
+                'nilai' => 29.74,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             443 => 
             array (
-                'id' => 1444,
-                'kriteria_id' => 4,
-                'penduduk_id' => 241,
-                'nilai' => 73.7,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3672,
+                'kriteria_id' => 6,
+                'penduduk_id' => 612,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             444 => 
             array (
-                'id' => 1445,
-                'kriteria_id' => 5,
-                'penduduk_id' => 241,
-                'nilai' => 78.46,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3673,
+                'kriteria_id' => 1,
+                'penduduk_id' => 613,
+                'nilai' => 3453450.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             445 => 
             array (
-                'id' => 1446,
-                'kriteria_id' => 6,
-                'penduduk_id' => 241,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3674,
+                'kriteria_id' => 2,
+                'penduduk_id' => 613,
+                'nilai' => 34.39,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             446 => 
             array (
-                'id' => 1447,
-                'kriteria_id' => 1,
-                'penduduk_id' => 242,
-                'nilai' => 1948100.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3675,
+                'kriteria_id' => 3,
+                'penduduk_id' => 613,
+                'nilai' => 30276000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             447 => 
             array (
-                'id' => 1448,
-                'kriteria_id' => 2,
-                'penduduk_id' => 242,
-                'nilai' => 61.49,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3676,
+                'kriteria_id' => 4,
+                'penduduk_id' => 613,
+                'nilai' => 46.34,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             448 => 
             array (
-                'id' => 1449,
-                'kriteria_id' => 3,
-                'penduduk_id' => 242,
-                'nilai' => 10296000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3677,
+                'kriteria_id' => 5,
+                'penduduk_id' => 613,
+                'nilai' => 93.6,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             449 => 
             array (
-                'id' => 1450,
-                'kriteria_id' => 4,
-                'penduduk_id' => 242,
-                'nilai' => 42.57,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3678,
+                'kriteria_id' => 6,
+                'penduduk_id' => 613,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             450 => 
             array (
-                'id' => 1451,
-                'kriteria_id' => 5,
-                'penduduk_id' => 242,
-                'nilai' => 74.14,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3679,
+                'kriteria_id' => 1,
+                'penduduk_id' => 614,
+                'nilai' => 3093300.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             451 => 
             array (
-                'id' => 1452,
-                'kriteria_id' => 6,
-                'penduduk_id' => 242,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3680,
+                'kriteria_id' => 2,
+                'penduduk_id' => 614,
+                'nilai' => 68.24,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             452 => 
             array (
-                'id' => 1453,
-                'kriteria_id' => 1,
-                'penduduk_id' => 243,
-                'nilai' => 2518600.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3681,
+                'kriteria_id' => 3,
+                'penduduk_id' => 614,
+                'nilai' => 37720000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             453 => 
             array (
-                'id' => 1454,
-                'kriteria_id' => 2,
-                'penduduk_id' => 243,
-                'nilai' => 30.29,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3682,
+                'kriteria_id' => 4,
+                'penduduk_id' => 614,
+                'nilai' => 42.57,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             454 => 
             array (
-                'id' => 1455,
-                'kriteria_id' => 3,
-                'penduduk_id' => 243,
-                'nilai' => 32908000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3683,
+                'kriteria_id' => 5,
+                'penduduk_id' => 614,
+                'nilai' => 74.14,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             455 => 
             array (
-                'id' => 1456,
-                'kriteria_id' => 4,
-                'penduduk_id' => 243,
-                'nilai' => 98.98,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3684,
+                'kriteria_id' => 6,
+                'penduduk_id' => 614,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             456 => 
             array (
-                'id' => 1457,
-                'kriteria_id' => 5,
-                'penduduk_id' => 243,
-                'nilai' => 27.15,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3685,
+                'kriteria_id' => 1,
+                'penduduk_id' => 615,
+                'nilai' => 1463000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             457 => 
             array (
-                'id' => 1458,
-                'kriteria_id' => 6,
-                'penduduk_id' => 243,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3686,
+                'kriteria_id' => 2,
+                'penduduk_id' => 615,
+                'nilai' => 34.29,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             458 => 
             array (
-                'id' => 1459,
-                'kriteria_id' => 1,
-                'penduduk_id' => 244,
-                'nilai' => 3232600.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3687,
+                'kriteria_id' => 3,
+                'penduduk_id' => 615,
+                'nilai' => 22096000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             459 => 
             array (
-                'id' => 1460,
-                'kriteria_id' => 2,
-                'penduduk_id' => 244,
-                'nilai' => 82.64,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3688,
+                'kriteria_id' => 4,
+                'penduduk_id' => 615,
+                'nilai' => 64.23,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             460 => 
             array (
-                'id' => 1461,
-                'kriteria_id' => 3,
-                'penduduk_id' => 244,
-                'nilai' => 39872000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3689,
+                'kriteria_id' => 5,
+                'penduduk_id' => 615,
+                'nilai' => 50.28,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             461 => 
             array (
-                'id' => 1462,
-                'kriteria_id' => 4,
-                'penduduk_id' => 244,
-                'nilai' => 32.97,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3690,
+                'kriteria_id' => 6,
+                'penduduk_id' => 615,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             462 => 
             array (
-                'id' => 1463,
-                'kriteria_id' => 5,
-                'penduduk_id' => 244,
-                'nilai' => 29.74,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3691,
+                'kriteria_id' => 1,
+                'penduduk_id' => 616,
+                'nilai' => 3053750.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             463 => 
             array (
-                'id' => 1464,
-                'kriteria_id' => 6,
-                'penduduk_id' => 244,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3692,
+                'kriteria_id' => 2,
+                'penduduk_id' => 616,
+                'nilai' => 52.28,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             464 => 
             array (
-                'id' => 1465,
-                'kriteria_id' => 1,
-                'penduduk_id' => 245,
-                'nilai' => 2170700.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3693,
+                'kriteria_id' => 3,
+                'penduduk_id' => 616,
+                'nilai' => 26804000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             465 => 
             array (
-                'id' => 1466,
-                'kriteria_id' => 2,
-                'penduduk_id' => 245,
-                'nilai' => 47.87,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3694,
+                'kriteria_id' => 4,
+                'penduduk_id' => 616,
+                'nilai' => 32.97,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             466 => 
             array (
-                'id' => 1467,
-                'kriteria_id' => 3,
-                'penduduk_id' => 245,
-                'nilai' => 25300000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3695,
+                'kriteria_id' => 5,
+                'penduduk_id' => 616,
+                'nilai' => 29.74,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             467 => 
             array (
-                'id' => 1468,
-                'kriteria_id' => 4,
-                'penduduk_id' => 245,
-                'nilai' => 96.92,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3696,
+                'kriteria_id' => 6,
+                'penduduk_id' => 616,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             468 => 
             array (
-                'id' => 1469,
-                'kriteria_id' => 5,
-                'penduduk_id' => 245,
-                'nilai' => 85.28,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3697,
+                'kriteria_id' => 1,
+                'penduduk_id' => 617,
+                'nilai' => 2937550.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             469 => 
             array (
-                'id' => 1470,
-                'kriteria_id' => 6,
-                'penduduk_id' => 245,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3698,
+                'kriteria_id' => 2,
+                'penduduk_id' => 617,
+                'nilai' => 91.47,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             470 => 
             array (
-                'id' => 1471,
-                'kriteria_id' => 1,
-                'penduduk_id' => 246,
-                'nilai' => 1776600.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3699,
+                'kriteria_id' => 3,
+                'penduduk_id' => 617,
+                'nilai' => 28736000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             471 => 
             array (
-                'id' => 1472,
-                'kriteria_id' => 2,
-                'penduduk_id' => 246,
-                'nilai' => 40.9,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3700,
+                'kriteria_id' => 4,
+                'penduduk_id' => 617,
+                'nilai' => 49.77,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             472 => 
             array (
-                'id' => 1473,
-                'kriteria_id' => 3,
-                'penduduk_id' => 246,
-                'nilai' => 10596000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3701,
+                'kriteria_id' => 5,
+                'penduduk_id' => 617,
+                'nilai' => 72.7,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             473 => 
             array (
-                'id' => 1474,
-                'kriteria_id' => 4,
-                'penduduk_id' => 246,
-                'nilai' => 34.97,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3702,
+                'kriteria_id' => 6,
+                'penduduk_id' => 617,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             474 => 
             array (
-                'id' => 1475,
-                'kriteria_id' => 5,
-                'penduduk_id' => 246,
-                'nilai' => 45.94,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3703,
+                'kriteria_id' => 1,
+                'penduduk_id' => 618,
+                'nilai' => 2184700.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             475 => 
             array (
-                'id' => 1476,
-                'kriteria_id' => 6,
-                'penduduk_id' => 246,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3704,
+                'kriteria_id' => 2,
+                'penduduk_id' => 618,
+                'nilai' => 46.69,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             476 => 
             array (
-                'id' => 1477,
-                'kriteria_id' => 1,
-                'penduduk_id' => 247,
-                'nilai' => 3035550.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3705,
+                'kriteria_id' => 3,
+                'penduduk_id' => 618,
+                'nilai' => 29864000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             477 => 
             array (
-                'id' => 1478,
-                'kriteria_id' => 2,
-                'penduduk_id' => 247,
-                'nilai' => 63.41,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3706,
+                'kriteria_id' => 4,
+                'penduduk_id' => 618,
+                'nilai' => 61.79,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             478 => 
             array (
-                'id' => 1479,
-                'kriteria_id' => 3,
-                'penduduk_id' => 247,
-                'nilai' => 18940000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3707,
+                'kriteria_id' => 5,
+                'penduduk_id' => 618,
+                'nilai' => 34.67,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             479 => 
             array (
-                'id' => 1480,
-                'kriteria_id' => 4,
-                'penduduk_id' => 247,
-                'nilai' => 65.48,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3708,
+                'kriteria_id' => 6,
+                'penduduk_id' => 618,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             480 => 
             array (
-                'id' => 1481,
-                'kriteria_id' => 5,
-                'penduduk_id' => 247,
-                'nilai' => 61.87,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3709,
+                'kriteria_id' => 1,
+                'penduduk_id' => 619,
+                'nilai' => 1554700.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             481 => 
             array (
-                'id' => 1482,
-                'kriteria_id' => 6,
-                'penduduk_id' => 247,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3710,
+                'kriteria_id' => 2,
+                'penduduk_id' => 619,
+                'nilai' => 39.24,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             482 => 
             array (
-                'id' => 1483,
-                'kriteria_id' => 1,
-                'penduduk_id' => 248,
-                'nilai' => 2665950.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3711,
+                'kriteria_id' => 3,
+                'penduduk_id' => 619,
+                'nilai' => 29780000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             483 => 
             array (
-                'id' => 1484,
-                'kriteria_id' => 2,
-                'penduduk_id' => 248,
-                'nilai' => 34.76,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3712,
+                'kriteria_id' => 4,
+                'penduduk_id' => 619,
+                'nilai' => 28.52,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             484 => 
             array (
-                'id' => 1485,
-                'kriteria_id' => 3,
-                'penduduk_id' => 248,
-                'nilai' => 26252000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3713,
+                'kriteria_id' => 5,
+                'penduduk_id' => 619,
+                'nilai' => 62.67,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             485 => 
             array (
-                'id' => 1486,
-                'kriteria_id' => 4,
-                'penduduk_id' => 248,
-                'nilai' => 97.03,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3714,
+                'kriteria_id' => 6,
+                'penduduk_id' => 619,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             486 => 
             array (
-                'id' => 1487,
-                'kriteria_id' => 5,
-                'penduduk_id' => 248,
-                'nilai' => 74.45,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3715,
+                'kriteria_id' => 1,
+                'penduduk_id' => 620,
+                'nilai' => 2898000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             487 => 
             array (
-                'id' => 1488,
-                'kriteria_id' => 6,
-                'penduduk_id' => 248,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3716,
+                'kriteria_id' => 2,
+                'penduduk_id' => 620,
+                'nilai' => 69.03,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             488 => 
             array (
-                'id' => 1489,
-                'kriteria_id' => 1,
-                'penduduk_id' => 249,
-                'nilai' => 2320150.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3717,
+                'kriteria_id' => 3,
+                'penduduk_id' => 620,
+                'nilai' => 35796000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             489 => 
             array (
-                'id' => 1490,
-                'kriteria_id' => 2,
-                'penduduk_id' => 249,
-                'nilai' => 76.98,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3718,
+                'kriteria_id' => 4,
+                'penduduk_id' => 620,
+                'nilai' => 62.42,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             490 => 
             array (
-                'id' => 1491,
-                'kriteria_id' => 3,
-                'penduduk_id' => 249,
-                'nilai' => 26848000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3719,
+                'kriteria_id' => 5,
+                'penduduk_id' => 620,
+                'nilai' => 46.69,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             491 => 
             array (
-                'id' => 1492,
-                'kriteria_id' => 4,
-                'penduduk_id' => 249,
-                'nilai' => 64.47,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3720,
+                'kriteria_id' => 6,
+                'penduduk_id' => 620,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             492 => 
             array (
-                'id' => 1493,
-                'kriteria_id' => 5,
-                'penduduk_id' => 249,
-                'nilai' => 85.76,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3721,
+                'kriteria_id' => 1,
+                'penduduk_id' => 621,
+                'nilai' => 1823500.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             493 => 
             array (
-                'id' => 1494,
-                'kriteria_id' => 6,
-                'penduduk_id' => 249,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3722,
+                'kriteria_id' => 2,
+                'penduduk_id' => 621,
+                'nilai' => 72.72,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             494 => 
             array (
-                'id' => 1495,
-                'kriteria_id' => 1,
-                'penduduk_id' => 250,
-                'nilai' => 1820700.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3723,
+                'kriteria_id' => 3,
+                'penduduk_id' => 621,
+                'nilai' => 15472000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             495 => 
             array (
-                'id' => 1496,
-                'kriteria_id' => 2,
-                'penduduk_id' => 250,
-                'nilai' => 34.86,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3724,
+                'kriteria_id' => 4,
+                'penduduk_id' => 621,
+                'nilai' => 72.5,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             496 => 
             array (
-                'id' => 1497,
-                'kriteria_id' => 3,
-                'penduduk_id' => 250,
-                'nilai' => 13412000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3725,
+                'kriteria_id' => 5,
+                'penduduk_id' => 621,
+                'nilai' => 81.27,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             497 => 
             array (
-                'id' => 1498,
-                'kriteria_id' => 4,
-                'penduduk_id' => 250,
-                'nilai' => 32.73,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3726,
+                'kriteria_id' => 6,
+                'penduduk_id' => 621,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             498 => 
             array (
-                'id' => 1499,
-                'kriteria_id' => 5,
-                'penduduk_id' => 250,
-                'nilai' => 95.18,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3727,
+                'kriteria_id' => 1,
+                'penduduk_id' => 622,
+                'nilai' => 2358300.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             499 => 
             array (
-                'id' => 1500,
-                'kriteria_id' => 6,
-                'penduduk_id' => 250,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3728,
+                'kriteria_id' => 2,
+                'penduduk_id' => 622,
+                'nilai' => 66.37,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
         ));
         \DB::table('penduduk_nilai')->insert(array (
             0 => 
             array (
-                'id' => 1501,
-                'kriteria_id' => 1,
-                'penduduk_id' => 251,
-                'nilai' => 3314850.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3729,
+                'kriteria_id' => 3,
+                'penduduk_id' => 622,
+                'nilai' => 39088000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             1 => 
             array (
-                'id' => 1502,
-                'kriteria_id' => 2,
-                'penduduk_id' => 251,
-                'nilai' => 36.49,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3730,
+                'kriteria_id' => 4,
+                'penduduk_id' => 622,
+                'nilai' => 92.53,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             2 => 
             array (
-                'id' => 1503,
-                'kriteria_id' => 3,
-                'penduduk_id' => 251,
-                'nilai' => 35672000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3731,
+                'kriteria_id' => 5,
+                'penduduk_id' => 622,
+                'nilai' => 40.47,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             3 => 
             array (
-                'id' => 1504,
-                'kriteria_id' => 4,
-                'penduduk_id' => 251,
-                'nilai' => 50.34,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3732,
+                'kriteria_id' => 6,
+                'penduduk_id' => 622,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             4 => 
             array (
-                'id' => 1505,
-                'kriteria_id' => 5,
-                'penduduk_id' => 251,
-                'nilai' => 83.19,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3733,
+                'kriteria_id' => 1,
+                'penduduk_id' => 623,
+                'nilai' => 1318450.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             5 => 
             array (
-                'id' => 1506,
-                'kriteria_id' => 6,
-                'penduduk_id' => 251,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3734,
+                'kriteria_id' => 2,
+                'penduduk_id' => 623,
+                'nilai' => 92.39,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             6 => 
             array (
-                'id' => 1507,
-                'kriteria_id' => 1,
-                'penduduk_id' => 252,
-                'nilai' => 2185050.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3735,
+                'kriteria_id' => 3,
+                'penduduk_id' => 623,
+                'nilai' => 34424000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             7 => 
             array (
-                'id' => 1508,
-                'kriteria_id' => 2,
-                'penduduk_id' => 252,
-                'nilai' => 75.1,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3736,
+                'kriteria_id' => 4,
+                'penduduk_id' => 623,
+                'nilai' => 76.21,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             8 => 
             array (
-                'id' => 1509,
-                'kriteria_id' => 3,
-                'penduduk_id' => 252,
-                'nilai' => 22756000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3737,
+                'kriteria_id' => 5,
+                'penduduk_id' => 623,
+                'nilai' => 42.58,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             9 => 
             array (
-                'id' => 1510,
-                'kriteria_id' => 4,
-                'penduduk_id' => 252,
-                'nilai' => 29.45,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3738,
+                'kriteria_id' => 6,
+                'penduduk_id' => 623,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             10 => 
             array (
-                'id' => 1511,
-                'kriteria_id' => 5,
-                'penduduk_id' => 252,
-                'nilai' => 70.01,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3739,
+                'kriteria_id' => 1,
+                'penduduk_id' => 624,
+                'nilai' => 2710400.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             11 => 
             array (
-                'id' => 1512,
-                'kriteria_id' => 6,
-                'penduduk_id' => 252,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3740,
+                'kriteria_id' => 2,
+                'penduduk_id' => 624,
+                'nilai' => 54.32,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             12 => 
             array (
-                'id' => 1513,
-                'kriteria_id' => 1,
-                'penduduk_id' => 253,
-                'nilai' => 2229850.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3741,
+                'kriteria_id' => 3,
+                'penduduk_id' => 624,
+                'nilai' => 36212000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             13 => 
             array (
-                'id' => 1514,
-                'kriteria_id' => 2,
-                'penduduk_id' => 253,
-                'nilai' => 45.63,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3742,
+                'kriteria_id' => 4,
+                'penduduk_id' => 624,
+                'nilai' => 76.21,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             14 => 
             array (
-                'id' => 1515,
-                'kriteria_id' => 3,
-                'penduduk_id' => 253,
-                'nilai' => 25536000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3743,
+                'kriteria_id' => 5,
+                'penduduk_id' => 624,
+                'nilai' => 42.58,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             15 => 
             array (
-                'id' => 1516,
-                'kriteria_id' => 4,
-                'penduduk_id' => 253,
-                'nilai' => 73.78,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3744,
+                'kriteria_id' => 6,
+                'penduduk_id' => 624,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             16 => 
             array (
-                'id' => 1517,
-                'kriteria_id' => 5,
-                'penduduk_id' => 253,
-                'nilai' => 34.81,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3745,
+                'kriteria_id' => 1,
+                'penduduk_id' => 625,
+                'nilai' => 1073450.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             17 => 
             array (
-                'id' => 1518,
-                'kriteria_id' => 6,
-                'penduduk_id' => 253,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3746,
+                'kriteria_id' => 2,
+                'penduduk_id' => 625,
+                'nilai' => 99.27,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             18 => 
             array (
-                'id' => 1519,
-                'kriteria_id' => 1,
-                'penduduk_id' => 254,
-                'nilai' => 1799350.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3747,
+                'kriteria_id' => 3,
+                'penduduk_id' => 625,
+                'nilai' => 17584000.0,
+                'created_at' => '2023-05-29 20:44:30',
+                'updated_at' => '2023-05-29 20:44:30',
             ),
             19 => 
             array (
-                'id' => 1520,
-                'kriteria_id' => 2,
-                'penduduk_id' => 254,
-                'nilai' => 75.89,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3748,
+                'kriteria_id' => 4,
+                'penduduk_id' => 625,
+                'nilai' => 93.43,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             20 => 
             array (
-                'id' => 1521,
-                'kriteria_id' => 3,
-                'penduduk_id' => 254,
-                'nilai' => 11840000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3749,
+                'kriteria_id' => 5,
+                'penduduk_id' => 625,
+                'nilai' => 62.34,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             21 => 
             array (
-                'id' => 1522,
-                'kriteria_id' => 4,
-                'penduduk_id' => 254,
-                'nilai' => 48.29,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3750,
+                'kriteria_id' => 6,
+                'penduduk_id' => 625,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             22 => 
             array (
-                'id' => 1523,
-                'kriteria_id' => 5,
-                'penduduk_id' => 254,
-                'nilai' => 61.19,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3751,
+                'kriteria_id' => 1,
+                'penduduk_id' => 626,
+                'nilai' => 1814050.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             23 => 
             array (
-                'id' => 1524,
-                'kriteria_id' => 6,
-                'penduduk_id' => 254,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3752,
+                'kriteria_id' => 2,
+                'penduduk_id' => 626,
+                'nilai' => 31.79,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             24 => 
             array (
-                'id' => 1525,
-                'kriteria_id' => 1,
-                'penduduk_id' => 255,
-                'nilai' => 3228750.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3753,
+                'kriteria_id' => 3,
+                'penduduk_id' => 626,
+                'nilai' => 22760000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             25 => 
             array (
-                'id' => 1526,
-                'kriteria_id' => 2,
-                'penduduk_id' => 255,
-                'nilai' => 73.37,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3754,
+                'kriteria_id' => 4,
+                'penduduk_id' => 626,
+                'nilai' => 88.38,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             26 => 
             array (
-                'id' => 1527,
-                'kriteria_id' => 3,
-                'penduduk_id' => 255,
-                'nilai' => 14292000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3755,
+                'kriteria_id' => 5,
+                'penduduk_id' => 626,
+                'nilai' => 68.24,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             27 => 
             array (
-                'id' => 1528,
-                'kriteria_id' => 4,
-                'penduduk_id' => 255,
-                'nilai' => 95.06,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3756,
+                'kriteria_id' => 6,
+                'penduduk_id' => 626,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             28 => 
             array (
-                'id' => 1529,
-                'kriteria_id' => 5,
-                'penduduk_id' => 255,
-                'nilai' => 58.87,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3757,
+                'kriteria_id' => 1,
+                'penduduk_id' => 627,
+                'nilai' => 2850400.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             29 => 
             array (
-                'id' => 1530,
-                'kriteria_id' => 6,
-                'penduduk_id' => 255,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3758,
+                'kriteria_id' => 2,
+                'penduduk_id' => 627,
+                'nilai' => 90.37,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             30 => 
             array (
-                'id' => 1531,
-                'kriteria_id' => 1,
-                'penduduk_id' => 256,
-                'nilai' => 1262100.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3759,
+                'kriteria_id' => 3,
+                'penduduk_id' => 627,
+                'nilai' => 25392000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             31 => 
             array (
-                'id' => 1532,
-                'kriteria_id' => 2,
-                'penduduk_id' => 256,
-                'nilai' => 43.01,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3760,
+                'kriteria_id' => 4,
+                'penduduk_id' => 627,
+                'nilai' => 39.74,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             32 => 
             array (
-                'id' => 1533,
-                'kriteria_id' => 3,
-                'penduduk_id' => 256,
-                'nilai' => 35180000.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3761,
+                'kriteria_id' => 5,
+                'penduduk_id' => 627,
+                'nilai' => 53.21,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             33 => 
             array (
-                'id' => 1534,
-                'kriteria_id' => 4,
-                'penduduk_id' => 256,
-                'nilai' => 60.54,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3762,
+                'kriteria_id' => 6,
+                'penduduk_id' => 627,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             34 => 
             array (
-                'id' => 1535,
-                'kriteria_id' => 5,
-                'penduduk_id' => 256,
-                'nilai' => 54.75,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3763,
+                'kriteria_id' => 1,
+                'penduduk_id' => 628,
+                'nilai' => 1303750.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             35 => 
             array (
-                'id' => 1536,
-                'kriteria_id' => 6,
-                'penduduk_id' => 256,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:37',
-                'updated_at' => '2023-05-29 19:52:37',
+                'id' => 3764,
+                'kriteria_id' => 2,
+                'penduduk_id' => 628,
+                'nilai' => 97.74,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             36 => 
             array (
-                'id' => 1537,
-                'kriteria_id' => 1,
-                'penduduk_id' => 257,
-                'nilai' => 1342250.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3765,
+                'kriteria_id' => 3,
+                'penduduk_id' => 628,
+                'nilai' => 17640000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             37 => 
             array (
-                'id' => 1538,
-                'kriteria_id' => 2,
-                'penduduk_id' => 257,
-                'nilai' => 91.13,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3766,
+                'kriteria_id' => 4,
+                'penduduk_id' => 628,
+                'nilai' => 30.67,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             38 => 
             array (
-                'id' => 1539,
-                'kriteria_id' => 3,
-                'penduduk_id' => 257,
-                'nilai' => 29160000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3767,
+                'kriteria_id' => 5,
+                'penduduk_id' => 628,
+                'nilai' => 99.27,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             39 => 
             array (
-                'id' => 1540,
-                'kriteria_id' => 4,
-                'penduduk_id' => 257,
-                'nilai' => 47.68,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3768,
+                'kriteria_id' => 6,
+                'penduduk_id' => 628,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             40 => 
             array (
-                'id' => 1541,
-                'kriteria_id' => 5,
-                'penduduk_id' => 257,
-                'nilai' => 66.93,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3769,
+                'kriteria_id' => 1,
+                'penduduk_id' => 629,
+                'nilai' => 2177350.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             41 => 
             array (
-                'id' => 1542,
-                'kriteria_id' => 6,
-                'penduduk_id' => 257,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3770,
+                'kriteria_id' => 2,
+                'penduduk_id' => 629,
+                'nilai' => 26.56,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             42 => 
             array (
-                'id' => 1543,
-                'kriteria_id' => 1,
-                'penduduk_id' => 258,
-                'nilai' => 2926000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3771,
+                'kriteria_id' => 3,
+                'penduduk_id' => 629,
+                'nilai' => 11244000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             43 => 
             array (
-                'id' => 1544,
-                'kriteria_id' => 2,
-                'penduduk_id' => 258,
-                'nilai' => 39.16,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3772,
+                'kriteria_id' => 4,
+                'penduduk_id' => 629,
+                'nilai' => 30.82,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             44 => 
             array (
-                'id' => 1545,
-                'kriteria_id' => 3,
-                'penduduk_id' => 258,
-                'nilai' => 31296000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3773,
+                'kriteria_id' => 5,
+                'penduduk_id' => 629,
+                'nilai' => 66.91,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             45 => 
             array (
-                'id' => 1546,
-                'kriteria_id' => 4,
-                'penduduk_id' => 258,
-                'nilai' => 38.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3774,
+                'kriteria_id' => 6,
+                'penduduk_id' => 629,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             46 => 
             array (
-                'id' => 1547,
-                'kriteria_id' => 5,
-                'penduduk_id' => 258,
-                'nilai' => 46.85,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3775,
+                'kriteria_id' => 1,
+                'penduduk_id' => 630,
+                'nilai' => 2345350.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             47 => 
             array (
-                'id' => 1548,
-                'kriteria_id' => 6,
-                'penduduk_id' => 258,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3776,
+                'kriteria_id' => 2,
+                'penduduk_id' => 630,
+                'nilai' => 34.99,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             48 => 
             array (
-                'id' => 1549,
-                'kriteria_id' => 1,
-                'penduduk_id' => 259,
-                'nilai' => 2710400.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3777,
+                'kriteria_id' => 3,
+                'penduduk_id' => 630,
+                'nilai' => 27756000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             49 => 
             array (
-                'id' => 1550,
-                'kriteria_id' => 2,
-                'penduduk_id' => 259,
-                'nilai' => 54.32,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3778,
+                'kriteria_id' => 4,
+                'penduduk_id' => 630,
+                'nilai' => 48.84,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             50 => 
             array (
-                'id' => 1551,
-                'kriteria_id' => 3,
-                'penduduk_id' => 259,
-                'nilai' => 36212000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3779,
+                'kriteria_id' => 5,
+                'penduduk_id' => 630,
+                'nilai' => 74.98,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             51 => 
             array (
-                'id' => 1552,
-                'kriteria_id' => 4,
-                'penduduk_id' => 259,
-                'nilai' => 76.21,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3780,
+                'kriteria_id' => 6,
+                'penduduk_id' => 630,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             52 => 
             array (
-                'id' => 1553,
-                'kriteria_id' => 5,
-                'penduduk_id' => 259,
-                'nilai' => 42.58,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3781,
+                'kriteria_id' => 1,
+                'penduduk_id' => 631,
+                'nilai' => 3431400.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             53 => 
             array (
-                'id' => 1554,
-                'kriteria_id' => 6,
-                'penduduk_id' => 259,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3782,
+                'kriteria_id' => 2,
+                'penduduk_id' => 631,
+                'nilai' => 39.7,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             54 => 
             array (
-                'id' => 1555,
-                'kriteria_id' => 1,
-                'penduduk_id' => 260,
-                'nilai' => 2657550.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3783,
+                'kriteria_id' => 3,
+                'penduduk_id' => 631,
+                'nilai' => 35836000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             55 => 
             array (
-                'id' => 1556,
-                'kriteria_id' => 2,
-                'penduduk_id' => 260,
-                'nilai' => 29.75,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3784,
+                'kriteria_id' => 4,
+                'penduduk_id' => 631,
+                'nilai' => 99.98,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             56 => 
             array (
-                'id' => 1557,
-                'kriteria_id' => 3,
-                'penduduk_id' => 260,
-                'nilai' => 19040000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3785,
+                'kriteria_id' => 5,
+                'penduduk_id' => 631,
+                'nilai' => 53.09,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             57 => 
             array (
-                'id' => 1558,
-                'kriteria_id' => 4,
-                'penduduk_id' => 260,
-                'nilai' => 63.91,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3786,
+                'kriteria_id' => 6,
+                'penduduk_id' => 631,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             58 => 
             array (
-                'id' => 1559,
-                'kriteria_id' => 5,
-                'penduduk_id' => 260,
-                'nilai' => 57.35,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3787,
+                'kriteria_id' => 1,
+                'penduduk_id' => 632,
+                'nilai' => 1709400.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             59 => 
             array (
-                'id' => 1560,
-                'kriteria_id' => 6,
-                'penduduk_id' => 260,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3788,
+                'kriteria_id' => 2,
+                'penduduk_id' => 632,
+                'nilai' => 74.98,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             60 => 
             array (
-                'id' => 1561,
-                'kriteria_id' => 1,
-                'penduduk_id' => 261,
-                'nilai' => 2195550.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3789,
+                'kriteria_id' => 3,
+                'penduduk_id' => 632,
+                'nilai' => 27860000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             61 => 
             array (
-                'id' => 1562,
-                'kriteria_id' => 2,
-                'penduduk_id' => 261,
-                'nilai' => 77.33,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3790,
+                'kriteria_id' => 4,
+                'penduduk_id' => 632,
+                'nilai' => 82.33,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             62 => 
             array (
-                'id' => 1563,
-                'kriteria_id' => 3,
-                'penduduk_id' => 261,
-                'nilai' => 23488000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3791,
+                'kriteria_id' => 5,
+                'penduduk_id' => 632,
+                'nilai' => 77.88,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             63 => 
             array (
-                'id' => 1564,
-                'kriteria_id' => 4,
-                'penduduk_id' => 261,
-                'nilai' => 38.66,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3792,
+                'kriteria_id' => 6,
+                'penduduk_id' => 632,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             64 => 
             array (
-                'id' => 1565,
-                'kriteria_id' => 5,
-                'penduduk_id' => 261,
-                'nilai' => 41.97,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3793,
+                'kriteria_id' => 1,
+                'penduduk_id' => 633,
+                'nilai' => 907550.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             65 => 
             array (
-                'id' => 1566,
-                'kriteria_id' => 6,
-                'penduduk_id' => 261,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3794,
+                'kriteria_id' => 2,
+                'penduduk_id' => 633,
+                'nilai' => 52.38,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             66 => 
             array (
-                'id' => 1567,
-                'kriteria_id' => 1,
-                'penduduk_id' => 262,
-                'nilai' => 2599800.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3795,
+                'kriteria_id' => 3,
+                'penduduk_id' => 633,
+                'nilai' => 26952000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             67 => 
             array (
-                'id' => 1568,
-                'kriteria_id' => 2,
-                'penduduk_id' => 262,
-                'nilai' => 51.48,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3796,
+                'kriteria_id' => 4,
+                'penduduk_id' => 633,
+                'nilai' => 47.72,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             68 => 
             array (
-                'id' => 1569,
-                'kriteria_id' => 3,
-                'penduduk_id' => 262,
-                'nilai' => 13264000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3797,
+                'kriteria_id' => 5,
+                'penduduk_id' => 633,
+                'nilai' => 34.55,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             69 => 
             array (
-                'id' => 1570,
-                'kriteria_id' => 4,
-                'penduduk_id' => 262,
-                'nilai' => 62.17,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3798,
+                'kriteria_id' => 6,
+                'penduduk_id' => 633,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             70 => 
             array (
-                'id' => 1571,
-                'kriteria_id' => 5,
-                'penduduk_id' => 262,
-                'nilai' => 51.16,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3799,
+                'kriteria_id' => 1,
+                'penduduk_id' => 634,
+                'nilai' => 2249100.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             71 => 
             array (
-                'id' => 1572,
-                'kriteria_id' => 6,
-                'penduduk_id' => 262,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3800,
+                'kriteria_id' => 2,
+                'penduduk_id' => 634,
+                'nilai' => 45.4,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             72 => 
             array (
-                'id' => 1573,
-                'kriteria_id' => 1,
-                'penduduk_id' => 263,
-                'nilai' => 1344350.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3801,
+                'kriteria_id' => 3,
+                'penduduk_id' => 634,
+                'nilai' => 12100000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             73 => 
             array (
-                'id' => 1574,
-                'kriteria_id' => 2,
-                'penduduk_id' => 263,
-                'nilai' => 71.3,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3802,
+                'kriteria_id' => 4,
+                'penduduk_id' => 634,
+                'nilai' => 34.87,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             74 => 
             array (
-                'id' => 1575,
-                'kriteria_id' => 3,
-                'penduduk_id' => 263,
-                'nilai' => 39520000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3803,
+                'kriteria_id' => 5,
+                'penduduk_id' => 634,
+                'nilai' => 60.16,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             75 => 
             array (
-                'id' => 1576,
-                'kriteria_id' => 4,
-                'penduduk_id' => 263,
-                'nilai' => 67.29,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3804,
+                'kriteria_id' => 6,
+                'penduduk_id' => 634,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             76 => 
             array (
-                'id' => 1577,
-                'kriteria_id' => 5,
-                'penduduk_id' => 263,
-                'nilai' => 39.48,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3805,
+                'kriteria_id' => 1,
+                'penduduk_id' => 635,
+                'nilai' => 1535800.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             77 => 
             array (
-                'id' => 1578,
-                'kriteria_id' => 6,
-                'penduduk_id' => 263,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3806,
+                'kriteria_id' => 2,
+                'penduduk_id' => 635,
+                'nilai' => 61.17,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             78 => 
             array (
-                'id' => 1579,
-                'kriteria_id' => 1,
-                'penduduk_id' => 264,
-                'nilai' => 2975000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3807,
+                'kriteria_id' => 3,
+                'penduduk_id' => 635,
+                'nilai' => 33964000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             79 => 
             array (
-                'id' => 1580,
-                'kriteria_id' => 2,
-                'penduduk_id' => 264,
-                'nilai' => 28.51,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3808,
+                'kriteria_id' => 4,
+                'penduduk_id' => 635,
+                'nilai' => 84.69,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             80 => 
             array (
-                'id' => 1581,
-                'kriteria_id' => 3,
-                'penduduk_id' => 264,
-                'nilai' => 28416000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3809,
+                'kriteria_id' => 5,
+                'penduduk_id' => 635,
+                'nilai' => 31.92,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             81 => 
             array (
-                'id' => 1582,
-                'kriteria_id' => 4,
-                'penduduk_id' => 264,
-                'nilai' => 37.78,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3810,
+                'kriteria_id' => 6,
+                'penduduk_id' => 635,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             82 => 
             array (
-                'id' => 1583,
-                'kriteria_id' => 5,
-                'penduduk_id' => 264,
-                'nilai' => 40.91,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3811,
+                'kriteria_id' => 1,
+                'penduduk_id' => 636,
+                'nilai' => 1452850.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             83 => 
             array (
-                'id' => 1584,
-                'kriteria_id' => 6,
-                'penduduk_id' => 264,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3812,
+                'kriteria_id' => 2,
+                'penduduk_id' => 636,
+                'nilai' => 86.52,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             84 => 
             array (
-                'id' => 1585,
-                'kriteria_id' => 1,
-                'penduduk_id' => 265,
-                'nilai' => 3451700.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3813,
+                'kriteria_id' => 3,
+                'penduduk_id' => 636,
+                'nilai' => 10868000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             85 => 
             array (
-                'id' => 1586,
-                'kriteria_id' => 2,
-                'penduduk_id' => 265,
-                'nilai' => 44.36,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3814,
+                'kriteria_id' => 4,
+                'penduduk_id' => 636,
+                'nilai' => 62.21,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             86 => 
             array (
-                'id' => 1587,
-                'kriteria_id' => 3,
-                'penduduk_id' => 265,
-                'nilai' => 21592000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3815,
+                'kriteria_id' => 5,
+                'penduduk_id' => 636,
+                'nilai' => 26.56,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             87 => 
             array (
-                'id' => 1588,
-                'kriteria_id' => 4,
-                'penduduk_id' => 265,
-                'nilai' => 91.19,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3816,
+                'kriteria_id' => 6,
+                'penduduk_id' => 636,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             88 => 
             array (
-                'id' => 1589,
-                'kriteria_id' => 5,
-                'penduduk_id' => 265,
-                'nilai' => 57.95,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3817,
+                'kriteria_id' => 1,
+                'penduduk_id' => 637,
+                'nilai' => 1132950.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             89 => 
             array (
-                'id' => 1590,
-                'kriteria_id' => 6,
-                'penduduk_id' => 265,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3818,
+                'kriteria_id' => 2,
+                'penduduk_id' => 637,
+                'nilai' => 93.85,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             90 => 
             array (
-                'id' => 1591,
-                'kriteria_id' => 1,
-                'penduduk_id' => 266,
-                'nilai' => 3253600.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3819,
+                'kriteria_id' => 3,
+                'penduduk_id' => 637,
+                'nilai' => 16444000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             91 => 
             array (
-                'id' => 1592,
-                'kriteria_id' => 2,
-                'penduduk_id' => 266,
-                'nilai' => 28.08,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3820,
+                'kriteria_id' => 4,
+                'penduduk_id' => 637,
+                'nilai' => 97.03,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             92 => 
             array (
-                'id' => 1593,
-                'kriteria_id' => 3,
-                'penduduk_id' => 266,
-                'nilai' => 15520000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3821,
+                'kriteria_id' => 5,
+                'penduduk_id' => 637,
+                'nilai' => 74.45,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             93 => 
             array (
-                'id' => 1594,
-                'kriteria_id' => 4,
-                'penduduk_id' => 266,
-                'nilai' => 98.67,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3822,
+                'kriteria_id' => 6,
+                'penduduk_id' => 637,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             94 => 
             array (
-                'id' => 1595,
-                'kriteria_id' => 5,
-                'penduduk_id' => 266,
-                'nilai' => 34.39,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3823,
+                'kriteria_id' => 1,
+                'penduduk_id' => 638,
+                'nilai' => 1322300.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             95 => 
             array (
-                'id' => 1596,
-                'kriteria_id' => 6,
-                'penduduk_id' => 266,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3824,
+                'kriteria_id' => 2,
+                'penduduk_id' => 638,
+                'nilai' => 40.91,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             96 => 
             array (
-                'id' => 1597,
-                'kriteria_id' => 1,
-                'penduduk_id' => 267,
-                'nilai' => 2111200.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3825,
+                'kriteria_id' => 3,
+                'penduduk_id' => 638,
+                'nilai' => 28740000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             97 => 
             array (
-                'id' => 1598,
-                'kriteria_id' => 2,
-                'penduduk_id' => 267,
-                'nilai' => 47.64,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3826,
+                'kriteria_id' => 4,
+                'penduduk_id' => 638,
+                'nilai' => 39.82,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             98 => 
             array (
-                'id' => 1599,
-                'kriteria_id' => 3,
-                'penduduk_id' => 267,
-                'nilai' => 31752000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3827,
+                'kriteria_id' => 5,
+                'penduduk_id' => 638,
+                'nilai' => 34.15,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             99 => 
             array (
-                'id' => 1600,
-                'kriteria_id' => 4,
-                'penduduk_id' => 267,
-                'nilai' => 90.86,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3828,
+                'kriteria_id' => 6,
+                'penduduk_id' => 638,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             100 => 
             array (
-                'id' => 1601,
-                'kriteria_id' => 5,
-                'penduduk_id' => 267,
-                'nilai' => 80.59,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3829,
+                'kriteria_id' => 1,
+                'penduduk_id' => 639,
+                'nilai' => 2051350.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             101 => 
             array (
-                'id' => 1602,
-                'kriteria_id' => 6,
-                'penduduk_id' => 267,
-                'nilai' => 0.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3830,
+                'kriteria_id' => 2,
+                'penduduk_id' => 639,
+                'nilai' => 97.85,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             102 => 
             array (
-                'id' => 1603,
-                'kriteria_id' => 1,
-                'penduduk_id' => 268,
-                'nilai' => 1454950.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3831,
+                'kriteria_id' => 3,
+                'penduduk_id' => 639,
+                'nilai' => 37900000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             103 => 
             array (
-                'id' => 1604,
-                'kriteria_id' => 2,
-                'penduduk_id' => 268,
-                'nilai' => 89.93,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3832,
+                'kriteria_id' => 4,
+                'penduduk_id' => 639,
+                'nilai' => 91.4,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             104 => 
             array (
-                'id' => 1605,
-                'kriteria_id' => 3,
-                'penduduk_id' => 268,
-                'nilai' => 37444000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3833,
+                'kriteria_id' => 5,
+                'penduduk_id' => 639,
+                'nilai' => 79.76,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             105 => 
             array (
-                'id' => 1606,
-                'kriteria_id' => 4,
-                'penduduk_id' => 268,
-                'nilai' => 40.26,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3834,
+                'kriteria_id' => 6,
+                'penduduk_id' => 639,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             106 => 
             array (
-                'id' => 1607,
-                'kriteria_id' => 5,
-                'penduduk_id' => 268,
-                'nilai' => 34.99,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3835,
+                'kriteria_id' => 1,
+                'penduduk_id' => 640,
+                'nilai' => 1030750.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             107 => 
             array (
-                'id' => 1608,
-                'kriteria_id' => 6,
-                'penduduk_id' => 268,
-                'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3836,
+                'kriteria_id' => 2,
+                'penduduk_id' => 640,
+                'nilai' => 70.01,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             108 => 
             array (
-                'id' => 1609,
-                'kriteria_id' => 1,
-                'penduduk_id' => 269,
-                'nilai' => 1469300.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3837,
+                'kriteria_id' => 3,
+                'penduduk_id' => 640,
+                'nilai' => 34044000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             109 => 
             array (
-                'id' => 1610,
-                'kriteria_id' => 2,
-                'penduduk_id' => 269,
-                'nilai' => 78.12,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3838,
+                'kriteria_id' => 4,
+                'penduduk_id' => 640,
+                'nilai' => 70.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             110 => 
             array (
-                'id' => 1611,
-                'kriteria_id' => 3,
-                'penduduk_id' => 269,
-                'nilai' => 20988000.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3839,
+                'kriteria_id' => 5,
+                'penduduk_id' => 640,
+                'nilai' => 44.64,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             111 => 
             array (
-                'id' => 1612,
-                'kriteria_id' => 4,
-                'penduduk_id' => 269,
-                'nilai' => 25.5,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3840,
+                'kriteria_id' => 6,
+                'penduduk_id' => 640,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             112 => 
             array (
-                'id' => 1613,
-                'kriteria_id' => 5,
-                'penduduk_id' => 269,
-                'nilai' => 29.78,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'id' => 3841,
+                'kriteria_id' => 1,
+                'penduduk_id' => 641,
+                'nilai' => 3339350.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
             ),
             113 => 
             array (
-                'id' => 1614,
+                'id' => 3842,
+                'kriteria_id' => 2,
+                'penduduk_id' => 641,
+                'nilai' => 40.41,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            114 => 
+            array (
+                'id' => 3843,
+                'kriteria_id' => 3,
+                'penduduk_id' => 641,
+                'nilai' => 15636000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            115 => 
+            array (
+                'id' => 3844,
+                'kriteria_id' => 4,
+                'penduduk_id' => 641,
+                'nilai' => 98.09,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            116 => 
+            array (
+                'id' => 3845,
+                'kriteria_id' => 5,
+                'penduduk_id' => 641,
+                'nilai' => 51.59,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            117 => 
+            array (
+                'id' => 3846,
                 'kriteria_id' => 6,
-                'penduduk_id' => 269,
+                'penduduk_id' => 641,
                 'nilai' => 1.0,
-                'created_at' => '2023-05-29 19:52:38',
-                'updated_at' => '2023-05-29 19:52:38',
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            118 => 
+            array (
+                'id' => 3847,
+                'kriteria_id' => 1,
+                'penduduk_id' => 642,
+                'nilai' => 1311800.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            119 => 
+            array (
+                'id' => 3848,
+                'kriteria_id' => 2,
+                'penduduk_id' => 642,
+                'nilai' => 62.96,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            120 => 
+            array (
+                'id' => 3849,
+                'kriteria_id' => 3,
+                'penduduk_id' => 642,
+                'nilai' => 11436000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            121 => 
+            array (
+                'id' => 3850,
+                'kriteria_id' => 4,
+                'penduduk_id' => 642,
+                'nilai' => 53.05,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            122 => 
+            array (
+                'id' => 3851,
+                'kriteria_id' => 5,
+                'penduduk_id' => 642,
+                'nilai' => 56.87,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            123 => 
+            array (
+                'id' => 3852,
+                'kriteria_id' => 6,
+                'penduduk_id' => 642,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            124 => 
+            array (
+                'id' => 3853,
+                'kriteria_id' => 1,
+                'penduduk_id' => 643,
+                'nilai' => 1750000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            125 => 
+            array (
+                'id' => 3854,
+                'kriteria_id' => 2,
+                'penduduk_id' => 643,
+                'nilai' => 80.88,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            126 => 
+            array (
+                'id' => 3855,
+                'kriteria_id' => 3,
+                'penduduk_id' => 643,
+                'nilai' => 19752000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            127 => 
+            array (
+                'id' => 3856,
+                'kriteria_id' => 4,
+                'penduduk_id' => 643,
+                'nilai' => 64.47,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            128 => 
+            array (
+                'id' => 3857,
+                'kriteria_id' => 5,
+                'penduduk_id' => 643,
+                'nilai' => 85.76,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            129 => 
+            array (
+                'id' => 3858,
+                'kriteria_id' => 6,
+                'penduduk_id' => 643,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            130 => 
+            array (
+                'id' => 3859,
+                'kriteria_id' => 1,
+                'penduduk_id' => 644,
+                'nilai' => 3228400.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            131 => 
+            array (
+                'id' => 3860,
+                'kriteria_id' => 2,
+                'penduduk_id' => 644,
+                'nilai' => 57.11,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            132 => 
+            array (
+                'id' => 3861,
+                'kriteria_id' => 3,
+                'penduduk_id' => 644,
+                'nilai' => 31552000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            133 => 
+            array (
+                'id' => 3862,
+                'kriteria_id' => 4,
+                'penduduk_id' => 644,
+                'nilai' => 64.26,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            134 => 
+            array (
+                'id' => 3863,
+                'kriteria_id' => 5,
+                'penduduk_id' => 644,
+                'nilai' => 45.4,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            135 => 
+            array (
+                'id' => 3864,
+                'kriteria_id' => 6,
+                'penduduk_id' => 644,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            136 => 
+            array (
+                'id' => 3865,
+                'kriteria_id' => 1,
+                'penduduk_id' => 645,
+                'nilai' => 1457050.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            137 => 
+            array (
+                'id' => 3866,
+                'kriteria_id' => 2,
+                'penduduk_id' => 645,
+                'nilai' => 62.06,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            138 => 
+            array (
+                'id' => 3867,
+                'kriteria_id' => 3,
+                'penduduk_id' => 645,
+                'nilai' => 29988000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            139 => 
+            array (
+                'id' => 3868,
+                'kriteria_id' => 4,
+                'penduduk_id' => 645,
+                'nilai' => 78.58,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            140 => 
+            array (
+                'id' => 3869,
+                'kriteria_id' => 5,
+                'penduduk_id' => 645,
+                'nilai' => 69.65,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            141 => 
+            array (
+                'id' => 3870,
+                'kriteria_id' => 6,
+                'penduduk_id' => 645,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            142 => 
+            array (
+                'id' => 3871,
+                'kriteria_id' => 1,
+                'penduduk_id' => 646,
+                'nilai' => 1131550.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            143 => 
+            array (
+                'id' => 3872,
+                'kriteria_id' => 2,
+                'penduduk_id' => 646,
+                'nilai' => 56.05,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            144 => 
+            array (
+                'id' => 3873,
+                'kriteria_id' => 3,
+                'penduduk_id' => 646,
+                'nilai' => 35508000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            145 => 
+            array (
+                'id' => 3874,
+                'kriteria_id' => 4,
+                'penduduk_id' => 646,
+                'nilai' => 93.43,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            146 => 
+            array (
+                'id' => 3875,
+                'kriteria_id' => 5,
+                'penduduk_id' => 646,
+                'nilai' => 62.34,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            147 => 
+            array (
+                'id' => 3876,
+                'kriteria_id' => 6,
+                'penduduk_id' => 646,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            148 => 
+            array (
+                'id' => 3877,
+                'kriteria_id' => 1,
+                'penduduk_id' => 647,
+                'nilai' => 1316350.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            149 => 
+            array (
+                'id' => 3878,
+                'kriteria_id' => 2,
+                'penduduk_id' => 647,
+                'nilai' => 50.38,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            150 => 
+            array (
+                'id' => 3879,
+                'kriteria_id' => 3,
+                'penduduk_id' => 647,
+                'nilai' => 13092000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            151 => 
+            array (
+                'id' => 3880,
+                'kriteria_id' => 4,
+                'penduduk_id' => 647,
+                'nilai' => 58.48,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            152 => 
+            array (
+                'id' => 3881,
+                'kriteria_id' => 5,
+                'penduduk_id' => 647,
+                'nilai' => 62.55,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            153 => 
+            array (
+                'id' => 3882,
+                'kriteria_id' => 6,
+                'penduduk_id' => 647,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            154 => 
+            array (
+                'id' => 3883,
+                'kriteria_id' => 1,
+                'penduduk_id' => 648,
+                'nilai' => 2774800.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            155 => 
+            array (
+                'id' => 3884,
+                'kriteria_id' => 2,
+                'penduduk_id' => 648,
+                'nilai' => 64.6,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            156 => 
+            array (
+                'id' => 3885,
+                'kriteria_id' => 3,
+                'penduduk_id' => 648,
+                'nilai' => 37148000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            157 => 
+            array (
+                'id' => 3886,
+                'kriteria_id' => 4,
+                'penduduk_id' => 648,
+                'nilai' => 63.44,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            158 => 
+            array (
+                'id' => 3887,
+                'kriteria_id' => 5,
+                'penduduk_id' => 648,
+                'nilai' => 86.41,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            159 => 
+            array (
+                'id' => 3888,
+                'kriteria_id' => 6,
+                'penduduk_id' => 648,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            160 => 
+            array (
+                'id' => 3889,
+                'kriteria_id' => 1,
+                'penduduk_id' => 649,
+                'nilai' => 2311750.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            161 => 
+            array (
+                'id' => 3890,
+                'kriteria_id' => 2,
+                'penduduk_id' => 649,
+                'nilai' => 37.3,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            162 => 
+            array (
+                'id' => 3891,
+                'kriteria_id' => 3,
+                'penduduk_id' => 649,
+                'nilai' => 14264000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            163 => 
+            array (
+                'id' => 3892,
+                'kriteria_id' => 4,
+                'penduduk_id' => 649,
+                'nilai' => 57.86,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            164 => 
+            array (
+                'id' => 3893,
+                'kriteria_id' => 5,
+                'penduduk_id' => 649,
+                'nilai' => 31.91,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            165 => 
+            array (
+                'id' => 3894,
+                'kriteria_id' => 6,
+                'penduduk_id' => 649,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            166 => 
+            array (
+                'id' => 3895,
+                'kriteria_id' => 1,
+                'penduduk_id' => 650,
+                'nilai' => 2245950.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            167 => 
+            array (
+                'id' => 3896,
+                'kriteria_id' => 2,
+                'penduduk_id' => 650,
+                'nilai' => 34.57,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            168 => 
+            array (
+                'id' => 3897,
+                'kriteria_id' => 3,
+                'penduduk_id' => 650,
+                'nilai' => 39400000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            169 => 
+            array (
+                'id' => 3898,
+                'kriteria_id' => 4,
+                'penduduk_id' => 650,
+                'nilai' => 37.67,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            170 => 
+            array (
+                'id' => 3899,
+                'kriteria_id' => 5,
+                'penduduk_id' => 650,
+                'nilai' => 92.39,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            171 => 
+            array (
+                'id' => 3900,
+                'kriteria_id' => 6,
+                'penduduk_id' => 650,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            172 => 
+            array (
+                'id' => 3901,
+                'kriteria_id' => 1,
+                'penduduk_id' => 651,
+                'nilai' => 3349500.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            173 => 
+            array (
+                'id' => 3902,
+                'kriteria_id' => 2,
+                'penduduk_id' => 651,
+                'nilai' => 83.68,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            174 => 
+            array (
+                'id' => 3903,
+                'kriteria_id' => 3,
+                'penduduk_id' => 651,
+                'nilai' => 35716000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            175 => 
+            array (
+                'id' => 3904,
+                'kriteria_id' => 4,
+                'penduduk_id' => 651,
+                'nilai' => 80.06,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            176 => 
+            array (
+                'id' => 3905,
+                'kriteria_id' => 5,
+                'penduduk_id' => 651,
+                'nilai' => 34.65,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            177 => 
+            array (
+                'id' => 3906,
+                'kriteria_id' => 6,
+                'penduduk_id' => 651,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            178 => 
+            array (
+                'id' => 3907,
+                'kriteria_id' => 1,
+                'penduduk_id' => 652,
+                'nilai' => 1404900.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            179 => 
+            array (
+                'id' => 3908,
+                'kriteria_id' => 2,
+                'penduduk_id' => 652,
+                'nilai' => 64.9,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            180 => 
+            array (
+                'id' => 3909,
+                'kriteria_id' => 3,
+                'penduduk_id' => 652,
+                'nilai' => 33284000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            181 => 
+            array (
+                'id' => 3910,
+                'kriteria_id' => 4,
+                'penduduk_id' => 652,
+                'nilai' => 67.38,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            182 => 
+            array (
+                'id' => 3911,
+                'kriteria_id' => 5,
+                'penduduk_id' => 652,
+                'nilai' => 66.37,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            183 => 
+            array (
+                'id' => 3912,
+                'kriteria_id' => 6,
+                'penduduk_id' => 652,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            184 => 
+            array (
+                'id' => 3913,
+                'kriteria_id' => 1,
+                'penduduk_id' => 653,
+                'nilai' => 1238650.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            185 => 
+            array (
+                'id' => 3914,
+                'kriteria_id' => 2,
+                'penduduk_id' => 653,
+                'nilai' => 38.78,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            186 => 
+            array (
+                'id' => 3915,
+                'kriteria_id' => 3,
+                'penduduk_id' => 653,
+                'nilai' => 37688000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            187 => 
+            array (
+                'id' => 3916,
+                'kriteria_id' => 4,
+                'penduduk_id' => 653,
+                'nilai' => 51.38,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            188 => 
+            array (
+                'id' => 3917,
+                'kriteria_id' => 5,
+                'penduduk_id' => 653,
+                'nilai' => 41.84,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            189 => 
+            array (
+                'id' => 3918,
+                'kriteria_id' => 6,
+                'penduduk_id' => 653,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            190 => 
+            array (
+                'id' => 3919,
+                'kriteria_id' => 1,
+                'penduduk_id' => 654,
+                'nilai' => 1489950.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            191 => 
+            array (
+                'id' => 3920,
+                'kriteria_id' => 2,
+                'penduduk_id' => 654,
+                'nilai' => 74.14,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            192 => 
+            array (
+                'id' => 3921,
+                'kriteria_id' => 3,
+                'penduduk_id' => 654,
+                'nilai' => 13180000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            193 => 
+            array (
+                'id' => 3922,
+                'kriteria_id' => 4,
+                'penduduk_id' => 654,
+                'nilai' => 72.84,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            194 => 
+            array (
+                'id' => 3923,
+                'kriteria_id' => 5,
+                'penduduk_id' => 654,
+                'nilai' => 68.2,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            195 => 
+            array (
+                'id' => 3924,
+                'kriteria_id' => 6,
+                'penduduk_id' => 654,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            196 => 
+            array (
+                'id' => 3925,
+                'kriteria_id' => 1,
+                'penduduk_id' => 655,
+                'nilai' => 1974000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            197 => 
+            array (
+                'id' => 3926,
+                'kriteria_id' => 2,
+                'penduduk_id' => 655,
+                'nilai' => 56.99,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            198 => 
+            array (
+                'id' => 3927,
+                'kriteria_id' => 3,
+                'penduduk_id' => 655,
+                'nilai' => 39972000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            199 => 
+            array (
+                'id' => 3928,
+                'kriteria_id' => 4,
+                'penduduk_id' => 655,
+                'nilai' => 79.82,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            200 => 
+            array (
+                'id' => 3929,
+                'kriteria_id' => 5,
+                'penduduk_id' => 655,
+                'nilai' => 60.23,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            201 => 
+            array (
+                'id' => 3930,
+                'kriteria_id' => 6,
+                'penduduk_id' => 655,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            202 => 
+            array (
+                'id' => 3931,
+                'kriteria_id' => 1,
+                'penduduk_id' => 656,
+                'nilai' => 2018450.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            203 => 
+            array (
+                'id' => 3932,
+                'kriteria_id' => 2,
+                'penduduk_id' => 656,
+                'nilai' => 28.58,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            204 => 
+            array (
+                'id' => 3933,
+                'kriteria_id' => 3,
+                'penduduk_id' => 656,
+                'nilai' => 38760000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            205 => 
+            array (
+                'id' => 3934,
+                'kriteria_id' => 4,
+                'penduduk_id' => 656,
+                'nilai' => 87.25,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            206 => 
+            array (
+                'id' => 3935,
+                'kriteria_id' => 5,
+                'penduduk_id' => 656,
+                'nilai' => 52.28,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            207 => 
+            array (
+                'id' => 3936,
+                'kriteria_id' => 6,
+                'penduduk_id' => 656,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            208 => 
+            array (
+                'id' => 3937,
+                'kriteria_id' => 1,
+                'penduduk_id' => 657,
+                'nilai' => 2810850.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            209 => 
+            array (
+                'id' => 3938,
+                'kriteria_id' => 2,
+                'penduduk_id' => 657,
+                'nilai' => 30.15,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            210 => 
+            array (
+                'id' => 3939,
+                'kriteria_id' => 3,
+                'penduduk_id' => 657,
+                'nilai' => 19604000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            211 => 
+            array (
+                'id' => 3940,
+                'kriteria_id' => 4,
+                'penduduk_id' => 657,
+                'nilai' => 29.2,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            212 => 
+            array (
+                'id' => 3941,
+                'kriteria_id' => 5,
+                'penduduk_id' => 657,
+                'nilai' => 29.81,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            213 => 
+            array (
+                'id' => 3942,
+                'kriteria_id' => 6,
+                'penduduk_id' => 657,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            214 => 
+            array (
+                'id' => 3943,
+                'kriteria_id' => 1,
+                'penduduk_id' => 658,
+                'nilai' => 2446500.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            215 => 
+            array (
+                'id' => 3944,
+                'kriteria_id' => 2,
+                'penduduk_id' => 658,
+                'nilai' => 80.91,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            216 => 
+            array (
+                'id' => 3945,
+                'kriteria_id' => 3,
+                'penduduk_id' => 658,
+                'nilai' => 35544000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            217 => 
+            array (
+                'id' => 3946,
+                'kriteria_id' => 4,
+                'penduduk_id' => 658,
+                'nilai' => 36.41,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            218 => 
+            array (
+                'id' => 3947,
+                'kriteria_id' => 5,
+                'penduduk_id' => 658,
+                'nilai' => 80.67,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            219 => 
+            array (
+                'id' => 3948,
+                'kriteria_id' => 6,
+                'penduduk_id' => 658,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            220 => 
+            array (
+                'id' => 3949,
+                'kriteria_id' => 1,
+                'penduduk_id' => 659,
+                'nilai' => 3198300.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            221 => 
+            array (
+                'id' => 3950,
+                'kriteria_id' => 2,
+                'penduduk_id' => 659,
+                'nilai' => 94.76,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            222 => 
+            array (
+                'id' => 3951,
+                'kriteria_id' => 3,
+                'penduduk_id' => 659,
+                'nilai' => 10472000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            223 => 
+            array (
+                'id' => 3952,
+                'kriteria_id' => 4,
+                'penduduk_id' => 659,
+                'nilai' => 59.95,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            224 => 
+            array (
+                'id' => 3953,
+                'kriteria_id' => 5,
+                'penduduk_id' => 659,
+                'nilai' => 81.9,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            225 => 
+            array (
+                'id' => 3954,
+                'kriteria_id' => 6,
+                'penduduk_id' => 659,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            226 => 
+            array (
+                'id' => 3955,
+                'kriteria_id' => 1,
+                'penduduk_id' => 660,
+                'nilai' => 1475600.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            227 => 
+            array (
+                'id' => 3956,
+                'kriteria_id' => 2,
+                'penduduk_id' => 660,
+                'nilai' => 73.06,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            228 => 
+            array (
+                'id' => 3957,
+                'kriteria_id' => 3,
+                'penduduk_id' => 660,
+                'nilai' => 26628000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            229 => 
+            array (
+                'id' => 3958,
+                'kriteria_id' => 4,
+                'penduduk_id' => 660,
+                'nilai' => 73.54,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            230 => 
+            array (
+                'id' => 3959,
+                'kriteria_id' => 5,
+                'penduduk_id' => 660,
+                'nilai' => 37.7,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            231 => 
+            array (
+                'id' => 3960,
+                'kriteria_id' => 6,
+                'penduduk_id' => 660,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            232 => 
+            array (
+                'id' => 3961,
+                'kriteria_id' => 1,
+                'penduduk_id' => 661,
+                'nilai' => 1274350.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            233 => 
+            array (
+                'id' => 3962,
+                'kriteria_id' => 2,
+                'penduduk_id' => 661,
+                'nilai' => 80.67,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            234 => 
+            array (
+                'id' => 3963,
+                'kriteria_id' => 3,
+                'penduduk_id' => 661,
+                'nilai' => 29580000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            235 => 
+            array (
+                'id' => 3964,
+                'kriteria_id' => 4,
+                'penduduk_id' => 661,
+                'nilai' => 73.52,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            236 => 
+            array (
+                'id' => 3965,
+                'kriteria_id' => 5,
+                'penduduk_id' => 661,
+                'nilai' => 78.02,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            237 => 
+            array (
+                'id' => 3966,
+                'kriteria_id' => 6,
+                'penduduk_id' => 661,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            238 => 
+            array (
+                'id' => 3967,
+                'kriteria_id' => 1,
+                'penduduk_id' => 662,
+                'nilai' => 3306800.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            239 => 
+            array (
+                'id' => 3968,
+                'kriteria_id' => 2,
+                'penduduk_id' => 662,
+                'nilai' => 57.99,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            240 => 
+            array (
+                'id' => 3969,
+                'kriteria_id' => 3,
+                'penduduk_id' => 662,
+                'nilai' => 10488000.0,
+                'created_at' => '2023-05-29 20:44:31',
+                'updated_at' => '2023-05-29 20:44:31',
+            ),
+            241 => 
+            array (
+                'id' => 3970,
+                'kriteria_id' => 4,
+                'penduduk_id' => 662,
+                'nilai' => 96.94,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            242 => 
+            array (
+                'id' => 3971,
+                'kriteria_id' => 5,
+                'penduduk_id' => 662,
+                'nilai' => 34.78,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            243 => 
+            array (
+                'id' => 3972,
+                'kriteria_id' => 6,
+                'penduduk_id' => 662,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            244 => 
+            array (
+                'id' => 3973,
+                'kriteria_id' => 1,
+                'penduduk_id' => 663,
+                'nilai' => 1331050.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            245 => 
+            array (
+                'id' => 3974,
+                'kriteria_id' => 2,
+                'penduduk_id' => 663,
+                'nilai' => 72.05,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            246 => 
+            array (
+                'id' => 3975,
+                'kriteria_id' => 3,
+                'penduduk_id' => 663,
+                'nilai' => 30092000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            247 => 
+            array (
+                'id' => 3976,
+                'kriteria_id' => 4,
+                'penduduk_id' => 663,
+                'nilai' => 71.48,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            248 => 
+            array (
+                'id' => 3977,
+                'kriteria_id' => 5,
+                'penduduk_id' => 663,
+                'nilai' => 40.67,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            249 => 
+            array (
+                'id' => 3978,
+                'kriteria_id' => 6,
+                'penduduk_id' => 663,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            250 => 
+            array (
+                'id' => 3979,
+                'kriteria_id' => 1,
+                'penduduk_id' => 664,
+                'nilai' => 1421350.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            251 => 
+            array (
+                'id' => 3980,
+                'kriteria_id' => 2,
+                'penduduk_id' => 664,
+                'nilai' => 88.67,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            252 => 
+            array (
+                'id' => 3981,
+                'kriteria_id' => 3,
+                'penduduk_id' => 664,
+                'nilai' => 38324000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            253 => 
+            array (
+                'id' => 3982,
+                'kriteria_id' => 4,
+                'penduduk_id' => 664,
+                'nilai' => 70.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            254 => 
+            array (
+                'id' => 3983,
+                'kriteria_id' => 5,
+                'penduduk_id' => 664,
+                'nilai' => 44.64,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            255 => 
+            array (
+                'id' => 3984,
+                'kriteria_id' => 6,
+                'penduduk_id' => 664,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            256 => 
+            array (
+                'id' => 3985,
+                'kriteria_id' => 1,
+                'penduduk_id' => 665,
+                'nilai' => 3074400.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            257 => 
+            array (
+                'id' => 3986,
+                'kriteria_id' => 2,
+                'penduduk_id' => 665,
+                'nilai' => 53.1,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            258 => 
+            array (
+                'id' => 3987,
+                'kriteria_id' => 3,
+                'penduduk_id' => 665,
+                'nilai' => 33724000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            259 => 
+            array (
+                'id' => 3988,
+                'kriteria_id' => 4,
+                'penduduk_id' => 665,
+                'nilai' => 71.13,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            260 => 
+            array (
+                'id' => 3989,
+                'kriteria_id' => 5,
+                'penduduk_id' => 665,
+                'nilai' => 60.41,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            261 => 
+            array (
+                'id' => 3990,
+                'kriteria_id' => 6,
+                'penduduk_id' => 665,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            262 => 
+            array (
+                'id' => 3991,
+                'kriteria_id' => 1,
+                'penduduk_id' => 666,
+                'nilai' => 3382750.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            263 => 
+            array (
+                'id' => 3992,
+                'kriteria_id' => 2,
+                'penduduk_id' => 666,
+                'nilai' => 54.86,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            264 => 
+            array (
+                'id' => 3993,
+                'kriteria_id' => 3,
+                'penduduk_id' => 666,
+                'nilai' => 27792000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            265 => 
+            array (
+                'id' => 3994,
+                'kriteria_id' => 4,
+                'penduduk_id' => 666,
+                'nilai' => 55.84,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            266 => 
+            array (
+                'id' => 3995,
+                'kriteria_id' => 5,
+                'penduduk_id' => 666,
+                'nilai' => 80.54,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            267 => 
+            array (
+                'id' => 3996,
+                'kriteria_id' => 6,
+                'penduduk_id' => 666,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            268 => 
+            array (
+                'id' => 3997,
+                'kriteria_id' => 1,
+                'penduduk_id' => 667,
+                'nilai' => 2166850.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            269 => 
+            array (
+                'id' => 3998,
+                'kriteria_id' => 2,
+                'penduduk_id' => 667,
+                'nilai' => 51.14,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            270 => 
+            array (
+                'id' => 3999,
+                'kriteria_id' => 3,
+                'penduduk_id' => 667,
+                'nilai' => 29440000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            271 => 
+            array (
+                'id' => 4000,
+                'kriteria_id' => 4,
+                'penduduk_id' => 667,
+                'nilai' => 46.34,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            272 => 
+            array (
+                'id' => 4001,
+                'kriteria_id' => 5,
+                'penduduk_id' => 667,
+                'nilai' => 93.6,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            273 => 
+            array (
+                'id' => 4002,
+                'kriteria_id' => 6,
+                'penduduk_id' => 667,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            274 => 
+            array (
+                'id' => 4003,
+                'kriteria_id' => 1,
+                'penduduk_id' => 668,
+                'nilai' => 1081500.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            275 => 
+            array (
+                'id' => 4004,
+                'kriteria_id' => 2,
+                'penduduk_id' => 668,
+                'nilai' => 52.73,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            276 => 
+            array (
+                'id' => 4005,
+                'kriteria_id' => 3,
+                'penduduk_id' => 668,
+                'nilai' => 24228000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            277 => 
+            array (
+                'id' => 4006,
+                'kriteria_id' => 4,
+                'penduduk_id' => 668,
+                'nilai' => 53.05,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            278 => 
+            array (
+                'id' => 4007,
+                'kriteria_id' => 5,
+                'penduduk_id' => 668,
+                'nilai' => 56.87,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            279 => 
+            array (
+                'id' => 4008,
+                'kriteria_id' => 6,
+                'penduduk_id' => 668,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            280 => 
+            array (
+                'id' => 4009,
+                'kriteria_id' => 1,
+                'penduduk_id' => 669,
+                'nilai' => 936950.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            281 => 
+            array (
+                'id' => 4010,
+                'kriteria_id' => 2,
+                'penduduk_id' => 669,
+                'nilai' => 52.04,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            282 => 
+            array (
+                'id' => 4011,
+                'kriteria_id' => 3,
+                'penduduk_id' => 669,
+                'nilai' => 15940000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            283 => 
+            array (
+                'id' => 4012,
+                'kriteria_id' => 4,
+                'penduduk_id' => 669,
+                'nilai' => 49.77,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            284 => 
+            array (
+                'id' => 4013,
+                'kriteria_id' => 5,
+                'penduduk_id' => 669,
+                'nilai' => 72.7,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            285 => 
+            array (
+                'id' => 4014,
+                'kriteria_id' => 6,
+                'penduduk_id' => 669,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            286 => 
+            array (
+                'id' => 4015,
+                'kriteria_id' => 1,
+                'penduduk_id' => 670,
+                'nilai' => 2025100.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            287 => 
+            array (
+                'id' => 4016,
+                'kriteria_id' => 2,
+                'penduduk_id' => 670,
+                'nilai' => 31.91,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            288 => 
+            array (
+                'id' => 4017,
+                'kriteria_id' => 3,
+                'penduduk_id' => 670,
+                'nilai' => 28056000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            289 => 
+            array (
+                'id' => 4018,
+                'kriteria_id' => 4,
+                'penduduk_id' => 670,
+                'nilai' => 79.86,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            290 => 
+            array (
+                'id' => 4019,
+                'kriteria_id' => 5,
+                'penduduk_id' => 670,
+                'nilai' => 90.15,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            291 => 
+            array (
+                'id' => 4020,
+                'kriteria_id' => 6,
+                'penduduk_id' => 670,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            292 => 
+            array (
+                'id' => 4021,
+                'kriteria_id' => 1,
+                'penduduk_id' => 671,
+                'nilai' => 3359650.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            293 => 
+            array (
+                'id' => 4022,
+                'kriteria_id' => 2,
+                'penduduk_id' => 671,
+                'nilai' => 90.99,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            294 => 
+            array (
+                'id' => 4023,
+                'kriteria_id' => 3,
+                'penduduk_id' => 671,
+                'nilai' => 18868000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            295 => 
+            array (
+                'id' => 4024,
+                'kriteria_id' => 4,
+                'penduduk_id' => 671,
+                'nilai' => 47.68,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            296 => 
+            array (
+                'id' => 4025,
+                'kriteria_id' => 5,
+                'penduduk_id' => 671,
+                'nilai' => 66.93,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            297 => 
+            array (
+                'id' => 4026,
+                'kriteria_id' => 6,
+                'penduduk_id' => 671,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            298 => 
+            array (
+                'id' => 4027,
+                'kriteria_id' => 1,
+                'penduduk_id' => 672,
+                'nilai' => 2964150.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            299 => 
+            array (
+                'id' => 4028,
+                'kriteria_id' => 2,
+                'penduduk_id' => 672,
+                'nilai' => 31.92,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            300 => 
+            array (
+                'id' => 4029,
+                'kriteria_id' => 3,
+                'penduduk_id' => 672,
+                'nilai' => 30888000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            301 => 
+            array (
+                'id' => 4030,
+                'kriteria_id' => 4,
+                'penduduk_id' => 672,
+                'nilai' => 25.5,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            302 => 
+            array (
+                'id' => 4031,
+                'kriteria_id' => 5,
+                'penduduk_id' => 672,
+                'nilai' => 29.78,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            303 => 
+            array (
+                'id' => 4032,
+                'kriteria_id' => 6,
+                'penduduk_id' => 672,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            304 => 
+            array (
+                'id' => 4033,
+                'kriteria_id' => 1,
+                'penduduk_id' => 673,
+                'nilai' => 1296750.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            305 => 
+            array (
+                'id' => 4034,
+                'kriteria_id' => 2,
+                'penduduk_id' => 673,
+                'nilai' => 91.38,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            306 => 
+            array (
+                'id' => 4035,
+                'kriteria_id' => 3,
+                'penduduk_id' => 673,
+                'nilai' => 29160000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            307 => 
+            array (
+                'id' => 4036,
+                'kriteria_id' => 4,
+                'penduduk_id' => 673,
+                'nilai' => 96.06,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            308 => 
+            array (
+                'id' => 4037,
+                'kriteria_id' => 5,
+                'penduduk_id' => 673,
+                'nilai' => 70.42,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            309 => 
+            array (
+                'id' => 4038,
+                'kriteria_id' => 6,
+                'penduduk_id' => 673,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            310 => 
+            array (
+                'id' => 4039,
+                'kriteria_id' => 1,
+                'penduduk_id' => 674,
+                'nilai' => 2111200.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            311 => 
+            array (
+                'id' => 4040,
+                'kriteria_id' => 2,
+                'penduduk_id' => 674,
+                'nilai' => 47.64,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            312 => 
+            array (
+                'id' => 4041,
+                'kriteria_id' => 3,
+                'penduduk_id' => 674,
+                'nilai' => 31752000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            313 => 
+            array (
+                'id' => 4042,
+                'kriteria_id' => 4,
+                'penduduk_id' => 674,
+                'nilai' => 90.86,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            314 => 
+            array (
+                'id' => 4043,
+                'kriteria_id' => 5,
+                'penduduk_id' => 674,
+                'nilai' => 80.59,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            315 => 
+            array (
+                'id' => 4044,
+                'kriteria_id' => 6,
+                'penduduk_id' => 674,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            316 => 
+            array (
+                'id' => 4045,
+                'kriteria_id' => 1,
+                'penduduk_id' => 675,
+                'nilai' => 2152850.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            317 => 
+            array (
+                'id' => 4046,
+                'kriteria_id' => 2,
+                'penduduk_id' => 675,
+                'nilai' => 86.93,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            318 => 
+            array (
+                'id' => 4047,
+                'kriteria_id' => 3,
+                'penduduk_id' => 675,
+                'nilai' => 11308000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            319 => 
+            array (
+                'id' => 4048,
+                'kriteria_id' => 4,
+                'penduduk_id' => 675,
+                'nilai' => 71.49,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            320 => 
+            array (
+                'id' => 4049,
+                'kriteria_id' => 5,
+                'penduduk_id' => 675,
+                'nilai' => 92.36,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            321 => 
+            array (
+                'id' => 4050,
+                'kriteria_id' => 6,
+                'penduduk_id' => 675,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            322 => 
+            array (
+                'id' => 4051,
+                'kriteria_id' => 1,
+                'penduduk_id' => 676,
+                'nilai' => 2015300.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            323 => 
+            array (
+                'id' => 4052,
+                'kriteria_id' => 2,
+                'penduduk_id' => 676,
+                'nilai' => 80.17,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            324 => 
+            array (
+                'id' => 4053,
+                'kriteria_id' => 3,
+                'penduduk_id' => 676,
+                'nilai' => 10724000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            325 => 
+            array (
+                'id' => 4054,
+                'kriteria_id' => 4,
+                'penduduk_id' => 676,
+                'nilai' => 63.44,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            326 => 
+            array (
+                'id' => 4055,
+                'kriteria_id' => 5,
+                'penduduk_id' => 676,
+                'nilai' => 86.41,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            327 => 
+            array (
+                'id' => 4056,
+                'kriteria_id' => 6,
+                'penduduk_id' => 676,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            328 => 
+            array (
+                'id' => 4057,
+                'kriteria_id' => 1,
+                'penduduk_id' => 677,
+                'nilai' => 2877000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            329 => 
+            array (
+                'id' => 4058,
+                'kriteria_id' => 2,
+                'penduduk_id' => 677,
+                'nilai' => 36.63,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            330 => 
+            array (
+                'id' => 4059,
+                'kriteria_id' => 3,
+                'penduduk_id' => 677,
+                'nilai' => 22648000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            331 => 
+            array (
+                'id' => 4060,
+                'kriteria_id' => 4,
+                'penduduk_id' => 677,
+                'nilai' => 63.91,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            332 => 
+            array (
+                'id' => 4061,
+                'kriteria_id' => 5,
+                'penduduk_id' => 677,
+                'nilai' => 57.35,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            333 => 
+            array (
+                'id' => 4062,
+                'kriteria_id' => 6,
+                'penduduk_id' => 677,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            334 => 
+            array (
+                'id' => 4063,
+                'kriteria_id' => 1,
+                'penduduk_id' => 678,
+                'nilai' => 2396800.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            335 => 
+            array (
+                'id' => 4064,
+                'kriteria_id' => 2,
+                'penduduk_id' => 678,
+                'nilai' => 56.78,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            336 => 
+            array (
+                'id' => 4065,
+                'kriteria_id' => 3,
+                'penduduk_id' => 678,
+                'nilai' => 22648000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            337 => 
+            array (
+                'id' => 4066,
+                'kriteria_id' => 4,
+                'penduduk_id' => 678,
+                'nilai' => 46.64,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            338 => 
+            array (
+                'id' => 4067,
+                'kriteria_id' => 5,
+                'penduduk_id' => 678,
+                'nilai' => 89.31,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            339 => 
+            array (
+                'id' => 4068,
+                'kriteria_id' => 6,
+                'penduduk_id' => 678,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            340 => 
+            array (
+                'id' => 4069,
+                'kriteria_id' => 1,
+                'penduduk_id' => 679,
+                'nilai' => 2162650.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            341 => 
+            array (
+                'id' => 4070,
+                'kriteria_id' => 2,
+                'penduduk_id' => 679,
+                'nilai' => 34.67,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            342 => 
+            array (
+                'id' => 4071,
+                'kriteria_id' => 3,
+                'penduduk_id' => 679,
+                'nilai' => 16532000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            343 => 
+            array (
+                'id' => 4072,
+                'kriteria_id' => 4,
+                'penduduk_id' => 679,
+                'nilai' => 32.06,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            344 => 
+            array (
+                'id' => 4073,
+                'kriteria_id' => 5,
+                'penduduk_id' => 679,
+                'nilai' => 82.22,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            345 => 
+            array (
+                'id' => 4074,
+                'kriteria_id' => 6,
+                'penduduk_id' => 679,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            346 => 
+            array (
+                'id' => 4075,
+                'kriteria_id' => 1,
+                'penduduk_id' => 680,
+                'nilai' => 1145550.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            347 => 
+            array (
+                'id' => 4076,
+                'kriteria_id' => 2,
+                'penduduk_id' => 680,
+                'nilai' => 95.18,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            348 => 
+            array (
+                'id' => 4077,
+                'kriteria_id' => 3,
+                'penduduk_id' => 680,
+                'nilai' => 27564000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            349 => 
+            array (
+                'id' => 4078,
+                'kriteria_id' => 4,
+                'penduduk_id' => 680,
+                'nilai' => 96.06,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            350 => 
+            array (
+                'id' => 4079,
+                'kriteria_id' => 5,
+                'penduduk_id' => 680,
+                'nilai' => 70.42,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            351 => 
+            array (
+                'id' => 4080,
+                'kriteria_id' => 6,
+                'penduduk_id' => 680,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            352 => 
+            array (
+                'id' => 4081,
+                'kriteria_id' => 1,
+                'penduduk_id' => 681,
+                'nilai' => 2802450.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            353 => 
+            array (
+                'id' => 4082,
+                'kriteria_id' => 2,
+                'penduduk_id' => 681,
+                'nilai' => 66.09,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            354 => 
+            array (
+                'id' => 4083,
+                'kriteria_id' => 3,
+                'penduduk_id' => 681,
+                'nilai' => 27368000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            355 => 
+            array (
+                'id' => 4084,
+                'kriteria_id' => 4,
+                'penduduk_id' => 681,
+                'nilai' => 32.37,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            356 => 
+            array (
+                'id' => 4085,
+                'kriteria_id' => 5,
+                'penduduk_id' => 681,
+                'nilai' => 93.85,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            357 => 
+            array (
+                'id' => 4086,
+                'kriteria_id' => 6,
+                'penduduk_id' => 681,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            358 => 
+            array (
+                'id' => 4087,
+                'kriteria_id' => 1,
+                'penduduk_id' => 682,
+                'nilai' => 1631350.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            359 => 
+            array (
+                'id' => 4088,
+                'kriteria_id' => 2,
+                'penduduk_id' => 682,
+                'nilai' => 38.61,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            360 => 
+            array (
+                'id' => 4089,
+                'kriteria_id' => 3,
+                'penduduk_id' => 682,
+                'nilai' => 20000000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            361 => 
+            array (
+                'id' => 4090,
+                'kriteria_id' => 4,
+                'penduduk_id' => 682,
+                'nilai' => 44.93,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            362 => 
+            array (
+                'id' => 4091,
+                'kriteria_id' => 5,
+                'penduduk_id' => 682,
+                'nilai' => 59.39,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            363 => 
+            array (
+                'id' => 4092,
+                'kriteria_id' => 6,
+                'penduduk_id' => 682,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            364 => 
+            array (
+                'id' => 4093,
+                'kriteria_id' => 1,
+                'penduduk_id' => 683,
+                'nilai' => 3166450.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            365 => 
+            array (
+                'id' => 4094,
+                'kriteria_id' => 2,
+                'penduduk_id' => 683,
+                'nilai' => 83.96,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            366 => 
+            array (
+                'id' => 4095,
+                'kriteria_id' => 3,
+                'penduduk_id' => 683,
+                'nilai' => 38008000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            367 => 
+            array (
+                'id' => 4096,
+                'kriteria_id' => 4,
+                'penduduk_id' => 683,
+                'nilai' => 77.52,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            368 => 
+            array (
+                'id' => 4097,
+                'kriteria_id' => 5,
+                'penduduk_id' => 683,
+                'nilai' => 82.3,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            369 => 
+            array (
+                'id' => 4098,
+                'kriteria_id' => 6,
+                'penduduk_id' => 683,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            370 => 
+            array (
+                'id' => 4099,
+                'kriteria_id' => 1,
+                'penduduk_id' => 684,
+                'nilai' => 2750300.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            371 => 
+            array (
+                'id' => 4100,
+                'kriteria_id' => 2,
+                'penduduk_id' => 684,
+                'nilai' => 69.65,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            372 => 
+            array (
+                'id' => 4101,
+                'kriteria_id' => 3,
+                'penduduk_id' => 684,
+                'nilai' => 21244000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            373 => 
+            array (
+                'id' => 4102,
+                'kriteria_id' => 4,
+                'penduduk_id' => 684,
+                'nilai' => 42.16,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            374 => 
+            array (
+                'id' => 4103,
+                'kriteria_id' => 5,
+                'penduduk_id' => 684,
+                'nilai' => 73.06,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            375 => 
+            array (
+                'id' => 4104,
+                'kriteria_id' => 6,
+                'penduduk_id' => 684,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            376 => 
+            array (
+                'id' => 4105,
+                'kriteria_id' => 1,
+                'penduduk_id' => 685,
+                'nilai' => 2795100.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            377 => 
+            array (
+                'id' => 4106,
+                'kriteria_id' => 2,
+                'penduduk_id' => 685,
+                'nilai' => 90.15,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            378 => 
+            array (
+                'id' => 4107,
+                'kriteria_id' => 3,
+                'penduduk_id' => 685,
+                'nilai' => 31776000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            379 => 
+            array (
+                'id' => 4108,
+                'kriteria_id' => 4,
+                'penduduk_id' => 685,
+                'nilai' => 84.69,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            380 => 
+            array (
+                'id' => 4109,
+                'kriteria_id' => 5,
+                'penduduk_id' => 685,
+                'nilai' => 31.92,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            381 => 
+            array (
+                'id' => 4110,
+                'kriteria_id' => 6,
+                'penduduk_id' => 685,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            382 => 
+            array (
+                'id' => 4111,
+                'kriteria_id' => 1,
+                'penduduk_id' => 686,
+                'nilai' => 2549400.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            383 => 
+            array (
+                'id' => 4112,
+                'kriteria_id' => 2,
+                'penduduk_id' => 686,
+                'nilai' => 68.2,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            384 => 
+            array (
+                'id' => 4113,
+                'kriteria_id' => 3,
+                'penduduk_id' => 686,
+                'nilai' => 25492000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            385 => 
+            array (
+                'id' => 4114,
+                'kriteria_id' => 4,
+                'penduduk_id' => 686,
+                'nilai' => 90.47,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            386 => 
+            array (
+                'id' => 4115,
+                'kriteria_id' => 5,
+                'penduduk_id' => 686,
+                'nilai' => 83.96,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            387 => 
+            array (
+                'id' => 4116,
+                'kriteria_id' => 6,
+                'penduduk_id' => 686,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            388 => 
+            array (
+                'id' => 4117,
+                'kriteria_id' => 1,
+                'penduduk_id' => 687,
+                'nilai' => 3459050.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            389 => 
+            array (
+                'id' => 4118,
+                'kriteria_id' => 2,
+                'penduduk_id' => 687,
+                'nilai' => 92.4,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            390 => 
+            array (
+                'id' => 4119,
+                'kriteria_id' => 3,
+                'penduduk_id' => 687,
+                'nilai' => 16164000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            391 => 
+            array (
+                'id' => 4120,
+                'kriteria_id' => 4,
+                'penduduk_id' => 687,
+                'nilai' => 34.97,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            392 => 
+            array (
+                'id' => 4121,
+                'kriteria_id' => 5,
+                'penduduk_id' => 687,
+                'nilai' => 45.94,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            393 => 
+            array (
+                'id' => 4122,
+                'kriteria_id' => 6,
+                'penduduk_id' => 687,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            394 => 
+            array (
+                'id' => 4123,
+                'kriteria_id' => 1,
+                'penduduk_id' => 688,
+                'nilai' => 2236850.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            395 => 
+            array (
+                'id' => 4124,
+                'kriteria_id' => 2,
+                'penduduk_id' => 688,
+                'nilai' => 57.35,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            396 => 
+            array (
+                'id' => 4125,
+                'kriteria_id' => 3,
+                'penduduk_id' => 688,
+                'nilai' => 25496000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            397 => 
+            array (
+                'id' => 4126,
+                'kriteria_id' => 4,
+                'penduduk_id' => 688,
+                'nilai' => 34.63,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            398 => 
+            array (
+                'id' => 4127,
+                'kriteria_id' => 5,
+                'penduduk_id' => 688,
+                'nilai' => 67.03,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            399 => 
+            array (
+                'id' => 4128,
+                'kriteria_id' => 6,
+                'penduduk_id' => 688,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            400 => 
+            array (
+                'id' => 4129,
+                'kriteria_id' => 1,
+                'penduduk_id' => 689,
+                'nilai' => 1038800.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            401 => 
+            array (
+                'id' => 4130,
+                'kriteria_id' => 2,
+                'penduduk_id' => 689,
+                'nilai' => 44.56,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            402 => 
+            array (
+                'id' => 4131,
+                'kriteria_id' => 3,
+                'penduduk_id' => 689,
+                'nilai' => 10796000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            403 => 
+            array (
+                'id' => 4132,
+                'kriteria_id' => 4,
+                'penduduk_id' => 689,
+                'nilai' => 44.99,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            404 => 
+            array (
+                'id' => 4133,
+                'kriteria_id' => 5,
+                'penduduk_id' => 689,
+                'nilai' => 86.77,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            405 => 
+            array (
+                'id' => 4134,
+                'kriteria_id' => 6,
+                'penduduk_id' => 689,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            406 => 
+            array (
+                'id' => 4135,
+                'kriteria_id' => 1,
+                'penduduk_id' => 690,
+                'nilai' => 1659700.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            407 => 
+            array (
+                'id' => 4136,
+                'kriteria_id' => 2,
+                'penduduk_id' => 690,
+                'nilai' => 79.77,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            408 => 
+            array (
+                'id' => 4137,
+                'kriteria_id' => 3,
+                'penduduk_id' => 690,
+                'nilai' => 38440000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            409 => 
+            array (
+                'id' => 4138,
+                'kriteria_id' => 4,
+                'penduduk_id' => 690,
+                'nilai' => 90.86,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            410 => 
+            array (
+                'id' => 4139,
+                'kriteria_id' => 5,
+                'penduduk_id' => 690,
+                'nilai' => 80.59,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            411 => 
+            array (
+                'id' => 4140,
+                'kriteria_id' => 6,
+                'penduduk_id' => 690,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            412 => 
+            array (
+                'id' => 4141,
+                'kriteria_id' => 1,
+                'penduduk_id' => 691,
+                'nilai' => 1214500.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            413 => 
+            array (
+                'id' => 4142,
+                'kriteria_id' => 2,
+                'penduduk_id' => 691,
+                'nilai' => 51.35,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            414 => 
+            array (
+                'id' => 4143,
+                'kriteria_id' => 3,
+                'penduduk_id' => 691,
+                'nilai' => 18728000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            415 => 
+            array (
+                'id' => 4144,
+                'kriteria_id' => 4,
+                'penduduk_id' => 691,
+                'nilai' => 82.33,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            416 => 
+            array (
+                'id' => 4145,
+                'kriteria_id' => 5,
+                'penduduk_id' => 691,
+                'nilai' => 77.88,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            417 => 
+            array (
+                'id' => 4146,
+                'kriteria_id' => 6,
+                'penduduk_id' => 691,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            418 => 
+            array (
+                'id' => 4147,
+                'kriteria_id' => 1,
+                'penduduk_id' => 692,
+                'nilai' => 1756300.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            419 => 
+            array (
+                'id' => 4148,
+                'kriteria_id' => 2,
+                'penduduk_id' => 692,
+                'nilai' => 32.07,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            420 => 
+            array (
+                'id' => 4149,
+                'kriteria_id' => 3,
+                'penduduk_id' => 692,
+                'nilai' => 14592000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            421 => 
+            array (
+                'id' => 4150,
+                'kriteria_id' => 4,
+                'penduduk_id' => 692,
+                'nilai' => 39.82,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            422 => 
+            array (
+                'id' => 4151,
+                'kriteria_id' => 5,
+                'penduduk_id' => 692,
+                'nilai' => 34.15,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            423 => 
+            array (
+                'id' => 4152,
+                'kriteria_id' => 6,
+                'penduduk_id' => 692,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            424 => 
+            array (
+                'id' => 4153,
+                'kriteria_id' => 1,
+                'penduduk_id' => 693,
+                'nilai' => 3464300.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            425 => 
+            array (
+                'id' => 4154,
+                'kriteria_id' => 2,
+                'penduduk_id' => 693,
+                'nilai' => 27.15,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            426 => 
+            array (
+                'id' => 4155,
+                'kriteria_id' => 3,
+                'penduduk_id' => 693,
+                'nilai' => 20976000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            427 => 
+            array (
+                'id' => 4156,
+                'kriteria_id' => 4,
+                'penduduk_id' => 693,
+                'nilai' => 30.9,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            428 => 
+            array (
+                'id' => 4157,
+                'kriteria_id' => 5,
+                'penduduk_id' => 693,
+                'nilai' => 52.73,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            429 => 
+            array (
+                'id' => 4158,
+                'kriteria_id' => 6,
+                'penduduk_id' => 693,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            430 => 
+            array (
+                'id' => 4159,
+                'kriteria_id' => 1,
+                'penduduk_id' => 694,
+                'nilai' => 2064650.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            431 => 
+            array (
+                'id' => 4160,
+                'kriteria_id' => 2,
+                'penduduk_id' => 694,
+                'nilai' => 85.56,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            432 => 
+            array (
+                'id' => 4161,
+                'kriteria_id' => 3,
+                'penduduk_id' => 694,
+                'nilai' => 23768000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            433 => 
+            array (
+                'id' => 4162,
+                'kriteria_id' => 4,
+                'penduduk_id' => 694,
+                'nilai' => 50.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            434 => 
+            array (
+                'id' => 4163,
+                'kriteria_id' => 5,
+                'penduduk_id' => 694,
+                'nilai' => 80.88,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            435 => 
+            array (
+                'id' => 4164,
+                'kriteria_id' => 6,
+                'penduduk_id' => 694,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            436 => 
+            array (
+                'id' => 4165,
+                'kriteria_id' => 1,
+                'penduduk_id' => 695,
+                'nilai' => 2713200.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            437 => 
+            array (
+                'id' => 4166,
+                'kriteria_id' => 2,
+                'penduduk_id' => 695,
+                'nilai' => 82.3,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            438 => 
+            array (
+                'id' => 4167,
+                'kriteria_id' => 3,
+                'penduduk_id' => 695,
+                'nilai' => 39780000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            439 => 
+            array (
+                'id' => 4168,
+                'kriteria_id' => 4,
+                'penduduk_id' => 695,
+                'nilai' => 71.49,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            440 => 
+            array (
+                'id' => 4169,
+                'kriteria_id' => 5,
+                'penduduk_id' => 695,
+                'nilai' => 92.36,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            441 => 
+            array (
+                'id' => 4170,
+                'kriteria_id' => 6,
+                'penduduk_id' => 695,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            442 => 
+            array (
+                'id' => 4171,
+                'kriteria_id' => 1,
+                'penduduk_id' => 696,
+                'nilai' => 1344350.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            443 => 
+            array (
+                'id' => 4172,
+                'kriteria_id' => 2,
+                'penduduk_id' => 696,
+                'nilai' => 71.3,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            444 => 
+            array (
+                'id' => 4173,
+                'kriteria_id' => 3,
+                'penduduk_id' => 696,
+                'nilai' => 39520000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            445 => 
+            array (
+                'id' => 4174,
+                'kriteria_id' => 4,
+                'penduduk_id' => 696,
+                'nilai' => 67.29,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            446 => 
+            array (
+                'id' => 4175,
+                'kriteria_id' => 5,
+                'penduduk_id' => 696,
+                'nilai' => 39.48,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            447 => 
+            array (
+                'id' => 4176,
+                'kriteria_id' => 6,
+                'penduduk_id' => 696,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            448 => 
+            array (
+                'id' => 4177,
+                'kriteria_id' => 1,
+                'penduduk_id' => 697,
+                'nilai' => 3191650.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            449 => 
+            array (
+                'id' => 4178,
+                'kriteria_id' => 2,
+                'penduduk_id' => 697,
+                'nilai' => 57.95,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            450 => 
+            array (
+                'id' => 4179,
+                'kriteria_id' => 3,
+                'penduduk_id' => 697,
+                'nilai' => 22524000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            451 => 
+            array (
+                'id' => 4180,
+                'kriteria_id' => 4,
+                'penduduk_id' => 697,
+                'nilai' => 67.38,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            452 => 
+            array (
+                'id' => 4181,
+                'kriteria_id' => 5,
+                'penduduk_id' => 697,
+                'nilai' => 66.37,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            453 => 
+            array (
+                'id' => 4182,
+                'kriteria_id' => 6,
+                'penduduk_id' => 697,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            454 => 
+            array (
+                'id' => 4183,
+                'kriteria_id' => 1,
+                'penduduk_id' => 698,
+                'nilai' => 3088050.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            455 => 
+            array (
+                'id' => 4184,
+                'kriteria_id' => 2,
+                'penduduk_id' => 698,
+                'nilai' => 57.93,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            456 => 
+            array (
+                'id' => 4185,
+                'kriteria_id' => 3,
+                'penduduk_id' => 698,
+                'nilai' => 17748000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            457 => 
+            array (
+                'id' => 4186,
+                'kriteria_id' => 4,
+                'penduduk_id' => 698,
+                'nilai' => 57.58,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            458 => 
+            array (
+                'id' => 4187,
+                'kriteria_id' => 5,
+                'penduduk_id' => 698,
+                'nilai' => 80.17,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            459 => 
+            array (
+                'id' => 4188,
+                'kriteria_id' => 6,
+                'penduduk_id' => 698,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            460 => 
+            array (
+                'id' => 4189,
+                'kriteria_id' => 1,
+                'penduduk_id' => 699,
+                'nilai' => 2012500.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            461 => 
+            array (
+                'id' => 4190,
+                'kriteria_id' => 2,
+                'penduduk_id' => 699,
+                'nilai' => 70.04,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            462 => 
+            array (
+                'id' => 4191,
+                'kriteria_id' => 3,
+                'penduduk_id' => 699,
+                'nilai' => 38192000.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            463 => 
+            array (
+                'id' => 4192,
+                'kriteria_id' => 4,
+                'penduduk_id' => 699,
+                'nilai' => 54.06,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            464 => 
+            array (
+                'id' => 4193,
+                'kriteria_id' => 5,
+                'penduduk_id' => 699,
+                'nilai' => 31.24,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            465 => 
+            array (
+                'id' => 4194,
+                'kriteria_id' => 6,
+                'penduduk_id' => 699,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:32',
+                'updated_at' => '2023-05-29 20:44:32',
+            ),
+            466 => 
+            array (
+                'id' => 4195,
+                'kriteria_id' => 1,
+                'penduduk_id' => 700,
+                'nilai' => 3396050.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            467 => 
+            array (
+                'id' => 4196,
+                'kriteria_id' => 2,
+                'penduduk_id' => 700,
+                'nilai' => 74.45,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            468 => 
+            array (
+                'id' => 4197,
+                'kriteria_id' => 3,
+                'penduduk_id' => 700,
+                'nilai' => 30752000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            469 => 
+            array (
+                'id' => 4198,
+                'kriteria_id' => 4,
+                'penduduk_id' => 700,
+                'nilai' => 34.46,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            470 => 
+            array (
+                'id' => 4199,
+                'kriteria_id' => 5,
+                'penduduk_id' => 700,
+                'nilai' => 45.61,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            471 => 
+            array (
+                'id' => 4200,
+                'kriteria_id' => 6,
+                'penduduk_id' => 700,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            472 => 
+            array (
+                'id' => 4201,
+                'kriteria_id' => 1,
+                'penduduk_id' => 701,
+                'nilai' => 1892100.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            473 => 
+            array (
+                'id' => 4202,
+                'kriteria_id' => 2,
+                'penduduk_id' => 701,
+                'nilai' => 31.24,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            474 => 
+            array (
+                'id' => 4203,
+                'kriteria_id' => 3,
+                'penduduk_id' => 701,
+                'nilai' => 18328000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            475 => 
+            array (
+                'id' => 4204,
+                'kriteria_id' => 4,
+                'penduduk_id' => 701,
+                'nilai' => 80.59,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            476 => 
+            array (
+                'id' => 4205,
+                'kriteria_id' => 5,
+                'penduduk_id' => 701,
+                'nilai' => 33.11,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            477 => 
+            array (
+                'id' => 4206,
+                'kriteria_id' => 6,
+                'penduduk_id' => 701,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            478 => 
+            array (
+                'id' => 4207,
+                'kriteria_id' => 1,
+                'penduduk_id' => 702,
+                'nilai' => 2820650.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            479 => 
+            array (
+                'id' => 4208,
+                'kriteria_id' => 2,
+                'penduduk_id' => 702,
+                'nilai' => 33.11,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            480 => 
+            array (
+                'id' => 4209,
+                'kriteria_id' => 3,
+                'penduduk_id' => 702,
+                'nilai' => 30344000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            481 => 
+            array (
+                'id' => 4210,
+                'kriteria_id' => 4,
+                'penduduk_id' => 702,
+                'nilai' => 95.99,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            482 => 
+            array (
+                'id' => 4211,
+                'kriteria_id' => 5,
+                'penduduk_id' => 702,
+                'nilai' => 90.99,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            483 => 
+            array (
+                'id' => 4212,
+                'kriteria_id' => 6,
+                'penduduk_id' => 702,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            484 => 
+            array (
+                'id' => 4213,
+                'kriteria_id' => 1,
+                'penduduk_id' => 703,
+                'nilai' => 3260250.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            485 => 
+            array (
+                'id' => 4214,
+                'kriteria_id' => 2,
+                'penduduk_id' => 703,
+                'nilai' => 89.6,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            486 => 
+            array (
+                'id' => 4215,
+                'kriteria_id' => 3,
+                'penduduk_id' => 703,
+                'nilai' => 20836000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            487 => 
+            array (
+                'id' => 4216,
+                'kriteria_id' => 4,
+                'penduduk_id' => 703,
+                'nilai' => 91.07,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            488 => 
+            array (
+                'id' => 4217,
+                'kriteria_id' => 5,
+                'penduduk_id' => 703,
+                'nilai' => 65.61,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            489 => 
+            array (
+                'id' => 4218,
+                'kriteria_id' => 6,
+                'penduduk_id' => 703,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            490 => 
+            array (
+                'id' => 4219,
+                'kriteria_id' => 1,
+                'penduduk_id' => 704,
+                'nilai' => 1262100.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            491 => 
+            array (
+                'id' => 4220,
+                'kriteria_id' => 2,
+                'penduduk_id' => 704,
+                'nilai' => 43.01,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            492 => 
+            array (
+                'id' => 4221,
+                'kriteria_id' => 3,
+                'penduduk_id' => 704,
+                'nilai' => 35180000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            493 => 
+            array (
+                'id' => 4222,
+                'kriteria_id' => 4,
+                'penduduk_id' => 704,
+                'nilai' => 60.54,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            494 => 
+            array (
+                'id' => 4223,
+                'kriteria_id' => 5,
+                'penduduk_id' => 704,
+                'nilai' => 54.75,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            495 => 
+            array (
+                'id' => 4224,
+                'kriteria_id' => 6,
+                'penduduk_id' => 704,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            496 => 
+            array (
+                'id' => 4225,
+                'kriteria_id' => 1,
+                'penduduk_id' => 705,
+                'nilai' => 1361850.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            497 => 
+            array (
+                'id' => 4226,
+                'kriteria_id' => 2,
+                'penduduk_id' => 705,
+                'nilai' => 42.28,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            498 => 
+            array (
+                'id' => 4227,
+                'kriteria_id' => 3,
+                'penduduk_id' => 705,
+                'nilai' => 33664000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            499 => 
+            array (
+                'id' => 4228,
+                'kriteria_id' => 4,
+                'penduduk_id' => 705,
+                'nilai' => 36.39,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+        ));
+        \DB::table('penduduk_nilai')->insert(array (
+            0 => 
+            array (
+                'id' => 4229,
+                'kriteria_id' => 5,
+                'penduduk_id' => 705,
+                'nilai' => 66.59,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            1 => 
+            array (
+                'id' => 4230,
+                'kriteria_id' => 6,
+                'penduduk_id' => 705,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            2 => 
+            array (
+                'id' => 4231,
+                'kriteria_id' => 1,
+                'penduduk_id' => 706,
+                'nilai' => 3481450.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            3 => 
+            array (
+                'id' => 4232,
+                'kriteria_id' => 2,
+                'penduduk_id' => 706,
+                'nilai' => 68.33,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            4 => 
+            array (
+                'id' => 4233,
+                'kriteria_id' => 3,
+                'penduduk_id' => 706,
+                'nilai' => 27044000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            5 => 
+            array (
+                'id' => 4234,
+                'kriteria_id' => 4,
+                'penduduk_id' => 706,
+                'nilai' => 38.66,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            6 => 
+            array (
+                'id' => 4235,
+                'kriteria_id' => 5,
+                'penduduk_id' => 706,
+                'nilai' => 41.97,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            7 => 
+            array (
+                'id' => 4236,
+                'kriteria_id' => 6,
+                'penduduk_id' => 706,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            8 => 
+            array (
+                'id' => 4237,
+                'kriteria_id' => 1,
+                'penduduk_id' => 707,
+                'nilai' => 2566550.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            9 => 
+            array (
+                'id' => 4238,
+                'kriteria_id' => 2,
+                'penduduk_id' => 707,
+                'nilai' => 83.7,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            10 => 
+            array (
+                'id' => 4239,
+                'kriteria_id' => 3,
+                'penduduk_id' => 707,
+                'nilai' => 34292000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            11 => 
+            array (
+                'id' => 4240,
+                'kriteria_id' => 4,
+                'penduduk_id' => 707,
+                'nilai' => 98.04,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            12 => 
+            array (
+                'id' => 4241,
+                'kriteria_id' => 5,
+                'penduduk_id' => 707,
+                'nilai' => 39.7,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            13 => 
+            array (
+                'id' => 4242,
+                'kriteria_id' => 6,
+                'penduduk_id' => 707,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            14 => 
+            array (
+                'id' => 4243,
+                'kriteria_id' => 1,
+                'penduduk_id' => 708,
+                'nilai' => 3199000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            15 => 
+            array (
+                'id' => 4244,
+                'kriteria_id' => 2,
+                'penduduk_id' => 708,
+                'nilai' => 79.76,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            16 => 
+            array (
+                'id' => 4245,
+                'kriteria_id' => 3,
+                'penduduk_id' => 708,
+                'nilai' => 35640000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            17 => 
+            array (
+                'id' => 4246,
+                'kriteria_id' => 4,
+                'penduduk_id' => 708,
+                'nilai' => 98.98,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            18 => 
+            array (
+                'id' => 4247,
+                'kriteria_id' => 5,
+                'penduduk_id' => 708,
+                'nilai' => 27.15,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            19 => 
+            array (
+                'id' => 4248,
+                'kriteria_id' => 6,
+                'penduduk_id' => 708,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            20 => 
+            array (
+                'id' => 4249,
+                'kriteria_id' => 1,
+                'penduduk_id' => 709,
+                'nilai' => 2420600.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            21 => 
+            array (
+                'id' => 4250,
+                'kriteria_id' => 2,
+                'penduduk_id' => 709,
+                'nilai' => 79.01,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            22 => 
+            array (
+                'id' => 4251,
+                'kriteria_id' => 3,
+                'penduduk_id' => 709,
+                'nilai' => 30352000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            23 => 
+            array (
+                'id' => 4252,
+                'kriteria_id' => 4,
+                'penduduk_id' => 709,
+                'nilai' => 32.37,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            24 => 
+            array (
+                'id' => 4253,
+                'kriteria_id' => 5,
+                'penduduk_id' => 709,
+                'nilai' => 93.85,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            25 => 
+            array (
+                'id' => 4254,
+                'kriteria_id' => 6,
+                'penduduk_id' => 709,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            26 => 
+            array (
+                'id' => 4255,
+                'kriteria_id' => 1,
+                'penduduk_id' => 710,
+                'nilai' => 1191050.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            27 => 
+            array (
+                'id' => 4256,
+                'kriteria_id' => 2,
+                'penduduk_id' => 710,
+                'nilai' => 47.85,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            28 => 
+            array (
+                'id' => 4257,
+                'kriteria_id' => 3,
+                'penduduk_id' => 710,
+                'nilai' => 11640000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            29 => 
+            array (
+                'id' => 4258,
+                'kriteria_id' => 4,
+                'penduduk_id' => 710,
+                'nilai' => 54.06,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            30 => 
+            array (
+                'id' => 4259,
+                'kriteria_id' => 5,
+                'penduduk_id' => 710,
+                'nilai' => 31.24,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            31 => 
+            array (
+                'id' => 4260,
+                'kriteria_id' => 6,
+                'penduduk_id' => 710,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            32 => 
+            array (
+                'id' => 4261,
+                'kriteria_id' => 1,
+                'penduduk_id' => 711,
+                'nilai' => 1820700.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            33 => 
+            array (
+                'id' => 4262,
+                'kriteria_id' => 2,
+                'penduduk_id' => 711,
+                'nilai' => 34.86,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            34 => 
+            array (
+                'id' => 4263,
+                'kriteria_id' => 3,
+                'penduduk_id' => 711,
+                'nilai' => 13412000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            35 => 
+            array (
+                'id' => 4264,
+                'kriteria_id' => 4,
+                'penduduk_id' => 711,
+                'nilai' => 32.73,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            36 => 
+            array (
+                'id' => 4265,
+                'kriteria_id' => 5,
+                'penduduk_id' => 711,
+                'nilai' => 95.18,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            37 => 
+            array (
+                'id' => 4266,
+                'kriteria_id' => 6,
+                'penduduk_id' => 711,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            38 => 
+            array (
+                'id' => 4267,
+                'kriteria_id' => 1,
+                'penduduk_id' => 712,
+                'nilai' => 1761900.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            39 => 
+            array (
+                'id' => 4268,
+                'kriteria_id' => 2,
+                'penduduk_id' => 712,
+                'nilai' => 83.19,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            40 => 
+            array (
+                'id' => 4269,
+                'kriteria_id' => 3,
+                'penduduk_id' => 712,
+                'nilai' => 14900000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            41 => 
+            array (
+                'id' => 4270,
+                'kriteria_id' => 4,
+                'penduduk_id' => 712,
+                'nilai' => 78.58,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            42 => 
+            array (
+                'id' => 4271,
+                'kriteria_id' => 5,
+                'penduduk_id' => 712,
+                'nilai' => 69.65,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            43 => 
+            array (
+                'id' => 4272,
+                'kriteria_id' => 6,
+                'penduduk_id' => 712,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            44 => 
+            array (
+                'id' => 4273,
+                'kriteria_id' => 1,
+                'penduduk_id' => 713,
+                'nilai' => 1157800.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            45 => 
+            array (
+                'id' => 4274,
+                'kriteria_id' => 2,
+                'penduduk_id' => 713,
+                'nilai' => 30.88,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            46 => 
+            array (
+                'id' => 4275,
+                'kriteria_id' => 3,
+                'penduduk_id' => 713,
+                'nilai' => 32948000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            47 => 
+            array (
+                'id' => 4276,
+                'kriteria_id' => 4,
+                'penduduk_id' => 713,
+                'nilai' => 26.27,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            48 => 
+            array (
+                'id' => 4277,
+                'kriteria_id' => 5,
+                'penduduk_id' => 713,
+                'nilai' => 60.43,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            49 => 
+            array (
+                'id' => 4278,
+                'kriteria_id' => 6,
+                'penduduk_id' => 713,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            50 => 
+            array (
+                'id' => 4279,
+                'kriteria_id' => 1,
+                'penduduk_id' => 714,
+                'nilai' => 1220450.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            51 => 
+            array (
+                'id' => 4280,
+                'kriteria_id' => 2,
+                'penduduk_id' => 714,
+                'nilai' => 60.16,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            52 => 
+            array (
+                'id' => 4281,
+                'kriteria_id' => 3,
+                'penduduk_id' => 714,
+                'nilai' => 21408000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            53 => 
+            array (
+                'id' => 4282,
+                'kriteria_id' => 4,
+                'penduduk_id' => 714,
+                'nilai' => 68.68,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            54 => 
+            array (
+                'id' => 4283,
+                'kriteria_id' => 5,
+                'penduduk_id' => 714,
+                'nilai' => 83.37,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            55 => 
+            array (
+                'id' => 4284,
+                'kriteria_id' => 6,
+                'penduduk_id' => 714,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            56 => 
+            array (
+                'id' => 4285,
+                'kriteria_id' => 1,
+                'penduduk_id' => 715,
+                'nilai' => 1670200.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            57 => 
+            array (
+                'id' => 4286,
+                'kriteria_id' => 2,
+                'penduduk_id' => 715,
+                'nilai' => 34.55,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            58 => 
+            array (
+                'id' => 4287,
+                'kriteria_id' => 3,
+                'penduduk_id' => 715,
+                'nilai' => 27700000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            59 => 
+            array (
+                'id' => 4288,
+                'kriteria_id' => 4,
+                'penduduk_id' => 715,
+                'nilai' => 29.45,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            60 => 
+            array (
+                'id' => 4289,
+                'kriteria_id' => 5,
+                'penduduk_id' => 715,
+                'nilai' => 70.01,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            61 => 
+            array (
+                'id' => 4290,
+                'kriteria_id' => 6,
+                'penduduk_id' => 715,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            62 => 
+            array (
+                'id' => 4291,
+                'kriteria_id' => 1,
+                'penduduk_id' => 716,
+                'nilai' => 3328850.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            63 => 
+            array (
+                'id' => 4292,
+                'kriteria_id' => 2,
+                'penduduk_id' => 716,
+                'nilai' => 52.06,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            64 => 
+            array (
+                'id' => 4293,
+                'kriteria_id' => 3,
+                'penduduk_id' => 716,
+                'nilai' => 34696000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            65 => 
+            array (
+                'id' => 4294,
+                'kriteria_id' => 4,
+                'penduduk_id' => 716,
+                'nilai' => 37.25,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            66 => 
+            array (
+                'id' => 4295,
+                'kriteria_id' => 5,
+                'penduduk_id' => 716,
+                'nilai' => 97.74,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            67 => 
+            array (
+                'id' => 4296,
+                'kriteria_id' => 6,
+                'penduduk_id' => 716,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            68 => 
+            array (
+                'id' => 4297,
+                'kriteria_id' => 1,
+                'penduduk_id' => 717,
+                'nilai' => 2420600.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            69 => 
+            array (
+                'id' => 4298,
+                'kriteria_id' => 2,
+                'penduduk_id' => 717,
+                'nilai' => 93.64,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            70 => 
+            array (
+                'id' => 4299,
+                'kriteria_id' => 3,
+                'penduduk_id' => 717,
+                'nilai' => 11416000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            71 => 
+            array (
+                'id' => 4300,
+                'kriteria_id' => 4,
+                'penduduk_id' => 717,
+                'nilai' => 79.82,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            72 => 
+            array (
+                'id' => 4301,
+                'kriteria_id' => 5,
+                'penduduk_id' => 717,
+                'nilai' => 60.23,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            73 => 
+            array (
+                'id' => 4302,
+                'kriteria_id' => 6,
+                'penduduk_id' => 717,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            74 => 
+            array (
+                'id' => 4303,
+                'kriteria_id' => 1,
+                'penduduk_id' => 718,
+                'nilai' => 1455650.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            75 => 
+            array (
+                'id' => 4304,
+                'kriteria_id' => 2,
+                'penduduk_id' => 718,
+                'nilai' => 32.35,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            76 => 
+            array (
+                'id' => 4305,
+                'kriteria_id' => 3,
+                'penduduk_id' => 718,
+                'nilai' => 19500000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            77 => 
+            array (
+                'id' => 4306,
+                'kriteria_id' => 4,
+                'penduduk_id' => 718,
+                'nilai' => 66.05,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            78 => 
+            array (
+                'id' => 4307,
+                'kriteria_id' => 5,
+                'penduduk_id' => 718,
+                'nilai' => 37.3,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            79 => 
+            array (
+                'id' => 4308,
+                'kriteria_id' => 6,
+                'penduduk_id' => 718,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            80 => 
+            array (
+                'id' => 4309,
+                'kriteria_id' => 1,
+                'penduduk_id' => 719,
+                'nilai' => 1469300.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            81 => 
+            array (
+                'id' => 4310,
+                'kriteria_id' => 2,
+                'penduduk_id' => 719,
+                'nilai' => 78.12,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            82 => 
+            array (
+                'id' => 4311,
+                'kriteria_id' => 3,
+                'penduduk_id' => 719,
+                'nilai' => 20988000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            83 => 
+            array (
+                'id' => 4312,
+                'kriteria_id' => 4,
+                'penduduk_id' => 719,
+                'nilai' => 25.5,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            84 => 
+            array (
+                'id' => 4313,
+                'kriteria_id' => 5,
+                'penduduk_id' => 719,
+                'nilai' => 29.78,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            85 => 
+            array (
+                'id' => 4314,
+                'kriteria_id' => 6,
+                'penduduk_id' => 719,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            86 => 
+            array (
+                'id' => 4315,
+                'kriteria_id' => 1,
+                'penduduk_id' => 720,
+                'nilai' => 2661050.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            87 => 
+            array (
+                'id' => 4316,
+                'kriteria_id' => 2,
+                'penduduk_id' => 720,
+                'nilai' => 30.69,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            88 => 
+            array (
+                'id' => 4317,
+                'kriteria_id' => 3,
+                'penduduk_id' => 720,
+                'nilai' => 18800000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            89 => 
+            array (
+                'id' => 4318,
+                'kriteria_id' => 4,
+                'penduduk_id' => 720,
+                'nilai' => 94.11,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            90 => 
+            array (
+                'id' => 4319,
+                'kriteria_id' => 5,
+                'penduduk_id' => 720,
+                'nilai' => 68.95,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            91 => 
+            array (
+                'id' => 4320,
+                'kriteria_id' => 6,
+                'penduduk_id' => 720,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            92 => 
+            array (
+                'id' => 4321,
+                'kriteria_id' => 1,
+                'penduduk_id' => 721,
+                'nilai' => 1300600.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            93 => 
+            array (
+                'id' => 4322,
+                'kriteria_id' => 2,
+                'penduduk_id' => 721,
+                'nilai' => 35.34,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            94 => 
+            array (
+                'id' => 4323,
+                'kriteria_id' => 3,
+                'penduduk_id' => 721,
+                'nilai' => 35400000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            95 => 
+            array (
+                'id' => 4324,
+                'kriteria_id' => 4,
+                'penduduk_id' => 721,
+                'nilai' => 99.44,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            96 => 
+            array (
+                'id' => 4325,
+                'kriteria_id' => 5,
+                'penduduk_id' => 721,
+                'nilai' => 53.63,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            97 => 
+            array (
+                'id' => 4326,
+                'kriteria_id' => 6,
+                'penduduk_id' => 721,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            98 => 
+            array (
+                'id' => 4327,
+                'kriteria_id' => 1,
+                'penduduk_id' => 722,
+                'nilai' => 2660000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            99 => 
+            array (
+                'id' => 4328,
+                'kriteria_id' => 2,
+                'penduduk_id' => 722,
+                'nilai' => 73.28,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            100 => 
+            array (
+                'id' => 4329,
+                'kriteria_id' => 3,
+                'penduduk_id' => 722,
+                'nilai' => 31376000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            101 => 
+            array (
+                'id' => 4330,
+                'kriteria_id' => 4,
+                'penduduk_id' => 722,
+                'nilai' => 69.87,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            102 => 
+            array (
+                'id' => 4331,
+                'kriteria_id' => 5,
+                'penduduk_id' => 722,
+                'nilai' => 25.89,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            103 => 
+            array (
+                'id' => 4332,
+                'kriteria_id' => 6,
+                'penduduk_id' => 722,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            104 => 
+            array (
+                'id' => 4333,
+                'kriteria_id' => 1,
+                'penduduk_id' => 723,
+                'nilai' => 1330000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            105 => 
+            array (
+                'id' => 4334,
+                'kriteria_id' => 2,
+                'penduduk_id' => 723,
+                'nilai' => 46.85,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            106 => 
+            array (
+                'id' => 4335,
+                'kriteria_id' => 3,
+                'penduduk_id' => 723,
+                'nilai' => 24552000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            107 => 
+            array (
+                'id' => 4336,
+                'kriteria_id' => 4,
+                'penduduk_id' => 723,
+                'nilai' => 95.11,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            108 => 
+            array (
+                'id' => 4337,
+                'kriteria_id' => 5,
+                'penduduk_id' => 723,
+                'nilai' => 52.06,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            109 => 
+            array (
+                'id' => 4338,
+                'kriteria_id' => 6,
+                'penduduk_id' => 723,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            110 => 
+            array (
+                'id' => 4339,
+                'kriteria_id' => 1,
+                'penduduk_id' => 724,
+                'nilai' => 2881550.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            111 => 
+            array (
+                'id' => 4340,
+                'kriteria_id' => 2,
+                'penduduk_id' => 724,
+                'nilai' => 77.88,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            112 => 
+            array (
+                'id' => 4341,
+                'kriteria_id' => 3,
+                'penduduk_id' => 724,
+                'nilai' => 35504000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            113 => 
+            array (
+                'id' => 4342,
+                'kriteria_id' => 4,
+                'penduduk_id' => 724,
+                'nilai' => 91.19,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            114 => 
+            array (
+                'id' => 4343,
+                'kriteria_id' => 5,
+                'penduduk_id' => 724,
+                'nilai' => 57.95,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            115 => 
+            array (
+                'id' => 4344,
+                'kriteria_id' => 6,
+                'penduduk_id' => 724,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            116 => 
+            array (
+                'id' => 4345,
+                'kriteria_id' => 1,
+                'penduduk_id' => 725,
+                'nilai' => 1718500.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            117 => 
+            array (
+                'id' => 4346,
+                'kriteria_id' => 2,
+                'penduduk_id' => 725,
+                'nilai' => 58.4,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            118 => 
+            array (
+                'id' => 4347,
+                'kriteria_id' => 3,
+                'penduduk_id' => 725,
+                'nilai' => 20344000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            119 => 
+            array (
+                'id' => 4348,
+                'kriteria_id' => 4,
+                'penduduk_id' => 725,
+                'nilai' => 47.42,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            120 => 
+            array (
+                'id' => 4349,
+                'kriteria_id' => 5,
+                'penduduk_id' => 725,
+                'nilai' => 79.77,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            121 => 
+            array (
+                'id' => 4350,
+                'kriteria_id' => 6,
+                'penduduk_id' => 725,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            122 => 
+            array (
+                'id' => 4351,
+                'kriteria_id' => 1,
+                'penduduk_id' => 726,
+                'nilai' => 3187450.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            123 => 
+            array (
+                'id' => 4352,
+                'kriteria_id' => 2,
+                'penduduk_id' => 726,
+                'nilai' => 65.61,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            124 => 
+            array (
+                'id' => 4353,
+                'kriteria_id' => 3,
+                'penduduk_id' => 726,
+                'nilai' => 22524000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            125 => 
+            array (
+                'id' => 4354,
+                'kriteria_id' => 4,
+                'penduduk_id' => 726,
+                'nilai' => 58.48,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            126 => 
+            array (
+                'id' => 4355,
+                'kriteria_id' => 5,
+                'penduduk_id' => 726,
+                'nilai' => 62.55,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            127 => 
+            array (
+                'id' => 4356,
+                'kriteria_id' => 6,
+                'penduduk_id' => 726,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            128 => 
+            array (
+                'id' => 4357,
+                'kriteria_id' => 1,
+                'penduduk_id' => 727,
+                'nilai' => 2921450.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            129 => 
+            array (
+                'id' => 4358,
+                'kriteria_id' => 2,
+                'penduduk_id' => 727,
+                'nilai' => 28.55,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            130 => 
+            array (
+                'id' => 4359,
+                'kriteria_id' => 3,
+                'penduduk_id' => 727,
+                'nilai' => 37648000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            131 => 
+            array (
+                'id' => 4360,
+                'kriteria_id' => 4,
+                'penduduk_id' => 727,
+                'nilai' => 64.23,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            132 => 
+            array (
+                'id' => 4361,
+                'kriteria_id' => 5,
+                'penduduk_id' => 727,
+                'nilai' => 50.28,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            133 => 
+            array (
+                'id' => 4362,
+                'kriteria_id' => 6,
+                'penduduk_id' => 727,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            134 => 
+            array (
+                'id' => 4363,
+                'kriteria_id' => 1,
+                'penduduk_id' => 728,
+                'nilai' => 1651650.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            135 => 
+            array (
+                'id' => 4364,
+                'kriteria_id' => 2,
+                'penduduk_id' => 728,
+                'nilai' => 75.42,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            136 => 
+            array (
+                'id' => 4365,
+                'kriteria_id' => 3,
+                'penduduk_id' => 728,
+                'nilai' => 18012000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            137 => 
+            array (
+                'id' => 4366,
+                'kriteria_id' => 4,
+                'penduduk_id' => 728,
+                'nilai' => 37.67,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            138 => 
+            array (
+                'id' => 4367,
+                'kriteria_id' => 5,
+                'penduduk_id' => 728,
+                'nilai' => 92.39,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            139 => 
+            array (
+                'id' => 4368,
+                'kriteria_id' => 6,
+                'penduduk_id' => 728,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            140 => 
+            array (
+                'id' => 4369,
+                'kriteria_id' => 1,
+                'penduduk_id' => 729,
+                'nilai' => 1995700.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            141 => 
+            array (
+                'id' => 4370,
+                'kriteria_id' => 2,
+                'penduduk_id' => 729,
+                'nilai' => 29.08,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            142 => 
+            array (
+                'id' => 4371,
+                'kriteria_id' => 3,
+                'penduduk_id' => 729,
+                'nilai' => 32676000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            143 => 
+            array (
+                'id' => 4372,
+                'kriteria_id' => 4,
+                'penduduk_id' => 729,
+                'nilai' => 64.26,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            144 => 
+            array (
+                'id' => 4373,
+                'kriteria_id' => 5,
+                'penduduk_id' => 729,
+                'nilai' => 45.4,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            145 => 
+            array (
+                'id' => 4374,
+                'kriteria_id' => 6,
+                'penduduk_id' => 729,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            146 => 
+            array (
+                'id' => 4375,
+                'kriteria_id' => 1,
+                'penduduk_id' => 730,
+                'nilai' => 2229850.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            147 => 
+            array (
+                'id' => 4376,
+                'kriteria_id' => 2,
+                'penduduk_id' => 730,
+                'nilai' => 45.63,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            148 => 
+            array (
+                'id' => 4377,
+                'kriteria_id' => 3,
+                'penduduk_id' => 730,
+                'nilai' => 25536000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            149 => 
+            array (
+                'id' => 4378,
+                'kriteria_id' => 4,
+                'penduduk_id' => 730,
+                'nilai' => 73.78,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            150 => 
+            array (
+                'id' => 4379,
+                'kriteria_id' => 5,
+                'penduduk_id' => 730,
+                'nilai' => 34.81,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            151 => 
+            array (
+                'id' => 4380,
+                'kriteria_id' => 6,
+                'penduduk_id' => 730,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            152 => 
+            array (
+                'id' => 4381,
+                'kriteria_id' => 1,
+                'penduduk_id' => 731,
+                'nilai' => 3401650.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            153 => 
+            array (
+                'id' => 4382,
+                'kriteria_id' => 2,
+                'penduduk_id' => 731,
+                'nilai' => 35.9,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            154 => 
+            array (
+                'id' => 4383,
+                'kriteria_id' => 3,
+                'penduduk_id' => 731,
+                'nilai' => 35548000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            155 => 
+            array (
+                'id' => 4384,
+                'kriteria_id' => 4,
+                'penduduk_id' => 731,
+                'nilai' => 26.27,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            156 => 
+            array (
+                'id' => 4385,
+                'kriteria_id' => 5,
+                'penduduk_id' => 731,
+                'nilai' => 60.43,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            157 => 
+            array (
+                'id' => 4386,
+                'kriteria_id' => 6,
+                'penduduk_id' => 731,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            158 => 
+            array (
+                'id' => 4387,
+                'kriteria_id' => 1,
+                'penduduk_id' => 732,
+                'nilai' => 2078300.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            159 => 
+            array (
+                'id' => 4388,
+                'kriteria_id' => 2,
+                'penduduk_id' => 732,
+                'nilai' => 60.15,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            160 => 
+            array (
+                'id' => 4389,
+                'kriteria_id' => 3,
+                'penduduk_id' => 732,
+                'nilai' => 39236000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            161 => 
+            array (
+                'id' => 4390,
+                'kriteria_id' => 4,
+                'penduduk_id' => 732,
+                'nilai' => 79.61,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            162 => 
+            array (
+                'id' => 4391,
+                'kriteria_id' => 5,
+                'penduduk_id' => 732,
+                'nilai' => 94.63,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            163 => 
+            array (
+                'id' => 4392,
+                'kriteria_id' => 6,
+                'penduduk_id' => 732,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            164 => 
+            array (
+                'id' => 4393,
+                'kriteria_id' => 1,
+                'penduduk_id' => 733,
+                'nilai' => 1161300.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            165 => 
+            array (
+                'id' => 4394,
+                'kriteria_id' => 2,
+                'penduduk_id' => 733,
+                'nilai' => 80.94,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            166 => 
+            array (
+                'id' => 4395,
+                'kriteria_id' => 3,
+                'penduduk_id' => 733,
+                'nilai' => 12520000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            167 => 
+            array (
+                'id' => 4396,
+                'kriteria_id' => 4,
+                'penduduk_id' => 733,
+                'nilai' => 44.99,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            168 => 
+            array (
+                'id' => 4397,
+                'kriteria_id' => 5,
+                'penduduk_id' => 733,
+                'nilai' => 86.77,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            169 => 
+            array (
+                'id' => 4398,
+                'kriteria_id' => 6,
+                'penduduk_id' => 733,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            170 => 
+            array (
+                'id' => 4399,
+                'kriteria_id' => 1,
+                'penduduk_id' => 734,
+                'nilai' => 1948100.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            171 => 
+            array (
+                'id' => 4400,
+                'kriteria_id' => 2,
+                'penduduk_id' => 734,
+                'nilai' => 61.49,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            172 => 
+            array (
+                'id' => 4401,
+                'kriteria_id' => 3,
+                'penduduk_id' => 734,
+                'nilai' => 10296000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            173 => 
+            array (
+                'id' => 4402,
+                'kriteria_id' => 4,
+                'penduduk_id' => 734,
+                'nilai' => 42.57,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            174 => 
+            array (
+                'id' => 4403,
+                'kriteria_id' => 5,
+                'penduduk_id' => 734,
+                'nilai' => 74.14,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            175 => 
+            array (
+                'id' => 4404,
+                'kriteria_id' => 6,
+                'penduduk_id' => 734,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            176 => 
+            array (
+                'id' => 4405,
+                'kriteria_id' => 1,
+                'penduduk_id' => 735,
+                'nilai' => 1342250.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            177 => 
+            array (
+                'id' => 4406,
+                'kriteria_id' => 2,
+                'penduduk_id' => 735,
+                'nilai' => 91.13,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            178 => 
+            array (
+                'id' => 4407,
+                'kriteria_id' => 3,
+                'penduduk_id' => 735,
+                'nilai' => 29160000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            179 => 
+            array (
+                'id' => 4408,
+                'kriteria_id' => 4,
+                'penduduk_id' => 735,
+                'nilai' => 47.68,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            180 => 
+            array (
+                'id' => 4409,
+                'kriteria_id' => 5,
+                'penduduk_id' => 735,
+                'nilai' => 66.93,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            181 => 
+            array (
+                'id' => 4410,
+                'kriteria_id' => 6,
+                'penduduk_id' => 735,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            182 => 
+            array (
+                'id' => 4411,
+                'kriteria_id' => 1,
+                'penduduk_id' => 736,
+                'nilai' => 2291800.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            183 => 
+            array (
+                'id' => 4412,
+                'kriteria_id' => 2,
+                'penduduk_id' => 736,
+                'nilai' => 61.87,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            184 => 
+            array (
+                'id' => 4413,
+                'kriteria_id' => 3,
+                'penduduk_id' => 736,
+                'nilai' => 38972000.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            185 => 
+            array (
+                'id' => 4414,
+                'kriteria_id' => 4,
+                'penduduk_id' => 736,
+                'nilai' => 83.93,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            186 => 
+            array (
+                'id' => 4415,
+                'kriteria_id' => 5,
+                'penduduk_id' => 736,
+                'nilai' => 91.47,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            187 => 
+            array (
+                'id' => 4416,
+                'kriteria_id' => 6,
+                'penduduk_id' => 736,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            188 => 
+            array (
+                'id' => 4417,
+                'kriteria_id' => 1,
+                'penduduk_id' => 737,
+                'nilai' => 1499050.0,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            189 => 
+            array (
+                'id' => 4418,
+                'kriteria_id' => 2,
+                'penduduk_id' => 737,
+                'nilai' => 48.21,
+                'created_at' => '2023-05-29 20:44:33',
+                'updated_at' => '2023-05-29 20:44:33',
+            ),
+            190 => 
+            array (
+                'id' => 4419,
+                'kriteria_id' => 3,
+                'penduduk_id' => 737,
+                'nilai' => 32724000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            191 => 
+            array (
+                'id' => 4420,
+                'kriteria_id' => 4,
+                'penduduk_id' => 737,
+                'nilai' => 41.8,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            192 => 
+            array (
+                'id' => 4421,
+                'kriteria_id' => 5,
+                'penduduk_id' => 737,
+                'nilai' => 34.29,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            193 => 
+            array (
+                'id' => 4422,
+                'kriteria_id' => 6,
+                'penduduk_id' => 737,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            194 => 
+            array (
+                'id' => 4423,
+                'kriteria_id' => 1,
+                'penduduk_id' => 738,
+                'nilai' => 1022000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            195 => 
+            array (
+                'id' => 4424,
+                'kriteria_id' => 2,
+                'penduduk_id' => 738,
+                'nilai' => 29.81,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            196 => 
+            array (
+                'id' => 4425,
+                'kriteria_id' => 3,
+                'penduduk_id' => 738,
+                'nilai' => 28812000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            197 => 
+            array (
+                'id' => 4426,
+                'kriteria_id' => 4,
+                'penduduk_id' => 738,
+                'nilai' => 62.42,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            198 => 
+            array (
+                'id' => 4427,
+                'kriteria_id' => 5,
+                'penduduk_id' => 738,
+                'nilai' => 46.69,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            199 => 
+            array (
+                'id' => 4428,
+                'kriteria_id' => 6,
+                'penduduk_id' => 738,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            200 => 
+            array (
+                'id' => 4429,
+                'kriteria_id' => 1,
+                'penduduk_id' => 739,
+                'nilai' => 2320150.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            201 => 
+            array (
+                'id' => 4430,
+                'kriteria_id' => 2,
+                'penduduk_id' => 739,
+                'nilai' => 76.98,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            202 => 
+            array (
+                'id' => 4431,
+                'kriteria_id' => 3,
+                'penduduk_id' => 739,
+                'nilai' => 26848000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            203 => 
+            array (
+                'id' => 4432,
+                'kriteria_id' => 4,
+                'penduduk_id' => 739,
+                'nilai' => 64.47,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            204 => 
+            array (
+                'id' => 4433,
+                'kriteria_id' => 5,
+                'penduduk_id' => 739,
+                'nilai' => 85.76,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            205 => 
+            array (
+                'id' => 4434,
+                'kriteria_id' => 6,
+                'penduduk_id' => 739,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            206 => 
+            array (
+                'id' => 4435,
+                'kriteria_id' => 1,
+                'penduduk_id' => 740,
+                'nilai' => 892500.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            207 => 
+            array (
+                'id' => 4436,
+                'kriteria_id' => 2,
+                'penduduk_id' => 740,
+                'nilai' => 29.78,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            208 => 
+            array (
+                'id' => 4437,
+                'kriteria_id' => 3,
+                'penduduk_id' => 740,
+                'nilai' => 37612000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            209 => 
+            array (
+                'id' => 4438,
+                'kriteria_id' => 4,
+                'penduduk_id' => 740,
+                'nilai' => 87.25,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            210 => 
+            array (
+                'id' => 4439,
+                'kriteria_id' => 5,
+                'penduduk_id' => 740,
+                'nilai' => 52.28,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            211 => 
+            array (
+                'id' => 4440,
+                'kriteria_id' => 6,
+                'penduduk_id' => 740,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            212 => 
+            array (
+                'id' => 4441,
+                'kriteria_id' => 1,
+                'penduduk_id' => 741,
+                'nilai' => 1776600.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            213 => 
+            array (
+                'id' => 4442,
+                'kriteria_id' => 2,
+                'penduduk_id' => 741,
+                'nilai' => 40.9,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            214 => 
+            array (
+                'id' => 4443,
+                'kriteria_id' => 3,
+                'penduduk_id' => 741,
+                'nilai' => 10596000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            215 => 
+            array (
+                'id' => 4444,
+                'kriteria_id' => 4,
+                'penduduk_id' => 741,
+                'nilai' => 34.97,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            216 => 
+            array (
+                'id' => 4445,
+                'kriteria_id' => 5,
+                'penduduk_id' => 741,
+                'nilai' => 45.94,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            217 => 
+            array (
+                'id' => 4446,
+                'kriteria_id' => 6,
+                'penduduk_id' => 741,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            218 => 
+            array (
+                'id' => 4447,
+                'kriteria_id' => 1,
+                'penduduk_id' => 742,
+                'nilai' => 2445450.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            219 => 
+            array (
+                'id' => 4448,
+                'kriteria_id' => 2,
+                'penduduk_id' => 742,
+                'nilai' => 25.89,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            220 => 
+            array (
+                'id' => 4449,
+                'kriteria_id' => 3,
+                'penduduk_id' => 742,
+                'nilai' => 17904000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            221 => 
+            array (
+                'id' => 4450,
+                'kriteria_id' => 4,
+                'penduduk_id' => 742,
+                'nilai' => 43.53,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            222 => 
+            array (
+                'id' => 4451,
+                'kriteria_id' => 5,
+                'penduduk_id' => 742,
+                'nilai' => 27.62,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            223 => 
+            array (
+                'id' => 4452,
+                'kriteria_id' => 6,
+                'penduduk_id' => 742,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            224 => 
+            array (
+                'id' => 4453,
+                'kriteria_id' => 1,
+                'penduduk_id' => 743,
+                'nilai' => 2768150.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            225 => 
+            array (
+                'id' => 4454,
+                'kriteria_id' => 2,
+                'penduduk_id' => 743,
+                'nilai' => 69.07,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            226 => 
+            array (
+                'id' => 4455,
+                'kriteria_id' => 3,
+                'penduduk_id' => 743,
+                'nilai' => 17620000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            227 => 
+            array (
+                'id' => 4456,
+                'kriteria_id' => 4,
+                'penduduk_id' => 743,
+                'nilai' => 32.06,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            228 => 
+            array (
+                'id' => 4457,
+                'kriteria_id' => 5,
+                'penduduk_id' => 743,
+                'nilai' => 82.22,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            229 => 
+            array (
+                'id' => 4458,
+                'kriteria_id' => 6,
+                'penduduk_id' => 743,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            230 => 
+            array (
+                'id' => 4459,
+                'kriteria_id' => 1,
+                'penduduk_id' => 744,
+                'nilai' => 1353100.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            231 => 
+            array (
+                'id' => 4460,
+                'kriteria_id' => 2,
+                'penduduk_id' => 744,
+                'nilai' => 41.97,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            232 => 
+            array (
+                'id' => 4461,
+                'kriteria_id' => 3,
+                'penduduk_id' => 744,
+                'nilai' => 29924000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            233 => 
+            array (
+                'id' => 4462,
+                'kriteria_id' => 4,
+                'penduduk_id' => 744,
+                'nilai' => 39.74,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            234 => 
+            array (
+                'id' => 4463,
+                'kriteria_id' => 5,
+                'penduduk_id' => 744,
+                'nilai' => 53.21,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            235 => 
+            array (
+                'id' => 4464,
+                'kriteria_id' => 6,
+                'penduduk_id' => 744,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            236 => 
+            array (
+                'id' => 4465,
+                'kriteria_id' => 1,
+                'penduduk_id' => 745,
+                'nilai' => 1122100.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            237 => 
+            array (
+                'id' => 4466,
+                'kriteria_id' => 2,
+                'penduduk_id' => 745,
+                'nilai' => 82.22,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            238 => 
+            array (
+                'id' => 4467,
+                'kriteria_id' => 3,
+                'penduduk_id' => 745,
+                'nilai' => 18616000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            239 => 
+            array (
+                'id' => 4468,
+                'kriteria_id' => 4,
+                'penduduk_id' => 745,
+                'nilai' => 50.34,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            240 => 
+            array (
+                'id' => 4469,
+                'kriteria_id' => 5,
+                'penduduk_id' => 745,
+                'nilai' => 83.19,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            241 => 
+            array (
+                'id' => 4470,
+                'kriteria_id' => 6,
+                'penduduk_id' => 745,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            242 => 
+            array (
+                'id' => 4471,
+                'kriteria_id' => 1,
+                'penduduk_id' => 746,
+                'nilai' => 2665950.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            243 => 
+            array (
+                'id' => 4472,
+                'kriteria_id' => 2,
+                'penduduk_id' => 746,
+                'nilai' => 34.76,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            244 => 
+            array (
+                'id' => 4473,
+                'kriteria_id' => 3,
+                'penduduk_id' => 746,
+                'nilai' => 26252000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            245 => 
+            array (
+                'id' => 4474,
+                'kriteria_id' => 4,
+                'penduduk_id' => 746,
+                'nilai' => 97.03,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            246 => 
+            array (
+                'id' => 4475,
+                'kriteria_id' => 5,
+                'penduduk_id' => 746,
+                'nilai' => 74.45,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            247 => 
+            array (
+                'id' => 4476,
+                'kriteria_id' => 6,
+                'penduduk_id' => 746,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            248 => 
+            array (
+                'id' => 4477,
+                'kriteria_id' => 1,
+                'penduduk_id' => 747,
+                'nilai' => 3270050.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            249 => 
+            array (
+                'id' => 4478,
+                'kriteria_id' => 2,
+                'penduduk_id' => 747,
+                'nilai' => 62.34,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            250 => 
+            array (
+                'id' => 4479,
+                'kriteria_id' => 3,
+                'penduduk_id' => 747,
+                'nilai' => 27820000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            251 => 
+            array (
+                'id' => 4480,
+                'kriteria_id' => 4,
+                'penduduk_id' => 747,
+                'nilai' => 66.34,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            252 => 
+            array (
+                'id' => 4481,
+                'kriteria_id' => 5,
+                'penduduk_id' => 747,
+                'nilai' => 54.08,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            253 => 
+            array (
+                'id' => 4482,
+                'kriteria_id' => 6,
+                'penduduk_id' => 747,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            254 => 
+            array (
+                'id' => 4483,
+                'kriteria_id' => 1,
+                'penduduk_id' => 748,
+                'nilai' => 2170700.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            255 => 
+            array (
+                'id' => 4484,
+                'kriteria_id' => 2,
+                'penduduk_id' => 748,
+                'nilai' => 47.87,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            256 => 
+            array (
+                'id' => 4485,
+                'kriteria_id' => 3,
+                'penduduk_id' => 748,
+                'nilai' => 25300000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            257 => 
+            array (
+                'id' => 4486,
+                'kriteria_id' => 4,
+                'penduduk_id' => 748,
+                'nilai' => 96.92,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            258 => 
+            array (
+                'id' => 4487,
+                'kriteria_id' => 5,
+                'penduduk_id' => 748,
+                'nilai' => 85.28,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            259 => 
+            array (
+                'id' => 4488,
+                'kriteria_id' => 6,
+                'penduduk_id' => 748,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            260 => 
+            array (
+                'id' => 4489,
+                'kriteria_id' => 1,
+                'penduduk_id' => 749,
+                'nilai' => 3228750.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            261 => 
+            array (
+                'id' => 4490,
+                'kriteria_id' => 2,
+                'penduduk_id' => 749,
+                'nilai' => 73.37,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            262 => 
+            array (
+                'id' => 4491,
+                'kriteria_id' => 3,
+                'penduduk_id' => 749,
+                'nilai' => 14292000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            263 => 
+            array (
+                'id' => 4492,
+                'kriteria_id' => 4,
+                'penduduk_id' => 749,
+                'nilai' => 95.06,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            264 => 
+            array (
+                'id' => 4493,
+                'kriteria_id' => 5,
+                'penduduk_id' => 749,
+                'nilai' => 58.87,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            265 => 
+            array (
+                'id' => 4494,
+                'kriteria_id' => 6,
+                'penduduk_id' => 749,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            266 => 
+            array (
+                'id' => 4495,
+                'kriteria_id' => 1,
+                'penduduk_id' => 750,
+                'nilai' => 2364600.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            267 => 
+            array (
+                'id' => 4496,
+                'kriteria_id' => 2,
+                'penduduk_id' => 750,
+                'nilai' => 97.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            268 => 
+            array (
+                'id' => 4497,
+                'kriteria_id' => 3,
+                'penduduk_id' => 750,
+                'nilai' => 33152000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            269 => 
+            array (
+                'id' => 4498,
+                'kriteria_id' => 4,
+                'penduduk_id' => 750,
+                'nilai' => 37.25,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            270 => 
+            array (
+                'id' => 4499,
+                'kriteria_id' => 5,
+                'penduduk_id' => 750,
+                'nilai' => 97.74,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            271 => 
+            array (
+                'id' => 4500,
+                'kriteria_id' => 6,
+                'penduduk_id' => 750,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            272 => 
+            array (
+                'id' => 4501,
+                'kriteria_id' => 1,
+                'penduduk_id' => 751,
+                'nilai' => 1799350.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            273 => 
+            array (
+                'id' => 4502,
+                'kriteria_id' => 2,
+                'penduduk_id' => 751,
+                'nilai' => 75.89,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            274 => 
+            array (
+                'id' => 4503,
+                'kriteria_id' => 3,
+                'penduduk_id' => 751,
+                'nilai' => 11840000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            275 => 
+            array (
+                'id' => 4504,
+                'kriteria_id' => 4,
+                'penduduk_id' => 751,
+                'nilai' => 48.29,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            276 => 
+            array (
+                'id' => 4505,
+                'kriteria_id' => 5,
+                'penduduk_id' => 751,
+                'nilai' => 61.19,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            277 => 
+            array (
+                'id' => 4506,
+                'kriteria_id' => 6,
+                'penduduk_id' => 751,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            278 => 
+            array (
+                'id' => 4507,
+                'kriteria_id' => 1,
+                'penduduk_id' => 752,
+                'nilai' => 1929200.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            279 => 
+            array (
+                'id' => 4508,
+                'kriteria_id' => 2,
+                'penduduk_id' => 752,
+                'nilai' => 49.79,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            280 => 
+            array (
+                'id' => 4509,
+                'kriteria_id' => 3,
+                'penduduk_id' => 752,
+                'nilai' => 34840000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            281 => 
+            array (
+                'id' => 4510,
+                'kriteria_id' => 4,
+                'penduduk_id' => 752,
+                'nilai' => 34.63,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            282 => 
+            array (
+                'id' => 4511,
+                'kriteria_id' => 5,
+                'penduduk_id' => 752,
+                'nilai' => 67.03,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            283 => 
+            array (
+                'id' => 4512,
+                'kriteria_id' => 6,
+                'penduduk_id' => 752,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            284 => 
+            array (
+                'id' => 4513,
+                'kriteria_id' => 1,
+                'penduduk_id' => 753,
+                'nilai' => 1750350.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            285 => 
+            array (
+                'id' => 4514,
+                'kriteria_id' => 2,
+                'penduduk_id' => 753,
+                'nilai' => 69.65,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            286 => 
+            array (
+                'id' => 4515,
+                'kriteria_id' => 3,
+                'penduduk_id' => 753,
+                'nilai' => 39176000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            287 => 
+            array (
+                'id' => 4516,
+                'kriteria_id' => 4,
+                'penduduk_id' => 753,
+                'nilai' => 94.3,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            288 => 
+            array (
+                'id' => 4517,
+                'kriteria_id' => 5,
+                'penduduk_id' => 753,
+                'nilai' => 56.97,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            289 => 
+            array (
+                'id' => 4518,
+                'kriteria_id' => 6,
+                'penduduk_id' => 753,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            290 => 
+            array (
+                'id' => 4519,
+                'kriteria_id' => 1,
+                'penduduk_id' => 754,
+                'nilai' => 2501800.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            291 => 
+            array (
+                'id' => 4520,
+                'kriteria_id' => 2,
+                'penduduk_id' => 754,
+                'nilai' => 40.67,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            292 => 
+            array (
+                'id' => 4521,
+                'kriteria_id' => 3,
+                'penduduk_id' => 754,
+                'nilai' => 25872000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            293 => 
+            array (
+                'id' => 4522,
+                'kriteria_id' => 4,
+                'penduduk_id' => 754,
+                'nilai' => 91.84,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            294 => 
+            array (
+                'id' => 4523,
+                'kriteria_id' => 5,
+                'penduduk_id' => 754,
+                'nilai' => 83.46,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            295 => 
+            array (
+                'id' => 4524,
+                'kriteria_id' => 6,
+                'penduduk_id' => 754,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            296 => 
+            array (
+                'id' => 4525,
+                'kriteria_id' => 1,
+                'penduduk_id' => 755,
+                'nilai' => 2657550.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            297 => 
+            array (
+                'id' => 4526,
+                'kriteria_id' => 2,
+                'penduduk_id' => 755,
+                'nilai' => 29.75,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            298 => 
+            array (
+                'id' => 4527,
+                'kriteria_id' => 3,
+                'penduduk_id' => 755,
+                'nilai' => 19040000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            299 => 
+            array (
+                'id' => 4528,
+                'kriteria_id' => 4,
+                'penduduk_id' => 755,
+                'nilai' => 63.91,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            300 => 
+            array (
+                'id' => 4529,
+                'kriteria_id' => 5,
+                'penduduk_id' => 755,
+                'nilai' => 57.35,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            301 => 
+            array (
+                'id' => 4530,
+                'kriteria_id' => 6,
+                'penduduk_id' => 755,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            302 => 
+            array (
+                'id' => 4531,
+                'kriteria_id' => 1,
+                'penduduk_id' => 756,
+                'nilai' => 1705200.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            303 => 
+            array (
+                'id' => 4532,
+                'kriteria_id' => 2,
+                'penduduk_id' => 756,
+                'nilai' => 98.19,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            304 => 
+            array (
+                'id' => 4533,
+                'kriteria_id' => 3,
+                'penduduk_id' => 756,
+                'nilai' => 13796000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            305 => 
+            array (
+                'id' => 4534,
+                'kriteria_id' => 4,
+                'penduduk_id' => 756,
+                'nilai' => 95.99,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            306 => 
+            array (
+                'id' => 4535,
+                'kriteria_id' => 5,
+                'penduduk_id' => 756,
+                'nilai' => 90.99,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            307 => 
+            array (
+                'id' => 4536,
+                'kriteria_id' => 6,
+                'penduduk_id' => 756,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            308 => 
+            array (
+                'id' => 4537,
+                'kriteria_id' => 1,
+                'penduduk_id' => 757,
+                'nilai' => 2663850.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            309 => 
+            array (
+                'id' => 4538,
+                'kriteria_id' => 2,
+                'penduduk_id' => 757,
+                'nilai' => 39.03,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            310 => 
+            array (
+                'id' => 4539,
+                'kriteria_id' => 3,
+                'penduduk_id' => 757,
+                'nilai' => 31484000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            311 => 
+            array (
+                'id' => 4540,
+                'kriteria_id' => 4,
+                'penduduk_id' => 757,
+                'nilai' => 91.84,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            312 => 
+            array (
+                'id' => 4541,
+                'kriteria_id' => 5,
+                'penduduk_id' => 757,
+                'nilai' => 83.46,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            313 => 
+            array (
+                'id' => 4542,
+                'kriteria_id' => 6,
+                'penduduk_id' => 757,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            314 => 
+            array (
+                'id' => 4543,
+                'kriteria_id' => 1,
+                'penduduk_id' => 758,
+                'nilai' => 2185050.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            315 => 
+            array (
+                'id' => 4544,
+                'kriteria_id' => 2,
+                'penduduk_id' => 758,
+                'nilai' => 75.1,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            316 => 
+            array (
+                'id' => 4545,
+                'kriteria_id' => 3,
+                'penduduk_id' => 758,
+                'nilai' => 22756000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            317 => 
+            array (
+                'id' => 4546,
+                'kriteria_id' => 4,
+                'penduduk_id' => 758,
+                'nilai' => 29.45,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            318 => 
+            array (
+                'id' => 4547,
+                'kriteria_id' => 5,
+                'penduduk_id' => 758,
+                'nilai' => 70.01,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            319 => 
+            array (
+                'id' => 4548,
+                'kriteria_id' => 6,
+                'penduduk_id' => 758,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            320 => 
+            array (
+                'id' => 4549,
+                'kriteria_id' => 1,
+                'penduduk_id' => 759,
+                'nilai' => 1206100.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            321 => 
+            array (
+                'id' => 4550,
+                'kriteria_id' => 2,
+                'penduduk_id' => 759,
+                'nilai' => 45.61,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            322 => 
+            array (
+                'id' => 4551,
+                'kriteria_id' => 3,
+                'penduduk_id' => 759,
+                'nilai' => 11080000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            323 => 
+            array (
+                'id' => 4552,
+                'kriteria_id' => 4,
+                'penduduk_id' => 759,
+                'nilai' => 46.64,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            324 => 
+            array (
+                'id' => 4553,
+                'kriteria_id' => 5,
+                'penduduk_id' => 759,
+                'nilai' => 89.31,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            325 => 
+            array (
+                'id' => 4554,
+                'kriteria_id' => 6,
+                'penduduk_id' => 759,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            326 => 
+            array (
+                'id' => 4555,
+                'kriteria_id' => 1,
+                'penduduk_id' => 760,
+                'nilai' => 1729000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            327 => 
+            array (
+                'id' => 4556,
+                'kriteria_id' => 2,
+                'penduduk_id' => 760,
+                'nilai' => 63.34,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            328 => 
+            array (
+                'id' => 4557,
+                'kriteria_id' => 3,
+                'penduduk_id' => 760,
+                'nilai' => 31720000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            329 => 
+            array (
+                'id' => 4558,
+                'kriteria_id' => 4,
+                'penduduk_id' => 760,
+                'nilai' => 94.11,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            330 => 
+            array (
+                'id' => 4559,
+                'kriteria_id' => 5,
+                'penduduk_id' => 760,
+                'nilai' => 68.95,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            331 => 
+            array (
+                'id' => 4560,
+                'kriteria_id' => 6,
+                'penduduk_id' => 760,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            332 => 
+            array (
+                'id' => 4561,
+                'kriteria_id' => 1,
+                'penduduk_id' => 761,
+                'nilai' => 1069250.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            333 => 
+            array (
+                'id' => 4562,
+                'kriteria_id' => 2,
+                'penduduk_id' => 761,
+                'nilai' => 79.54,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            334 => 
+            array (
+                'id' => 4563,
+                'kriteria_id' => 3,
+                'penduduk_id' => 761,
+                'nilai' => 32984000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            335 => 
+            array (
+                'id' => 4564,
+                'kriteria_id' => 4,
+                'penduduk_id' => 761,
+                'nilai' => 67.01,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            336 => 
+            array (
+                'id' => 4565,
+                'kriteria_id' => 5,
+                'penduduk_id' => 761,
+                'nilai' => 34.99,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            337 => 
+            array (
+                'id' => 4566,
+                'kriteria_id' => 6,
+                'penduduk_id' => 761,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            338 => 
+            array (
+                'id' => 4567,
+                'kriteria_id' => 1,
+                'penduduk_id' => 762,
+                'nilai' => 3258850.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            339 => 
+            array (
+                'id' => 4568,
+                'kriteria_id' => 2,
+                'penduduk_id' => 762,
+                'nilai' => 75.47,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            340 => 
+            array (
+                'id' => 4569,
+                'kriteria_id' => 3,
+                'penduduk_id' => 762,
+                'nilai' => 21004000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            341 => 
+            array (
+                'id' => 4570,
+                'kriteria_id' => 4,
+                'penduduk_id' => 762,
+                'nilai' => 32.73,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            342 => 
+            array (
+                'id' => 4571,
+                'kriteria_id' => 5,
+                'penduduk_id' => 762,
+                'nilai' => 95.18,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            343 => 
+            array (
+                'id' => 4572,
+                'kriteria_id' => 6,
+                'penduduk_id' => 762,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            344 => 
+            array (
+                'id' => 4573,
+                'kriteria_id' => 1,
+                'penduduk_id' => 763,
+                'nilai' => 1929200.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            345 => 
+            array (
+                'id' => 4574,
+                'kriteria_id' => 2,
+                'penduduk_id' => 763,
+                'nilai' => 90.44,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            346 => 
+            array (
+                'id' => 4575,
+                'kriteria_id' => 3,
+                'penduduk_id' => 763,
+                'nilai' => 22032000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            347 => 
+            array (
+                'id' => 4576,
+                'kriteria_id' => 4,
+                'penduduk_id' => 763,
+                'nilai' => 42.16,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            348 => 
+            array (
+                'id' => 4577,
+                'kriteria_id' => 5,
+                'penduduk_id' => 763,
+                'nilai' => 73.06,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            349 => 
+            array (
+                'id' => 4578,
+                'kriteria_id' => 6,
+                'penduduk_id' => 763,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            350 => 
+            array (
+                'id' => 4579,
+                'kriteria_id' => 1,
+                'penduduk_id' => 764,
+                'nilai' => 1390900.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            351 => 
+            array (
+                'id' => 4580,
+                'kriteria_id' => 2,
+                'penduduk_id' => 764,
+                'nilai' => 53.21,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            352 => 
+            array (
+                'id' => 4581,
+                'kriteria_id' => 3,
+                'penduduk_id' => 764,
+                'nilai' => 31284000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            353 => 
+            array (
+                'id' => 4582,
+                'kriteria_id' => 4,
+                'penduduk_id' => 764,
+                'nilai' => 77.45,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            354 => 
+            array (
+                'id' => 4583,
+                'kriteria_id' => 5,
+                'penduduk_id' => 764,
+                'nilai' => 57.89,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            355 => 
+            array (
+                'id' => 4584,
+                'kriteria_id' => 6,
+                'penduduk_id' => 764,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            356 => 
+            array (
+                'id' => 4585,
+                'kriteria_id' => 1,
+                'penduduk_id' => 765,
+                'nilai' => 1227100.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            357 => 
+            array (
+                'id' => 4586,
+                'kriteria_id' => 2,
+                'penduduk_id' => 765,
+                'nilai' => 72.29,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            358 => 
+            array (
+                'id' => 4587,
+                'kriteria_id' => 3,
+                'penduduk_id' => 765,
+                'nilai' => 13760000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            359 => 
+            array (
+                'id' => 4588,
+                'kriteria_id' => 4,
+                'penduduk_id' => 765,
+                'nilai' => 48.79,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            360 => 
+            array (
+                'id' => 4589,
+                'kriteria_id' => 5,
+                'penduduk_id' => 765,
+                'nilai' => 71.65,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            361 => 
+            array (
+                'id' => 4590,
+                'kriteria_id' => 6,
+                'penduduk_id' => 765,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            362 => 
+            array (
+                'id' => 4591,
+                'kriteria_id' => 1,
+                'penduduk_id' => 766,
+                'nilai' => 3331300.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            363 => 
+            array (
+                'id' => 4592,
+                'kriteria_id' => 2,
+                'penduduk_id' => 766,
+                'nilai' => 29.69,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            364 => 
+            array (
+                'id' => 4593,
+                'kriteria_id' => 3,
+                'penduduk_id' => 766,
+                'nilai' => 16540000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            365 => 
+            array (
+                'id' => 4594,
+                'kriteria_id' => 4,
+                'penduduk_id' => 766,
+                'nilai' => 97.19,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            366 => 
+            array (
+                'id' => 4595,
+                'kriteria_id' => 5,
+                'penduduk_id' => 766,
+                'nilai' => 35.9,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            367 => 
+            array (
+                'id' => 4596,
+                'kriteria_id' => 6,
+                'penduduk_id' => 766,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            368 => 
+            array (
+                'id' => 4597,
+                'kriteria_id' => 1,
+                'penduduk_id' => 767,
+                'nilai' => 3117450.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            369 => 
+            array (
+                'id' => 4598,
+                'kriteria_id' => 2,
+                'penduduk_id' => 767,
+                'nilai' => 51.25,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            370 => 
+            array (
+                'id' => 4599,
+                'kriteria_id' => 3,
+                'penduduk_id' => 767,
+                'nilai' => 39484000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            371 => 
+            array (
+                'id' => 4600,
+                'kriteria_id' => 4,
+                'penduduk_id' => 767,
+                'nilai' => 73.7,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            372 => 
+            array (
+                'id' => 4601,
+                'kriteria_id' => 5,
+                'penduduk_id' => 767,
+                'nilai' => 78.46,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            373 => 
+            array (
+                'id' => 4602,
+                'kriteria_id' => 6,
+                'penduduk_id' => 767,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            374 => 
+            array (
+                'id' => 4603,
+                'kriteria_id' => 1,
+                'penduduk_id' => 768,
+                'nilai' => 1894550.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            375 => 
+            array (
+                'id' => 4604,
+                'kriteria_id' => 2,
+                'penduduk_id' => 768,
+                'nilai' => 33.34,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            376 => 
+            array (
+                'id' => 4605,
+                'kriteria_id' => 3,
+                'penduduk_id' => 768,
+                'nilai' => 30548000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            377 => 
+            array (
+                'id' => 4606,
+                'kriteria_id' => 4,
+                'penduduk_id' => 768,
+                'nilai' => 93.15,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            378 => 
+            array (
+                'id' => 4607,
+                'kriteria_id' => 5,
+                'penduduk_id' => 768,
+                'nilai' => 89.6,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            379 => 
+            array (
+                'id' => 4608,
+                'kriteria_id' => 6,
+                'penduduk_id' => 768,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            380 => 
+            array (
+                'id' => 4609,
+                'kriteria_id' => 1,
+                'penduduk_id' => 769,
+                'nilai' => 1162350.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            381 => 
+            array (
+                'id' => 4610,
+                'kriteria_id' => 2,
+                'penduduk_id' => 769,
+                'nilai' => 57.45,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            382 => 
+            array (
+                'id' => 4611,
+                'kriteria_id' => 3,
+                'penduduk_id' => 769,
+                'nilai' => 29948000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            383 => 
+            array (
+                'id' => 4612,
+                'kriteria_id' => 4,
+                'penduduk_id' => 769,
+                'nilai' => 59.38,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            384 => 
+            array (
+                'id' => 4613,
+                'kriteria_id' => 5,
+                'penduduk_id' => 769,
+                'nilai' => 60.15,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            385 => 
+            array (
+                'id' => 4614,
+                'kriteria_id' => 6,
+                'penduduk_id' => 769,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            386 => 
+            array (
+                'id' => 4615,
+                'kriteria_id' => 1,
+                'penduduk_id' => 770,
+                'nilai' => 1393700.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            387 => 
+            array (
+                'id' => 4616,
+                'kriteria_id' => 2,
+                'penduduk_id' => 770,
+                'nilai' => 34.15,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            388 => 
+            array (
+                'id' => 4617,
+                'kriteria_id' => 3,
+                'penduduk_id' => 770,
+                'nilai' => 17148000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            389 => 
+            array (
+                'id' => 4618,
+                'kriteria_id' => 4,
+                'penduduk_id' => 770,
+                'nilai' => 51.38,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            390 => 
+            array (
+                'id' => 4619,
+                'kriteria_id' => 5,
+                'penduduk_id' => 770,
+                'nilai' => 41.84,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            391 => 
+            array (
+                'id' => 4620,
+                'kriteria_id' => 6,
+                'penduduk_id' => 770,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            392 => 
+            array (
+                'id' => 4621,
+                'kriteria_id' => 1,
+                'penduduk_id' => 771,
+                'nilai' => 2321900.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            393 => 
+            array (
+                'id' => 4622,
+                'kriteria_id' => 2,
+                'penduduk_id' => 771,
+                'nilai' => 54.08,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            394 => 
+            array (
+                'id' => 4623,
+                'kriteria_id' => 3,
+                'penduduk_id' => 771,
+                'nilai' => 15144000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            395 => 
+            array (
+                'id' => 4624,
+                'kriteria_id' => 4,
+                'penduduk_id' => 771,
+                'nilai' => 50.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            396 => 
+            array (
+                'id' => 4625,
+                'kriteria_id' => 5,
+                'penduduk_id' => 771,
+                'nilai' => 80.88,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            397 => 
+            array (
+                'id' => 4626,
+                'kriteria_id' => 6,
+                'penduduk_id' => 771,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            398 => 
+            array (
+                'id' => 4627,
+                'kriteria_id' => 1,
+                'penduduk_id' => 772,
+                'nilai' => 1632400.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            399 => 
+            array (
+                'id' => 4628,
+                'kriteria_id' => 2,
+                'penduduk_id' => 772,
+                'nilai' => 89.31,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            400 => 
+            array (
+                'id' => 4629,
+                'kriteria_id' => 3,
+                'penduduk_id' => 772,
+                'nilai' => 23644000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            401 => 
+            array (
+                'id' => 4630,
+                'kriteria_id' => 4,
+                'penduduk_id' => 772,
+                'nilai' => 35.06,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            402 => 
+            array (
+                'id' => 4631,
+                'kriteria_id' => 5,
+                'penduduk_id' => 772,
+                'nilai' => 72.29,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            403 => 
+            array (
+                'id' => 4632,
+                'kriteria_id' => 6,
+                'penduduk_id' => 772,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            404 => 
+            array (
+                'id' => 4633,
+                'kriteria_id' => 1,
+                'penduduk_id' => 773,
+                'nilai' => 3480400.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            405 => 
+            array (
+                'id' => 4634,
+                'kriteria_id' => 2,
+                'penduduk_id' => 773,
+                'nilai' => 53.63,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            406 => 
+            array (
+                'id' => 4635,
+                'kriteria_id' => 3,
+                'penduduk_id' => 773,
+                'nilai' => 38052000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            407 => 
+            array (
+                'id' => 4636,
+                'kriteria_id' => 4,
+                'penduduk_id' => 773,
+                'nilai' => 96.94,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            408 => 
+            array (
+                'id' => 4637,
+                'kriteria_id' => 5,
+                'penduduk_id' => 773,
+                'nilai' => 34.78,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            409 => 
+            array (
+                'id' => 4638,
+                'kriteria_id' => 6,
+                'penduduk_id' => 773,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            410 => 
+            array (
+                'id' => 4639,
+                'kriteria_id' => 1,
+                'penduduk_id' => 774,
+                'nilai' => 2118900.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            411 => 
+            array (
+                'id' => 4640,
+                'kriteria_id' => 2,
+                'penduduk_id' => 774,
+                'nilai' => 78.06,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            412 => 
+            array (
+                'id' => 4641,
+                'kriteria_id' => 3,
+                'penduduk_id' => 774,
+                'nilai' => 20564000.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            413 => 
+            array (
+                'id' => 4642,
+                'kriteria_id' => 4,
+                'penduduk_id' => 774,
+                'nilai' => 36.39,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            414 => 
+            array (
+                'id' => 4643,
+                'kriteria_id' => 5,
+                'penduduk_id' => 774,
+                'nilai' => 66.59,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            415 => 
+            array (
+                'id' => 4644,
+                'kriteria_id' => 6,
+                'penduduk_id' => 774,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:34',
+                'updated_at' => '2023-05-29 20:44:34',
+            ),
+            416 => 
+            array (
+                'id' => 4645,
+                'kriteria_id' => 1,
+                'penduduk_id' => 775,
+                'nilai' => 1856750.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            417 => 
+            array (
+                'id' => 4646,
+                'kriteria_id' => 2,
+                'penduduk_id' => 775,
+                'nilai' => 56.87,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            418 => 
+            array (
+                'id' => 4647,
+                'kriteria_id' => 3,
+                'penduduk_id' => 775,
+                'nilai' => 36656000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            419 => 
+            array (
+                'id' => 4648,
+                'kriteria_id' => 4,
+                'penduduk_id' => 775,
+                'nilai' => 47.19,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            420 => 
+            array (
+                'id' => 4649,
+                'kriteria_id' => 5,
+                'penduduk_id' => 775,
+                'nilai' => 75.42,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            421 => 
+            array (
+                'id' => 4650,
+                'kriteria_id' => 6,
+                'penduduk_id' => 775,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            422 => 
+            array (
+                'id' => 4651,
+                'kriteria_id' => 1,
+                'penduduk_id' => 776,
+                'nilai' => 2046800.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            423 => 
+            array (
+                'id' => 4652,
+                'kriteria_id' => 2,
+                'penduduk_id' => 776,
+                'nilai' => 62.55,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            424 => 
+            array (
+                'id' => 4653,
+                'kriteria_id' => 3,
+                'penduduk_id' => 776,
+                'nilai' => 36632000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            425 => 
+            array (
+                'id' => 4654,
+                'kriteria_id' => 4,
+                'penduduk_id' => 776,
+                'nilai' => 65.48,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            426 => 
+            array (
+                'id' => 4655,
+                'kriteria_id' => 5,
+                'penduduk_id' => 776,
+                'nilai' => 61.87,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            427 => 
+            array (
+                'id' => 4656,
+                'kriteria_id' => 6,
+                'penduduk_id' => 776,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            428 => 
+            array (
+                'id' => 4657,
+                'kriteria_id' => 1,
+                'penduduk_id' => 777,
+                'nilai' => 2489550.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            429 => 
+            array (
+                'id' => 4658,
+                'kriteria_id' => 2,
+                'penduduk_id' => 777,
+                'nilai' => 60.41,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            430 => 
+            array (
+                'id' => 4659,
+                'kriteria_id' => 3,
+                'penduduk_id' => 777,
+                'nilai' => 37372000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            431 => 
+            array (
+                'id' => 4660,
+                'kriteria_id' => 4,
+                'penduduk_id' => 777,
+                'nilai' => 67.29,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            432 => 
+            array (
+                'id' => 4661,
+                'kriteria_id' => 5,
+                'penduduk_id' => 777,
+                'nilai' => 39.48,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            433 => 
+            array (
+                'id' => 4662,
+                'kriteria_id' => 6,
+                'penduduk_id' => 777,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            434 => 
+            array (
+                'id' => 4663,
+                'kriteria_id' => 1,
+                'penduduk_id' => 778,
+                'nilai' => 3433150.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            435 => 
+            array (
+                'id' => 4664,
+                'kriteria_id' => 2,
+                'penduduk_id' => 778,
+                'nilai' => 51.59,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            436 => 
+            array (
+                'id' => 4665,
+                'kriteria_id' => 3,
+                'penduduk_id' => 778,
+                'nilai' => 14632000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            437 => 
+            array (
+                'id' => 4666,
+                'kriteria_id' => 4,
+                'penduduk_id' => 778,
+                'nilai' => 67.01,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            438 => 
+            array (
+                'id' => 4667,
+                'kriteria_id' => 5,
+                'penduduk_id' => 778,
+                'nilai' => 34.99,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            439 => 
+            array (
+                'id' => 4668,
+                'kriteria_id' => 6,
+                'penduduk_id' => 778,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            440 => 
+            array (
+                'id' => 4669,
+                'kriteria_id' => 1,
+                'penduduk_id' => 779,
+                'nilai' => 2691150.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            441 => 
+            array (
+                'id' => 4670,
+                'kriteria_id' => 2,
+                'penduduk_id' => 779,
+                'nilai' => 26.59,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            442 => 
+            array (
+                'id' => 4671,
+                'kriteria_id' => 3,
+                'penduduk_id' => 779,
+                'nilai' => 25628000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            443 => 
+            array (
+                'id' => 4672,
+                'kriteria_id' => 4,
+                'penduduk_id' => 779,
+                'nilai' => 99.47,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            444 => 
+            array (
+                'id' => 4673,
+                'kriteria_id' => 5,
+                'penduduk_id' => 779,
+                'nilai' => 68.33,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            445 => 
+            array (
+                'id' => 4674,
+                'kriteria_id' => 6,
+                'penduduk_id' => 779,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            446 => 
+            array (
+                'id' => 4675,
+                'kriteria_id' => 1,
+                'penduduk_id' => 780,
+                'nilai' => 2220400.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            447 => 
+            array (
+                'id' => 4676,
+                'kriteria_id' => 2,
+                'penduduk_id' => 780,
+                'nilai' => 86.41,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            448 => 
+            array (
+                'id' => 4677,
+                'kriteria_id' => 3,
+                'penduduk_id' => 780,
+                'nilai' => 28268000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            449 => 
+            array (
+                'id' => 4678,
+                'kriteria_id' => 4,
+                'penduduk_id' => 780,
+                'nilai' => 76.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            450 => 
+            array (
+                'id' => 4679,
+                'kriteria_id' => 5,
+                'penduduk_id' => 780,
+                'nilai' => 73.28,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            451 => 
+            array (
+                'id' => 4680,
+                'kriteria_id' => 6,
+                'penduduk_id' => 780,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            452 => 
+            array (
+                'id' => 4681,
+                'kriteria_id' => 1,
+                'penduduk_id' => 781,
+                'nilai' => 1523550.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            453 => 
+            array (
+                'id' => 4682,
+                'kriteria_id' => 2,
+                'penduduk_id' => 781,
+                'nilai' => 27.62,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            454 => 
+            array (
+                'id' => 4683,
+                'kriteria_id' => 3,
+                'penduduk_id' => 781,
+                'nilai' => 28952000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            455 => 
+            array (
+                'id' => 4684,
+                'kriteria_id' => 4,
+                'penduduk_id' => 781,
+                'nilai' => 28.52,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            456 => 
+            array (
+                'id' => 4685,
+                'kriteria_id' => 5,
+                'penduduk_id' => 781,
+                'nilai' => 62.67,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            457 => 
+            array (
+                'id' => 4686,
+                'kriteria_id' => 6,
+                'penduduk_id' => 781,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            458 => 
+            array (
+                'id' => 4687,
+                'kriteria_id' => 1,
+                'penduduk_id' => 782,
+                'nilai' => 1705550.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            459 => 
+            array (
+                'id' => 4688,
+                'kriteria_id' => 2,
+                'penduduk_id' => 782,
+                'nilai' => 61.22,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            460 => 
+            array (
+                'id' => 4689,
+                'kriteria_id' => 3,
+                'penduduk_id' => 782,
+                'nilai' => 16988000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            461 => 
+            array (
+                'id' => 4690,
+                'kriteria_id' => 4,
+                'penduduk_id' => 782,
+                'nilai' => 78.43,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            462 => 
+            array (
+                'id' => 4691,
+                'kriteria_id' => 5,
+                'penduduk_id' => 782,
+                'nilai' => 69.05,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            463 => 
+            array (
+                'id' => 4692,
+                'kriteria_id' => 6,
+                'penduduk_id' => 782,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            464 => 
+            array (
+                'id' => 4693,
+                'kriteria_id' => 1,
+                'penduduk_id' => 783,
+                'nilai' => 2926000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            465 => 
+            array (
+                'id' => 4694,
+                'kriteria_id' => 2,
+                'penduduk_id' => 783,
+                'nilai' => 39.16,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            466 => 
+            array (
+                'id' => 4695,
+                'kriteria_id' => 3,
+                'penduduk_id' => 783,
+                'nilai' => 31296000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            467 => 
+            array (
+                'id' => 4696,
+                'kriteria_id' => 4,
+                'penduduk_id' => 783,
+                'nilai' => 38.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            468 => 
+            array (
+                'id' => 4697,
+                'kriteria_id' => 5,
+                'penduduk_id' => 783,
+                'nilai' => 46.85,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            469 => 
+            array (
+                'id' => 4698,
+                'kriteria_id' => 6,
+                'penduduk_id' => 783,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            470 => 
+            array (
+                'id' => 4699,
+                'kriteria_id' => 1,
+                'penduduk_id' => 784,
+                'nilai' => 1584800.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            471 => 
+            array (
+                'id' => 4700,
+                'kriteria_id' => 2,
+                'penduduk_id' => 784,
+                'nilai' => 89.56,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            472 => 
+            array (
+                'id' => 4701,
+                'kriteria_id' => 3,
+                'penduduk_id' => 784,
+                'nilai' => 36488000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            473 => 
+            array (
+                'id' => 4702,
+                'kriteria_id' => 4,
+                'penduduk_id' => 784,
+                'nilai' => 62.21,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            474 => 
+            array (
+                'id' => 4703,
+                'kriteria_id' => 5,
+                'penduduk_id' => 784,
+                'nilai' => 26.56,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            475 => 
+            array (
+                'id' => 4704,
+                'kriteria_id' => 6,
+                'penduduk_id' => 784,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            476 => 
+            array (
+                'id' => 4705,
+                'kriteria_id' => 1,
+                'penduduk_id' => 785,
+                'nilai' => 3233650.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            477 => 
+            array (
+                'id' => 4706,
+                'kriteria_id' => 2,
+                'penduduk_id' => 785,
+                'nilai' => 29.69,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            478 => 
+            array (
+                'id' => 4707,
+                'kriteria_id' => 3,
+                'penduduk_id' => 785,
+                'nilai' => 28332000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            479 => 
+            array (
+                'id' => 4708,
+                'kriteria_id' => 4,
+                'penduduk_id' => 785,
+                'nilai' => 33.21,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            480 => 
+            array (
+                'id' => 4709,
+                'kriteria_id' => 5,
+                'penduduk_id' => 785,
+                'nilai' => 57.45,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            481 => 
+            array (
+                'id' => 4710,
+                'kriteria_id' => 6,
+                'penduduk_id' => 785,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            482 => 
+            array (
+                'id' => 4711,
+                'kriteria_id' => 1,
+                'penduduk_id' => 786,
+                'nilai' => 2745050.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            483 => 
+            array (
+                'id' => 4712,
+                'kriteria_id' => 2,
+                'penduduk_id' => 786,
+                'nilai' => 69.05,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            484 => 
+            array (
+                'id' => 4713,
+                'kriteria_id' => 3,
+                'penduduk_id' => 786,
+                'nilai' => 15152000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            485 => 
+            array (
+                'id' => 4714,
+                'kriteria_id' => 4,
+                'penduduk_id' => 786,
+                'nilai' => 54.13,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            486 => 
+            array (
+                'id' => 4715,
+                'kriteria_id' => 5,
+                'penduduk_id' => 786,
+                'nilai' => 33.34,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            487 => 
+            array (
+                'id' => 4716,
+                'kriteria_id' => 6,
+                'penduduk_id' => 786,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            488 => 
+            array (
+                'id' => 4717,
+                'kriteria_id' => 1,
+                'penduduk_id' => 787,
+                'nilai' => 2642150.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            489 => 
+            array (
+                'id' => 4718,
+                'kriteria_id' => 2,
+                'penduduk_id' => 787,
+                'nilai' => 43.18,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            490 => 
+            array (
+                'id' => 4719,
+                'kriteria_id' => 3,
+                'penduduk_id' => 787,
+                'nilai' => 35080000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            491 => 
+            array (
+                'id' => 4720,
+                'kriteria_id' => 4,
+                'penduduk_id' => 787,
+                'nilai' => 92.53,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            492 => 
+            array (
+                'id' => 4721,
+                'kriteria_id' => 5,
+                'penduduk_id' => 787,
+                'nilai' => 40.47,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            493 => 
+            array (
+                'id' => 4722,
+                'kriteria_id' => 6,
+                'penduduk_id' => 787,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            494 => 
+            array (
+                'id' => 4723,
+                'kriteria_id' => 1,
+                'penduduk_id' => 788,
+                'nilai' => 1954400.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            495 => 
+            array (
+                'id' => 4724,
+                'kriteria_id' => 2,
+                'penduduk_id' => 788,
+                'nilai' => 80.54,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            496 => 
+            array (
+                'id' => 4725,
+                'kriteria_id' => 3,
+                'penduduk_id' => 788,
+                'nilai' => 21364000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            497 => 
+            array (
+                'id' => 4726,
+                'kriteria_id' => 4,
+                'penduduk_id' => 788,
+                'nilai' => 52.1,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            498 => 
+            array (
+                'id' => 4727,
+                'kriteria_id' => 5,
+                'penduduk_id' => 788,
+                'nilai' => 72.72,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            499 => 
+            array (
+                'id' => 4728,
+                'kriteria_id' => 6,
+                'penduduk_id' => 788,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+        ));
+        \DB::table('penduduk_nilai')->insert(array (
+            0 => 
+            array (
+                'id' => 4729,
+                'kriteria_id' => 1,
+                'penduduk_id' => 789,
+                'nilai' => 1078700.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            1 => 
+            array (
+                'id' => 4730,
+                'kriteria_id' => 2,
+                'penduduk_id' => 789,
+                'nilai' => 66.91,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            2 => 
+            array (
+                'id' => 4731,
+                'kriteria_id' => 3,
+                'penduduk_id' => 789,
+                'nilai' => 35116000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            3 => 
+            array (
+                'id' => 4732,
+                'kriteria_id' => 4,
+                'penduduk_id' => 789,
+                'nilai' => 82.2,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            4 => 
+            array (
+                'id' => 4733,
+                'kriteria_id' => 5,
+                'penduduk_id' => 789,
+                'nilai' => 36.63,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            5 => 
+            array (
+                'id' => 4734,
+                'kriteria_id' => 6,
+                'penduduk_id' => 789,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            6 => 
+            array (
+                'id' => 4735,
+                'kriteria_id' => 1,
+                'penduduk_id' => 790,
+                'nilai' => 1409100.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            7 => 
+            array (
+                'id' => 4736,
+                'kriteria_id' => 2,
+                'penduduk_id' => 790,
+                'nilai' => 34.99,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            8 => 
+            array (
+                'id' => 4737,
+                'kriteria_id' => 3,
+                'penduduk_id' => 790,
+                'nilai' => 28072000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            9 => 
+            array (
+                'id' => 4738,
+                'kriteria_id' => 4,
+                'penduduk_id' => 790,
+                'nilai' => 91.4,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            10 => 
+            array (
+                'id' => 4739,
+                'kriteria_id' => 5,
+                'penduduk_id' => 790,
+                'nilai' => 79.76,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            11 => 
+            array (
+                'id' => 4740,
+                'kriteria_id' => 6,
+                'penduduk_id' => 790,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            12 => 
+            array (
+                'id' => 4741,
+                'kriteria_id' => 1,
+                'penduduk_id' => 791,
+                'nilai' => 2450000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            13 => 
+            array (
+                'id' => 4742,
+                'kriteria_id' => 2,
+                'penduduk_id' => 791,
+                'nilai' => 44.64,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            14 => 
+            array (
+                'id' => 4743,
+                'kriteria_id' => 3,
+                'penduduk_id' => 791,
+                'nilai' => 17008000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            15 => 
+            array (
+                'id' => 4744,
+                'kriteria_id' => 4,
+                'penduduk_id' => 791,
+                'nilai' => 33.21,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            16 => 
+            array (
+                'id' => 4745,
+                'kriteria_id' => 5,
+                'penduduk_id' => 791,
+                'nilai' => 57.45,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            17 => 
+            array (
+                'id' => 4746,
+                'kriteria_id' => 6,
+                'penduduk_id' => 791,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            18 => 
+            array (
+                'id' => 4747,
+                'kriteria_id' => 1,
+                'penduduk_id' => 792,
+                'nilai' => 1189300.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            19 => 
+            array (
+                'id' => 4748,
+                'kriteria_id' => 2,
+                'penduduk_id' => 792,
+                'nilai' => 26.04,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            20 => 
+            array (
+                'id' => 4749,
+                'kriteria_id' => 3,
+                'penduduk_id' => 792,
+                'nilai' => 21284000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            21 => 
+            array (
+                'id' => 4750,
+                'kriteria_id' => 4,
+                'penduduk_id' => 792,
+                'nilai' => 78.43,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            22 => 
+            array (
+                'id' => 4751,
+                'kriteria_id' => 5,
+                'penduduk_id' => 792,
+                'nilai' => 69.05,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            23 => 
+            array (
+                'id' => 4752,
+                'kriteria_id' => 6,
+                'penduduk_id' => 792,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            24 => 
+            array (
+                'id' => 4753,
+                'kriteria_id' => 1,
+                'penduduk_id' => 793,
+                'nilai' => 1146950.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            25 => 
+            array (
+                'id' => 4754,
+                'kriteria_id' => 2,
+                'penduduk_id' => 793,
+                'nilai' => 82.89,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            26 => 
+            array (
+                'id' => 4755,
+                'kriteria_id' => 3,
+                'penduduk_id' => 793,
+                'nilai' => 13968000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            27 => 
+            array (
+                'id' => 4756,
+                'kriteria_id' => 4,
+                'penduduk_id' => 793,
+                'nilai' => 82.2,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            28 => 
+            array (
+                'id' => 4757,
+                'kriteria_id' => 5,
+                'penduduk_id' => 793,
+                'nilai' => 36.63,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            29 => 
+            array (
+                'id' => 4758,
+                'kriteria_id' => 6,
+                'penduduk_id' => 793,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            30 => 
+            array (
+                'id' => 4759,
+                'kriteria_id' => 1,
+                'penduduk_id' => 794,
+                'nilai' => 3392200.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            31 => 
+            array (
+                'id' => 4760,
+                'kriteria_id' => 2,
+                'penduduk_id' => 794,
+                'nilai' => 85.28,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            32 => 
+            array (
+                'id' => 4761,
+                'kriteria_id' => 3,
+                'penduduk_id' => 794,
+                'nilai' => 32224000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            33 => 
+            array (
+                'id' => 4762,
+                'kriteria_id' => 4,
+                'penduduk_id' => 794,
+                'nilai' => 27.45,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            34 => 
+            array (
+                'id' => 4763,
+                'kriteria_id' => 5,
+                'penduduk_id' => 794,
+                'nilai' => 66.37,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            35 => 
+            array (
+                'id' => 4764,
+                'kriteria_id' => 6,
+                'penduduk_id' => 794,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            36 => 
+            array (
+                'id' => 4765,
+                'kriteria_id' => 1,
+                'penduduk_id' => 795,
+                'nilai' => 1097250.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            37 => 
+            array (
+                'id' => 4766,
+                'kriteria_id' => 2,
+                'penduduk_id' => 795,
+                'nilai' => 33.24,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            38 => 
+            array (
+                'id' => 4767,
+                'kriteria_id' => 3,
+                'penduduk_id' => 795,
+                'nilai' => 31512000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            39 => 
+            array (
+                'id' => 4768,
+                'kriteria_id' => 4,
+                'penduduk_id' => 795,
+                'nilai' => 71.13,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            40 => 
+            array (
+                'id' => 4769,
+                'kriteria_id' => 5,
+                'penduduk_id' => 795,
+                'nilai' => 60.41,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            41 => 
+            array (
+                'id' => 4770,
+                'kriteria_id' => 6,
+                'penduduk_id' => 795,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            42 => 
+            array (
+                'id' => 4771,
+                'kriteria_id' => 1,
+                'penduduk_id' => 796,
+                'nilai' => 2052050.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            43 => 
+            array (
+                'id' => 4772,
+                'kriteria_id' => 2,
+                'penduduk_id' => 796,
+                'nilai' => 77.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            44 => 
+            array (
+                'id' => 4773,
+                'kriteria_id' => 3,
+                'penduduk_id' => 796,
+                'nilai' => 16120000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            45 => 
+            array (
+                'id' => 4774,
+                'kriteria_id' => 4,
+                'penduduk_id' => 796,
+                'nilai' => 57.86,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            46 => 
+            array (
+                'id' => 4775,
+                'kriteria_id' => 5,
+                'penduduk_id' => 796,
+                'nilai' => 31.91,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            47 => 
+            array (
+                'id' => 4776,
+                'kriteria_id' => 6,
+                'penduduk_id' => 796,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            48 => 
+            array (
+                'id' => 4777,
+                'kriteria_id' => 1,
+                'penduduk_id' => 797,
+                'nilai' => 2850050.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            49 => 
+            array (
+                'id' => 4778,
+                'kriteria_id' => 2,
+                'penduduk_id' => 797,
+                'nilai' => 87.37,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            50 => 
+            array (
+                'id' => 4779,
+                'kriteria_id' => 3,
+                'penduduk_id' => 797,
+                'nilai' => 36408000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            51 => 
+            array (
+                'id' => 4780,
+                'kriteria_id' => 4,
+                'penduduk_id' => 797,
+                'nilai' => 69.87,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            52 => 
+            array (
+                'id' => 4781,
+                'kriteria_id' => 5,
+                'penduduk_id' => 797,
+                'nilai' => 25.89,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            53 => 
+            array (
+                'id' => 4782,
+                'kriteria_id' => 6,
+                'penduduk_id' => 797,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            54 => 
+            array (
+                'id' => 4783,
+                'kriteria_id' => 1,
+                'penduduk_id' => 798,
+                'nilai' => 1799000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            55 => 
+            array (
+                'id' => 4784,
+                'kriteria_id' => 2,
+                'penduduk_id' => 798,
+                'nilai' => 61.91,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            56 => 
+            array (
+                'id' => 4785,
+                'kriteria_id' => 3,
+                'penduduk_id' => 798,
+                'nilai' => 25704000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            57 => 
+            array (
+                'id' => 4786,
+                'kriteria_id' => 4,
+                'penduduk_id' => 798,
+                'nilai' => 98.04,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            58 => 
+            array (
+                'id' => 4787,
+                'kriteria_id' => 5,
+                'penduduk_id' => 798,
+                'nilai' => 39.7,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            59 => 
+            array (
+                'id' => 4788,
+                'kriteria_id' => 6,
+                'penduduk_id' => 798,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            60 => 
+            array (
+                'id' => 4789,
+                'kriteria_id' => 1,
+                'penduduk_id' => 799,
+                'nilai' => 2497600.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            61 => 
+            array (
+                'id' => 4790,
+                'kriteria_id' => 2,
+                'penduduk_id' => 799,
+                'nilai' => 94.46,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            62 => 
+            array (
+                'id' => 4791,
+                'kriteria_id' => 3,
+                'penduduk_id' => 799,
+                'nilai' => 14480000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            63 => 
+            array (
+                'id' => 4792,
+                'kriteria_id' => 4,
+                'penduduk_id' => 799,
+                'nilai' => 72.5,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            64 => 
+            array (
+                'id' => 4793,
+                'kriteria_id' => 5,
+                'penduduk_id' => 799,
+                'nilai' => 81.27,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            65 => 
+            array (
+                'id' => 4794,
+                'kriteria_id' => 6,
+                'penduduk_id' => 799,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            66 => 
+            array (
+                'id' => 4795,
+                'kriteria_id' => 1,
+                'penduduk_id' => 800,
+                'nilai' => 2667350.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            67 => 
+            array (
+                'id' => 4796,
+                'kriteria_id' => 2,
+                'penduduk_id' => 800,
+                'nilai' => 42.58,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            68 => 
+            array (
+                'id' => 4797,
+                'kriteria_id' => 3,
+                'penduduk_id' => 800,
+                'nilai' => 12344000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            69 => 
+            array (
+                'id' => 4798,
+                'kriteria_id' => 4,
+                'penduduk_id' => 800,
+                'nilai' => 71.48,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            70 => 
+            array (
+                'id' => 4799,
+                'kriteria_id' => 5,
+                'penduduk_id' => 800,
+                'nilai' => 40.67,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            71 => 
+            array (
+                'id' => 4800,
+                'kriteria_id' => 6,
+                'penduduk_id' => 800,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            72 => 
+            array (
+                'id' => 4801,
+                'kriteria_id' => 1,
+                'penduduk_id' => 801,
+                'nilai' => 2118900.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            73 => 
+            array (
+                'id' => 4802,
+                'kriteria_id' => 2,
+                'penduduk_id' => 801,
+                'nilai' => 54.75,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            74 => 
+            array (
+                'id' => 4803,
+                'kriteria_id' => 3,
+                'penduduk_id' => 801,
+                'nilai' => 39296000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            75 => 
+            array (
+                'id' => 4804,
+                'kriteria_id' => 4,
+                'penduduk_id' => 801,
+                'nilai' => 48.73,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            76 => 
+            array (
+                'id' => 4805,
+                'kriteria_id' => 5,
+                'penduduk_id' => 801,
+                'nilai' => 61.22,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            77 => 
+            array (
+                'id' => 4806,
+                'kriteria_id' => 6,
+                'penduduk_id' => 801,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            78 => 
+            array (
+                'id' => 4807,
+                'kriteria_id' => 1,
+                'penduduk_id' => 802,
+                'nilai' => 2282350.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            79 => 
+            array (
+                'id' => 4808,
+                'kriteria_id' => 2,
+                'penduduk_id' => 802,
+                'nilai' => 67.51,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            80 => 
+            array (
+                'id' => 4809,
+                'kriteria_id' => 3,
+                'penduduk_id' => 802,
+                'nilai' => 23260000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            81 => 
+            array (
+                'id' => 4810,
+                'kriteria_id' => 4,
+                'penduduk_id' => 802,
+                'nilai' => 90.47,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            82 => 
+            array (
+                'id' => 4811,
+                'kriteria_id' => 5,
+                'penduduk_id' => 802,
+                'nilai' => 83.96,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            83 => 
+            array (
+                'id' => 4812,
+                'kriteria_id' => 6,
+                'penduduk_id' => 802,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            84 => 
+            array (
+                'id' => 4813,
+                'kriteria_id' => 1,
+                'penduduk_id' => 803,
+                'nilai' => 919450.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            85 => 
+            array (
+                'id' => 4814,
+                'kriteria_id' => 2,
+                'penduduk_id' => 803,
+                'nilai' => 60.43,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            86 => 
+            array (
+                'id' => 4815,
+                'kriteria_id' => 3,
+                'penduduk_id' => 803,
+                'nilai' => 17544000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            87 => 
+            array (
+                'id' => 4816,
+                'kriteria_id' => 4,
+                'penduduk_id' => 803,
+                'nilai' => 91.38,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            88 => 
+            array (
+                'id' => 4817,
+                'kriteria_id' => 5,
+                'penduduk_id' => 803,
+                'nilai' => 94.76,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            89 => 
+            array (
+                'id' => 4818,
+                'kriteria_id' => 6,
+                'penduduk_id' => 803,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            90 => 
+            array (
+                'id' => 4819,
+                'kriteria_id' => 1,
+                'penduduk_id' => 804,
+                'nilai' => 3293850.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            91 => 
+            array (
+                'id' => 4820,
+                'kriteria_id' => 2,
+                'penduduk_id' => 804,
+                'nilai' => 68.95,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            92 => 
+            array (
+                'id' => 4821,
+                'kriteria_id' => 3,
+                'penduduk_id' => 804,
+                'nilai' => 35124000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            93 => 
+            array (
+                'id' => 4822,
+                'kriteria_id' => 4,
+                'penduduk_id' => 804,
+                'nilai' => 48.29,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            94 => 
+            array (
+                'id' => 4823,
+                'kriteria_id' => 5,
+                'penduduk_id' => 804,
+                'nilai' => 61.19,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            95 => 
+            array (
+                'id' => 4824,
+                'kriteria_id' => 6,
+                'penduduk_id' => 804,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            96 => 
+            array (
+                'id' => 4825,
+                'kriteria_id' => 1,
+                'penduduk_id' => 805,
+                'nilai' => 2518600.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            97 => 
+            array (
+                'id' => 4826,
+                'kriteria_id' => 2,
+                'penduduk_id' => 805,
+                'nilai' => 30.29,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            98 => 
+            array (
+                'id' => 4827,
+                'kriteria_id' => 3,
+                'penduduk_id' => 805,
+                'nilai' => 32908000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            99 => 
+            array (
+                'id' => 4828,
+                'kriteria_id' => 4,
+                'penduduk_id' => 805,
+                'nilai' => 98.98,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            100 => 
+            array (
+                'id' => 4829,
+                'kriteria_id' => 5,
+                'penduduk_id' => 805,
+                'nilai' => 27.15,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            101 => 
+            array (
+                'id' => 4830,
+                'kriteria_id' => 6,
+                'penduduk_id' => 805,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            102 => 
+            array (
+                'id' => 4831,
+                'kriteria_id' => 1,
+                'penduduk_id' => 806,
+                'nilai' => 1296750.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            103 => 
+            array (
+                'id' => 4832,
+                'kriteria_id' => 2,
+                'penduduk_id' => 806,
+                'nilai' => 51.67,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            104 => 
+            array (
+                'id' => 4833,
+                'kriteria_id' => 3,
+                'penduduk_id' => 806,
+                'nilai' => 33444000.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            105 => 
+            array (
+                'id' => 4834,
+                'kriteria_id' => 4,
+                'penduduk_id' => 806,
+                'nilai' => 79.61,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            106 => 
+            array (
+                'id' => 4835,
+                'kriteria_id' => 5,
+                'penduduk_id' => 806,
+                'nilai' => 94.63,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            107 => 
+            array (
+                'id' => 4836,
+                'kriteria_id' => 6,
+                'penduduk_id' => 806,
+                'nilai' => 1.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            108 => 
+            array (
+                'id' => 4837,
+                'kriteria_id' => 1,
+                'penduduk_id' => 807,
+                'nilai' => 2970800.0,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            109 => 
+            array (
+                'id' => 4838,
+                'kriteria_id' => 2,
+                'penduduk_id' => 807,
+                'nilai' => 76.29,
+                'created_at' => '2023-05-29 20:44:35',
+                'updated_at' => '2023-05-29 20:44:35',
+            ),
+            110 => 
+            array (
+                'id' => 4839,
+                'kriteria_id' => 3,
+                'penduduk_id' => 807,
+                'nilai' => 12360000.0,
+                'created_at' => '2023-05-29 20:44:36',
+                'updated_at' => '2023-05-29 20:44:36',
+            ),
+            111 => 
+            array (
+                'id' => 4840,
+                'kriteria_id' => 4,
+                'penduduk_id' => 807,
+                'nilai' => 92.35,
+                'created_at' => '2023-05-29 20:44:36',
+                'updated_at' => '2023-05-29 20:44:36',
+            ),
+            112 => 
+            array (
+                'id' => 4841,
+                'kriteria_id' => 5,
+                'penduduk_id' => 807,
+                'nilai' => 26.73,
+                'created_at' => '2023-05-29 20:44:36',
+                'updated_at' => '2023-05-29 20:44:36',
+            ),
+            113 => 
+            array (
+                'id' => 4842,
+                'kriteria_id' => 6,
+                'penduduk_id' => 807,
+                'nilai' => 0.0,
+                'created_at' => '2023-05-29 20:44:36',
+                'updated_at' => '2023-05-29 20:44:36',
             ),
         ));
         

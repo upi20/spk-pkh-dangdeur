@@ -38,6 +38,7 @@ class Penduduk extends Model
         "NIK",
         "Nama",
         "Alamat",
+        "Status",
     ];
 
     protected $primaryKey = 'id';
@@ -224,11 +225,16 @@ class Penduduk extends Model
                 'excel' => $file_excel
             ];
 
+            // status
+            $se = explode(' | ', ($v[4] ?? ''))[0]; // status explode
+            $status = in_array($se, [0, 1, 2]) ? $se : 0;
+
             $penduduk = new ModelsPenduduk();
             $penduduk->nik = $nik;
             $penduduk->nama = $v[2];
             $penduduk->alamat = $v[3];
             $penduduk->import_id = $model->id;
+            $penduduk->status = $status;
             $penduduk->save();
 
             // insert kriteria
@@ -420,6 +426,32 @@ class Penduduk extends Model
         $spreadsheet->getActiveSheet()->getColumnDimension($ket_kriteria_col_start)->setAutoSize(true);
         $spreadsheet->getActiveSheet()->getColumnDimension($ket_kriteria_col_end)->setAutoSize(true);
         // Set Keterangan =============================================================================================
+
+        // Set Validation =============================================================================================
+        // Status ==
+        $dataList = ['0 | Diproses', '1 | Sesuai', '2 | Tidak Sesuai']; // Set up the data validation list
+        $status_col = chr(64 + 5);
+        $end_tabel = $start_tabel + $jml_body;
+
+        // Define the range where you want to apply the data validation
+        $validationRange = "{$status_col}{$start_tabel}:{$status_col}{$end_tabel}";
+
+        // Create a DataValidation object
+        $dataValidation = $sheet->getCell("{$status_col}{$start_tabel}")->getDataValidation();
+
+        // Set the data validation type to lists
+        $dataValidation->setType(\PhpOffice\PhpSpreadsheet\Cell\DataValidation::TYPE_LIST);
+
+        // Set the formula1 property with the list of options
+        $dataValidation->setFormula1('"' . implode(',', $dataList) . '"');
+
+        // Set the showDropDown property to display a dropdown arrow
+        $dataValidation->setShowDropDown(true);
+
+        // Apply the data validation to the range
+        $sheet->setDataValidation($validationRange, $dataValidation);
+        // Set Validasi ===============================================================================================
+
         // set width column
         for ($i = 65; $i < (65 + count($headers)); $i++) {
             $spreadsheet->getActiveSheet()->getColumnDimension(chr($i))->setAutoSize(true);
@@ -474,9 +506,6 @@ class Penduduk extends Model
         $today_y = (int)Date("Y");
 
         $date = $today_d . " " . $bulan_array[$today_m] . " " . $today_y;
-
-        // poin-poin header disini
-        $kriterias = Kriteria::select(['kode', 'nama'])->orderBy('kode')->get();;
 
         $static = new static();
         $headers = $static->excelHeader;
@@ -580,6 +609,10 @@ class Penduduk extends Model
             $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->nik);
             $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->nama);
             $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->alamat);
+
+            // status
+            $status_str = $detail->status == 1 ? "1 | Sesuai" : ($detail->status == 2 ? "2 | Tidak Sesuai" : "0 | Diproses");
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $status_str);
             foreach ($detail->nilais as $v) {
                 ++$c;
                 if ($v !== null) {
@@ -595,6 +628,31 @@ class Penduduk extends Model
         $sheet->getStyle($col_start . $start_tabel . ":" . $col_end . $row)->applyFromArray($styleBody);
 
         $spreadsheet->getActiveSheet()->getStyle('B' . $start_tabel . ":B" . $row)->getNumberFormat()->setFormatCode('0');
+
+        // Set Validation =============================================================================================
+        // Status ==
+        $dataList = ['0 | Diproses', '1 | Sesuai', '2 | Tidak Sesuai']; // Set up the data validation list
+        $status_col = chr(64 + 5);
+
+        // Define the range where you want to apply the data validation
+        $validationRange = "{$status_col}{$start_tabel}:{$status_col}{$row}";
+
+        // Create a DataValidation object
+        $dataValidation = $sheet->getCell("{$status_col}{$start_tabel}")->getDataValidation();
+
+        // Set the data validation type to lists
+        $dataValidation->setType(\PhpOffice\PhpSpreadsheet\Cell\DataValidation::TYPE_LIST);
+
+        // Set the formula1 property with the list of options
+        $dataValidation->setFormula1('"' . implode(',', $dataList) . '"');
+
+        // Set the showDropDown property to display a dropdown arrow
+        $dataValidation->setShowDropDown(true);
+
+        // Apply the data validation to the range
+        $sheet->setDataValidation($validationRange, $dataValidation);
+        // Set Validasi ===============================================================================================
+
 
         // set width column
         for ($i = 65; $i < (65 + count($headers)); $i++) {
