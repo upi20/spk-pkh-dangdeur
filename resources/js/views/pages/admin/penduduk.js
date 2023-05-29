@@ -1,6 +1,6 @@
 const can_update = "{{ $can_update == 'true' ? 'true' : 'false' }}" === "true";
 const can_delete = "{{ $can_delete == 'true' ? 'true' : 'false' }}" === "true";
-const can_set_satatus = "{{ $can_set_satatus == 'true' ? 'true' : 'false' }}" === "true";
+const can_set_status = "{{ $can_set_status == 'true' ? 'true' : 'false' }}" === "true";
 const is_admin = "{{ $is_admin == 'true' ? 'true' : 'false' }}" === "true";
 const page_title = "{{ $page_title }}";
 
@@ -300,7 +300,7 @@ function getTable() {
         const element_table_id = element_table.attr('id');
         const searchValue = $(`input[aria-controls=${element_table_id}`).val();
 
-        const set_status = can_set_satatus || is_admin;
+        const set_status = can_set_status || is_admin;
         const btn_action = can_update || can_delete || set_status;
         $(element_table).dataTable().fnDestroy();
         if ($.fn.DataTable.isDataTable(element_table)) {
@@ -338,10 +338,10 @@ function getTable() {
             const status = `<i class="fas fa-circle me-2 text-${status_class}"></i>${status_text}`;
 
             const id = e.id
-            const btn_sesuai = (can_set_satatus && e.status == 0) || is_admin ? `<button type="button" class="btn btn-rounded btn-success btn-sm me-1 mt-1" data-toggle="tooltip" title="Set Data Sesuai" onClick="setStatus('${id}', 1)">
+            const btn_sesuai = (can_set_status && e.status == 0) || is_admin ? `<button type="button" class="btn btn-rounded btn-success btn-sm me-1 mt-1" data-toggle="tooltip" title="Set Data Sesuai" onClick="setStatus('${id}', 1)">
             <i class="fas fa-check"></i>` : '';
 
-            const btn_tidak = (can_set_satatus && e.status == 0) || is_admin ? `<button type="button" class="btn btn-rounded btn-danger btn-sm me-1 mt-1" data-toggle="tooltip" title="Set Data Tidak Sesuai" onClick="setStatus('${id}',2)">
+            const btn_tidak = (can_set_status && e.status == 0) || is_admin ? `<button type="button" class="btn btn-rounded btn-danger btn-sm me-1 mt-1" data-toggle="tooltip" title="Set Data Tidak Sesuai" onClick="setStatus('${id}',2)">
             <i class="fas fa-times"></i>` : '';
 
             const btn_update = can_update ? `<button type="button" class="btn btn-rounded btn-primary btn-sm me-1 mt-1" data-toggle="tooltip" title="Ubah Data" onClick="editFunc('${id}')">

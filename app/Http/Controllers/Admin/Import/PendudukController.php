@@ -24,7 +24,7 @@ class PendudukController extends Controller
             return Penduduk::datatable($request);
         }
         $page_attr = adminBreadcumb(h_prefix());
-        $view = path_view('pages.admin.import.calon');
+        $view = path_view('pages.admin.import.penduduk');
         $data = compact('page_attr', 'view');
         $data['compact'] = $data;
         return view($view, $data);

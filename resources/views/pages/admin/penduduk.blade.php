@@ -5,7 +5,7 @@
         $can_insert = auth_can(h_prefix('insert'));
         $can_update = auth_can(h_prefix('update'));
         $can_delete = auth_can(h_prefix('delete'));
-        $can_set_satatus = auth_can(h_prefix('set_satatus'));
+        $can_set_status = auth_can(h_prefix('set_status'));
         $is_admin = is_admin();
     @endphp
 
@@ -150,7 +150,7 @@
             params: [
                 'can_update' => $can_update ? 'true' : 'false',
                 'can_delete' => $can_delete ? 'true' : 'false',
-                'can_set_satatus' => $can_set_satatus ? 'true' : 'false',
+                'can_set_status' => $can_set_status ? 'true' : 'false',
                 'is_admin' => $is_admin ? 'true' : 'false',
                 'page_title' => $page_attr['title'],
             ],

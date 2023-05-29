@@ -322,10 +322,10 @@ class PendudukTableSeeder extends Seeder
                 'nik' => '320523001300091',
                 'nama' => 'CICAH JULIANTI',
                 'alamat' => 'KP. BOJONG GEDE RT 02/08',
-                'status' => 0,
+                'status' => 1,
                 'import_id' => 6,
                 'created_at' => '2023-05-29 20:44:29',
-                'updated_at' => '2023-05-29 20:44:29',
+                'updated_at' => '2023-05-30 02:22:18',
             ),
             28 => 
             array (

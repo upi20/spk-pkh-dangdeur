@@ -26,5 +26,7 @@ class DatabaseSeeder extends Seeder
         $this->call(ImportPendudukTableSeeder::class);
         $this->call(PendudukTableSeeder::class);
         $this->call(PendudukNilaiTableSeeder::class);
+        $this->call(SessionsTableSeeder::class);
+        $this->call(LogsTableSeeder::class);
     }
 }
