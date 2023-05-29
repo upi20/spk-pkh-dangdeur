@@ -1,5 +1,7 @@
 const can_update = "{{ $can_update == 'true' ? 'true' : 'false' }}" === "true";
 const can_delete = "{{ $can_delete == 'true' ? 'true' : 'false' }}" === "true";
+const can_set_satatus = "{{ $can_set_satatus == 'true' ? 'true' : 'false' }}" === "true";
+const is_admin = "{{ $is_admin == 'true' ? 'true' : 'false' }}" === "true";
 const page_title = "{{ $page_title }}";
 
 const table_html = $('#tbl_main');
@@ -210,7 +212,7 @@ function deleteFunc(id) {
 }
 
 // render table ====================================================
-function renderTable(element_table) {
+function renderTable(element_table, cari = '') {
     const tableUser = $(element_table).DataTable({
         columnDefs: [{
             orderable: false,
@@ -224,6 +226,9 @@ function renderTable(element_table) {
         ],
         language: {
             url: datatable_indonesia_language_url
+        },
+        search: {
+            search: cari
         }
     });
     tableUser.on('draw.dt', function () {
@@ -237,12 +242,66 @@ function renderTable(element_table) {
     });
 }
 
+function setStatus(id, status) {
+    swal.fire({
+        title: 'Apakah anda yakin?',
+        text: "Anda akan mengubah status penduduk ?",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Yes'
+    }).then(function (result) {
+        if (result.value) {
+            $.ajax({
+                method: 'POST',
+                url: `{{ route(l_prefix($hpu,'set_status')) }}`,
+                data: {
+                    id, status
+                },
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                },
+                beforeSend: function () {
+                    swal.fire({
+                        title: 'Please Wait..!',
+                        text: 'Is working..',
+                        onOpen: function () {
+                            Swal.showLoading()
+                        }
+                    })
+                },
+                success: function (data) {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'success',
+                        title: 'Data saved successfully',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                    getTable();
+                },
+                complete: function () {
+                    swal.hideLoading();
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    swal.hideLoading();
+                    swal.fire("!Opps ", "Something went wrong, try again later", "error");
+                }
+            });
+        }
+    });
+}
+
 function getTable() {
     const renderTabelCalon = (datas) => {
         // return;
         const element_table = $('#tbl_main');
         const table_body = element_table.find('tbody');
         const table_head = element_table.find('thead');
+        const element_table_id = element_table.attr('id');
+        const searchValue = $(`input[aria-controls=${element_table_id}`).val();
+
+        const set_status = can_set_satatus || is_admin;
+        const btn_action = can_update || can_delete || set_status;
         $(element_table).dataTable().fnDestroy();
         if ($.fn.DataTable.isDataTable(element_table)) {
             element_table.DataTable().destroy();
@@ -256,13 +315,14 @@ function getTable() {
             table_head_html_item += ` <th  data-toggle="tooltip" title="${e.kode}" >${e.nama}</th>`;
         });
 
+        const btn_html = btn_action ? `<th style="min-width: 80px;">Aksi</th>` : '';
         let table_head_html = `<tr>
                 <th>No</th>
                 <th>NIK</th>
                 <th>${page_title}</th>
                 ${table_head_html_item}
                 <th>Status</th>
-                <th>Aksi</th>
+                ${btn_html}
             </tr>`;
 
         // generate table body
@@ -278,12 +338,21 @@ function getTable() {
             const status = `<i class="fas fa-circle me-2 text-${status_class}"></i>${status_text}`;
 
             const id = e.id
+            const btn_sesuai = (can_set_satatus && e.status == 0) || is_admin ? `<button type="button" class="btn btn-rounded btn-success btn-sm me-1 mt-1" data-toggle="tooltip" title="Set Data Sesuai" onClick="setStatus('${id}', 1)">
+            <i class="fas fa-check"></i>` : '';
+
+            const btn_tidak = (can_set_satatus && e.status == 0) || is_admin ? `<button type="button" class="btn btn-rounded btn-danger btn-sm me-1 mt-1" data-toggle="tooltip" title="Set Data Tidak Sesuai" onClick="setStatus('${id}',2)">
+            <i class="fas fa-times"></i>` : '';
+
             const btn_update = can_update ? `<button type="button" class="btn btn-rounded btn-primary btn-sm me-1 mt-1" data-toggle="tooltip" title="Ubah Data" onClick="editFunc('${id}')">
             <i class="fas fa-edit"></i></button>` : '';
+
             const btn_delete = can_delete ? `<button type="button" class="btn btn-rounded btn-danger btn-sm me-1 mt-1" data-toggle="tooltip" title="Hapus Data" onClick="deleteFunc('${id}')">
             <i class="fas fa-trash"></i></button>` : '';
 
-            const btn = btn_update + btn_delete;
+            const btn = btn_sesuai + btn_tidak + btn_update + btn_delete;
+
+            const btn_html = btn_action ? `<td style="min-width: 80px;">${btn}</td>` : '';
             table_body_html += `<tr>
                 <td></td>
                 <td>${e.nik}</td>
@@ -291,21 +360,24 @@ function getTable() {
                     <span class="text-nowrap">${e.nama}</span><br>
                     <small>${e.alamat}</small>
                 </td>
-                 ${table_body_html_item}
+                ${table_body_html_item}
                 <td class="text-nowrap">${status}</td>
-                <td class="text-nowrap">${btn}</td>
+                ${btn_html}
             </tr>`;
         });
 
         // render table
         table_head.html(table_head_html);
         table_body.html(table_body_html);
-        renderTable(element_table);
+        renderTable(element_table, searchValue);
     }
 
     $.ajax({
         method: 'get',
-        url: `{{ route(l_prefix($hpu,'datatable')) }}`
+        url: `{{ route(l_prefix($hpu,'datatable')) }}`,
+        data: {
+            status: $('#filter_status').val()
+        }
     }).done((data) => {
         renderTabelCalon(data);
     }).fail(($xhr) => {

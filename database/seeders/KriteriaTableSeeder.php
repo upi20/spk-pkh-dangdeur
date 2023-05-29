@@ -21,7 +21,7 @@ class KriteriaTableSeeder extends Seeder
         \DB::table('kriteria')->insert(array (
             0 => 
             array (
-                'id' => '1',
+                'id' => 1,
                 'nama' => 'Penghasilan',
                 'kode' => 'C1',
                 'keterangan' => '0 - 3.500.000',
@@ -31,7 +31,7 @@ class KriteriaTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '2',
+                'id' => 2,
                 'nama' => 'Aset',
                 'kode' => 'C2',
                 'keterangan' => '0 - 40.000.000',
@@ -41,7 +41,7 @@ class KriteriaTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '3',
+                'id' => 3,
                 'nama' => 'Kepemilikan Rumah',
                 'kode' => 'C3',
                 'keterangan' => '0 - 100',
@@ -51,7 +51,7 @@ class KriteriaTableSeeder extends Seeder
             ),
             3 => 
             array (
-                'id' => '4',
+                'id' => 4,
                 'nama' => 'Kondisi Dinding Rumah',
                 'kode' => 'C4',
                 'keterangan' => '0 - 100',
@@ -61,7 +61,7 @@ class KriteriaTableSeeder extends Seeder
             ),
             4 => 
             array (
-                'id' => '5',
+                'id' => 5,
                 'nama' => 'Kondisi Lantai Rumah',
                 'kode' => 'C5',
                 'keterangan' => '0 - 100',
@@ -71,7 +71,7 @@ class KriteriaTableSeeder extends Seeder
             ),
             5 => 
             array (
-                'id' => '6',
+                'id' => 6,
                 'nama' => 'Syarat Khusus',
                 'kode' => 'C6',
                 'keterangan' => '0 Tidak, 1 Ada',

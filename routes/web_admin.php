@@ -725,6 +725,10 @@ Route::controller(PendudukController::class)->prefix($prefix)->group(function ()
     Route::get('/kriteria', 'kriteria')->name("$name.kriteria")->middleware("permission:$name");
     Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
     Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+
+    // set status
+    Route::post('/set_status', 'set_status')->name("$name.set_status")->middleware("permission:$name.set_status");
+
     Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
 });
 

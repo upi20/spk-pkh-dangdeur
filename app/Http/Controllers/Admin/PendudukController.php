@@ -131,4 +131,12 @@ class PendudukController extends Controller
     {
         return ImportPenduduk::export($request);
     }
+
+    public function set_status(Request $request)
+    {
+        $penduduk = Penduduk::findOrFail($request->id);
+        $penduduk->status = in_array($request->status, [0, 1, 2]) ? $request->status : $penduduk->status;
+        $penduduk->save();
+        return response()->json($penduduk);
+    }
 }
