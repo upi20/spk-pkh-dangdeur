@@ -14,7 +14,7 @@ $(document).ready(function () {
         searchDelay: 500,
         processing: true,
         serverSide: true,
-        responsive: true,
+        responsive: false,
         scrollX: true,
         aAutoWidth: false,
         bAutoWidth: false,
@@ -54,7 +54,8 @@ $(document).ready(function () {
                         <i class="fas fa-trash"></i></button>` : '';
                 return btn_update + btn_delete;
             },
-            orderable: false
+            orderable: false,
+            className: 'text-nowrap'
         }] : []),
         ],
         order: [
