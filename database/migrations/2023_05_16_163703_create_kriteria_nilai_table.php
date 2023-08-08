@@ -1,7 +1,7 @@
 <?php
 
-use App\Models\Import\Kriteria as ImportKriteria;
 use App\Models\Kriteria;
+use App\Models\KriteriaNilai;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -13,17 +13,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create(Kriteria::tableName, function (Blueprint $table) {
+        Schema::create(KriteriaNilai::tableName, function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('kriteria_id', false, true)->nullable()->default(null);
             $table->text('nama')->nullable()->default(null);
-            $table->text('slug')->nullable()->default(null);
-            $table->string('kode')->nullable()->default(null);
-            $table->text('keterangan')->nullable()->default(null);
+            $table->integer('nilai')->nullable()->default(0);
             $table->integer('dari')->nullable()->default(0);
             $table->integer('sampai')->nullable()->default(0);
-            $table->bigInteger('import_id', false, true)->nullable()->default(null);
             $table->timestamps();
-            $table->foreign('import_id')->references('id')->on(ImportKriteria::tableName)->cascadeOnDelete()->cascadeOnUpdate();
+
+            $table->foreign('kriteria_id')->references('id')->on(Kriteria::tableName)->cascadeOnDelete()->cascadeOnUpdate();
         });
     }
 
@@ -32,6 +31,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists(Kriteria::tableName);
+        Schema::dropIfExists(KriteriaNilai::tableName);
     }
 };

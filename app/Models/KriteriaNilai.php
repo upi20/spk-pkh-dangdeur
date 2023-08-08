@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Haruncpi\LaravelUserActivity\Traits\Loggable;
@@ -10,50 +9,65 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Yajra\Datatables\Datatables;
 
-class Kriteria extends Model
+class KriteriaNilai extends Model
 {
-    use HasFactory, Loggable, Sluggable;
+    use HasFactory, Loggable;
 
     protected $fillable = [
-        'id',
+        'kriteria_id',
         'nama',
-        'slug',
-        'kode',
-        'keterangan',
+        'nilai',
         'dari',
         'sampai',
     ];
 
     protected $primaryKey = 'id';
-    protected $table = 'kriteria';
-    const tableName = 'kriteria';
+    protected $table = 'kriteria_nilai';
+    const tableName = 'kriteria_nilai';
 
-    public function sluggable(): array
+    public function kriteria()
     {
-        return [
-            'slug' => [
-                'source' => 'nama'
-            ]
-        ];
-    }
-
-    public function nilais()
-    {
-        return $this->hasMany(PendudukNilai::class, 'kriteria_id', 'id');
+        return $this->belongsTo(Kriteria::class, 'kriteria_id', 'id');
     }
 
     public static function datatable(Request $request): mixed
     {
         $query = [];
-        // import
-        $table = self::tableName;
+        // list table
+        $table = static::tableName;
+
+        // cusotm query
+        // ========================================================================================================
+        // creted at and updated at
+        $date_format_fun = function (string $select, string $format, string $alias) use ($table): array {
+            $str = <<<SQL
+                (DATE_FORMAT($table.$select, '$format'))
+            SQL;
+            return [$alias => $str, ($alias . '_alias') => $alias];
+        };
+
+        $c_created = 'created';
+        $c_created_str = 'created_str';
+        $c_updated = 'updated';
+        $c_updated_str = 'updated_str';
+        $query = array_merge($query, $date_format_fun('created_at', '%d-%b-%Y', $c_created));
+        $query = array_merge($query, $date_format_fun('created_at', '%W, %d %M %Y %H:%i:%s', $c_created_str));
+        $query = array_merge($query, $date_format_fun('updated_at', '%d-%b-%Y', $c_updated));
+        $query = array_merge($query, $date_format_fun('updated_at', '%W, %d %M %Y %H:%i:%s', $c_updated_str));
+        // ========================================================================================================
+
+
         // ========================================================================================================
         // select raw as alias
-        $sraa = function (string $col): string {
-            global $query;
+        $sraa = function (string $col) use ($query): string {
             return $query[$col] . ' as ' . $query[$col . '_alias'];
         };
-        $model_filter = [];
+        $model_filter = [
+            $c_created,
+            $c_created_str,
+            $c_updated,
+            $c_updated_str,
+        ];
 
         $to_db_raw = array_map(function ($a) use ($sraa) {
             return DB::raw($sraa($a));
@@ -62,7 +76,7 @@ class Kriteria extends Model
 
 
         // Select =====================================================================================================
-        $model = self::select(array_merge([
+        $model = static::select(array_merge([
             DB::raw("$table.*"),
         ], $to_db_raw));
 
@@ -73,17 +87,8 @@ class Kriteria extends Model
             return isset($filter[$param]) ? $filter[$param] : false;
         };
 
-        // filter ini menurut data model filter
-        $f = [];
-        // loop filter
-        foreach ($f as $v) {
-            if ($f_c($v) !== false) {
-                $model->whereRaw("{$query[$v]}='{$f_c($v)}'");
-            }
-        }
-
         // filter custom
-        $filters = [];
+        $filters = ['kriteria_id'];
         foreach ($filters as  $f) {
             if ($f_c($f) !== false) {
                 $model->whereRaw("$table.$f='{$f_c($f)}'");
@@ -111,7 +116,6 @@ class Kriteria extends Model
             }, $search_add);
             $search_arr = array_merge($model_filter, $search_add);
 
-
             // pake or where
             $search_str = "(";
             foreach ($search_arr as $k => $v) {
@@ -126,21 +130,5 @@ class Kriteria extends Model
 
         // create datatable
         return $datatable->make(true);
-    }
-
-    public function refersDariSampai()
-    {
-        $id = $this->attributes['id'];
-
-        // Dari
-        $dari = KriteriaNilai::where('kriteria_id', $id)->orderBy('dari')->first();
-
-        // Sampai
-        $sampai = KriteriaNilai::where('kriteria_id', $id)->orderBy('sampai', 'desc')->first();
-
-        $this->dari = is_null($dari) ? 0 : $dari->dari;
-        $this->sampai = is_null($sampai) ? 0 : $sampai->sampai;
-
-        return $this->save();
     }
 }

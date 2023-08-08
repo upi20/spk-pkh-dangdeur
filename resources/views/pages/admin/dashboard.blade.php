@@ -8,7 +8,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center">
                             <div>
-                                <p class="mb-0 text-secondary">Jumlah Penduduk</p>
+                                <p class="mb-0 text-secondary">Jumlah Penerima</p>
                                 <h4 class="my-1 text-info">{{ $total_penduduk }}</h4>
                             </div>
                             <div class="widgets-icons-2 rounded-circle bg-gradient-blues text-white ms-auto">
