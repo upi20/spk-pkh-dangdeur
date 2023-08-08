@@ -177,6 +177,7 @@
                                 {{ $nilai->totals }}
                             </td>
                             <td>
+                                <i class="fas fa-circle me-1 text-{{ $nilai->layak_class }}"></i>
                                 {{ $nilai->layak }}
                             </td>
                         </tr>

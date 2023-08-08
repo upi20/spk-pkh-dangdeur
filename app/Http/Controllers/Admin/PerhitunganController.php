@@ -106,6 +106,7 @@ class PerhitunganController extends Controller
         $keputusans = [];
         foreach ($totals as $penduduk) {
             $penduduk->layak = $penduduk->totals < 10 ? "Layak" : "Tidak";
+            $penduduk->layak_class = $penduduk->totals < 10 ? "success" : "warning";
             $keputusans[] = $penduduk;
         }
         $resutls[] = $keputusans;
