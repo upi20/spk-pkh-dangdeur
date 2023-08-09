@@ -319,7 +319,7 @@ function getTable() {
         let table_head_html = `<tr>
                 <th>No</th>
                 <th>NIK</th>
-                <th>${page_title}</th>
+                <th>Penerima</th>
                 ${table_head_html_item}
                 <th>Status</th>
                 ${btn_html}

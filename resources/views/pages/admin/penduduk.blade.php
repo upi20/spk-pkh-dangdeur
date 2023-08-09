@@ -13,7 +13,7 @@
         <div class="card-body">
             <div class="card-title d-md-flex flex-row justify-content-between">
                 <div>
-                    <h6 class="mt-2 text-uppercase">Data {{ $page_attr['title'] }}</h6>
+                    <h6 class="mt-2 text-uppercase">Tabel {{ $page_attr['title'] }}</h6>
                 </div>
                 <div>
                     <a href="{{ route(h_prefix('export')) }}" class="btn btn-success btn-primary btn-sm" data-toggle="tooltip"
