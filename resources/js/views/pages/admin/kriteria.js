@@ -54,7 +54,7 @@ $(document).ready(function () {
                         <i class="fas fa-edit"></i></button>` : '';
                 const btn_delete = can_delete ? `<button type="button" class="btn btn-rounded btn-danger btn-sm me-1 mt-1" data-toggle="tooltip" title="Hapus Data" onClick="deleteFunc('${data}')">
                         <i class="fas fa-trash"></i></button>` : '';
-                return btn_update + btn_delete;
+                return btn_nilai + btn_update + btn_delete;
             },
             orderable: false,
             className: 'text-nowrap'
