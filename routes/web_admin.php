@@ -85,6 +85,7 @@ use App\Http\Controllers\Admin\Import\PendudukController as ImportPendudukContro
 use App\Http\Controllers\Admin\KriteriaController;
 use App\Http\Controllers\Admin\KriteriaNilaiController;
 use App\Http\Controllers\Admin\PendudukController;
+use App\Http\Controllers\Admin\PenerimaController;
 use App\Http\Controllers\Admin\PerhitunganController;
 use App\Http\Controllers\Admin\Setting\DashboardController as SettingDashboardController;
 
@@ -250,6 +251,23 @@ Route::controller(PendudukController::class)->prefix($prefix)->group(function ()
     Route::get('/datatable', 'datatable')->name("$name.datatable")->middleware("permission:$name");
     Route::get('/kriteria', 'kriteria')->name("$name.kriteria")->middleware("permission:$name");
     Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+    Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+
+    // set status
+    Route::post('/set_status', 'set_status')->name("$name.set_status")->middleware("permission:$name.set_status");
+
+    Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+});
+
+$prefix = 'penerima';
+Route::controller(PenerimaController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+    $name = "$name.$prefix"; // admin.penerima
+    Route::get('/', 'index')->name($name)->middleware("permission:$name");
+    Route::get('/export', 'export')->name("$name.export")->middleware("permission:$name");
+    Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+    Route::get('/kriteria', 'kriteria')->name("$name.kriteria")->middleware("permission:$name");
+    Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+    Route::post('/delete', 'delete_bulk')->name("$name.delete_bulk")->middleware("permission:$name.delete");
     Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
 
     // set status

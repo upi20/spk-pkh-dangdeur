@@ -8,6 +8,7 @@ use App\Models\Kriteria;
 use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\Penduduk;
 use App\Models\PendudukNilai;
+use App\Models\Penerima;
 use App\Models\RoleHasMenu;
 use Illuminate\Console\Command;
 
@@ -77,6 +78,7 @@ class backup extends Command
                 Kriteria::tableName,
                 Penduduk::tableName,
                 PendudukNilai::tableName,
+                Penerima::tableName,
             ],
             'import' => [
                 ImportKriteria::tableName,
