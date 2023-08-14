@@ -31,6 +31,7 @@ class DatabaseSeeder extends Seeder
 
         $this->call(SessionsTableSeeder::class);
         $this->call(LogsTableSeeder::class);
+        $this->call(ImportPenerimaTableSeeder::class);
         $this->call(PenerimaTableSeeder::class);
     }
 }

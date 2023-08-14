@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Import\Kriteria as ImportKriteria;
 use App\Models\Import\Penduduk as ImportPenduduk;
+use App\Models\Import\Penerima as ImportPenerima;
 use App\Models\Kriteria;
 use App\Models\Menu\Admin as MenuAdmin;
 use App\Models\Penduduk;
@@ -83,6 +84,7 @@ class backup extends Command
             'import' => [
                 ImportKriteria::tableName,
                 ImportPenduduk::tableName,
+                ImportPenerima::tableName,
             ],
         ];
         if ($opt_users == 1 || $arg_type == 'users') echo shell_exec('php artisan iseed users --force');
