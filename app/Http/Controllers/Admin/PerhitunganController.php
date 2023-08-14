@@ -29,6 +29,27 @@ class PerhitunganController extends Controller
         return view($view, $data);
     }
 
+    public function hasil(Request $request)
+    {
+        $penerimas = $this->hitung($request);
+
+        $headers = [
+            'c1' => 'Penghasilan',
+            'c2' => 'Aset',
+            'c3' => 'Kepemilikan Rumah',
+            'c4' => 'Kondisi Dinding Rumah',
+            'c5' => 'Kondisi Lantai Rumah',
+            'c6' => 'Syarat Khusus',
+        ];
+
+        $page_attr = adminBreadcumb(h_prefix());
+        $view = path_view('pages.admin.hasil');
+        $data = compact('page_attr', 'view', 'penerimas', 'headers');
+        $data['compact'] = $data;
+
+        return view($view, $data);
+    }
+
     public function hitung($request)
     {
         $resutls = [];

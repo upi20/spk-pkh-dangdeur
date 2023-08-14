@@ -148,7 +148,7 @@
     @php $nilais = $penerimas[$counter++]; @endphp
     <div class="card mt-3">
         <div class="card-header">
-            <h6 class="mt-2">{{ $counter }}. Alternatif Layak Mendapakan PKH</h6>
+            <h6 class="mt-2">{{ $counter }}. Penerima Layak Mendapakan PKH</h6>
         </div>
         <div class="card-body">
             <table class="table table-striped table-hover w-100 datatable">

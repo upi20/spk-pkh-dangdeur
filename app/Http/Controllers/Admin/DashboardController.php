@@ -23,4 +23,30 @@ class DashboardController extends Controller
         $data['compact'] = $data;
         return view($view, $data);
     }
+
+    public function pendamping(Request $request)
+    {
+        $page_attr = adminBreadcumb(h_prefix(), addDashboard: false);
+
+        $view = path_view('pages.admin.dashboard.pendamping');
+        $data = compact(
+            'page_attr',
+            'view',
+        );
+        $data['compact'] = $data;
+        return view($view, $data);
+    }
+
+    public function kepdes(Request $request)
+    {
+        $page_attr = adminBreadcumb(h_prefix(), addDashboard: false);
+
+        $view = path_view('pages.admin.dashboard.kepdes');
+        $data = compact(
+            'page_attr',
+            'view',
+        );
+        $data['compact'] = $data;
+        return view($view, $data);
+    }
 }

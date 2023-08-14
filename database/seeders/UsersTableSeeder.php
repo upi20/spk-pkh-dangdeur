@@ -76,6 +76,25 @@ class UsersTableSeeder extends Seeder
                 'created_at' => '2023-05-30 01:59:01',
                 'updated_at' => '2023-05-30 01:59:01',
             ),
+            3 => 
+            array (
+                'id' => 5,
+                'name' => 'Kepala Desa',
+                'email' => 'kepdes@gmail.com',
+                'foto' => NULL,
+                'username' => NULL,
+                'email_verified_at' => NULL,
+                'password' => '$2y$10$/sPUsDE8E6rwp2.OdVUwpulfKJaZoWNSS/oyCZ65U2buajTj2zA/m',
+                'active' => 1,
+                'two_factor_secret' => NULL,
+                'two_factor_recovery_codes' => NULL,
+                'two_factor_confirmed_at' => NULL,
+                'current_team_id' => NULL,
+                'profile_photo_path' => NULL,
+                'remember_token' => NULL,
+                'created_at' => '2023-08-15 01:56:13',
+                'updated_at' => '2023-08-15 01:56:13',
+            ),
         ));
         
         

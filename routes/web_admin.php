@@ -105,6 +105,8 @@ Route::group(
     function () use ($name, $prefix) {
         $name = "$name.$prefix"; // admin.dashboard
         Route::get('/', 'index')->name($name);
+        Route::get('/pendamping', 'pendamping')->name("$name.pendamping");
+        Route::get('/kepdes', 'kepdes')->name("$name.kepdes");
         Route::get('/vistor_counter', 'vistor_counter')->name("$name.vistor_counter");
     }
 );
@@ -281,6 +283,7 @@ $prefix = 'perhitungan';
 Route::controller(PerhitunganController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
     $name = "$name.$prefix"; // admin.calon.perhitungan
     Route::get('/', 'index')->name($name)->middleware("permission:$name");
+    Route::get('/hasil', 'hasil')->name("$name.hasil")->middleware("permission:$name.hasil");
 });
 
 $prefix = 'import';

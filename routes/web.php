@@ -7,7 +7,7 @@ use App\Http\Controllers\LoginController;
 // ====================================================================================================================
 
 Route::get('/', function () {
-    return Redirect::route('admin.dashboard');
+    return Redirect::route('dashboard');
 })->name("home");
 
 // dashboard ==========================================================================================================
@@ -15,6 +15,10 @@ Route::get('/dashboard', function () {
     if (!auth()->user()) return Redirect::route('login');
     if (auth_has_role(config('app.super_admin_role'))) {
         return Redirect::route('admin.dashboard');
+    } else if (auth_has_role("Pendamping")) {
+        return Redirect::route('admin.dashboard.pendamping');
+    } else if (auth_has_role("Kepala Desa")) {
+        return Redirect::route('admin.dashboard.kepdes');
     } else {
         return Redirect::route('admin.dashboard');
     }

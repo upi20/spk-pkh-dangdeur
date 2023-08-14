@@ -267,6 +267,14 @@ class PPermissionsTableSeeder extends Seeder
                 'created_at' => '2023-05-30 01:43:13',
                 'updated_at' => '2023-08-15 00:56:37',
             ),
+            31 => 
+            array (
+                'id' => 67,
+                'name' => 'admin.perhitungan.hasil',
+                'guard_name' => 'web',
+                'created_at' => '2023-08-15 01:52:51',
+                'updated_at' => '2023-08-15 01:52:51',
+            ),
         ));
         
         
