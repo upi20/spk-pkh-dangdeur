@@ -89,7 +89,7 @@ class Penerima extends Model
         };
 
         // filter custom
-        $filters = ['dibuka'];
+        $filters = ['status'];
         foreach ($filters as  $f) {
             if ($f_c($f) !== false) {
                 $model->whereRaw("$table.$f='{$f_c($f)}'");

@@ -82,6 +82,7 @@ use App\Http\Controllers\Admin\Import\KecamatanController as ImportKecamatanCont
 use App\Http\Controllers\Admin\Import\CalonController as ImportCalonController;
 use App\Http\Controllers\Admin\Import\KriteriaController as ImportKriteriaController;
 use App\Http\Controllers\Admin\Import\PendudukController as ImportPendudukController;
+use App\Http\Controllers\Admin\Import\PenerimaController as ImportPenerimaController;
 use App\Http\Controllers\Admin\KriteriaController;
 use App\Http\Controllers\Admin\KriteriaNilaiController;
 use App\Http\Controllers\Admin\PendudukController;
@@ -300,6 +301,17 @@ Route::prefix($prefix)->group(function () use ($name, $prefix) {
     $prefix = 'penduduk';
     Route::controller(ImportPendudukController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
         $name = "$name.$prefix"; // admin.import.penduduk
+        Route::get('/', 'index')->name($name)->middleware("permission:$name");
+        Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
+        Route::get('/format', 'format')->name("$name.format")->middleware("permission:$name");
+        Route::post('/', 'insert')->name("$name.insert")->middleware("permission:$name.insert");
+        Route::post('/update', 'update')->name("$name.update")->middleware("permission:$name.update");
+        Route::delete('/{model}', 'delete')->name("$name.delete")->middleware("permission:$name.delete");
+    });
+
+    $prefix = 'penerima';
+    Route::controller(ImportPenerimaController::class)->prefix($prefix)->group(function () use ($name, $prefix) {
+        $name = "$name.$prefix"; // admin.import.penerima
         Route::get('/', 'index')->name($name)->middleware("permission:$name");
         Route::get('/find', 'find')->name("$name.find")->middleware("permission:$name.update");
         Route::get('/format', 'format')->name("$name.format")->middleware("permission:$name");

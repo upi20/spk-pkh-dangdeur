@@ -205,42 +205,29 @@ class PMenuTableSeeder extends Seeder
             array (
                 'id' => 435,
                 'parent_id' => 430,
-                'title' => 'Penduduk',
+                'title' => 'Penerima',
                 'icon' => NULL,
-                'route' => 'admin.import.penduduk',
+                'route' => 'admin.import.penerima',
                 'sequence' => 8,
                 'active' => 1,
                 'type' => 1,
                 'created_at' => '2023-05-29 02:19:06',
-                'updated_at' => '2023-08-08 23:51:32',
+                'updated_at' => '2023-08-15 00:31:38',
             ),
             15 => 
-            array (
-                'id' => 436,
-                'parent_id' => 430,
-                'title' => 'Kriteria',
-                'icon' => NULL,
-                'route' => 'admin.import.kriteria',
-                'sequence' => 7,
-                'active' => 1,
-                'type' => 1,
-                'created_at' => '2023-05-29 14:59:27',
-                'updated_at' => '2023-08-08 23:51:32',
-            ),
-            16 => 
             array (
                 'id' => 437,
                 'parent_id' => NULL,
                 'title' => 'Penerima',
                 'icon' => 'fas fa-user-edit',
-                'route' => 'admin.penduduk',
+                'route' => 'admin.penerima',
                 'sequence' => 3,
                 'active' => 1,
                 'type' => 1,
                 'created_at' => '2023-05-29 18:08:18',
-                'updated_at' => '2023-08-08 22:50:21',
+                'updated_at' => '2023-08-15 00:31:53',
             ),
-            17 => 
+            16 => 
             array (
                 'id' => 438,
                 'parent_id' => 397,
@@ -253,7 +240,7 @@ class PMenuTableSeeder extends Seeder
                 'created_at' => '2023-05-29 20:03:50',
                 'updated_at' => '2023-08-08 23:51:32',
             ),
-            18 => 
+            17 => 
             array (
                 'id' => 439,
                 'parent_id' => NULL,

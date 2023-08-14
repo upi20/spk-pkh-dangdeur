@@ -6,3 +6,16 @@
     [] Kepala desa : nambahin laporan hasil akhir
     [] Pendamping : nambahin subkriteria, laporanl hasil akhir
     [] Admin :  subkriteria, laporan hasil akhir
+
+
+Pengguna :
+Kepala desa : nambahin laporan hasil akhir
+Pendamping : nambahin subkriteria, laporanl hasil akhir
+Admin :  subkriteria, laporan hasil akhir
+
+Untuk inputan nilai
+kepemilikan rumah,
+kondisi dinding,
+kondisi lantai
+
+0 - 100 itu pilihan misal, 10, 20, 30, 40, 50, 60 s.d 100 sama itu laporan hasil di ganti jadi perhitungan

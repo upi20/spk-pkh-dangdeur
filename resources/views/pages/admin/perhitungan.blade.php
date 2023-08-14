@@ -9,8 +9,7 @@
         $is_admin = is_admin();
         
         $counter = 0;
-        $headers = $penduduks['header'];
-        $nilais = $penduduks['body'][$counter++];
+        $nilais = $penerimas[$counter++];
     @endphp
     <div class="card mt-3">
         <div class="card-header">
@@ -22,8 +21,8 @@
                     <tr>
                         <th>NO</th>
                         <th>Peneirma</th>
-                        @foreach ($headers as $header)
-                            <th>{{ $header->nama }}</th>
+                        @foreach ($headers as $k => $header)
+                            <th>{{ $header }}</th>
                         @endforeach
                     </tr>
                 </thead>
@@ -32,8 +31,8 @@
                         <tr>
                             <td></td>
                             <td>{{ $nilai->nama }}</td>
-                            @foreach ($nilai->nilais as $v)
-                                <td>{{ $v->nilai }}</td>
+                            @foreach ($headers as $k => $header)
+                                <td>{{ $nilai->{$k} }}</td>
                             @endforeach
                         </tr>
                     @endforeach
@@ -42,7 +41,7 @@
         </div>
     </div>
 
-    @php $nilais = $penduduks['body'][$counter++]; @endphp
+    @php $nilais = $penerimas[$counter++]; @endphp
     <div class="card mt-3">
         <div class="card-header">
             <h6 class="mt-2">{{ $counter }}. Nilai Sub Kriteria</h6>
@@ -53,8 +52,8 @@
                     <tr>
                         <th>NO</th>
                         <th>Peneirma</th>
-                        @foreach ($headers as $header)
-                            <th>{{ $header->nama }}</th>
+                        @foreach ($headers as $k => $header)
+                            <th>{{ $header }}</th>
                         @endforeach
                     </tr>
                 </thead>
@@ -63,9 +62,9 @@
                         <tr>
                             <td></td>
                             <td>{{ $nilai->nama }}</td>
-                            @foreach ($nilai->nilais as $v)
-                                <td data-toggle="tooltip" title="{{ $v->nilai }}">
-                                    {{ $v->nilai_str }}
+                            @foreach ($headers as $k => $header)
+                                <td data-toggle="tooltip" title="{{ $nilai->{$k} }}">
+                                    {{ $nilai->{"{$k}_nilai_str"} }}
                                 </td>
                             @endforeach
                         </tr>
@@ -75,7 +74,7 @@
         </div>
     </div>
 
-    @php $nilais = $penduduks['body'][$counter++]; @endphp
+    @php $nilais = $penerimas[$counter++]; @endphp
     <div class="card mt-3">
         <div class="card-header">
             <h6 class="mt-2">{{ $counter }}. Skor Kriteria</h6>
@@ -86,8 +85,8 @@
                     <tr>
                         <th>NO</th>
                         <th>Peneirma</th>
-                        @foreach ($headers as $header)
-                            <th>{{ $header->nama }}</th>
+                        @foreach ($headers as $k => $header)
+                            <th>{{ $header }}</th>
                         @endforeach
                     </tr>
                 </thead>
@@ -96,9 +95,9 @@
                         <tr>
                             <td></td>
                             <td>{{ $nilai->nama }}</td>
-                            @foreach ($nilai->nilais as $v)
-                                <td data-toggle="tooltip" title="{{ $v->nilai_str }}">
-                                    {{ $v->skor }}
+                            @foreach ($headers as $k => $header)
+                                <td data-toggle="tooltip" title="{{ $nilai->{$k} }}">
+                                    {{ $nilai->{"{$k}_nilai_skor"} }}
                                 </td>
                             @endforeach
                         </tr>
@@ -108,7 +107,8 @@
         </div>
     </div>
 
-    @php $nilais = $penduduks['body'][$counter++]; @endphp
+
+    @php $nilais = $penerimas[$counter++]; @endphp
     <div class="card mt-3">
         <div class="card-header">
             <h6 class="mt-2">{{ $counter }}. Total Skor</h6>
@@ -119,8 +119,8 @@
                     <tr>
                         <th>NO</th>
                         <th>Peneirma</th>
-                        @foreach ($headers as $header)
-                            <th>{{ $header->nama }}</th>
+                        @foreach ($headers as $k => $header)
+                            <th>{{ $header }}</th>
                         @endforeach
                         <th>Total</th>
                     </tr>
@@ -130,9 +130,9 @@
                         <tr>
                             <td></td>
                             <td>{{ $nilai->nama }}</td>
-                            @foreach ($nilai->nilais as $v)
-                                <td data-toggle="tooltip" title="{{ $v->nilai_str }}">
-                                    {{ $v->skor }}
+                            @foreach ($headers as $k => $header)
+                                <td data-toggle="tooltip" title="{{ $nilai->{$k} }}">
+                                    {{ $nilai->{"{$k}_nilai_skor"} }}
                                 </td>
                             @endforeach
                             <td data-toggle="tooltip" title="{{ $nilai->totals_str }}">
@@ -145,7 +145,7 @@
         </div>
     </div>
 
-    @php $nilais = $penduduks['body'][$counter++]; @endphp
+    @php $nilais = $penerimas[$counter++]; @endphp
     <div class="card mt-3">
         <div class="card-header">
             <h6 class="mt-2">{{ $counter }}. Alternatif Layak Mendapakan PKH</h6>
@@ -156,8 +156,8 @@
                     <tr>
                         <th>NO</th>
                         <th>Peneirma</th>
-                        @foreach ($headers as $header)
-                            <th>{{ $header->nama }}</th>
+                        @foreach ($headers as $k => $header)
+                            <th>{{ $header }}</th>
                         @endforeach
                         <th>Total</th>
                         <th>Layak</th>
@@ -168,9 +168,9 @@
                         <tr>
                             <td></td>
                             <td>{{ $nilai->nama }}</td>
-                            @foreach ($nilai->nilais as $v)
-                                <td data-toggle="tooltip" title="{{ $v->nilai_str }}">
-                                    {{ $v->skor }}
+                            @foreach ($headers as $k => $header)
+                                <td data-toggle="tooltip" title="{{ $nilai->{$k} }}">
+                                    {{ $nilai->{"{$k}_nilai_skor"} }}
                                 </td>
                             @endforeach
                             <td data-toggle="tooltip" title="{{ $nilai->totals_str }}">

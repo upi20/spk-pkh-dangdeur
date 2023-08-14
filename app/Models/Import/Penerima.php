@@ -2,8 +2,8 @@
 
 namespace App\Models\Import;
 
-use App\Models\Penduduk as ModelsPenduduk;
-use App\Models\PendudukNilai;
+use App\Models\Penerima as ModelsPenerima;
+use App\Models\PenerimaNilai;
 use App\Models\Kecamatan;
 use App\Models\Kriteria;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -57,7 +57,7 @@ class Penerima extends Model
 
     public function items()
     {
-        return $this->hasMany(ModelsPenduduk::class, 'import_id', 'id');
+        return $this->hasMany(ModelsPenerima::class, 'import_id', 'id');
     }
 
     public function fileUrl()
@@ -160,7 +160,7 @@ class Penerima extends Model
         return $datatable->make(true);
     }
 
-    public static function import(Request $request, Penduduk $model)
+    public static function import(Request $request, Penerima $model)
     {
         // setup
         $folder = static::excelFolder;
@@ -218,7 +218,7 @@ class Penerima extends Model
             if ($i < $start || $v[0] == null) continue;
             // cek NIK
             $nik = $v[1];
-            $cek = ModelsPenduduk::where('nik', $nik)->count();
+            $cek = ModelsPenerima::where('nik', $nik)->count();
             if ($cek > 0) return [
                 'status' => false,
                 'error' => response()->json(['message' => "NIK $nik Sudah di gunakan, Silahkan cek data nomor {$v[0]}", 'error' => $v], 400),
@@ -229,23 +229,22 @@ class Penerima extends Model
             $se = explode(' | ', ($v[4] ?? ''))[0]; // status explode
             $status = in_array($se, [0, 1, 2]) ? $se : 0;
 
-            $penerima = new ModelsPenduduk();
+            $penerima = new ModelsPenerima();
             $penerima->nik = $nik;
             $penerima->nama = $v[2];
             $penerima->alamat = $v[3];
             $penerima->import_id = $model->id;
             $penerima->status = $status;
+
+            $counter = 5;
+            $penerima->c1 = $v[$counter++];
+            $penerima->c2 = $v[$counter++];
+            $penerima->c3 = $v[$counter++];
+            $penerima->c4 = $v[$counter++];
+            $penerima->c5 = $v[$counter++];
+            $penerima->c6 = $v[$counter++];
+
             $penerima->save();
-
-            // insert kriteria
-            for ($i = $kriteria_start; $i < $kriteria_end; $i++) {
-                $penerima_nilai = new PendudukNilai();
-                $penerima_nilai->kriteria_id = $header_code[$i];
-                $penerima_nilai->penerima_id = $penerima->id;
-                $penerima_nilai->nilai = $v[$i];
-                $penerima_nilai->save();
-            }
-
             $count++;
         }
 
@@ -279,20 +278,24 @@ class Penerima extends Model
 
         $date = $today_d . " " . $bulan_array[$today_m] . " " . $today_y;
 
-        // poin-poin header disini
-        $kriterias = Kriteria::select(['kode', 'nama'])->orderBy('kode')->get();
+        $kriterias = [
+            'C1 | Penghasilan',
+            'C2 | Aset',
+            'C3 | Kepemilikan Rumah',
+            'C4 | Kondisi Dinding Rumah',
+            'C5 | Kondisi Lantai Rumah',
+            'C6 | Syarat Khusus',
+        ];
 
         $static = new static();
         $headers = $static->excelHeader;
-
-        $nilai_kodes = $kriterias->map(fn ($query) => "$query->kode | $query->nama")->toArray();
-        $headers = array_merge($headers, $nilai_kodes);
+        $headers = array_merge($headers, $kriterias);
 
         // laporan baru
         $row = 1;
         $col_start = "A";
         $col_end = chr(64 + count($headers));
-        $title_excel = "Formulir Import Penduduk";
+        $title_excel = "Formulir Import Penerima";
         $jml_body = 300;
         $jml_body--;
         // Header excel ================================================================================================
@@ -305,7 +308,7 @@ class Penerima extends Model
             ->setLastModifiedBy("Administrator")
             ->setTitle($title_excel)
             ->setSubject("Administrator")
-            ->setDescription("Daftar Penduduk $date")
+            ->setDescription("Daftar Penerima $date")
             ->setKeywords("Laporan, Report")
             ->setCategory("Laporan, Report");
 
@@ -316,7 +319,7 @@ class Penerima extends Model
         // header 2 ====================================================================================================
         $row += 1;
         $sheet->mergeCells($col_start . $row . ":" . $col_end . $row)
-            ->setCellValue("A$row", "Formulir Import Penduduk");
+            ->setCellValue("A$row", "Formulir Import Penerima");
         $sheet->getStyle($col_start . $row . ":" . $col_end . $row)->applyFromArray([
             "font" => [
                 "bold" => true,
@@ -414,8 +417,9 @@ class Penerima extends Model
         $ket_kriteria_row++;
         $ket_kriteria_row_start = $ket_kriteria_row;
         foreach ($kriterias as $kriteria) {
-            $sheet->setCellValue("{$ket_kriteria_col_start}{$ket_kriteria_row}", $kriteria->kode);
-            $sheet->setCellValue("{$ket_kriteria_col_end}{$ket_kriteria_row}", $kriteria->nama);
+            $k = explode(" | ", $kriteria);
+            $sheet->setCellValue("{$ket_kriteria_col_start}{$ket_kriteria_row}", $k[0]);
+            $sheet->setCellValue("{$ket_kriteria_col_end}{$ket_kriteria_row}", $k[1]);
             $ket_kriteria_row++;
         }
         $ket_kriteria_row_end = $ket_kriteria_row - 1;
@@ -484,9 +488,7 @@ class Penerima extends Model
 
     public static function export(Request $request)
     {
-        // data body
-        $details = PendudukNilai::datatable($request);
-
+        $details = ModelsPenerima::orderBy('nama')->get();
         $bulan_array = [
             1 => 'Januari',
             2 => 'February',
@@ -506,19 +508,25 @@ class Penerima extends Model
         $today_y = (int)Date("Y");
 
         $date = $today_d . " " . $bulan_array[$today_m] . " " . $today_y;
+        $kriterias = [
+            'C1 | Penghasilan',
+            'C2 | Aset',
+            'C3 | Kepemilikan Rumah',
+            'C4 | Kondisi Dinding Rumah',
+            'C5 | Kondisi Lantai Rumah',
+            'C6 | Syarat Khusus',
+        ];
 
         $static = new static();
         $headers = $static->excelHeader;
 
-
-        $nilai_kodes = $details['header']->map(fn ($query) => "$query->kode | $query->nama")->toArray();
-        $headers = array_merge($headers, $nilai_kodes);
+        $headers = array_merge($headers, $kriterias);
 
         // laporan baru
         $row = 1;
         $col_start = "A";
         $col_end = chr(64 + count($headers));
-        $title_excel = "Export Penduduk";
+        $title_excel = "Export Penerima";
         // Header excel ================================================================================================
         $spreadsheet = new Spreadsheet();
         $sheet = $spreadsheet->getActiveSheet();
@@ -529,7 +537,7 @@ class Penerima extends Model
             ->setLastModifiedBy("Administrator")
             ->setTitle($title_excel)
             ->setSubject("Administrator")
-            ->setDescription("Daftar Penduduk $date")
+            ->setDescription("Daftar Penerima $date")
             ->setKeywords("Laporan, Report")
             ->setCategory("Laporan, Report");
 
@@ -540,7 +548,7 @@ class Penerima extends Model
         // header 2 ====================================================================================================
         $row += 1;
         $sheet->mergeCells($col_start . $row . ":" . $col_end . $row)
-            ->setCellValue("A$row", "Export Penduduk");
+            ->setCellValue("A$row", "Export Penerima");
         $sheet->getStyle($col_start . $row . ":" . $col_end . $row)->applyFromArray([
             "font" => [
                 "bold" => true,
@@ -613,12 +621,12 @@ class Penerima extends Model
             // status
             $status_str = $detail->status == 1 ? "1 | Sesuai" : ($detail->status == 2 ? "2 | Tidak Sesuai" : "0 | Diproses");
             $sheet->setCellValue(chr(65 + ++$c) . "$row", $status_str);
-            foreach ($detail->nilais as $v) {
-                ++$c;
-                if ($v !== null) {
-                    $sheet->setCellValue(chr(65 + $c) . "$row", $v->nilai);
-                }
-            }
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c1);
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c2);
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c3);
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c4);
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c5);
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c6);
         }
         // format
         // nomor center

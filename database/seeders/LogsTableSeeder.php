@@ -17665,6 +17665,9930 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'login',
             'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/115.0.0.0 Safari\\/537.36 Edg\\/115.0.1901.188"}',
             ),
+            460 => 
+            array (
+                'id' => 1961,
+                'user_id' => 3,
+                'log_date' => '2023-08-14 23:55:24',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","c1":"2144450","c2":"6981","c3":"60","c4":"60","c5":"90","c6":"1","updated_at":"2023-08-14T16:55:24.000000Z","created_at":"2023-08-14T16:55:24.000000Z","id":1}',
+            ),
+            461 => 
+            array (
+                'id' => 1962,
+                'user_id' => 3,
+                'log_date' => '2023-08-14 23:58:58',
+                'table_name' => 'penerima',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","status":0,"c1":2144450,"c2":6981,"c3":60,"c4":60,"c5":90,"c6":1,"import_id":null,"created_at":"2023-08-14 23:55:24","updated_at":"2023-08-14 23:55:24"}',
+            ),
+            462 => 
+            array (
+                'id' => 1963,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:04:29',
+                'table_name' => 'penerima',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","status":0,"c1":2144450,"c2":6981,"c3":60,"c4":60,"c5":90,"c6":0,"import_id":null,"created_at":"2023-08-14 23:55:24","updated_at":"2023-08-14 23:58:58"}',
+            ),
+            463 => 
+            array (
+                'id' => 1964,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:04:35',
+                'table_name' => 'penerima',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","status":1,"c1":2144450,"c2":6981,"c3":60,"c4":60,"c5":90,"c6":0,"import_id":null,"created_at":"2023-08-14 23:55:24","updated_at":"2023-08-15 00:04:29"}',
+            ),
+            464 => 
+            array (
+                'id' => 1965,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:05:01',
+                'table_name' => 'penerima',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","status":2,"c1":2144450,"c2":6981,"c3":60,"c4":60,"c5":90,"c6":0,"import_id":null,"created_at":"2023-08-14 23:55:24","updated_at":"2023-08-15 00:04:35"}',
+            ),
+            465 => 
+            array (
+                'id' => 1966,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:05:03',
+                'table_name' => 'penerima',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","status":1,"c1":2144450,"c2":6981,"c3":60,"c4":60,"c5":90,"c6":0,"import_id":null,"created_at":"2023-08-14 23:55:24","updated_at":"2023-08-15 00:05:01"}',
+            ),
+            466 => 
+            array (
+                'id' => 1967,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:05:08',
+                'table_name' => 'penerima',
+                'log_type' => 'edit',
+                'data' => '{"id":1,"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","status":2,"c1":2144450,"c2":6981,"c3":60,"c4":60,"c5":90,"c6":0,"import_id":null,"created_at":"2023-08-14 23:55:24","updated_at":"2023-08-15 00:05:03"}',
+            ),
+            467 => 
+            array (
+                'id' => 1968,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:05:15',
+                'table_name' => 'penerima',
+                'log_type' => 'delete',
+                'data' => '{"id":1,"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","status":1,"c1":2144450,"c2":6981,"c3":60,"c4":60,"c5":90,"c6":0,"import_id":null,"created_at":"2023-08-14 23:55:24","updated_at":"2023-08-15 00:05:08"}',
+            ),
+            468 => 
+            array (
+                'id' => 1969,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'import_penerima',
+                'log_type' => 'create',
+                'data' => '{"nama":"Data finish","slug":"data-finish","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":1}',
+            ),
+            469 => 
+            array (
+                'id' => 1970,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","import_id":1,"status":"1","c1":"2144450","c2":"69.81","c3":"39136000","c4":"66.08","c5":"72.14","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":2}',
+            ),
+            470 => 
+            array (
+                'id' => 1971,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060991","nama":"ADE ROHANAH","alamat":"KP JATI RT 02 RW 03","import_id":1,"status":"2","c1":"3327100","c2":"58.87","c3":"28752000","c4":"36.41","c5":"80.67","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":3}',
+            ),
+            471 => 
+            array (
+                'id' => 1972,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061104","nama":"ADE WATIN","alamat":"KP JATI RW 10 RT 02","import_id":1,"status":"0","c1":"3158050","c2":"92.91","c3":"12272000","c4":"50.01","c5":"69.65","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":4}',
+            ),
+            472 => 
+            array (
+                'id' => 1973,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016023545","nama":"AI ATIKAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":1,"status":"1","c1":"1212050","c2":"67.03","c3":"14176000","c4":"80.31","c5":"30.15","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":5}',
+            ),
+            473 => 
+            array (
+                'id' => 1974,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300085","nama":"AI MARDIAH","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":1,"status":"1","c1":"2014950","c2":"91.98","c3":"22712000","c4":"46.61","c5":"38.61","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":6}',
+            ),
+            474 => 
+            array (
+                'id' => 1975,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300890","nama":"AI MARLINA","alamat":"KP JATI RW 10 RT 02","import_id":1,"status":"0","c1":"2710750","c2":"57.89","c3":"24092000","c4":"86.55","c5":"50.63","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":7}',
+            ),
+            475 => 
+            array (
+                'id' => 1976,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300888","nama":"AI MARPUAH","alamat":"KP JATI RW 10 RT 02","import_id":1,"status":"1","c1":"3214400","c2":"83.46","c3":"12484000","c4":"61.27","c5":"69.81","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":8}',
+            ),
+            476 => 
+            array (
+                'id' => 1977,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980521","nama":"AI NAPISAH","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":1,"status":"1","c1":"3451700","c2":"44.36","c3":"21592000","c4":"91.19","c5":"57.95","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":9}',
+            ),
+            477 => 
+            array (
+                'id' => 1978,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300064","nama":"AI ROHAENI","alamat":"KP. BOJONG GEDE RT 01\\/05","import_id":1,"status":"0","c1":"2644950","c2":"69.79","c3":"34888000","c4":"68.68","c5":"83.37","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":10}',
+            ),
+            478 => 
+            array (
+                'id' => 1979,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300850","nama":"AI ROSTINI","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"2098250","c2":"81.9","c3":"27004000","c4":"80.07","c5":"66.09","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":11}',
+            ),
+            479 => 
+            array (
+                'id' => 1980,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300892","nama":"AISYAH","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":1,"status":"0","c1":"1574650","c2":"86.77","c3":"29508000","c4":"60.54","c5":"78.06","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":12}',
+            ),
+            480 => 
+            array (
+                'id' => 1981,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300082","nama":"ALIS","alamat":"KP. GEGERLOA RT. 01 RW. 07","import_id":1,"status":"0","c1":"1594950","c2":"55.51","c3":"12008000","c4":"66.08","c5":"72.14","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":13}',
+            ),
+            481 => 
+            array (
+                'id' => 1982,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060981","nama":"AMINAH","alamat":"KP JATI RT 01 RW 03","import_id":1,"status":"0","c1":"2256450","c2":"85.76","c3":"25088000","c4":"98.09","c5":"51.59","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":14}',
+            ),
+            482 => 
+            array (
+                'id' => 1983,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300883","nama":"ANI LESTARI","alamat":"KP JATI RW 10 RT 01","import_id":1,"status":"0","c1":"2573200","c2":"78.02","c3":"11276000","c4":"90.23","c5":"92.91","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":15}',
+            ),
+            483 => 
+            array (
+                'id' => 1984,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980524","nama":"ANI NURHAYATI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"3253600","c2":"28.08","c3":"15520000","c4":"98.67","c5":"34.39","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":16}',
+            ),
+            484 => 
+            array (
+                'id' => 1985,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000049","nama":"ANIH","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"960750","c2":"66.37","c3":"17124000","c4":"95.7","c5":"83.68","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":17}',
+            ),
+            485 => 
+            array (
+                'id' => 1986,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980541","nama":"ANISA","alamat":"KP CISALAM RW 06 RT 02","import_id":1,"status":"0","c1":"1454950","c2":"89.93","c3":"37444000","c4":"40.26","c5":"34.99","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":18}',
+            ),
+            486 => 
+            array (
+                'id' => 1987,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000089","nama":"ANISAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"1651650","c2":"77.94","c3":"18812000","c4":"37.16","c5":"35.34","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":19}',
+            ),
+            487 => 
+            array (
+                'id' => 1988,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016024803","nama":"APON","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":1,"status":"0","c1":"2425850","c2":"92.28","c3":"25488000","c4":"42.83","c5":"48.21","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":20}',
+            ),
+            488 => 
+            array (
+                'id' => 1989,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060966","nama":"ASEP TAJUDIN","alamat":"KP DANGDEUR RT 01 RW 01","import_id":1,"status":"0","c1":"1223950","c2":"45.94","c3":"33148000","c4":"57.02","c5":"29.08","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":21}',
+            ),
+            489 => 
+            array (
+                'id' => 1990,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300066","nama":"ATIKAH","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":1,"status":"0","c1":"2970100","c2":"65.23","c3":"27012000","c4":"48.79","c5":"71.65","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":22}',
+            ),
+            490 => 
+            array (
+                'id' => 1991,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061045","nama":"ATING","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":1,"status":"0","c1":"1623650","c2":"53.7","c3":"34372000","c4":"93.11","c5":"75.47","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":23}',
+            ),
+            491 => 
+            array (
+                'id' => 1992,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000224","nama":"AYIN","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"2207450","c2":"63.14","c3":"26840000","c4":"80.31","c5":"30.15","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":24}',
+            ),
+            492 => 
+            array (
+                'id' => 1993,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300829","nama":"BADRIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":1,"status":"0","c1":"2403800","c2":"83.37","c3":"32352000","c4":"62.17","c5":"51.16","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":25}',
+            ),
+            493 => 
+            array (
+                'id' => 1994,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061005","nama":"BADRIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":1,"status":"0","c1":"2175950","c2":"51.16","c3":"33632000","c4":"69.31","c5":"92.28","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":26}',
+            ),
+            494 => 
+            array (
+                'id' => 1995,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061033","nama":"CACIH SUMINAR","alamat":"KP CISALAM RW 06 RT 02","import_id":1,"status":"0","c1":"3300500","c2":"56.97","c3":"15452000","c4":"98.83","c5":"92.4","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":27}',
+            ),
+            495 => 
+            array (
+                'id' => 1996,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300010","nama":"CIAH","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":1,"status":"0","c1":"2038050","c2":"85.44","c3":"26380000","c4":"48.73","c5":"61.22","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":28}',
+            ),
+            496 => 
+            array (
+                'id' => 1997,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300091","nama":"CICAH JULIANTI","alamat":"KP. BOJONG GEDE RT 02\\/08","import_id":1,"status":"0","c1":"3286850","c2":"99.43","c3":"34996000","c4":"55.84","c5":"80.54","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":29}',
+            ),
+            497 => 
+            array (
+                'id' => 1998,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980480","nama":"CUCU SUMIATI","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"2195550","c2":"77.33","c3":"23488000","c4":"38.66","c5":"41.97","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":30}',
+            ),
+            498 => 
+            array (
+                'id' => 1999,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300818","nama":"DEDE","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"2537500","c2":"81.27","c3":"33268000","c4":"60.54","c5":"54.75","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":31}',
+            ),
+            499 => 
+            array (
+                'id' => 2000,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060990","nama":"DEDE ENI","alamat":"KP JATI RT 02 RW 03","import_id":1,"status":"0","c1":"1690150","c2":"61.19","c3":"25624000","c4":"57.58","c5":"80.17","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":32}',
+            ),
+        ));
+        \DB::table('logs')->insert(array (
+            0 => 
+            array (
+                'id' => 2001,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980506","nama":"DEDE MASRIPAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"2975000","c2":"28.51","c3":"28416000","c4":"37.78","c5":"40.91","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":33}',
+            ),
+            1 => 
+            array (
+                'id' => 2002,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060989","nama":"DEDE NANI","alamat":"KP JATI RT 01 RW 03","import_id":1,"status":"0","c1":"2582300","c2":"34.81","c3":"37208000","c4":"66.05","c5":"37.3","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":34}',
+            ),
+            2 => 
+            array (
+                'id' => 2003,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980276","nama":"DEDE SITI NURJANAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"3314850","c2":"36.49","c3":"35672000","c4":"50.34","c5":"83.19","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":35}',
+            ),
+            3 => 
+            array (
+                'id' => 2004,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000251","nama":"DEDE SOLIHAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":1,"status":"0","c1":"1876000","c2":"58.67","c3":"19308000","c4":"42.83","c5":"48.21","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":36}',
+            ),
+            4 => 
+            array (
+                'id' => 2005,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300856","nama":"DEDE SUPRIATNA","alamat":"KP GEGERLOA RT 01 RW 07","import_id":1,"status":"0","c1":"2248050","c2":"50.28","c3":"38840000","c4":"56.4","c5":"56.99","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":37}',
+            ),
+            5 => 
+            array (
+                'id' => 2006,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300045","nama":"DEDEH","alamat":"KP. JATI RT 03\\/03","import_id":1,"status":"0","c1":"3074750","c2":"46.15","c3":"38812000","c4":"93.11","c5":"75.47","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":38}',
+            ),
+            6 => 
+            array (
+                'id' => 2007,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000250","nama":"DEDEH JUARIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":1,"status":"0","c1":"2517550","c2":"55.85","c3":"17976000","c4":"77.45","c5":"57.89","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":39}',
+            ),
+            7 => 
+            array (
+                'id' => 2008,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061074","nama":"DEDEH KODARIAH","alamat":"KP PATROL RT 01 RW 09","import_id":1,"status":"0","c1":"2802100","c2":"34.65","c3":"19880000","c4":"99.47","c5":"68.33","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":40}',
+            ),
+            8 => 
+            array (
+                'id' => 2009,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061025","nama":"DETI","alamat":"KP. SARPEUNDEUY RT 002 \\/ RW 011","import_id":1,"status":"0","c1":"3180100","c2":"80.59","c3":"29712000","c4":"88.38","c5":"68.24","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":41}',
+            ),
+            9 => 
+            array (
+                'id' => 2010,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060960","nama":"DEVITA","alamat":"KP DANGDEUR RT 01 RW 01","import_id":1,"status":"0","c1":"1153950","c2":"29.74","c3":"31684000","c4":"41.51","c5":"86.52","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":42}',
+            ),
+            10 => 
+            array (
+                'id' => 2011,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300853","nama":"DEWI KODARIAH","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"2312800","c2":"72.14","c3":"17584000","c4":"46.39","c5":"53.7","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":43}',
+            ),
+            11 => 
+            array (
+                'id' => 2012,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300822","nama":"DEWI MARDIANA","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"2502150","c2":"92.36","c3":"12596000","c4":"38","c5":"46.85","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":44}',
+            ),
+            12 => 
+            array (
+                'id' => 2013,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300076","nama":"DUDUNG EYE","alamat":"KP. CISALAM RT 02\\/06","import_id":1,"status":"0","c1":"3323950","c2":"73.75","c3":"11816000","c4":"50.01","c5":"69.65","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":45}',
+            ),
+            13 => 
+            array (
+                'id' => 2014,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061116","nama":"ECIN","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":1,"status":"0","c1":"3029250","c2":"50.63","c3":"17936000","c4":"46.61","c5":"38.61","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":46}',
+            ),
+            14 => 
+            array (
+                'id' => 2015,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300836","nama":"EEN","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":1,"status":"0","c1":"3392900","c2":"34.78","c3":"34832000","c4":"98.67","c5":"34.39","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":47}',
+            ),
+            15 => 
+            array (
+                'id' => 2016,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300898","nama":"EET","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":1,"status":"0","c1":"2579500","c2":"78.46","c3":"33528000","c4":"34.03","c5":"47.85","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":48}',
+            ),
+            16 => 
+            array (
+                'id' => 2017,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300017","nama":"ELA NURLAELA","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":1,"status":"0","c1":"1025500","c2":"65.02","c3":"30476000","c4":"69.31","c5":"92.28","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":49}',
+            ),
+            17 => 
+            array (
+                'id' => 2018,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300035","nama":"ELIN","alamat":"KP. PATROL RT. 04 RW. 02","import_id":1,"status":"0","c1":"2804900","c2":"89","c3":"37672000","c4":"98.83","c5":"92.4","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":50}',
+            ),
+            18 => 
+            array (
+                'id' => 2019,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001380055","nama":"ELIS LISNAWATI","alamat":"SARIPEUNDEUY RT 04\\/04","import_id":1,"status":"0","c1":"1548050","c2":"34.93","c3":"12788000","c4":"95.7","c5":"83.68","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":51}',
+            ),
+            19 => 
+            array (
+                'id' => 2020,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061055","nama":"EMIN","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"3499300","c2":"53.09","c3":"17020000","c4":"92.35","c5":"26.73","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":52}',
+            ),
+            20 => 
+            array (
+                'id' => 2021,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300018","nama":"EMPOL SITI HULAELAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":1,"status":"0","c1":"2425150","c2":"59.86","c3":"39480000","c4":"33.18","c5":"80.94","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":53}',
+            ),
+            21 => 
+            array (
+                'id' => 2022,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061007","nama":"EMPONG KOMARIAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":1,"status":"0","c1":"2355150","c2":"39.48","c3":"39216000","c4":"33.18","c5":"80.94","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":54}',
+            ),
+            22 => 
+            array (
+                'id' => 2023,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300839","nama":"ENCENG","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":1,"status":"0","c1":"2786350","c2":"94.63","c3":"32784000","c4":"40.26","c5":"34.99","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":55}',
+            ),
+            23 => 
+            array (
+                'id' => 2024,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060997","nama":"ENCUM","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"1668800","c2":"66.93","c3":"27716000","c4":"97.19","c5":"35.9","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":56}',
+            ),
+            24 => 
+            array (
+                'id' => 2025,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300894","nama":"ENI MARLENI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":1,"status":"0","c1":"1798300","c2":"41.84","c3":"27296000","c4":"51.4","c5":"61.91","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":57}',
+            ),
+            25 => 
+            array (
+                'id' => 2026,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061090","nama":"ENIS","alamat":"KP PATROL RT 02 RW 09","import_id":1,"status":"0","c1":"2573900","c2":"37.7","c3":"18136000","c4":"47.42","c5":"79.77","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":58}',
+            ),
+            26 => 
+            array (
+                'id' => 2027,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300012","nama":"ENJANG JAMALUDIN","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":1,"status":"0","c1":"2737350","c2":"83.87","c3":"19540000","c4":"95.11","c5":"52.06","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":59}',
+            ),
+            27 => 
+            array (
+                'id' => 2028,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061050","nama":"ENOH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":1,"status":"0","c1":"1572550","c2":"59.39","c3":"29176000","c4":"47.72","c5":"34.55","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":60}',
+            ),
+            28 => 
+            array (
+                'id' => 2029,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300857","nama":"ENOK","alamat":"KP GEGERLOA RT 01 RW 07","import_id":1,"status":"0","c1":"1273650","c2":"66.59","c3":"18332000","c4":"76.03","c5":"30.69","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":61}',
+            ),
+            29 => 
+            array (
+                'id' => 2030,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013743","nama":"ENTI NURHAETI","alamat":"KP JATI RT 01 RW 03","import_id":1,"status":"0","c1":"3362100","c2":"70.42","c3":"25968000","c4":"37.16","c5":"35.34","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":62}',
+            ),
+            30 => 
+            array (
+                'id' => 2031,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000176","nama":"ENUNG","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"2867550","c2":"51.71","c3":"35168000","c4":"73.52","c5":"78.02","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":63}',
+            ),
+            31 => 
+            array (
+                'id' => 2032,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980486","nama":"ENUNG HAYATI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"2599800","c2":"51.48","c3":"13264000","c4":"62.17","c5":"51.16","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":64}',
+            ),
+            32 => 
+            array (
+                'id' => 2033,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050701","nama":"ENUNG HOIROH","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"1621900","c2":"93.6","c3":"25120000","c4":"73.7","c5":"78.46","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":65}',
+            ),
+            33 => 
+            array (
+                'id' => 2034,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300077","nama":"ENUR","alamat":"KP. CISALAM RT 02\\/06","import_id":1,"status":"0","c1":"1312150","c2":"65.54","c3":"23768000","c4":"93.15","c5":"89.6","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":66}',
+            ),
+            34 => 
+            array (
+                'id' => 2035,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300895","nama":"EPON","alamat":"K SARPEUNDEUY RW 11 RT 02","import_id":1,"status":"0","c1":"3238550","c2":"40.47","c3":"34512000","c4":"96.65","c5":"54.86","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":67}',
+            ),
+            35 => 
+            array (
+                'id' => 2036,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300834","nama":"ERAT","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":1,"status":"0","c1":"1707650","c2":"71.65","c3":"37516000","c4":"37.78","c5":"40.91","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":68}',
+            ),
+            36 => 
+            array (
+                'id' => 2037,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300079","nama":"EROS ROSITA","alamat":"KP. CISALAM RT 02\\/06","import_id":1,"status":"0","c1":"1529500","c2":"46.2","c3":"39708000","c4":"59.95","c5":"81.9","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":69}',
+            ),
+            37 => 
+            array (
+                'id' => 2038,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300813","nama":"ESAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":1,"status":"0","c1":"2793700","c2":"60.23","c3":"27384000","c4":"73.78","c5":"34.81","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":70}',
+            ),
+            38 => 
+            array (
+                'id' => 2039,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050710","nama":"ETI","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":1,"status":"0","c1":"998200","c2":"62.67","c3":"24496000","c4":"96.92","c5":"85.28","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":71}',
+            ),
+            39 => 
+            array (
+                'id' => 2040,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300815","nama":"ETI","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":1,"status":"0","c1":"3232250","c2":"26.73","c3":"24536000","c4":"95.06","c5":"58.87","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":72}',
+            ),
+            40 => 
+            array (
+                'id' => 2041,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300873","nama":"ETI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"1741950","c2":"72.7","c3":"29508000","c4":"31.35","c5":"33.24","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":73}',
+            ),
+            41 => 
+            array (
+                'id' => 2042,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980208","nama":"ETI KUSMIATI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":1,"status":"0","c1":"3035550","c2":"63.41","c3":"18940000","c4":"65.48","c5":"61.87","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":74}',
+            ),
+            42 => 
+            array (
+                'id' => 2043,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980107","nama":"ETI MULYANI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"3232600","c2":"82.64","c3":"39872000","c4":"32.97","c5":"29.74","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":75}',
+            ),
+            43 => 
+            array (
+                'id' => 2044,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061021","nama":"ETI SUMIATI","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"3453450","c2":"34.39","c3":"30276000","c4":"46.34","c5":"93.6","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":76}',
+            ),
+            44 => 
+            array (
+                'id' => 2045,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050703","nama":"EUIS LATIPAH","alamat":"KP CISALAM RW 06 RT 02","import_id":1,"status":"0","c1":"3093300","c2":"68.24","c3":"37720000","c4":"42.57","c5":"74.14","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":77}',
+            ),
+            45 => 
+            array (
+                'id' => 2046,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061117","nama":"EUIS SUSILAWATI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":1,"status":"0","c1":"1463000","c2":"34.29","c3":"22096000","c4":"64.23","c5":"50.28","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":78}',
+            ),
+            46 => 
+            array (
+                'id' => 2047,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050706","nama":"EULIS HARYANTI","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"3053750","c2":"52.28","c3":"26804000","c4":"32.97","c5":"29.74","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":79}',
+            ),
+            47 => 
+            array (
+                'id' => 2048,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000049","nama":"EULIS MARDIAH","alamat":"KP PATROL RT 01 RW 09","import_id":1,"status":"0","c1":"2937550","c2":"91.47","c3":"28736000","c4":"49.77","c5":"72.7","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":80}',
+            ),
+            48 => 
+            array (
+                'id' => 2049,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300854","nama":"EULIS ROHIMAH","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"2184700","c2":"46.69","c3":"29864000","c4":"61.79","c5":"34.67","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":81}',
+            ),
+            49 => 
+            array (
+                'id' => 2050,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300034","nama":"EUTIK","alamat":"KP. PATROL RT. 04 RW. 02","import_id":1,"status":"0","c1":"1554700","c2":"39.24","c3":"29780000","c4":"28.52","c5":"62.67","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":82}',
+            ),
+            50 => 
+            array (
+                'id' => 2051,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300083","nama":"EUTIK","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":1,"status":"0","c1":"2898000","c2":"69.03","c3":"35796000","c4":"62.42","c5":"46.69","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":83}',
+            ),
+            51 => 
+            array (
+                'id' => 2052,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061057","nama":"FATIMAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"1823500","c2":"72.72","c3":"15472000","c4":"72.5","c5":"81.27","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":84}',
+            ),
+            52 => 
+            array (
+                'id' => 2053,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026002","nama":"FATMAWATI","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"2358300","c2":"66.37","c3":"39088000","c4":"92.53","c5":"40.47","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":85}',
+            ),
+            53 => 
+            array (
+                'id' => 2054,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300823","nama":"GEUGEU","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"1318450","c2":"92.39","c3":"34424000","c4":"76.21","c5":"42.58","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":86}',
+            ),
+            54 => 
+            array (
+                'id' => 2055,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980448","nama":"HABSAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"2710400","c2":"54.32","c3":"36212000","c4":"76.21","c5":"42.58","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":87}',
+            ),
+            55 => 
+            array (
+                'id' => 2056,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061113","nama":"HAJAR","alamat":"KP JATI RT 03 RW 10","import_id":1,"status":"0","c1":"1073450","c2":"99.27","c3":"17584000","c4":"93.43","c5":"62.34","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":88}',
+            ),
+            56 => 
+            array (
+                'id' => 2057,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300027","nama":"HALIAH","alamat":"KP PASIR MUNCANG RT 02 RW 02","import_id":1,"status":"0","c1":"1814050","c2":"31.79","c3":"22760000","c4":"88.38","c5":"68.24","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":89}',
+            ),
+            57 => 
+            array (
+                'id' => 2058,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300016","nama":"HANA REHANA","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":1,"status":"0","c1":"2850400","c2":"90.37","c3":"25392000","c4":"39.74","c5":"53.21","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":90}',
+            ),
+            58 => 
+            array (
+                'id' => 2059,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300887","nama":"HANI NURHANIFAH","alamat":"KP JATI RW 10 RT 02","import_id":1,"status":"0","c1":"1303750","c2":"97.74","c3":"17640000","c4":"30.67","c5":"99.27","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":91}',
+            ),
+            59 => 
+            array (
+                'id' => 2060,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300869","nama":"HASANAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"2177350","c2":"26.56","c3":"11244000","c4":"30.82","c5":"66.91","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":92}',
+            ),
+            60 => 
+            array (
+                'id' => 2061,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300876","nama":"HENI HANDAYANI","alamat":"KP PATROL RT 02 RW 09","import_id":1,"status":"0","c1":"2345350","c2":"34.99","c3":"27756000","c4":"48.84","c5":"74.98","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":93}',
+            ),
+            61 => 
+            array (
+                'id' => 2062,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300858","nama":"HERLINA","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":1,"status":"0","c1":"3431400","c2":"39.7","c3":"35836000","c4":"99.98","c5":"53.09","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":94}',
+            ),
+            62 => 
+            array (
+                'id' => 2063,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061081","nama":"IBAH","alamat":"KP PATROL RT 01 RW 09","import_id":1,"status":"0","c1":"1709400","c2":"74.98","c3":"27860000","c4":"82.33","c5":"77.88","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":95}',
+            ),
+            63 => 
+            array (
+                'id' => 2064,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300049","nama":"IDA","alamat":"KP. JATI RT 03\\/03","import_id":1,"status":"0","c1":"907550","c2":"52.38","c3":"26952000","c4":"47.72","c5":"34.55","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":96}',
+            ),
+            64 => 
+            array (
+                'id' => 2065,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300872","nama":"IDAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"2249100","c2":"45.4","c3":"12100000","c4":"34.87","c5":"60.16","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":97}',
+            ),
+            65 => 
+            array (
+                'id' => 2066,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300074","nama":"IHAT SOLIHAT","alamat":"KP. CISALAM RT 02\\/06","import_id":1,"status":"0","c1":"1535800","c2":"61.17","c3":"33964000","c4":"84.69","c5":"31.92","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":98}',
+            ),
+            66 => 
+            array (
+                'id' => 2067,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000048","nama":"IHIN","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"1452850","c2":"86.52","c3":"10868000","c4":"62.21","c5":"26.56","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":99}',
+            ),
+            67 => 
+            array (
+                'id' => 2068,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300803","nama":"IIK NURHIKMAH","alamat":"KP DANGDEUR RT 02 RW 01","import_id":1,"status":"0","c1":"1132950","c2":"93.85","c3":"16444000","c4":"97.03","c5":"74.45","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":100}',
+            ),
+            68 => 
+            array (
+                'id' => 2069,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061010","nama":"IING SOLIHIN","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":1,"status":"0","c1":"1322300","c2":"40.91","c3":"28740000","c4":"39.82","c5":"34.15","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":101}',
+            ),
+            69 => 
+            array (
+                'id' => 2070,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300030","nama":"IIS","alamat":"KP. PATROL RT. 03 RW. 02","import_id":1,"status":"0","c1":"2051350","c2":"97.85","c3":"37900000","c4":"91.4","c5":"79.76","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":102}',
+            ),
+            70 => 
+            array (
+                'id' => 2071,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060988","nama":"IIS ISMAYANTINI","alamat":"KP JATI RT 01 RW 03","import_id":1,"status":"0","c1":"1030750","c2":"70.01","c3":"34044000","c4":"70","c5":"44.64","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":103}',
+            ),
+            71 => 
+            array (
+                'id' => 2072,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320520001800099","nama":"IIS KARIMAH","alamat":"KP. CISALAM","import_id":1,"status":"0","c1":"3339350","c2":"40.41","c3":"15636000","c4":"98.09","c5":"51.59","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":104}',
+            ),
+            72 => 
+            array (
+                'id' => 2073,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300100","nama":"IJANG ABDULAH SAHRONI","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":1,"status":"0","c1":"1311800","c2":"62.96","c3":"11436000","c4":"53.05","c5":"56.87","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":105}',
+            ),
+            73 => 
+            array (
+                'id' => 2074,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300805","nama":"IKAH","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":1,"status":"0","c1":"1750000","c2":"80.88","c3":"19752000","c4":"64.47","c5":"85.76","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":106}',
+            ),
+            74 => 
+            array (
+                'id' => 2075,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001380089","nama":"ILAH","alamat":"DUSUN BATUKARUT RT 02 RW 02 DESA DANGDEUR KEC BANYURESMI","import_id":1,"status":"0","c1":"3228400","c2":"57.11","c3":"31552000","c4":"64.26","c5":"45.4","c6":"0","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":107}',
+            ),
+            75 => 
+            array (
+                'id' => 2076,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:46',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300003","nama":"IMAS KOMALA","alamat":"KP. DANGDEUR RT. 01 RW. 01","import_id":1,"status":"0","c1":"1457050","c2":"62.06","c3":"29988000","c4":"78.58","c5":"69.65","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":108}',
+            ),
+            76 => 
+            array (
+                'id' => 2077,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300080","nama":"IMAS MAEMUNAH","alamat":"KP. CISALAM RT 02\\/06","import_id":1,"status":"0","c1":"1131550","c2":"56.05","c3":"35508000","c4":"93.43","c5":"62.34","c6":"1","updated_at":"2023-08-14T17:19:46.000000Z","created_at":"2023-08-14T17:19:46.000000Z","id":109}',
+            ),
+            77 => 
+            array (
+                'id' => 2078,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300036","nama":"IMAS MASRIAH","alamat":"KP. PATROL RT. 04 RW. 02","import_id":1,"status":"0","c1":"1316350","c2":"50.38","c3":"13092000","c4":"58.48","c5":"62.55","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":110}',
+            ),
+            78 => 
+            array (
+                'id' => 2079,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000172","nama":"IMAS MINTARSIH","alamat":"KP CISALAM RW 06 RT 02","import_id":1,"status":"0","c1":"2774800","c2":"64.6","c3":"37148000","c4":"63.44","c5":"86.41","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":111}',
+            ),
+            79 => 
+            array (
+                'id' => 2080,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016015803","nama":"IMAS NIA","alamat":"KP JATI RT 02 RW 03","import_id":1,"status":"0","c1":"2311750","c2":"37.3","c3":"14264000","c4":"57.86","c5":"31.91","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":112}',
+            ),
+            80 => 
+            array (
+                'id' => 2081,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300059","nama":"IMAS SITI NURJANAH","alamat":"KP. SARPEUNDEUY RT. 05 RW. 04","import_id":1,"status":"0","c1":"2245950","c2":"34.57","c3":"39400000","c4":"37.67","c5":"92.39","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":113}',
+            ),
+            81 => 
+            array (
+                'id' => 2082,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300871","nama":"IMAS WAWAT","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"3349500","c2":"83.68","c3":"35716000","c4":"80.06","c5":"34.65","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":114}',
+            ),
+            82 => 
+            array (
+                'id' => 2083,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300023","nama":"IPAH","alamat":"KP PASIRMUNCANG RT. 02 RW. 02","import_id":1,"status":"0","c1":"1404900","c2":"64.9","c3":"33284000","c4":"67.38","c5":"66.37","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":115}',
+            ),
+            83 => 
+            array (
+                'id' => 2084,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000264","nama":"IPAH HANIPAH","alamat":"KP JATI RT 03 RW 03","import_id":1,"status":"0","c1":"1238650","c2":"38.78","c3":"37688000","c4":"51.38","c5":"41.84","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":116}',
+            ),
+            84 => 
+            array (
+                'id' => 2085,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300899","nama":"IRNA ALIFAH","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":1,"status":"0","c1":"1489950","c2":"74.14","c3":"13180000","c4":"72.84","c5":"68.2","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":117}',
+            ),
+            85 => 
+            array (
+                'id' => 2086,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061053","nama":"ISAH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":1,"status":"0","c1":"1974000","c2":"56.99","c3":"39972000","c4":"79.82","c5":"60.23","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":118}',
+            ),
+            86 => 
+            array (
+                'id' => 2087,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300033","nama":"IYAM MARYANI","alamat":"KP PATROL RT 03 RW 02","import_id":1,"status":"0","c1":"2018450","c2":"28.58","c3":"38760000","c4":"87.25","c5":"52.28","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":119}',
+            ),
+            87 => 
+            array (
+                'id' => 2088,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300889","nama":"JUA","alamat":"JKP JATI RW 10 RT 02","import_id":1,"status":"0","c1":"2810850","c2":"30.15","c3":"19604000","c4":"29.2","c5":"29.81","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":120}',
+            ),
+            88 => 
+            array (
+                'id' => 2089,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300008","nama":"JUJU","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":1,"status":"0","c1":"2446500","c2":"80.91","c3":"35544000","c4":"36.41","c5":"80.67","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":121}',
+            ),
+            89 => 
+            array (
+                'id' => 2090,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061108","nama":"JUMA","alamat":"KP JATI RT 03 RW 10","import_id":1,"status":"0","c1":"3198300","c2":"94.76","c3":"10472000","c4":"59.95","c5":"81.9","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":122}',
+            ),
+            90 => 
+            array (
+                'id' => 2091,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300878","nama":"KARMASIH","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"1475600","c2":"73.06","c3":"26628000","c4":"73.54","c5":"37.7","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":123}',
+            ),
+            91 => 
+            array (
+                'id' => 2092,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016018086","nama":"KARYATI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"1274350","c2":"80.67","c3":"29580000","c4":"73.52","c5":"78.02","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":124}',
+            ),
+            92 => 
+            array (
+                'id' => 2093,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300068","nama":"KOKOM","alamat":"KP. BOJONG GEDE RT 03\\/05","import_id":1,"status":"0","c1":"3306800","c2":"57.99","c3":"10488000","c4":"96.94","c5":"34.78","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":125}',
+            ),
+            93 => 
+            array (
+                'id' => 2094,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300014","nama":"LANI HERNAWATI","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":1,"status":"0","c1":"1331050","c2":"72.05","c3":"30092000","c4":"71.48","c5":"40.67","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":126}',
+            ),
+            94 => 
+            array (
+                'id' => 2095,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300004","nama":"LELAH","alamat":"KP DANGDEUR RT 01 RW 01","import_id":1,"status":"0","c1":"1421350","c2":"88.67","c3":"38324000","c4":"70","c5":"44.64","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":127}',
+            ),
+            95 => 
+            array (
+                'id' => 2096,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300065","nama":"LENI MARLINA","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":1,"status":"0","c1":"3074400","c2":"53.1","c3":"33724000","c4":"71.13","c5":"60.41","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":128}',
+            ),
+            96 => 
+            array (
+                'id' => 2097,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061126","nama":"LIA","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":1,"status":"0","c1":"3382750","c2":"54.86","c3":"27792000","c4":"55.84","c5":"80.54","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":129}',
+            ),
+            97 => 
+            array (
+                'id' => 2098,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300026","nama":"LILIS","alamat":"KP PASIR MUNCANG RT 02 RW 02","import_id":1,"status":"0","c1":"2166850","c2":"51.14","c3":"29440000","c4":"46.34","c5":"93.6","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":130}',
+            ),
+            98 => 
+            array (
+                'id' => 2099,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000047","nama":"LILIS","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":1,"status":"0","c1":"1081500","c2":"52.73","c3":"24228000","c4":"53.05","c5":"56.87","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":131}',
+            ),
+            99 => 
+            array (
+                'id' => 2100,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016011995","nama":"LILIS K","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":1,"status":"0","c1":"936950","c2":"52.04","c3":"15940000","c4":"49.77","c5":"72.7","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":132}',
+            ),
+            100 => 
+            array (
+                'id' => 2101,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300880","nama":"LILIS LISWANTI","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"2025100","c2":"31.91","c3":"28056000","c4":"79.86","c5":"90.15","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":133}',
+            ),
+            101 => 
+            array (
+                'id' => 2102,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300819","nama":"LINA","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"3359650","c2":"90.99","c3":"18868000","c4":"47.68","c5":"66.93","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":134}',
+            ),
+            102 => 
+            array (
+                'id' => 2103,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300841","nama":"LISNAWATI","alamat":"KP BOJONG GEDE RT 03 RW 05","import_id":1,"status":"0","c1":"2964150","c2":"31.92","c3":"30888000","c4":"25.5","c5":"29.78","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":135}',
+            ),
+            103 => 
+            array (
+                'id' => 2104,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300002","nama":"MAE","alamat":"KP. DANGDEUR RT. 01 RW. 01","import_id":1,"status":"0","c1":"1296750","c2":"91.38","c3":"29160000","c4":"96.06","c5":"70.42","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":136}',
+            ),
+            104 => 
+            array (
+                'id' => 2105,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980529","nama":"MARLINA","alamat":"KP JATI RW 10 RT 02","import_id":1,"status":"0","c1":"2111200","c2":"47.64","c3":"31752000","c4":"90.86","c5":"80.59","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":137}',
+            ),
+            105 => 
+            array (
+                'id' => 2106,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300058","nama":"MARNI","alamat":"KP. BOJONGGEDE RT. 03 RW. 08","import_id":1,"status":"0","c1":"2152850","c2":"86.93","c3":"11308000","c4":"71.49","c5":"92.36","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":138}',
+            ),
+            106 => 
+            array (
+                'id' => 2107,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016017381","nama":"MARPU AH","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":1,"status":"0","c1":"2015300","c2":"80.17","c3":"10724000","c4":"63.44","c5":"86.41","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":139}',
+            ),
+            107 => 
+            array (
+                'id' => 2108,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300826","nama":"MARWATI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":1,"status":"0","c1":"2877000","c2":"36.63","c3":"22648000","c4":"63.91","c5":"57.35","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":140}',
+            ),
+            108 => 
+            array (
+                'id' => 2109,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016012953","nama":"MAS AAM","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"2396800","c2":"56.78","c3":"22648000","c4":"46.64","c5":"89.31","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":141}',
+            ),
+            109 => 
+            array (
+                'id' => 2110,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061049","nama":"MAS IKOH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":1,"status":"0","c1":"2162650","c2":"34.67","c3":"16532000","c4":"32.06","c5":"82.22","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":142}',
+            ),
+            110 => 
+            array (
+                'id' => 2111,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060985","nama":"MASITOH","alamat":"KP JATI RT 02 RW 03","import_id":1,"status":"0","c1":"1145550","c2":"95.18","c3":"27564000","c4":"96.06","c5":"70.42","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":143}',
+            ),
+            111 => 
+            array (
+                'id' => 2112,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061038","nama":"MIMIH","alamat":"KP GEGERLOA RT 01 RW 07","import_id":1,"status":"0","c1":"2802450","c2":"66.09","c3":"27368000","c4":"32.37","c5":"93.85","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":144}',
+            ),
+            112 => 
+            array (
+                'id' => 2113,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300855","nama":"MIMIN","alamat":"KP CISALAM RW 06 RT 02","import_id":1,"status":"0","c1":"1631350","c2":"38.61","c3":"20000000","c4":"44.93","c5":"59.39","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":145}',
+            ),
+            113 => 
+            array (
+                'id' => 2114,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300865","nama":"MIMIN","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":1,"status":"0","c1":"3166450","c2":"83.96","c3":"38008000","c4":"77.52","c5":"82.3","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":146}',
+            ),
+            114 => 
+            array (
+                'id' => 2115,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013744","nama":"MIMIN ASMINAH","alamat":"KP JATI RT 02 RW 03","import_id":1,"status":"0","c1":"2750300","c2":"69.65","c3":"21244000","c4":"42.16","c5":"73.06","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":147}',
+            ),
+            115 => 
+            array (
+                'id' => 2116,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061096","nama":"MUNI\'AH","alamat":"KP JATI RW 10 RT 01","import_id":1,"status":"0","c1":"2795100","c2":"90.15","c3":"31776000","c4":"84.69","c5":"31.92","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":148}',
+            ),
+            116 => 
+            array (
+                'id' => 2117,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000004","nama":"MUTIAH","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":1,"status":"0","c1":"2549400","c2":"68.2","c3":"25492000","c4":"90.47","c5":"83.96","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":149}',
+            ),
+            117 => 
+            array (
+                'id' => 2118,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300800","nama":"NANA RUSMANA","alamat":"KP DANGDEUR RW 01 RT 01","import_id":1,"status":"0","c1":"3459050","c2":"92.4","c3":"16164000","c4":"34.97","c5":"45.94","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":150}',
+            ),
+            118 => 
+            array (
+                'id' => 2119,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061003","nama":"NANI SUMARNI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":1,"status":"0","c1":"2236850","c2":"57.35","c3":"25496000","c4":"34.63","c5":"67.03","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":151}',
+            ),
+            119 => 
+            array (
+                'id' => 2120,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000253","nama":"NENA","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":1,"status":"0","c1":"1038800","c2":"44.56","c3":"10796000","c4":"44.99","c5":"86.77","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":152}',
+            ),
+            120 => 
+            array (
+                'id' => 2121,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300838","nama":"NENDI","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":1,"status":"0","c1":"1659700","c2":"79.77","c3":"38440000","c4":"90.86","c5":"80.59","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":153}',
+            ),
+            121 => 
+            array (
+                'id' => 2122,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300067","nama":"NENENG AMINAH","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":1,"status":"0","c1":"1214500","c2":"51.35","c3":"18728000","c4":"82.33","c5":"77.88","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":154}',
+            ),
+            122 => 
+            array (
+                'id' => 2123,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300019","nama":"NENENG PIPIH SARIPAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":1,"status":"0","c1":"1756300","c2":"32.07","c3":"14592000","c4":"39.82","c5":"34.15","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":155}',
+            ),
+            123 => 
+            array (
+                'id' => 2124,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060756","nama":"NENG SANTIA","alamat":"KP. BOJONG GEDE RT 02 \\/ RW 08","import_id":1,"status":"0","c1":"3464300","c2":"27.15","c3":"20976000","c4":"30.9","c5":"52.73","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":156}',
+            ),
+            124 => 
+            array (
+                'id' => 2125,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300043","nama":"NENI","alamat":"KP JATI RT 01 RW 03","import_id":1,"status":"0","c1":"2064650","c2":"85.56","c3":"23768000","c4":"50","c5":"80.88","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":157}',
+            ),
+            125 => 
+            array (
+                'id' => 2126,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061064","nama":"NENI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"2713200","c2":"82.3","c3":"39780000","c4":"71.49","c5":"92.36","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":158}',
+            ),
+            126 => 
+            array (
+                'id' => 2127,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980493","nama":"NENI ANGGRAENI","alamat":"KP JATI RT 02 RW 03","import_id":1,"status":"0","c1":"1344350","c2":"71.3","c3":"39520000","c4":"67.29","c5":"39.48","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":159}',
+            ),
+            127 => 
+            array (
+                'id' => 2128,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061012","nama":"NEPI NISPIATI","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":1,"status":"0","c1":"3191650","c2":"57.95","c3":"22524000","c4":"67.38","c5":"66.37","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":160}',
+            ),
+            128 => 
+            array (
+                'id' => 2129,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300007","nama":"NINING","alamat":"KP DANGDEUR RT 01 RW 01","import_id":1,"status":"0","c1":"3088050","c2":"57.93","c3":"17748000","c4":"57.58","c5":"80.17","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":161}',
+            ),
+            129 => 
+            array (
+                'id' => 2130,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300094","nama":"NINING YUNINGSIH","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":1,"status":"0","c1":"2012500","c2":"70.04","c3":"38192000","c4":"54.06","c5":"31.24","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":162}',
+            ),
+            130 => 
+            array (
+                'id' => 2131,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060974","nama":"NUNUNG AMINAH","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":1,"status":"0","c1":"3396050","c2":"74.45","c3":"30752000","c4":"34.46","c5":"45.61","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":163}',
+            ),
+            131 => 
+            array (
+                'id' => 2132,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300861","nama":"NUNUNG RUHAITIN","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":1,"status":"0","c1":"1892100","c2":"31.24","c3":"18328000","c4":"80.59","c5":"33.11","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":164}',
+            ),
+            132 => 
+            array (
+                'id' => 2133,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061063","nama":"NUR HASANAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"2820650","c2":"33.11","c3":"30344000","c4":"95.99","c5":"90.99","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":165}',
+            ),
+            133 => 
+            array (
+                'id' => 2134,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300846","nama":"NURAENI","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"3260250","c2":"89.6","c3":"20836000","c4":"91.07","c5":"65.61","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":166}',
+            ),
+            134 => 
+            array (
+                'id' => 2135,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980338","nama":"NURLELA","alamat":"KP JATI RT 03 RW 03","import_id":1,"status":"0","c1":"1262100","c2":"43.01","c3":"35180000","c4":"60.54","c5":"54.75","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":167}',
+            ),
+            135 => 
+            array (
+                'id' => 2136,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300088","nama":"NURLELAH","alamat":"KP. BOJONG GEDE RT 01\\/08","import_id":1,"status":"0","c1":"1361850","c2":"42.28","c3":"33664000","c4":"36.39","c5":"66.59","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":168}',
+            ),
+            136 => 
+            array (
+                'id' => 2137,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300827","nama":"NURYANI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":1,"status":"0","c1":"3481450","c2":"68.33","c3":"27044000","c4":"38.66","c5":"41.97","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":169}',
+            ),
+            137 => 
+            array (
+                'id' => 2138,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300090","nama":"NURYATI","alamat":"KP. BOJONG GEDE RT 01\\/08","import_id":1,"status":"0","c1":"2566550","c2":"83.7","c3":"34292000","c4":"98.04","c5":"39.7","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":170}',
+            ),
+            138 => 
+            array (
+                'id' => 2139,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050705","nama":"OBAY SOBARIAH","alamat":"KP PATROL RT 01 RW 09","import_id":1,"status":"0","c1":"3199000","c2":"79.76","c3":"35640000","c4":"98.98","c5":"27.15","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":171}',
+            ),
+            139 => 
+            array (
+                'id' => 2140,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300038","nama":"ONEH","alamat":"KP PATROL","import_id":1,"status":"0","c1":"2420600","c2":"79.01","c3":"30352000","c4":"32.37","c5":"93.85","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":172}',
+            ),
+            140 => 
+            array (
+                'id' => 2141,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061129","nama":"OYOH","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":1,"status":"0","c1":"1191050","c2":"47.85","c3":"11640000","c4":"54.06","c5":"31.24","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":173}',
+            ),
+            141 => 
+            array (
+                'id' => 2142,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980271","nama":"PANJI SUGIRI","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":1,"status":"0","c1":"1820700","c2":"34.86","c3":"13412000","c4":"32.73","c5":"95.18","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":174}',
+            ),
+            142 => 
+            array (
+                'id' => 2143,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060986","nama":"PATONAH","alamat":"KP JATI RT 01 RW 03","import_id":1,"status":"0","c1":"1761900","c2":"83.19","c3":"14900000","c4":"78.58","c5":"69.65","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":175}',
+            ),
+            143 => 
+            array (
+                'id' => 2144,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000202","nama":"PIANAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":1,"status":"0","c1":"1157800","c2":"30.88","c3":"32948000","c4":"26.27","c5":"60.43","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":176}',
+            ),
+            144 => 
+            array (
+                'id' => 2145,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061075","nama":"POPON","alamat":"KP PATROL RT 01 RW 09","import_id":1,"status":"0","c1":"1220450","c2":"60.16","c3":"21408000","c4":"68.68","c5":"83.37","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":177}',
+            ),
+            145 => 
+            array (
+                'id' => 2146,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300810","nama":"PUPU MARPUAH","alamat":"KP JATI RT 03 RW 03","import_id":1,"status":"0","c1":"1670200","c2":"34.55","c3":"27700000","c4":"29.45","c5":"70.01","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":178}',
+            ),
+            146 => 
+            array (
+                'id' => 2147,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016021893","nama":"PUPUN","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":1,"status":"0","c1":"3328850","c2":"52.06","c3":"34696000","c4":"37.25","c5":"97.74","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":179}',
+            ),
+            147 => 
+            array (
+                'id' => 2148,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300050","nama":"PUROH","alamat":"KP. JATI RT 04\\/03","import_id":1,"status":"0","c1":"2420600","c2":"93.64","c3":"11416000","c4":"79.82","c5":"60.23","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":180}',
+            ),
+            148 => 
+            array (
+                'id' => 2149,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300006","nama":"RANI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":1,"status":"0","c1":"1455650","c2":"32.35","c3":"19500000","c4":"66.05","c5":"37.3","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":181}',
+            ),
+            149 => 
+            array (
+                'id' => 2150,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523021000064","nama":"RANI FITRI HANDAYANI","alamat":"KP JATI RT 02 RW 10","import_id":1,"status":"0","c1":"1469300","c2":"78.12","c3":"20988000","c4":"25.5","c5":"29.78","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":182}',
+            ),
+            150 => 
+            array (
+                'id' => 2151,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061054","nama":"RENI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"2661050","c2":"30.69","c3":"18800000","c4":"94.11","c5":"68.95","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":183}',
+            ),
+            151 => 
+            array (
+                'id' => 2152,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300877","nama":"ROHANAH","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"1300600","c2":"35.34","c3":"35400000","c4":"99.44","c5":"53.63","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":184}',
+            ),
+            152 => 
+            array (
+                'id' => 2153,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061100","nama":"ROHANAH","alamat":"KP JATI RW 10 RT 01","import_id":1,"status":"0","c1":"2660000","c2":"73.28","c3":"31376000","c4":"69.87","c5":"25.89","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":185}',
+            ),
+            153 => 
+            array (
+                'id' => 2154,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061000","nama":"ROHANI","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":1,"status":"0","c1":"1330000","c2":"46.85","c3":"24552000","c4":"95.11","c5":"52.06","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":186}',
+            ),
+            154 => 
+            array (
+                'id' => 2155,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300835","nama":"ROHAYANI","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":1,"status":"0","c1":"2881550","c2":"77.88","c3":"35504000","c4":"91.19","c5":"57.95","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":187}',
+            ),
+            155 => 
+            array (
+                'id' => 2156,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300069","nama":"ROKAYAH","alamat":"KP. CISALAM RT 01\\/06","import_id":1,"status":"0","c1":"1718500","c2":"58.4","c3":"20344000","c4":"47.42","c5":"79.77","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":188}',
+            ),
+            156 => 
+            array (
+                'id' => 2157,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061037","nama":"ROKAYAH","alamat":"KP GEGERLOA RT 01 RW 07","import_id":1,"status":"0","c1":"3187450","c2":"65.61","c3":"22524000","c4":"58.48","c5":"62.55","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":189}',
+            ),
+            157 => 
+            array (
+                'id' => 2158,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300086","nama":"ROMI AISYAH","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":1,"status":"0","c1":"2921450","c2":"28.55","c3":"37648000","c4":"64.23","c5":"50.28","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":190}',
+            ),
+            158 => 
+            array (
+                'id' => 2159,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061065","nama":"ROMLAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"1651650","c2":"75.42","c3":"18012000","c4":"37.67","c5":"92.39","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":191}',
+            ),
+            159 => 
+            array (
+                'id' => 2160,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000002","nama":"ROSMAWATI","alamat":"KP PATROL RT 01 RW 09","import_id":1,"status":"0","c1":"1995700","c2":"29.08","c3":"32676000","c4":"64.26","c5":"45.4","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":192}',
+            ),
+            160 => 
+            array (
+                'id' => 2161,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980305","nama":"RUSMIATI","alamat":"KP JATI RW 10 RT 01","import_id":1,"status":"0","c1":"2229850","c2":"45.63","c3":"25536000","c4":"73.78","c5":"34.81","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":193}',
+            ),
+            161 => 
+            array (
+                'id' => 2162,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016019912","nama":"SA\'ADAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"3401650","c2":"35.9","c3":"35548000","c4":"26.27","c5":"60.43","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":194}',
+            ),
+            162 => 
+            array (
+                'id' => 2163,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061094","nama":"SA\'ADAH","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"2078300","c2":"60.15","c3":"39236000","c4":"79.61","c5":"94.63","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":195}',
+            ),
+            163 => 
+            array (
+                'id' => 2164,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026000","nama":"SAHID","alamat":"KP. PASIR MUNCANG RT 001\\/RW 002","import_id":1,"status":"0","c1":"1161300","c2":"80.94","c3":"12520000","c4":"44.99","c5":"86.77","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":196}',
+            ),
+            164 => 
+            array (
+                'id' => 2165,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000301","nama":"SANTI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"1948100","c2":"61.49","c3":"10296000","c4":"42.57","c5":"74.14","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":197}',
+            ),
+            165 => 
+            array (
+                'id' => 2166,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980382","nama":"SANTI SUSANTI","alamat":"KP PATROL RT 02 RW 09","import_id":1,"status":"0","c1":"1342250","c2":"91.13","c3":"29160000","c4":"47.68","c5":"66.93","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":198}',
+            ),
+            166 => 
+            array (
+                'id' => 2167,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060967","nama":"SINTA SITI FATIMAH","alamat":"KP DANGDEUR RT 01 RW 01","import_id":1,"status":"0","c1":"2291800","c2":"61.87","c3":"38972000","c4":"83.93","c5":"91.47","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":199}',
+            ),
+            167 => 
+            array (
+                'id' => 2168,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300891","nama":"SITI AMINAH","alamat":"KP JATI RT 03 RW 10","import_id":1,"status":"0","c1":"1499050","c2":"48.21","c3":"32724000","c4":"41.8","c5":"34.29","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":200}',
+            ),
+            168 => 
+            array (
+                'id' => 2169,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061115","nama":"SITI AMINAH","alamat":"KP JATI RT 02 RW 03","import_id":1,"status":"0","c1":"1022000","c2":"29.81","c3":"28812000","c4":"62.42","c5":"46.69","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":201}',
+            ),
+            169 => 
+            array (
+                'id' => 2170,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980244","nama":"SITI AMINAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":1,"status":"0","c1":"2320150","c2":"76.98","c3":"26848000","c4":"64.47","c5":"85.76","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":202}',
+            ),
+            170 => 
+            array (
+                'id' => 2171,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061029","nama":"SITI FATIMAH","alamat":"KP CISALAM RW 06 RT 02","import_id":1,"status":"0","c1":"892500","c2":"29.78","c3":"37612000","c4":"87.25","c5":"52.28","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":203}',
+            ),
+            171 => 
+            array (
+                'id' => 2172,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980201","nama":"SITI INAYAH","alamat":"KP JATI RW 10 RT 02","import_id":1,"status":"0","c1":"1776600","c2":"40.9","c3":"10596000","c4":"34.97","c5":"45.94","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":204}',
+            ),
+            172 => 
+            array (
+                'id' => 2173,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300842","nama":"SITI JUBAEDAH","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"2445450","c2":"25.89","c3":"17904000","c4":"43.53","c5":"27.62","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":205}',
+            ),
+            173 => 
+            array (
+                'id' => 2174,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300046","nama":"SITI JULAEHA","alamat":"KP. JATI RT 03\\/03","import_id":1,"status":"0","c1":"2768150","c2":"69.07","c3":"17620000","c4":"32.06","c5":"82.22","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":206}',
+            ),
+            174 => 
+            array (
+                'id' => 2175,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061004","nama":"SITI KHOLISOH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":1,"status":"0","c1":"1353100","c2":"41.97","c3":"29924000","c4":"39.74","c5":"53.21","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":207}',
+            ),
+            175 => 
+            array (
+                'id' => 2176,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300809","nama":"SITI MAESAROH","alamat":"KP JATI RT 03 RW 03","import_id":1,"status":"0","c1":"1122100","c2":"82.22","c3":"18616000","c4":"50.34","c5":"83.19","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":208}',
+            ),
+            176 => 
+            array (
+                'id' => 2177,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980236","nama":"SITI MARSITI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"2665950","c2":"34.76","c3":"26252000","c4":"97.03","c5":"74.45","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":209}',
+            ),
+            177 => 
+            array (
+                'id' => 2178,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300852","nama":"SITI MARYAM","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"3270050","c2":"62.34","c3":"27820000","c4":"66.34","c5":"54.08","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":210}',
+            ),
+            178 => 
+            array (
+                'id' => 2179,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980164","nama":"SITI MARYAM","alamat":"KP JATI RW 10 RT 01","import_id":1,"status":"0","c1":"2170700","c2":"47.87","c3":"25300000","c4":"96.92","c5":"85.28","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":211}',
+            ),
+            179 => 
+            array (
+                'id' => 2180,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980331","nama":"SITI MARYATI","alamat":"KP JATI RT 01 RW 03","import_id":1,"status":"0","c1":"3228750","c2":"73.37","c3":"14292000","c4":"95.06","c5":"58.87","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":212}',
+            ),
+            180 => 
+            array (
+                'id' => 2181,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000216","nama":"SITI MASITOH","alamat":"KP JATI RT 03 RW 03","import_id":1,"status":"0","c1":"2364600","c2":"97","c3":"33152000","c4":"37.25","c5":"97.74","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":213}',
+            ),
+            181 => 
+            array (
+                'id' => 2182,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980306","nama":"SITI MASUROH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"1799350","c2":"75.89","c3":"11840000","c4":"48.29","c5":"61.19","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":214}',
+            ),
+            182 => 
+            array (
+                'id' => 2183,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300015","nama":"SITI NURJANAH","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":1,"status":"0","c1":"1929200","c2":"49.79","c3":"34840000","c4":"34.63","c5":"67.03","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":215}',
+            ),
+            183 => 
+            array (
+                'id' => 2184,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300845","nama":"SITI ROHAYATI","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"1750350","c2":"69.65","c3":"39176000","c4":"94.3","c5":"56.97","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":216}',
+            ),
+            184 => 
+            array (
+                'id' => 2185,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016021894","nama":"SITI SAIBAH","alamat":"KP JATI RT 01 RW 03","import_id":1,"status":"0","c1":"2501800","c2":"40.67","c3":"25872000","c4":"91.84","c5":"83.46","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":217}',
+            ),
+            185 => 
+            array (
+                'id' => 2186,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980471","nama":"SITI SUHAENAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"2657550","c2":"29.75","c3":"19040000","c4":"63.91","c5":"57.35","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":218}',
+            ),
+            186 => 
+            array (
+                'id' => 2187,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300057","nama":"SOPAH","alamat":"KP. SARPEUNDEUY RT. 03 RW. 04","import_id":1,"status":"0","c1":"1705200","c2":"98.19","c3":"13796000","c4":"95.99","c5":"90.99","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":219}',
+            ),
+            187 => 
+            array (
+                'id' => 2188,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000223","nama":"SOPIAH","alamat":"KP JATI RT 01 RW 03","import_id":1,"status":"0","c1":"2663850","c2":"39.03","c3":"31484000","c4":"91.84","c5":"83.46","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":220}',
+            ),
+            188 => 
+            array (
+                'id' => 2189,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980295","nama":"SUGIANTO","alamat":"KP GEGERLOA RT 02 RW 07","import_id":1,"status":"0","c1":"2185050","c2":"75.1","c3":"22756000","c4":"29.45","c5":"70.01","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":221}',
+            ),
+            189 => 
+            array (
+                'id' => 2190,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000058","nama":"SUHAENAH","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":1,"status":"0","c1":"1206100","c2":"45.61","c3":"11080000","c4":"46.64","c5":"89.31","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":222}',
+            ),
+            190 => 
+            array (
+                'id' => 2191,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300052","nama":"SUMARNI","alamat":"KP. JATI RT 04\\/03","import_id":1,"status":"0","c1":"1729000","c2":"63.34","c3":"31720000","c4":"94.11","c5":"68.95","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":223}',
+            ),
+            191 => 
+            array (
+                'id' => 2192,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000059","nama":"SUMARNI","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":1,"status":"0","c1":"1069250","c2":"79.54","c3":"32984000","c4":"67.01","c5":"34.99","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":224}',
+            ),
+            192 => 
+            array (
+                'id' => 2193,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300807","nama":"SUMI KULSUM","alamat":"KP JATI RT 01 RW 03","import_id":1,"status":"0","c1":"3258850","c2":"75.47","c3":"21004000","c4":"32.73","c5":"95.18","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":225}',
+            ),
+            193 => 
+            array (
+                'id' => 2194,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000114","nama":"SUSANTI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":1,"status":"0","c1":"1929200","c2":"90.44","c3":"22032000","c4":"42.16","c5":"73.06","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":226}',
+            ),
+            194 => 
+            array (
+                'id' => 2195,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016024802","nama":"SUSI DIANA","alamat":"KP DANGDEUR RT 02 RW 01","import_id":1,"status":"0","c1":"1390900","c2":"53.21","c3":"31284000","c4":"77.45","c5":"57.89","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":227}',
+            ),
+            195 => 
+            array (
+                'id' => 2196,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061080","nama":"SUSUM","alamat":"KP PATROL RT 01 RW 09","import_id":1,"status":"0","c1":"1227100","c2":"72.29","c3":"13760000","c4":"48.79","c5":"71.65","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":228}',
+            ),
+            196 => 
+            array (
+                'id' => 2197,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300011","nama":"TATI","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":1,"status":"0","c1":"3331300","c2":"29.69","c3":"16540000","c4":"97.19","c5":"35.9","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":229}',
+            ),
+            197 => 
+            array (
+                'id' => 2198,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000291","nama":"TATI","alamat":"KP JATI RW 10 RT 02","import_id":1,"status":"0","c1":"3117450","c2":"51.25","c3":"39484000","c4":"73.7","c5":"78.46","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":230}',
+            ),
+            198 => 
+            array (
+                'id' => 2199,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061107","nama":"TATI RAHMAWATI","alamat":"KP JATI RW 10 RT 02","import_id":1,"status":"0","c1":"1894550","c2":"33.34","c3":"30548000","c4":"93.15","c5":"89.6","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":231}',
+            ),
+            199 => 
+            array (
+                'id' => 2200,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300879","nama":"TIAH","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"1162350","c2":"57.45","c3":"29948000","c4":"59.38","c5":"60.15","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":232}',
+            ),
+            200 => 
+            array (
+                'id' => 2201,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026001","nama":"TINI","alamat":"KP PATROL RT 02 RW 09","import_id":1,"status":"0","c1":"1393700","c2":"34.15","c3":"17148000","c4":"51.38","c5":"41.84","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":233}',
+            ),
+            201 => 
+            array (
+                'id' => 2202,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061040","nama":"TINI","alamat":"KP GEGERLOA RT 01 RW 07","import_id":1,"status":"0","c1":"2321900","c2":"54.08","c3":"15144000","c4":"50","c5":"80.88","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":234}',
+            ),
+            202 => 
+            array (
+                'id' => 2203,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300874","nama":"TITI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"1632400","c2":"89.31","c3":"23644000","c4":"35.06","c5":"72.29","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":235}',
+            ),
+            203 => 
+            array (
+                'id' => 2204,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061089","nama":"TITI","alamat":"KP PASIR MUNCANG RT 02 RW 09","import_id":1,"status":"0","c1":"3480400","c2":"53.63","c3":"38052000","c4":"96.94","c5":"34.78","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":236}',
+            ),
+            204 => 
+            array (
+                'id' => 2205,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061120","nama":"TITI","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":1,"status":"0","c1":"2118900","c2":"78.06","c3":"20564000","c4":"36.39","c5":"66.59","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":237}',
+            ),
+            205 => 
+            array (
+                'id' => 2206,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300867","nama":"TUKIYAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":1,"status":"0","c1":"1856750","c2":"56.87","c3":"36656000","c4":"47.19","c5":"75.42","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":238}',
+            ),
+            206 => 
+            array (
+                'id' => 2207,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300801","nama":"TUTI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":1,"status":"0","c1":"2046800","c2":"62.55","c3":"36632000","c4":"65.48","c5":"61.87","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":239}',
+            ),
+            207 => 
+            array (
+                'id' => 2208,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300832","nama":"UAY WARLIYAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":1,"status":"0","c1":"2489550","c2":"60.41","c3":"37372000","c4":"67.29","c5":"39.48","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":240}',
+            ),
+            208 => 
+            array (
+                'id' => 2209,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013739","nama":"UJANG HIDAYAT","alamat":"KP. BATU KARUT RT.02 RW. 02","import_id":1,"status":"0","c1":"3433150","c2":"51.59","c3":"14632000","c4":"67.01","c5":"34.99","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":241}',
+            ),
+            209 => 
+            array (
+                'id' => 2210,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300063","nama":"ULIA","alamat":"KP. BOJONG GEDE RT 01\\/05","import_id":1,"status":"0","c1":"2691150","c2":"26.59","c3":"25628000","c4":"99.47","c5":"68.33","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":242}',
+            ),
+            210 => 
+            array (
+                'id' => 2211,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300881","nama":"WATI","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"2220400","c2":"86.41","c3":"28268000","c4":"76","c5":"73.28","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":243}',
+            ),
+            211 => 
+            array (
+                'id' => 2212,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061032","nama":"WATI","alamat":"KP CISALAM RW 06 RT 02","import_id":1,"status":"0","c1":"1523550","c2":"27.62","c3":"28952000","c4":"28.52","c5":"62.67","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":244}',
+            ),
+            212 => 
+            array (
+                'id' => 2213,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016018087","nama":"WATI","alamat":"KP JATI RW 10 RT 02","import_id":1,"status":"0","c1":"1705550","c2":"61.22","c3":"16988000","c4":"78.43","c5":"69.05","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":245}',
+            ),
+            213 => 
+            array (
+                'id' => 2214,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980445","nama":"WIDA WIDIA","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":1,"status":"0","c1":"2926000","c2":"39.16","c3":"31296000","c4":"38","c5":"46.85","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":246}',
+            ),
+            214 => 
+            array (
+                'id' => 2215,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300147","nama":"WIWI","alamat":"KP. SARPEUNDEUY RT. 02 RW. 04","import_id":1,"status":"0","c1":"1584800","c2":"89.56","c3":"36488000","c4":"62.21","c5":"26.56","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":247}',
+            ),
+            215 => 
+            array (
+                'id' => 2216,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000159","nama":"WIWIN","alamat":"KP PATROL RT 02 RW 09","import_id":1,"status":"0","c1":"3233650","c2":"29.69","c3":"28332000","c4":"33.21","c5":"57.45","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":248}',
+            ),
+            216 => 
+            array (
+                'id' => 2217,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300884","nama":"WIWIN WINARTI","alamat":"KP JATI RW 10 RT 01","import_id":1,"status":"0","c1":"2745050","c2":"69.05","c3":"15152000","c4":"54.13","c5":"33.34","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":249}',
+            ),
+            217 => 
+            array (
+                'id' => 2218,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000287","nama":"YANI","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":1,"status":"0","c1":"2642150","c2":"43.18","c3":"35080000","c4":"92.53","c5":"40.47","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":250}',
+            ),
+            218 => 
+            array (
+                'id' => 2219,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300859","nama":"YANI HARYANI","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":1,"status":"0","c1":"1954400","c2":"80.54","c3":"21364000","c4":"52.1","c5":"72.72","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":251}',
+            ),
+            219 => 
+            array (
+                'id' => 2220,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061066","nama":"YANTI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":1,"status":"0","c1":"1078700","c2":"66.91","c3":"35116000","c4":"82.2","c5":"36.63","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":252}',
+            ),
+            220 => 
+            array (
+                'id' => 2221,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061026","nama":"YANTI RUSTINI","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"1409100","c2":"34.99","c3":"28072000","c4":"91.4","c5":"79.76","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":253}',
+            ),
+            221 => 
+            array (
+                'id' => 2222,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016015217","nama":"YANTI SITI PATIMAH","alamat":"KP JATI RW 10 RT 02","import_id":1,"status":"0","c1":"2450000","c2":"44.64","c3":"17008000","c4":"33.21","c5":"57.45","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":254}',
+            ),
+            222 => 
+            array (
+                'id' => 2223,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000185","nama":"YANTI SUGIANTI","alamat":"KP GEGERLOA RT 01 RW 07","import_id":1,"status":"0","c1":"1189300","c2":"26.04","c3":"21284000","c4":"78.43","c5":"69.05","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":255}',
+            ),
+            223 => 
+            array (
+                'id' => 2224,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300061","nama":"YATI","alamat":"KP. SARPEUNDEUY RT. 05 RW. 04","import_id":1,"status":"0","c1":"1146950","c2":"82.89","c3":"13968000","c4":"82.2","c5":"36.63","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":256}',
+            ),
+            224 => 
+            array (
+                'id' => 2225,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060961","nama":"YATI","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"3392200","c2":"85.28","c3":"32224000","c4":"27.45","c5":"66.37","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":257}',
+            ),
+            225 => 
+            array (
+                'id' => 2226,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061078","nama":"YATI","alamat":"KP PATROL RT 01 RW 09","import_id":1,"status":"0","c1":"1097250","c2":"33.24","c3":"31512000","c4":"71.13","c5":"60.41","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":258}',
+            ),
+            226 => 
+            array (
+                'id' => 2227,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000169","nama":"YAYA","alamat":"KP CISALAM RW 06 RT 01","import_id":1,"status":"0","c1":"2052050","c2":"77","c3":"16120000","c4":"57.86","c5":"31.91","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":259}',
+            ),
+            227 => 
+            array (
+                'id' => 2228,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300075","nama":"YAYA PARIDAH","alamat":"KP. CISALAM RT 02\\/06","import_id":1,"status":"0","c1":"2850050","c2":"87.37","c3":"36408000","c4":"69.87","c5":"25.89","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":260}',
+            ),
+            228 => 
+            array (
+                'id' => 2229,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061122","nama":"YAYAN","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":1,"status":"0","c1":"1799000","c2":"61.91","c3":"25704000","c4":"98.04","c5":"39.7","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":261}',
+            ),
+            229 => 
+            array (
+                'id' => 2230,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300056","nama":"YAYAT HIDAYAT","alamat":"KP. SARPEUNDEUY RT. 03 RW. 04","import_id":1,"status":"1","c1":"2497600","c2":"94.46","c3":"14480000","c4":"72.5","c5":"81.27","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":262}',
+            ),
+            230 => 
+            array (
+                'id' => 2231,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061002","nama":"YENI PADILAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"1","c1":"2667350","c2":"42.58","c3":"12344000","c4":"71.48","c5":"40.67","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":263}',
+            ),
+            231 => 
+            array (
+                'id' => 2232,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060992","nama":"YETI","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":1,"status":"0","c1":"2118900","c2":"54.75","c3":"39296000","c4":"48.73","c5":"61.22","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":264}',
+            ),
+            232 => 
+            array (
+                'id' => 2233,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300097","nama":"YIYIT","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":1,"status":"0","c1":"2282350","c2":"67.51","c3":"23260000","c4":"90.47","c5":"83.96","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":265}',
+            ),
+            233 => 
+            array (
+                'id' => 2234,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300885","nama":"YOYOH ROBAYAH","alamat":"KP JATI RW 10 RT 01","import_id":1,"status":"1","c1":"919450","c2":"60.43","c3":"17544000","c4":"91.38","c5":"94.76","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":266}',
+            ),
+            234 => 
+            array (
+                'id' => 2235,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300814","nama":"YOYOH ROKAYAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":1,"status":"1","c1":"3293850","c2":"68.95","c3":"35124000","c4":"48.29","c5":"61.19","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":267}',
+            ),
+            235 => 
+            array (
+                'id' => 2236,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000306","nama":"YULI APRILIANTI","alamat":"KP PATROL RT 03 RW 09","import_id":1,"status":"0","c1":"2518600","c2":"30.29","c3":"32908000","c4":"98.98","c5":"27.15","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":268}',
+            ),
+            236 => 
+            array (
+                'id' => 2237,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300071","nama":"YUYU","alamat":"KP. CISALAM RT 02\\/06","import_id":1,"status":"0","c1":"1296750","c2":"51.67","c3":"33444000","c4":"79.61","c5":"94.63","c6":"1","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":269}',
+            ),
+            237 => 
+            array (
+                'id' => 2238,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300054","nama":"YUYUM","alamat":"KP. SARPEUNDEUY RT. 01 RW. 04","import_id":1,"status":"0","c1":"2970800","c2":"76.29","c3":"12360000","c4":"92.35","c5":"26.73","c6":"0","updated_at":"2023-08-14T17:19:47.000000Z","created_at":"2023-08-14T17:19:47.000000Z","id":270}',
+            ),
+            238 => 
+            array (
+                'id' => 2239,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:19:47',
+                'table_name' => 'import_penerima',
+                'log_type' => 'edit',
+                'data' => '{"nama":"Data finish","slug":"data-finish","updated_at":"2023-08-15 00:19:46","created_at":"2023-08-15 00:19:46","id":1}',
+            ),
+            239 => 
+            array (
+                'id' => 2240,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:22:44',
+                'table_name' => 'import_penerima',
+                'log_type' => 'delete',
+                'data' => '{"id":1,"nama":"Data finish","slug":"data-finish","file":"20230815121946-data-finish.xlsx","count":269,"created_at":"2023-08-15 00:19:46","updated_at":"2023-08-15 00:19:47"}',
+            ),
+            240 => 
+            array (
+                'id' => 2244,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:54',
+                'table_name' => 'import_penerima',
+                'log_type' => 'create',
+                'data' => '{"nama":"Data full","slug":"data-full","updated_at":"2023-08-14T17:23:54.000000Z","created_at":"2023-08-14T17:23:54.000000Z","id":5}',
+            ),
+            241 => 
+            array (
+                'id' => 2245,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","import_id":5,"status":"1","c1":"2144450","c2":"69.81","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":271}',
+            ),
+            242 => 
+            array (
+                'id' => 2246,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060991","nama":"ADE ROHANAH","alamat":"KP JATI RT 02 RW 03","import_id":5,"status":"2","c1":"3327100","c2":"58.87","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":272}',
+            ),
+            243 => 
+            array (
+                'id' => 2247,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061104","nama":"ADE WATIN","alamat":"KP JATI RW 10 RT 02","import_id":5,"status":"0","c1":"3158050","c2":"92.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":273}',
+            ),
+            244 => 
+            array (
+                'id' => 2248,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016023545","nama":"AI ATIKAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":5,"status":"1","c1":"1212050","c2":"67.03","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":274}',
+            ),
+            245 => 
+            array (
+                'id' => 2249,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300085","nama":"AI MARDIAH","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":5,"status":"1","c1":"2014950","c2":"91.98","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":275}',
+            ),
+            246 => 
+            array (
+                'id' => 2250,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300890","nama":"AI MARLINA","alamat":"KP JATI RW 10 RT 02","import_id":5,"status":"0","c1":"2710750","c2":"57.89","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":276}',
+            ),
+            247 => 
+            array (
+                'id' => 2251,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300888","nama":"AI MARPUAH","alamat":"KP JATI RW 10 RT 02","import_id":5,"status":"1","c1":"3214400","c2":"83.46","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":277}',
+            ),
+            248 => 
+            array (
+                'id' => 2252,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980521","nama":"AI NAPISAH","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":5,"status":"1","c1":"3451700","c2":"44.36","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":278}',
+            ),
+            249 => 
+            array (
+                'id' => 2253,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300064","nama":"AI ROHAENI","alamat":"KP. BOJONG GEDE RT 01\\/05","import_id":5,"status":"0","c1":"2644950","c2":"69.79","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":279}',
+            ),
+            250 => 
+            array (
+                'id' => 2254,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300850","nama":"AI ROSTINI","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"2098250","c2":"81.9","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":280}',
+            ),
+            251 => 
+            array (
+                'id' => 2255,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300892","nama":"AISYAH","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":5,"status":"0","c1":"1574650","c2":"86.77","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":281}',
+            ),
+            252 => 
+            array (
+                'id' => 2256,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300082","nama":"ALIS","alamat":"KP. GEGERLOA RT. 01 RW. 07","import_id":5,"status":"0","c1":"1594950","c2":"55.51","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":282}',
+            ),
+            253 => 
+            array (
+                'id' => 2257,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060981","nama":"AMINAH","alamat":"KP JATI RT 01 RW 03","import_id":5,"status":"0","c1":"2256450","c2":"85.76","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":283}',
+            ),
+            254 => 
+            array (
+                'id' => 2258,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300883","nama":"ANI LESTARI","alamat":"KP JATI RW 10 RT 01","import_id":5,"status":"0","c1":"2573200","c2":"78.02","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":284}',
+            ),
+            255 => 
+            array (
+                'id' => 2259,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980524","nama":"ANI NURHAYATI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"3253600","c2":"28.08","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":285}',
+            ),
+            256 => 
+            array (
+                'id' => 2260,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000049","nama":"ANIH","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"960750","c2":"66.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":286}',
+            ),
+            257 => 
+            array (
+                'id' => 2261,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980541","nama":"ANISA","alamat":"KP CISALAM RW 06 RT 02","import_id":5,"status":"0","c1":"1454950","c2":"89.93","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":287}',
+            ),
+            258 => 
+            array (
+                'id' => 2262,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000089","nama":"ANISAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"1651650","c2":"77.94","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":288}',
+            ),
+            259 => 
+            array (
+                'id' => 2263,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016024803","nama":"APON","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":5,"status":"0","c1":"2425850","c2":"92.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":289}',
+            ),
+            260 => 
+            array (
+                'id' => 2264,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060966","nama":"ASEP TAJUDIN","alamat":"KP DANGDEUR RT 01 RW 01","import_id":5,"status":"0","c1":"1223950","c2":"45.94","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":290}',
+            ),
+            261 => 
+            array (
+                'id' => 2265,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300066","nama":"ATIKAH","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":5,"status":"0","c1":"2970100","c2":"65.23","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":291}',
+            ),
+            262 => 
+            array (
+                'id' => 2266,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061045","nama":"ATING","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":5,"status":"0","c1":"1623650","c2":"53.7","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":292}',
+            ),
+            263 => 
+            array (
+                'id' => 2267,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000224","nama":"AYIN","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"2207450","c2":"63.14","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":293}',
+            ),
+            264 => 
+            array (
+                'id' => 2268,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300829","nama":"BADRIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":5,"status":"0","c1":"2403800","c2":"83.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":294}',
+            ),
+            265 => 
+            array (
+                'id' => 2269,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061005","nama":"BADRIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":5,"status":"0","c1":"2175950","c2":"51.16","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":295}',
+            ),
+            266 => 
+            array (
+                'id' => 2270,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061033","nama":"CACIH SUMINAR","alamat":"KP CISALAM RW 06 RT 02","import_id":5,"status":"0","c1":"3300500","c2":"56.97","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":296}',
+            ),
+            267 => 
+            array (
+                'id' => 2271,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300010","nama":"CIAH","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":5,"status":"0","c1":"2038050","c2":"85.44","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":297}',
+            ),
+            268 => 
+            array (
+                'id' => 2272,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300091","nama":"CICAH JULIANTI","alamat":"KP. BOJONG GEDE RT 02\\/08","import_id":5,"status":"0","c1":"3286850","c2":"99.43","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":298}',
+            ),
+            269 => 
+            array (
+                'id' => 2273,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980480","nama":"CUCU SUMIATI","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"2195550","c2":"77.33","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":299}',
+            ),
+            270 => 
+            array (
+                'id' => 2274,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300818","nama":"DEDE","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"2537500","c2":"81.27","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":300}',
+            ),
+            271 => 
+            array (
+                'id' => 2275,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060990","nama":"DEDE ENI","alamat":"KP JATI RT 02 RW 03","import_id":5,"status":"0","c1":"1690150","c2":"61.19","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":301}',
+            ),
+            272 => 
+            array (
+                'id' => 2276,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980506","nama":"DEDE MASRIPAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"2975000","c2":"28.51","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":302}',
+            ),
+            273 => 
+            array (
+                'id' => 2277,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060989","nama":"DEDE NANI","alamat":"KP JATI RT 01 RW 03","import_id":5,"status":"0","c1":"2582300","c2":"34.81","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":303}',
+            ),
+            274 => 
+            array (
+                'id' => 2278,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980276","nama":"DEDE SITI NURJANAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"3314850","c2":"36.49","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":304}',
+            ),
+            275 => 
+            array (
+                'id' => 2279,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000251","nama":"DEDE SOLIHAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":5,"status":"0","c1":"1876000","c2":"58.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":305}',
+            ),
+            276 => 
+            array (
+                'id' => 2280,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300856","nama":"DEDE SUPRIATNA","alamat":"KP GEGERLOA RT 01 RW 07","import_id":5,"status":"0","c1":"2248050","c2":"50.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":306}',
+            ),
+            277 => 
+            array (
+                'id' => 2281,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300045","nama":"DEDEH","alamat":"KP. JATI RT 03\\/03","import_id":5,"status":"0","c1":"3074750","c2":"46.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":307}',
+            ),
+            278 => 
+            array (
+                'id' => 2282,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000250","nama":"DEDEH JUARIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":5,"status":"0","c1":"2517550","c2":"55.85","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":308}',
+            ),
+            279 => 
+            array (
+                'id' => 2283,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061074","nama":"DEDEH KODARIAH","alamat":"KP PATROL RT 01 RW 09","import_id":5,"status":"0","c1":"2802100","c2":"34.65","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":309}',
+            ),
+            280 => 
+            array (
+                'id' => 2284,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061025","nama":"DETI","alamat":"KP. SARPEUNDEUY RT 002 \\/ RW 011","import_id":5,"status":"0","c1":"3180100","c2":"80.59","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":310}',
+            ),
+            281 => 
+            array (
+                'id' => 2285,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060960","nama":"DEVITA","alamat":"KP DANGDEUR RT 01 RW 01","import_id":5,"status":"0","c1":"1153950","c2":"29.74","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":311}',
+            ),
+            282 => 
+            array (
+                'id' => 2286,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300853","nama":"DEWI KODARIAH","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"2312800","c2":"72.14","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":312}',
+            ),
+            283 => 
+            array (
+                'id' => 2287,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300822","nama":"DEWI MARDIANA","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"2502150","c2":"92.36","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":313}',
+            ),
+            284 => 
+            array (
+                'id' => 2288,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300076","nama":"DUDUNG EYE","alamat":"KP. CISALAM RT 02\\/06","import_id":5,"status":"0","c1":"3323950","c2":"73.75","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":314}',
+            ),
+            285 => 
+            array (
+                'id' => 2289,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061116","nama":"ECIN","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":5,"status":"0","c1":"3029250","c2":"50.63","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":315}',
+            ),
+            286 => 
+            array (
+                'id' => 2290,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300836","nama":"EEN","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":5,"status":"0","c1":"3392900","c2":"34.78","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":316}',
+            ),
+            287 => 
+            array (
+                'id' => 2291,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300898","nama":"EET","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":5,"status":"0","c1":"2579500","c2":"78.46","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":317}',
+            ),
+            288 => 
+            array (
+                'id' => 2292,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300017","nama":"ELA NURLAELA","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":5,"status":"0","c1":"1025500","c2":"65.02","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":318}',
+            ),
+            289 => 
+            array (
+                'id' => 2293,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300035","nama":"ELIN","alamat":"KP. PATROL RT. 04 RW. 02","import_id":5,"status":"0","c1":"2804900","c2":"89","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":319}',
+            ),
+            290 => 
+            array (
+                'id' => 2294,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001380055","nama":"ELIS LISNAWATI","alamat":"SARIPEUNDEUY RT 04\\/04","import_id":5,"status":"0","c1":"1548050","c2":"34.93","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":320}',
+            ),
+            291 => 
+            array (
+                'id' => 2295,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061055","nama":"EMIN","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"3499300","c2":"53.09","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":321}',
+            ),
+            292 => 
+            array (
+                'id' => 2296,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300018","nama":"EMPOL SITI HULAELAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":5,"status":"0","c1":"2425150","c2":"59.86","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":322}',
+            ),
+            293 => 
+            array (
+                'id' => 2297,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061007","nama":"EMPONG KOMARIAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":5,"status":"0","c1":"2355150","c2":"39.48","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":323}',
+            ),
+            294 => 
+            array (
+                'id' => 2298,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300839","nama":"ENCENG","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":5,"status":"0","c1":"2786350","c2":"94.63","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":324}',
+            ),
+            295 => 
+            array (
+                'id' => 2299,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060997","nama":"ENCUM","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"1668800","c2":"66.93","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":325}',
+            ),
+            296 => 
+            array (
+                'id' => 2300,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300894","nama":"ENI MARLENI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":5,"status":"0","c1":"1798300","c2":"41.84","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":326}',
+            ),
+            297 => 
+            array (
+                'id' => 2301,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061090","nama":"ENIS","alamat":"KP PATROL RT 02 RW 09","import_id":5,"status":"0","c1":"2573900","c2":"37.7","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":327}',
+            ),
+            298 => 
+            array (
+                'id' => 2302,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300012","nama":"ENJANG JAMALUDIN","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":5,"status":"0","c1":"2737350","c2":"83.87","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":328}',
+            ),
+            299 => 
+            array (
+                'id' => 2303,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061050","nama":"ENOH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":5,"status":"0","c1":"1572550","c2":"59.39","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":329}',
+            ),
+            300 => 
+            array (
+                'id' => 2304,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300857","nama":"ENOK","alamat":"KP GEGERLOA RT 01 RW 07","import_id":5,"status":"0","c1":"1273650","c2":"66.59","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":330}',
+            ),
+            301 => 
+            array (
+                'id' => 2305,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013743","nama":"ENTI NURHAETI","alamat":"KP JATI RT 01 RW 03","import_id":5,"status":"0","c1":"3362100","c2":"70.42","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":331}',
+            ),
+            302 => 
+            array (
+                'id' => 2306,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000176","nama":"ENUNG","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"2867550","c2":"51.71","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":332}',
+            ),
+            303 => 
+            array (
+                'id' => 2307,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980486","nama":"ENUNG HAYATI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"2599800","c2":"51.48","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":333}',
+            ),
+            304 => 
+            array (
+                'id' => 2308,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050701","nama":"ENUNG HOIROH","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"1621900","c2":"93.6","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":334}',
+            ),
+            305 => 
+            array (
+                'id' => 2309,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300077","nama":"ENUR","alamat":"KP. CISALAM RT 02\\/06","import_id":5,"status":"0","c1":"1312150","c2":"65.54","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":335}',
+            ),
+            306 => 
+            array (
+                'id' => 2310,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300895","nama":"EPON","alamat":"K SARPEUNDEUY RW 11 RT 02","import_id":5,"status":"0","c1":"3238550","c2":"40.47","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":336}',
+            ),
+            307 => 
+            array (
+                'id' => 2311,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300834","nama":"ERAT","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":5,"status":"0","c1":"1707650","c2":"71.65","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":337}',
+            ),
+            308 => 
+            array (
+                'id' => 2312,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300079","nama":"EROS ROSITA","alamat":"KP. CISALAM RT 02\\/06","import_id":5,"status":"0","c1":"1529500","c2":"46.2","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":338}',
+            ),
+            309 => 
+            array (
+                'id' => 2313,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300813","nama":"ESAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":5,"status":"0","c1":"2793700","c2":"60.23","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":339}',
+            ),
+            310 => 
+            array (
+                'id' => 2314,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050710","nama":"ETI","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":5,"status":"0","c1":"998200","c2":"62.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":340}',
+            ),
+            311 => 
+            array (
+                'id' => 2315,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300815","nama":"ETI","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":5,"status":"0","c1":"3232250","c2":"26.73","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":341}',
+            ),
+            312 => 
+            array (
+                'id' => 2316,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300873","nama":"ETI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"1741950","c2":"72.7","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":342}',
+            ),
+            313 => 
+            array (
+                'id' => 2317,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980208","nama":"ETI KUSMIATI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":5,"status":"0","c1":"3035550","c2":"63.41","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":343}',
+            ),
+            314 => 
+            array (
+                'id' => 2318,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980107","nama":"ETI MULYANI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"3232600","c2":"82.64","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":344}',
+            ),
+            315 => 
+            array (
+                'id' => 2319,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061021","nama":"ETI SUMIATI","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"3453450","c2":"34.39","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":345}',
+            ),
+            316 => 
+            array (
+                'id' => 2320,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050703","nama":"EUIS LATIPAH","alamat":"KP CISALAM RW 06 RT 02","import_id":5,"status":"0","c1":"3093300","c2":"68.24","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":346}',
+            ),
+            317 => 
+            array (
+                'id' => 2321,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061117","nama":"EUIS SUSILAWATI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":5,"status":"0","c1":"1463000","c2":"34.29","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":347}',
+            ),
+            318 => 
+            array (
+                'id' => 2322,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050706","nama":"EULIS HARYANTI","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"3053750","c2":"52.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":348}',
+            ),
+            319 => 
+            array (
+                'id' => 2323,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000049","nama":"EULIS MARDIAH","alamat":"KP PATROL RT 01 RW 09","import_id":5,"status":"0","c1":"2937550","c2":"91.47","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":349}',
+            ),
+            320 => 
+            array (
+                'id' => 2324,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300854","nama":"EULIS ROHIMAH","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"2184700","c2":"46.69","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":350}',
+            ),
+            321 => 
+            array (
+                'id' => 2325,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300034","nama":"EUTIK","alamat":"KP. PATROL RT. 04 RW. 02","import_id":5,"status":"0","c1":"1554700","c2":"39.24","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":351}',
+            ),
+            322 => 
+            array (
+                'id' => 2326,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300083","nama":"EUTIK","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":5,"status":"0","c1":"2898000","c2":"69.03","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":352}',
+            ),
+            323 => 
+            array (
+                'id' => 2327,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061057","nama":"FATIMAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"1823500","c2":"72.72","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":353}',
+            ),
+            324 => 
+            array (
+                'id' => 2328,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026002","nama":"FATMAWATI","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"2358300","c2":"66.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":354}',
+            ),
+            325 => 
+            array (
+                'id' => 2329,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:55',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300823","nama":"GEUGEU","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"1318450","c2":"92.39","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:55.000000Z","created_at":"2023-08-14T17:23:55.000000Z","id":355}',
+            ),
+            326 => 
+            array (
+                'id' => 2330,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980448","nama":"HABSAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"2710400","c2":"54.32","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":356}',
+            ),
+            327 => 
+            array (
+                'id' => 2331,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061113","nama":"HAJAR","alamat":"KP JATI RT 03 RW 10","import_id":5,"status":"0","c1":"1073450","c2":"99.27","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":357}',
+            ),
+            328 => 
+            array (
+                'id' => 2332,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300027","nama":"HALIAH","alamat":"KP PASIR MUNCANG RT 02 RW 02","import_id":5,"status":"0","c1":"1814050","c2":"31.79","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":358}',
+            ),
+            329 => 
+            array (
+                'id' => 2333,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300016","nama":"HANA REHANA","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":5,"status":"0","c1":"2850400","c2":"90.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":359}',
+            ),
+            330 => 
+            array (
+                'id' => 2334,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300887","nama":"HANI NURHANIFAH","alamat":"KP JATI RW 10 RT 02","import_id":5,"status":"0","c1":"1303750","c2":"97.74","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":360}',
+            ),
+            331 => 
+            array (
+                'id' => 2335,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300869","nama":"HASANAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"2177350","c2":"26.56","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":361}',
+            ),
+            332 => 
+            array (
+                'id' => 2336,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300876","nama":"HENI HANDAYANI","alamat":"KP PATROL RT 02 RW 09","import_id":5,"status":"0","c1":"2345350","c2":"34.99","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":362}',
+            ),
+            333 => 
+            array (
+                'id' => 2337,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300858","nama":"HERLINA","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":5,"status":"0","c1":"3431400","c2":"39.7","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":363}',
+            ),
+            334 => 
+            array (
+                'id' => 2338,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061081","nama":"IBAH","alamat":"KP PATROL RT 01 RW 09","import_id":5,"status":"0","c1":"1709400","c2":"74.98","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":364}',
+            ),
+            335 => 
+            array (
+                'id' => 2339,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300049","nama":"IDA","alamat":"KP. JATI RT 03\\/03","import_id":5,"status":"0","c1":"907550","c2":"52.38","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":365}',
+            ),
+            336 => 
+            array (
+                'id' => 2340,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300872","nama":"IDAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"2249100","c2":"45.4","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":366}',
+            ),
+            337 => 
+            array (
+                'id' => 2341,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300074","nama":"IHAT SOLIHAT","alamat":"KP. CISALAM RT 02\\/06","import_id":5,"status":"0","c1":"1535800","c2":"61.17","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":367}',
+            ),
+            338 => 
+            array (
+                'id' => 2342,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000048","nama":"IHIN","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"1452850","c2":"86.52","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":368}',
+            ),
+            339 => 
+            array (
+                'id' => 2343,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300803","nama":"IIK NURHIKMAH","alamat":"KP DANGDEUR RT 02 RW 01","import_id":5,"status":"0","c1":"1132950","c2":"93.85","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":369}',
+            ),
+            340 => 
+            array (
+                'id' => 2344,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061010","nama":"IING SOLIHIN","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":5,"status":"0","c1":"1322300","c2":"40.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":370}',
+            ),
+            341 => 
+            array (
+                'id' => 2345,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300030","nama":"IIS","alamat":"KP. PATROL RT. 03 RW. 02","import_id":5,"status":"0","c1":"2051350","c2":"97.85","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":371}',
+            ),
+            342 => 
+            array (
+                'id' => 2346,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060988","nama":"IIS ISMAYANTINI","alamat":"KP JATI RT 01 RW 03","import_id":5,"status":"0","c1":"1030750","c2":"70.01","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":372}',
+            ),
+            343 => 
+            array (
+                'id' => 2347,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320520001800099","nama":"IIS KARIMAH","alamat":"KP. CISALAM","import_id":5,"status":"0","c1":"3339350","c2":"40.41","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":373}',
+            ),
+            344 => 
+            array (
+                'id' => 2348,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300100","nama":"IJANG ABDULAH SAHRONI","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":5,"status":"0","c1":"1311800","c2":"62.96","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":374}',
+            ),
+            345 => 
+            array (
+                'id' => 2349,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300805","nama":"IKAH","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":5,"status":"0","c1":"1750000","c2":"80.88","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":375}',
+            ),
+            346 => 
+            array (
+                'id' => 2350,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001380089","nama":"ILAH","alamat":"DUSUN BATUKARUT RT 02 RW 02 DESA DANGDEUR KEC BANYURESMI","import_id":5,"status":"0","c1":"3228400","c2":"57.11","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":376}',
+            ),
+            347 => 
+            array (
+                'id' => 2351,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300003","nama":"IMAS KOMALA","alamat":"KP. DANGDEUR RT. 01 RW. 01","import_id":5,"status":"0","c1":"1457050","c2":"62.06","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":377}',
+            ),
+            348 => 
+            array (
+                'id' => 2352,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300080","nama":"IMAS MAEMUNAH","alamat":"KP. CISALAM RT 02\\/06","import_id":5,"status":"0","c1":"1131550","c2":"56.05","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":378}',
+            ),
+            349 => 
+            array (
+                'id' => 2353,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300036","nama":"IMAS MASRIAH","alamat":"KP. PATROL RT. 04 RW. 02","import_id":5,"status":"0","c1":"1316350","c2":"50.38","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":379}',
+            ),
+            350 => 
+            array (
+                'id' => 2354,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000172","nama":"IMAS MINTARSIH","alamat":"KP CISALAM RW 06 RT 02","import_id":5,"status":"0","c1":"2774800","c2":"64.6","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":380}',
+            ),
+            351 => 
+            array (
+                'id' => 2355,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016015803","nama":"IMAS NIA","alamat":"KP JATI RT 02 RW 03","import_id":5,"status":"0","c1":"2311750","c2":"37.3","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":381}',
+            ),
+            352 => 
+            array (
+                'id' => 2356,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300059","nama":"IMAS SITI NURJANAH","alamat":"KP. SARPEUNDEUY RT. 05 RW. 04","import_id":5,"status":"0","c1":"2245950","c2":"34.57","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":382}',
+            ),
+            353 => 
+            array (
+                'id' => 2357,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300871","nama":"IMAS WAWAT","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"3349500","c2":"83.68","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":383}',
+            ),
+            354 => 
+            array (
+                'id' => 2358,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300023","nama":"IPAH","alamat":"KP PASIRMUNCANG RT. 02 RW. 02","import_id":5,"status":"0","c1":"1404900","c2":"64.9","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":384}',
+            ),
+            355 => 
+            array (
+                'id' => 2359,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000264","nama":"IPAH HANIPAH","alamat":"KP JATI RT 03 RW 03","import_id":5,"status":"0","c1":"1238650","c2":"38.78","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":385}',
+            ),
+            356 => 
+            array (
+                'id' => 2360,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300899","nama":"IRNA ALIFAH","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":5,"status":"0","c1":"1489950","c2":"74.14","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":386}',
+            ),
+            357 => 
+            array (
+                'id' => 2361,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061053","nama":"ISAH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":5,"status":"0","c1":"1974000","c2":"56.99","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":387}',
+            ),
+            358 => 
+            array (
+                'id' => 2362,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300033","nama":"IYAM MARYANI","alamat":"KP PATROL RT 03 RW 02","import_id":5,"status":"0","c1":"2018450","c2":"28.58","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":388}',
+            ),
+            359 => 
+            array (
+                'id' => 2363,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300889","nama":"JUA","alamat":"JKP JATI RW 10 RT 02","import_id":5,"status":"0","c1":"2810850","c2":"30.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":389}',
+            ),
+            360 => 
+            array (
+                'id' => 2364,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300008","nama":"JUJU","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":5,"status":"0","c1":"2446500","c2":"80.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":390}',
+            ),
+            361 => 
+            array (
+                'id' => 2365,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061108","nama":"JUMA","alamat":"KP JATI RT 03 RW 10","import_id":5,"status":"0","c1":"3198300","c2":"94.76","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":391}',
+            ),
+            362 => 
+            array (
+                'id' => 2366,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300878","nama":"KARMASIH","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"1475600","c2":"73.06","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":392}',
+            ),
+            363 => 
+            array (
+                'id' => 2367,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016018086","nama":"KARYATI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"1274350","c2":"80.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":393}',
+            ),
+            364 => 
+            array (
+                'id' => 2368,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300068","nama":"KOKOM","alamat":"KP. BOJONG GEDE RT 03\\/05","import_id":5,"status":"0","c1":"3306800","c2":"57.99","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":394}',
+            ),
+            365 => 
+            array (
+                'id' => 2369,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300014","nama":"LANI HERNAWATI","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":5,"status":"0","c1":"1331050","c2":"72.05","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":395}',
+            ),
+            366 => 
+            array (
+                'id' => 2370,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300004","nama":"LELAH","alamat":"KP DANGDEUR RT 01 RW 01","import_id":5,"status":"0","c1":"1421350","c2":"88.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":396}',
+            ),
+            367 => 
+            array (
+                'id' => 2371,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300065","nama":"LENI MARLINA","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":5,"status":"0","c1":"3074400","c2":"53.1","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":397}',
+            ),
+            368 => 
+            array (
+                'id' => 2372,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061126","nama":"LIA","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":5,"status":"0","c1":"3382750","c2":"54.86","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":398}',
+            ),
+            369 => 
+            array (
+                'id' => 2373,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300026","nama":"LILIS","alamat":"KP PASIR MUNCANG RT 02 RW 02","import_id":5,"status":"0","c1":"2166850","c2":"51.14","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":399}',
+            ),
+            370 => 
+            array (
+                'id' => 2374,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000047","nama":"LILIS","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":5,"status":"0","c1":"1081500","c2":"52.73","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":400}',
+            ),
+            371 => 
+            array (
+                'id' => 2375,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016011995","nama":"LILIS K","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":5,"status":"0","c1":"936950","c2":"52.04","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":401}',
+            ),
+            372 => 
+            array (
+                'id' => 2376,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300880","nama":"LILIS LISWANTI","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"2025100","c2":"31.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":402}',
+            ),
+            373 => 
+            array (
+                'id' => 2377,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300819","nama":"LINA","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"3359650","c2":"90.99","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":403}',
+            ),
+            374 => 
+            array (
+                'id' => 2378,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300841","nama":"LISNAWATI","alamat":"KP BOJONG GEDE RT 03 RW 05","import_id":5,"status":"0","c1":"2964150","c2":"31.92","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":404}',
+            ),
+            375 => 
+            array (
+                'id' => 2379,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300002","nama":"MAE","alamat":"KP. DANGDEUR RT. 01 RW. 01","import_id":5,"status":"0","c1":"1296750","c2":"91.38","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":405}',
+            ),
+            376 => 
+            array (
+                'id' => 2380,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980529","nama":"MARLINA","alamat":"KP JATI RW 10 RT 02","import_id":5,"status":"0","c1":"2111200","c2":"47.64","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":406}',
+            ),
+            377 => 
+            array (
+                'id' => 2381,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300058","nama":"MARNI","alamat":"KP. BOJONGGEDE RT. 03 RW. 08","import_id":5,"status":"0","c1":"2152850","c2":"86.93","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":407}',
+            ),
+            378 => 
+            array (
+                'id' => 2382,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016017381","nama":"MARPU AH","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":5,"status":"0","c1":"2015300","c2":"80.17","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":408}',
+            ),
+            379 => 
+            array (
+                'id' => 2383,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300826","nama":"MARWATI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":5,"status":"0","c1":"2877000","c2":"36.63","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":409}',
+            ),
+            380 => 
+            array (
+                'id' => 2384,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016012953","nama":"MAS AAM","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"2396800","c2":"56.78","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":410}',
+            ),
+            381 => 
+            array (
+                'id' => 2385,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061049","nama":"MAS IKOH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":5,"status":"0","c1":"2162650","c2":"34.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":411}',
+            ),
+            382 => 
+            array (
+                'id' => 2386,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060985","nama":"MASITOH","alamat":"KP JATI RT 02 RW 03","import_id":5,"status":"0","c1":"1145550","c2":"95.18","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":412}',
+            ),
+            383 => 
+            array (
+                'id' => 2387,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061038","nama":"MIMIH","alamat":"KP GEGERLOA RT 01 RW 07","import_id":5,"status":"0","c1":"2802450","c2":"66.09","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":413}',
+            ),
+            384 => 
+            array (
+                'id' => 2388,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300855","nama":"MIMIN","alamat":"KP CISALAM RW 06 RT 02","import_id":5,"status":"0","c1":"1631350","c2":"38.61","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":414}',
+            ),
+            385 => 
+            array (
+                'id' => 2389,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300865","nama":"MIMIN","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":5,"status":"0","c1":"3166450","c2":"83.96","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":415}',
+            ),
+            386 => 
+            array (
+                'id' => 2390,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013744","nama":"MIMIN ASMINAH","alamat":"KP JATI RT 02 RW 03","import_id":5,"status":"0","c1":"2750300","c2":"69.65","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":416}',
+            ),
+            387 => 
+            array (
+                'id' => 2391,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061096","nama":"MUNI\'AH","alamat":"KP JATI RW 10 RT 01","import_id":5,"status":"0","c1":"2795100","c2":"90.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":417}',
+            ),
+            388 => 
+            array (
+                'id' => 2392,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000004","nama":"MUTIAH","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":5,"status":"0","c1":"2549400","c2":"68.2","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":418}',
+            ),
+            389 => 
+            array (
+                'id' => 2393,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300800","nama":"NANA RUSMANA","alamat":"KP DANGDEUR RW 01 RT 01","import_id":5,"status":"0","c1":"3459050","c2":"92.4","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":419}',
+            ),
+            390 => 
+            array (
+                'id' => 2394,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061003","nama":"NANI SUMARNI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":5,"status":"0","c1":"2236850","c2":"57.35","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":420}',
+            ),
+            391 => 
+            array (
+                'id' => 2395,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000253","nama":"NENA","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":5,"status":"0","c1":"1038800","c2":"44.56","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":421}',
+            ),
+            392 => 
+            array (
+                'id' => 2396,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300838","nama":"NENDI","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":5,"status":"0","c1":"1659700","c2":"79.77","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":422}',
+            ),
+            393 => 
+            array (
+                'id' => 2397,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300067","nama":"NENENG AMINAH","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":5,"status":"0","c1":"1214500","c2":"51.35","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":423}',
+            ),
+            394 => 
+            array (
+                'id' => 2398,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300019","nama":"NENENG PIPIH SARIPAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":5,"status":"0","c1":"1756300","c2":"32.07","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":424}',
+            ),
+            395 => 
+            array (
+                'id' => 2399,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060756","nama":"NENG SANTIA","alamat":"KP. BOJONG GEDE RT 02 \\/ RW 08","import_id":5,"status":"0","c1":"3464300","c2":"27.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":425}',
+            ),
+            396 => 
+            array (
+                'id' => 2400,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300043","nama":"NENI","alamat":"KP JATI RT 01 RW 03","import_id":5,"status":"0","c1":"2064650","c2":"85.56","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":426}',
+            ),
+            397 => 
+            array (
+                'id' => 2401,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061064","nama":"NENI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"2713200","c2":"82.3","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":427}',
+            ),
+            398 => 
+            array (
+                'id' => 2402,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980493","nama":"NENI ANGGRAENI","alamat":"KP JATI RT 02 RW 03","import_id":5,"status":"0","c1":"1344350","c2":"71.3","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":428}',
+            ),
+            399 => 
+            array (
+                'id' => 2403,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061012","nama":"NEPI NISPIATI","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":5,"status":"0","c1":"3191650","c2":"57.95","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":429}',
+            ),
+            400 => 
+            array (
+                'id' => 2404,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300007","nama":"NINING","alamat":"KP DANGDEUR RT 01 RW 01","import_id":5,"status":"0","c1":"3088050","c2":"57.93","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":430}',
+            ),
+            401 => 
+            array (
+                'id' => 2405,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300094","nama":"NINING YUNINGSIH","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":5,"status":"0","c1":"2012500","c2":"70.04","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":431}',
+            ),
+            402 => 
+            array (
+                'id' => 2406,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060974","nama":"NUNUNG AMINAH","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":5,"status":"0","c1":"3396050","c2":"74.45","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":432}',
+            ),
+            403 => 
+            array (
+                'id' => 2407,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300861","nama":"NUNUNG RUHAITIN","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":5,"status":"0","c1":"1892100","c2":"31.24","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":433}',
+            ),
+            404 => 
+            array (
+                'id' => 2408,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061063","nama":"NUR HASANAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"2820650","c2":"33.11","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":434}',
+            ),
+            405 => 
+            array (
+                'id' => 2409,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300846","nama":"NURAENI","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"3260250","c2":"89.6","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":435}',
+            ),
+            406 => 
+            array (
+                'id' => 2410,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980338","nama":"NURLELA","alamat":"KP JATI RT 03 RW 03","import_id":5,"status":"0","c1":"1262100","c2":"43.01","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":436}',
+            ),
+            407 => 
+            array (
+                'id' => 2411,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300088","nama":"NURLELAH","alamat":"KP. BOJONG GEDE RT 01\\/08","import_id":5,"status":"0","c1":"1361850","c2":"42.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":437}',
+            ),
+            408 => 
+            array (
+                'id' => 2412,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300827","nama":"NURYANI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":5,"status":"0","c1":"3481450","c2":"68.33","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":438}',
+            ),
+            409 => 
+            array (
+                'id' => 2413,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300090","nama":"NURYATI","alamat":"KP. BOJONG GEDE RT 01\\/08","import_id":5,"status":"0","c1":"2566550","c2":"83.7","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":439}',
+            ),
+            410 => 
+            array (
+                'id' => 2414,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050705","nama":"OBAY SOBARIAH","alamat":"KP PATROL RT 01 RW 09","import_id":5,"status":"0","c1":"3199000","c2":"79.76","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":440}',
+            ),
+            411 => 
+            array (
+                'id' => 2415,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300038","nama":"ONEH","alamat":"KP PATROL","import_id":5,"status":"0","c1":"2420600","c2":"79.01","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":441}',
+            ),
+            412 => 
+            array (
+                'id' => 2416,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061129","nama":"OYOH","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":5,"status":"0","c1":"1191050","c2":"47.85","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":442}',
+            ),
+            413 => 
+            array (
+                'id' => 2417,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980271","nama":"PANJI SUGIRI","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":5,"status":"0","c1":"1820700","c2":"34.86","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":443}',
+            ),
+            414 => 
+            array (
+                'id' => 2418,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060986","nama":"PATONAH","alamat":"KP JATI RT 01 RW 03","import_id":5,"status":"0","c1":"1761900","c2":"83.19","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":444}',
+            ),
+            415 => 
+            array (
+                'id' => 2419,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000202","nama":"PIANAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":5,"status":"0","c1":"1157800","c2":"30.88","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":445}',
+            ),
+            416 => 
+            array (
+                'id' => 2420,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061075","nama":"POPON","alamat":"KP PATROL RT 01 RW 09","import_id":5,"status":"0","c1":"1220450","c2":"60.16","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":446}',
+            ),
+            417 => 
+            array (
+                'id' => 2421,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300810","nama":"PUPU MARPUAH","alamat":"KP JATI RT 03 RW 03","import_id":5,"status":"0","c1":"1670200","c2":"34.55","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":447}',
+            ),
+            418 => 
+            array (
+                'id' => 2422,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016021893","nama":"PUPUN","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":5,"status":"0","c1":"3328850","c2":"52.06","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":448}',
+            ),
+            419 => 
+            array (
+                'id' => 2423,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300050","nama":"PUROH","alamat":"KP. JATI RT 04\\/03","import_id":5,"status":"0","c1":"2420600","c2":"93.64","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":449}',
+            ),
+            420 => 
+            array (
+                'id' => 2424,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300006","nama":"RANI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":5,"status":"0","c1":"1455650","c2":"32.35","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":450}',
+            ),
+            421 => 
+            array (
+                'id' => 2425,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523021000064","nama":"RANI FITRI HANDAYANI","alamat":"KP JATI RT 02 RW 10","import_id":5,"status":"0","c1":"1469300","c2":"78.12","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":451}',
+            ),
+            422 => 
+            array (
+                'id' => 2426,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061054","nama":"RENI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"2661050","c2":"30.69","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":452}',
+            ),
+            423 => 
+            array (
+                'id' => 2427,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300877","nama":"ROHANAH","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"1300600","c2":"35.34","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":453}',
+            ),
+            424 => 
+            array (
+                'id' => 2428,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061100","nama":"ROHANAH","alamat":"KP JATI RW 10 RT 01","import_id":5,"status":"0","c1":"2660000","c2":"73.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":454}',
+            ),
+            425 => 
+            array (
+                'id' => 2429,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061000","nama":"ROHANI","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":5,"status":"0","c1":"1330000","c2":"46.85","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":455}',
+            ),
+            426 => 
+            array (
+                'id' => 2430,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300835","nama":"ROHAYANI","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":5,"status":"0","c1":"2881550","c2":"77.88","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":456}',
+            ),
+            427 => 
+            array (
+                'id' => 2431,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300069","nama":"ROKAYAH","alamat":"KP. CISALAM RT 01\\/06","import_id":5,"status":"0","c1":"1718500","c2":"58.4","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":457}',
+            ),
+            428 => 
+            array (
+                'id' => 2432,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061037","nama":"ROKAYAH","alamat":"KP GEGERLOA RT 01 RW 07","import_id":5,"status":"0","c1":"3187450","c2":"65.61","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":458}',
+            ),
+            429 => 
+            array (
+                'id' => 2433,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300086","nama":"ROMI AISYAH","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":5,"status":"0","c1":"2921450","c2":"28.55","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":459}',
+            ),
+            430 => 
+            array (
+                'id' => 2434,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061065","nama":"ROMLAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"1651650","c2":"75.42","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":460}',
+            ),
+            431 => 
+            array (
+                'id' => 2435,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000002","nama":"ROSMAWATI","alamat":"KP PATROL RT 01 RW 09","import_id":5,"status":"0","c1":"1995700","c2":"29.08","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":461}',
+            ),
+            432 => 
+            array (
+                'id' => 2436,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980305","nama":"RUSMIATI","alamat":"KP JATI RW 10 RT 01","import_id":5,"status":"0","c1":"2229850","c2":"45.63","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":462}',
+            ),
+            433 => 
+            array (
+                'id' => 2437,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016019912","nama":"SA\'ADAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"3401650","c2":"35.9","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":463}',
+            ),
+            434 => 
+            array (
+                'id' => 2438,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061094","nama":"SA\'ADAH","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"2078300","c2":"60.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":464}',
+            ),
+            435 => 
+            array (
+                'id' => 2439,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026000","nama":"SAHID","alamat":"KP. PASIR MUNCANG RT 001\\/RW 002","import_id":5,"status":"0","c1":"1161300","c2":"80.94","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":465}',
+            ),
+            436 => 
+            array (
+                'id' => 2440,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000301","nama":"SANTI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"1948100","c2":"61.49","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":466}',
+            ),
+            437 => 
+            array (
+                'id' => 2441,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980382","nama":"SANTI SUSANTI","alamat":"KP PATROL RT 02 RW 09","import_id":5,"status":"0","c1":"1342250","c2":"91.13","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":467}',
+            ),
+            438 => 
+            array (
+                'id' => 2442,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060967","nama":"SINTA SITI FATIMAH","alamat":"KP DANGDEUR RT 01 RW 01","import_id":5,"status":"0","c1":"2291800","c2":"61.87","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":468}',
+            ),
+            439 => 
+            array (
+                'id' => 2443,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300891","nama":"SITI AMINAH","alamat":"KP JATI RT 03 RW 10","import_id":5,"status":"0","c1":"1499050","c2":"48.21","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":469}',
+            ),
+            440 => 
+            array (
+                'id' => 2444,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061115","nama":"SITI AMINAH","alamat":"KP JATI RT 02 RW 03","import_id":5,"status":"0","c1":"1022000","c2":"29.81","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":470}',
+            ),
+            441 => 
+            array (
+                'id' => 2445,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980244","nama":"SITI AMINAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":5,"status":"0","c1":"2320150","c2":"76.98","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":471}',
+            ),
+            442 => 
+            array (
+                'id' => 2446,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061029","nama":"SITI FATIMAH","alamat":"KP CISALAM RW 06 RT 02","import_id":5,"status":"0","c1":"892500","c2":"29.78","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":472}',
+            ),
+            443 => 
+            array (
+                'id' => 2447,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980201","nama":"SITI INAYAH","alamat":"KP JATI RW 10 RT 02","import_id":5,"status":"0","c1":"1776600","c2":"40.9","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":473}',
+            ),
+            444 => 
+            array (
+                'id' => 2448,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300842","nama":"SITI JUBAEDAH","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"2445450","c2":"25.89","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":474}',
+            ),
+            445 => 
+            array (
+                'id' => 2449,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300046","nama":"SITI JULAEHA","alamat":"KP. JATI RT 03\\/03","import_id":5,"status":"0","c1":"2768150","c2":"69.07","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":475}',
+            ),
+            446 => 
+            array (
+                'id' => 2450,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061004","nama":"SITI KHOLISOH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":5,"status":"0","c1":"1353100","c2":"41.97","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":476}',
+            ),
+            447 => 
+            array (
+                'id' => 2451,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300809","nama":"SITI MAESAROH","alamat":"KP JATI RT 03 RW 03","import_id":5,"status":"0","c1":"1122100","c2":"82.22","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":477}',
+            ),
+            448 => 
+            array (
+                'id' => 2452,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980236","nama":"SITI MARSITI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"2665950","c2":"34.76","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":478}',
+            ),
+            449 => 
+            array (
+                'id' => 2453,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300852","nama":"SITI MARYAM","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"3270050","c2":"62.34","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":479}',
+            ),
+            450 => 
+            array (
+                'id' => 2454,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980164","nama":"SITI MARYAM","alamat":"KP JATI RW 10 RT 01","import_id":5,"status":"0","c1":"2170700","c2":"47.87","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":480}',
+            ),
+            451 => 
+            array (
+                'id' => 2455,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980331","nama":"SITI MARYATI","alamat":"KP JATI RT 01 RW 03","import_id":5,"status":"0","c1":"3228750","c2":"73.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":481}',
+            ),
+            452 => 
+            array (
+                'id' => 2456,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000216","nama":"SITI MASITOH","alamat":"KP JATI RT 03 RW 03","import_id":5,"status":"0","c1":"2364600","c2":"97","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":482}',
+            ),
+            453 => 
+            array (
+                'id' => 2457,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980306","nama":"SITI MASUROH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"1799350","c2":"75.89","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":483}',
+            ),
+            454 => 
+            array (
+                'id' => 2458,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300015","nama":"SITI NURJANAH","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":5,"status":"0","c1":"1929200","c2":"49.79","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":484}',
+            ),
+            455 => 
+            array (
+                'id' => 2459,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300845","nama":"SITI ROHAYATI","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"1750350","c2":"69.65","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":485}',
+            ),
+            456 => 
+            array (
+                'id' => 2460,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016021894","nama":"SITI SAIBAH","alamat":"KP JATI RT 01 RW 03","import_id":5,"status":"0","c1":"2501800","c2":"40.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":486}',
+            ),
+            457 => 
+            array (
+                'id' => 2461,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980471","nama":"SITI SUHAENAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"2657550","c2":"29.75","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":487}',
+            ),
+            458 => 
+            array (
+                'id' => 2462,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300057","nama":"SOPAH","alamat":"KP. SARPEUNDEUY RT. 03 RW. 04","import_id":5,"status":"0","c1":"1705200","c2":"98.19","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":488}',
+            ),
+            459 => 
+            array (
+                'id' => 2463,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000223","nama":"SOPIAH","alamat":"KP JATI RT 01 RW 03","import_id":5,"status":"0","c1":"2663850","c2":"39.03","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":489}',
+            ),
+            460 => 
+            array (
+                'id' => 2464,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980295","nama":"SUGIANTO","alamat":"KP GEGERLOA RT 02 RW 07","import_id":5,"status":"0","c1":"2185050","c2":"75.1","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":490}',
+            ),
+            461 => 
+            array (
+                'id' => 2465,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000058","nama":"SUHAENAH","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":5,"status":"0","c1":"1206100","c2":"45.61","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":491}',
+            ),
+            462 => 
+            array (
+                'id' => 2466,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300052","nama":"SUMARNI","alamat":"KP. JATI RT 04\\/03","import_id":5,"status":"0","c1":"1729000","c2":"63.34","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":492}',
+            ),
+            463 => 
+            array (
+                'id' => 2467,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000059","nama":"SUMARNI","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":5,"status":"0","c1":"1069250","c2":"79.54","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":493}',
+            ),
+            464 => 
+            array (
+                'id' => 2468,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300807","nama":"SUMI KULSUM","alamat":"KP JATI RT 01 RW 03","import_id":5,"status":"0","c1":"3258850","c2":"75.47","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":494}',
+            ),
+            465 => 
+            array (
+                'id' => 2469,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000114","nama":"SUSANTI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":5,"status":"0","c1":"1929200","c2":"90.44","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":495}',
+            ),
+            466 => 
+            array (
+                'id' => 2470,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016024802","nama":"SUSI DIANA","alamat":"KP DANGDEUR RT 02 RW 01","import_id":5,"status":"0","c1":"1390900","c2":"53.21","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":496}',
+            ),
+            467 => 
+            array (
+                'id' => 2471,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061080","nama":"SUSUM","alamat":"KP PATROL RT 01 RW 09","import_id":5,"status":"0","c1":"1227100","c2":"72.29","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":497}',
+            ),
+            468 => 
+            array (
+                'id' => 2472,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300011","nama":"TATI","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":5,"status":"0","c1":"3331300","c2":"29.69","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":498}',
+            ),
+            469 => 
+            array (
+                'id' => 2473,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000291","nama":"TATI","alamat":"KP JATI RW 10 RT 02","import_id":5,"status":"0","c1":"3117450","c2":"51.25","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":499}',
+            ),
+            470 => 
+            array (
+                'id' => 2474,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061107","nama":"TATI RAHMAWATI","alamat":"KP JATI RW 10 RT 02","import_id":5,"status":"0","c1":"1894550","c2":"33.34","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":500}',
+            ),
+            471 => 
+            array (
+                'id' => 2475,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300879","nama":"TIAH","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"1162350","c2":"57.45","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":501}',
+            ),
+            472 => 
+            array (
+                'id' => 2476,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026001","nama":"TINI","alamat":"KP PATROL RT 02 RW 09","import_id":5,"status":"0","c1":"1393700","c2":"34.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":502}',
+            ),
+            473 => 
+            array (
+                'id' => 2477,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061040","nama":"TINI","alamat":"KP GEGERLOA RT 01 RW 07","import_id":5,"status":"0","c1":"2321900","c2":"54.08","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":503}',
+            ),
+            474 => 
+            array (
+                'id' => 2478,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300874","nama":"TITI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"1632400","c2":"89.31","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":504}',
+            ),
+            475 => 
+            array (
+                'id' => 2479,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061089","nama":"TITI","alamat":"KP PASIR MUNCANG RT 02 RW 09","import_id":5,"status":"0","c1":"3480400","c2":"53.63","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":505}',
+            ),
+            476 => 
+            array (
+                'id' => 2480,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061120","nama":"TITI","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":5,"status":"0","c1":"2118900","c2":"78.06","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":506}',
+            ),
+            477 => 
+            array (
+                'id' => 2481,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300867","nama":"TUKIYAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":5,"status":"0","c1":"1856750","c2":"56.87","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":507}',
+            ),
+            478 => 
+            array (
+                'id' => 2482,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300801","nama":"TUTI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":5,"status":"0","c1":"2046800","c2":"62.55","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":508}',
+            ),
+            479 => 
+            array (
+                'id' => 2483,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300832","nama":"UAY WARLIYAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":5,"status":"0","c1":"2489550","c2":"60.41","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":509}',
+            ),
+            480 => 
+            array (
+                'id' => 2484,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013739","nama":"UJANG HIDAYAT","alamat":"KP. BATU KARUT RT.02 RW. 02","import_id":5,"status":"0","c1":"3433150","c2":"51.59","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":510}',
+            ),
+            481 => 
+            array (
+                'id' => 2485,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300063","nama":"ULIA","alamat":"KP. BOJONG GEDE RT 01\\/05","import_id":5,"status":"0","c1":"2691150","c2":"26.59","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":511}',
+            ),
+            482 => 
+            array (
+                'id' => 2486,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300881","nama":"WATI","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"2220400","c2":"86.41","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":512}',
+            ),
+            483 => 
+            array (
+                'id' => 2487,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061032","nama":"WATI","alamat":"KP CISALAM RW 06 RT 02","import_id":5,"status":"0","c1":"1523550","c2":"27.62","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":513}',
+            ),
+            484 => 
+            array (
+                'id' => 2488,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016018087","nama":"WATI","alamat":"KP JATI RW 10 RT 02","import_id":5,"status":"0","c1":"1705550","c2":"61.22","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":514}',
+            ),
+            485 => 
+            array (
+                'id' => 2489,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980445","nama":"WIDA WIDIA","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":5,"status":"0","c1":"2926000","c2":"39.16","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":515}',
+            ),
+            486 => 
+            array (
+                'id' => 2490,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300147","nama":"WIWI","alamat":"KP. SARPEUNDEUY RT. 02 RW. 04","import_id":5,"status":"0","c1":"1584800","c2":"89.56","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":516}',
+            ),
+            487 => 
+            array (
+                'id' => 2491,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000159","nama":"WIWIN","alamat":"KP PATROL RT 02 RW 09","import_id":5,"status":"0","c1":"3233650","c2":"29.69","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":517}',
+            ),
+            488 => 
+            array (
+                'id' => 2492,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300884","nama":"WIWIN WINARTI","alamat":"KP JATI RW 10 RT 01","import_id":5,"status":"0","c1":"2745050","c2":"69.05","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":518}',
+            ),
+            489 => 
+            array (
+                'id' => 2493,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000287","nama":"YANI","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":5,"status":"0","c1":"2642150","c2":"43.18","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":519}',
+            ),
+            490 => 
+            array (
+                'id' => 2494,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300859","nama":"YANI HARYANI","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":5,"status":"0","c1":"1954400","c2":"80.54","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":520}',
+            ),
+            491 => 
+            array (
+                'id' => 2495,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061066","nama":"YANTI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":5,"status":"0","c1":"1078700","c2":"66.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":521}',
+            ),
+            492 => 
+            array (
+                'id' => 2496,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061026","nama":"YANTI RUSTINI","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"1409100","c2":"34.99","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":522}',
+            ),
+            493 => 
+            array (
+                'id' => 2497,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016015217","nama":"YANTI SITI PATIMAH","alamat":"KP JATI RW 10 RT 02","import_id":5,"status":"0","c1":"2450000","c2":"44.64","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":523}',
+            ),
+            494 => 
+            array (
+                'id' => 2498,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000185","nama":"YANTI SUGIANTI","alamat":"KP GEGERLOA RT 01 RW 07","import_id":5,"status":"0","c1":"1189300","c2":"26.04","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":524}',
+            ),
+            495 => 
+            array (
+                'id' => 2499,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300061","nama":"YATI","alamat":"KP. SARPEUNDEUY RT. 05 RW. 04","import_id":5,"status":"0","c1":"1146950","c2":"82.89","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":525}',
+            ),
+            496 => 
+            array (
+                'id' => 2500,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060961","nama":"YATI","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"3392200","c2":"85.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":526}',
+            ),
+            497 => 
+            array (
+                'id' => 2501,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061078","nama":"YATI","alamat":"KP PATROL RT 01 RW 09","import_id":5,"status":"0","c1":"1097250","c2":"33.24","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":527}',
+            ),
+            498 => 
+            array (
+                'id' => 2502,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000169","nama":"YAYA","alamat":"KP CISALAM RW 06 RT 01","import_id":5,"status":"0","c1":"2052050","c2":"77","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":528}',
+            ),
+            499 => 
+            array (
+                'id' => 2503,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:56',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300075","nama":"YAYA PARIDAH","alamat":"KP. CISALAM RT 02\\/06","import_id":5,"status":"0","c1":"2850050","c2":"87.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:56.000000Z","created_at":"2023-08-14T17:23:56.000000Z","id":529}',
+            ),
+        ));
+        \DB::table('logs')->insert(array (
+            0 => 
+            array (
+                'id' => 2504,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061122","nama":"YAYAN","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":5,"status":"0","c1":"1799000","c2":"61.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:57.000000Z","created_at":"2023-08-14T17:23:57.000000Z","id":530}',
+            ),
+            1 => 
+            array (
+                'id' => 2505,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300056","nama":"YAYAT HIDAYAT","alamat":"KP. SARPEUNDEUY RT. 03 RW. 04","import_id":5,"status":"1","c1":"2497600","c2":"94.46","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:57.000000Z","created_at":"2023-08-14T17:23:57.000000Z","id":531}',
+            ),
+            2 => 
+            array (
+                'id' => 2506,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061002","nama":"YENI PADILAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"1","c1":"2667350","c2":"42.58","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:57.000000Z","created_at":"2023-08-14T17:23:57.000000Z","id":532}',
+            ),
+            3 => 
+            array (
+                'id' => 2507,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060992","nama":"YETI","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":5,"status":"0","c1":"2118900","c2":"54.75","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:57.000000Z","created_at":"2023-08-14T17:23:57.000000Z","id":533}',
+            ),
+            4 => 
+            array (
+                'id' => 2508,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300097","nama":"YIYIT","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":5,"status":"0","c1":"2282350","c2":"67.51","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:57.000000Z","created_at":"2023-08-14T17:23:57.000000Z","id":534}',
+            ),
+            5 => 
+            array (
+                'id' => 2509,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300885","nama":"YOYOH ROBAYAH","alamat":"KP JATI RW 10 RT 01","import_id":5,"status":"1","c1":"919450","c2":"60.43","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:57.000000Z","created_at":"2023-08-14T17:23:57.000000Z","id":535}',
+            ),
+            6 => 
+            array (
+                'id' => 2510,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300814","nama":"YOYOH ROKAYAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":5,"status":"1","c1":"3293850","c2":"68.95","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:57.000000Z","created_at":"2023-08-14T17:23:57.000000Z","id":536}',
+            ),
+            7 => 
+            array (
+                'id' => 2511,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000306","nama":"YULI APRILIANTI","alamat":"KP PATROL RT 03 RW 09","import_id":5,"status":"0","c1":"2518600","c2":"30.29","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:57.000000Z","created_at":"2023-08-14T17:23:57.000000Z","id":537}',
+            ),
+            8 => 
+            array (
+                'id' => 2512,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300071","nama":"YUYU","alamat":"KP. CISALAM RT 02\\/06","import_id":5,"status":"0","c1":"1296750","c2":"51.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:57.000000Z","created_at":"2023-08-14T17:23:57.000000Z","id":538}',
+            ),
+            9 => 
+            array (
+                'id' => 2513,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300054","nama":"YUYUM","alamat":"KP. SARPEUNDEUY RT. 01 RW. 04","import_id":5,"status":"0","c1":"2970800","c2":"76.29","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:23:57.000000Z","created_at":"2023-08-14T17:23:57.000000Z","id":539}',
+            ),
+            10 => 
+            array (
+                'id' => 2514,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:23:57',
+                'table_name' => 'import_penerima',
+                'log_type' => 'edit',
+                'data' => '{"nama":"Data full","slug":"data-full","updated_at":"2023-08-15 00:23:54","created_at":"2023-08-15 00:23:54","id":5}',
+            ),
+            11 => 
+            array (
+                'id' => 2515,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:24:36',
+                'table_name' => 'import_penerima',
+                'log_type' => 'delete',
+                'data' => '{"id":5,"nama":"Data full","slug":"data-full","file":"20230815122354-data-full.xlsx","count":269,"created_at":"2023-08-15 00:23:54","updated_at":"2023-08-15 00:23:57"}',
+            ),
+            12 => 
+            array (
+                'id' => 2518,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'import_penerima',
+                'log_type' => 'create',
+                'data' => '{"nama":"Data full","slug":"data-full","updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":8}',
+            ),
+            13 => 
+            array (
+                'id' => 2519,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","import_id":8,"status":"1","c1":"2144450","c2":"69.81","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":540}',
+            ),
+            14 => 
+            array (
+                'id' => 2520,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060991","nama":"ADE ROHANAH","alamat":"KP JATI RT 02 RW 03","import_id":8,"status":"2","c1":"3327100","c2":"58.87","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":541}',
+            ),
+            15 => 
+            array (
+                'id' => 2521,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061104","nama":"ADE WATIN","alamat":"KP JATI RW 10 RT 02","import_id":8,"status":"0","c1":"3158050","c2":"92.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":542}',
+            ),
+            16 => 
+            array (
+                'id' => 2522,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016023545","nama":"AI ATIKAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":8,"status":"1","c1":"1212050","c2":"67.03","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":543}',
+            ),
+            17 => 
+            array (
+                'id' => 2523,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300085","nama":"AI MARDIAH","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":8,"status":"1","c1":"2014950","c2":"91.98","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":544}',
+            ),
+            18 => 
+            array (
+                'id' => 2524,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300890","nama":"AI MARLINA","alamat":"KP JATI RW 10 RT 02","import_id":8,"status":"0","c1":"2710750","c2":"57.89","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":545}',
+            ),
+            19 => 
+            array (
+                'id' => 2525,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300888","nama":"AI MARPUAH","alamat":"KP JATI RW 10 RT 02","import_id":8,"status":"1","c1":"3214400","c2":"83.46","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":546}',
+            ),
+            20 => 
+            array (
+                'id' => 2526,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980521","nama":"AI NAPISAH","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":8,"status":"1","c1":"3451700","c2":"44.36","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":547}',
+            ),
+            21 => 
+            array (
+                'id' => 2527,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300064","nama":"AI ROHAENI","alamat":"KP. BOJONG GEDE RT 01\\/05","import_id":8,"status":"0","c1":"2644950","c2":"69.79","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":548}',
+            ),
+            22 => 
+            array (
+                'id' => 2528,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300850","nama":"AI ROSTINI","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"2098250","c2":"81.9","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":549}',
+            ),
+            23 => 
+            array (
+                'id' => 2529,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300892","nama":"AISYAH","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":8,"status":"0","c1":"1574650","c2":"86.77","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":550}',
+            ),
+            24 => 
+            array (
+                'id' => 2530,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300082","nama":"ALIS","alamat":"KP. GEGERLOA RT. 01 RW. 07","import_id":8,"status":"0","c1":"1594950","c2":"55.51","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":551}',
+            ),
+            25 => 
+            array (
+                'id' => 2531,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060981","nama":"AMINAH","alamat":"KP JATI RT 01 RW 03","import_id":8,"status":"0","c1":"2256450","c2":"85.76","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":552}',
+            ),
+            26 => 
+            array (
+                'id' => 2532,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300883","nama":"ANI LESTARI","alamat":"KP JATI RW 10 RT 01","import_id":8,"status":"0","c1":"2573200","c2":"78.02","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":553}',
+            ),
+            27 => 
+            array (
+                'id' => 2533,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980524","nama":"ANI NURHAYATI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"3253600","c2":"28.08","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":554}',
+            ),
+            28 => 
+            array (
+                'id' => 2534,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000049","nama":"ANIH","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"960750","c2":"66.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":555}',
+            ),
+            29 => 
+            array (
+                'id' => 2535,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980541","nama":"ANISA","alamat":"KP CISALAM RW 06 RT 02","import_id":8,"status":"0","c1":"1454950","c2":"89.93","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":556}',
+            ),
+            30 => 
+            array (
+                'id' => 2536,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000089","nama":"ANISAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"1651650","c2":"77.94","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":557}',
+            ),
+            31 => 
+            array (
+                'id' => 2537,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016024803","nama":"APON","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":8,"status":"0","c1":"2425850","c2":"92.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":558}',
+            ),
+            32 => 
+            array (
+                'id' => 2538,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060966","nama":"ASEP TAJUDIN","alamat":"KP DANGDEUR RT 01 RW 01","import_id":8,"status":"0","c1":"1223950","c2":"45.94","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":559}',
+            ),
+            33 => 
+            array (
+                'id' => 2539,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300066","nama":"ATIKAH","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":8,"status":"0","c1":"2970100","c2":"65.23","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":560}',
+            ),
+            34 => 
+            array (
+                'id' => 2540,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061045","nama":"ATING","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":8,"status":"0","c1":"1623650","c2":"53.7","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":561}',
+            ),
+            35 => 
+            array (
+                'id' => 2541,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000224","nama":"AYIN","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"2207450","c2":"63.14","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":562}',
+            ),
+            36 => 
+            array (
+                'id' => 2542,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300829","nama":"BADRIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":8,"status":"0","c1":"2403800","c2":"83.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":563}',
+            ),
+            37 => 
+            array (
+                'id' => 2543,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061005","nama":"BADRIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":8,"status":"0","c1":"2175950","c2":"51.16","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":564}',
+            ),
+            38 => 
+            array (
+                'id' => 2544,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061033","nama":"CACIH SUMINAR","alamat":"KP CISALAM RW 06 RT 02","import_id":8,"status":"0","c1":"3300500","c2":"56.97","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":565}',
+            ),
+            39 => 
+            array (
+                'id' => 2545,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300010","nama":"CIAH","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":8,"status":"0","c1":"2038050","c2":"85.44","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":566}',
+            ),
+            40 => 
+            array (
+                'id' => 2546,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300091","nama":"CICAH JULIANTI","alamat":"KP. BOJONG GEDE RT 02\\/08","import_id":8,"status":"0","c1":"3286850","c2":"99.43","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":567}',
+            ),
+            41 => 
+            array (
+                'id' => 2547,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980480","nama":"CUCU SUMIATI","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"2195550","c2":"77.33","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":568}',
+            ),
+            42 => 
+            array (
+                'id' => 2548,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300818","nama":"DEDE","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"2537500","c2":"81.27","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":569}',
+            ),
+            43 => 
+            array (
+                'id' => 2549,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060990","nama":"DEDE ENI","alamat":"KP JATI RT 02 RW 03","import_id":8,"status":"0","c1":"1690150","c2":"61.19","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":570}',
+            ),
+            44 => 
+            array (
+                'id' => 2550,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980506","nama":"DEDE MASRIPAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"2975000","c2":"28.51","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":571}',
+            ),
+            45 => 
+            array (
+                'id' => 2551,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060989","nama":"DEDE NANI","alamat":"KP JATI RT 01 RW 03","import_id":8,"status":"0","c1":"2582300","c2":"34.81","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":572}',
+            ),
+            46 => 
+            array (
+                'id' => 2552,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980276","nama":"DEDE SITI NURJANAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"3314850","c2":"36.49","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":573}',
+            ),
+            47 => 
+            array (
+                'id' => 2553,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000251","nama":"DEDE SOLIHAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":8,"status":"0","c1":"1876000","c2":"58.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":574}',
+            ),
+            48 => 
+            array (
+                'id' => 2554,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300856","nama":"DEDE SUPRIATNA","alamat":"KP GEGERLOA RT 01 RW 07","import_id":8,"status":"0","c1":"2248050","c2":"50.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":575}',
+            ),
+            49 => 
+            array (
+                'id' => 2555,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300045","nama":"DEDEH","alamat":"KP. JATI RT 03\\/03","import_id":8,"status":"0","c1":"3074750","c2":"46.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":576}',
+            ),
+            50 => 
+            array (
+                'id' => 2556,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000250","nama":"DEDEH JUARIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":8,"status":"0","c1":"2517550","c2":"55.85","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":577}',
+            ),
+            51 => 
+            array (
+                'id' => 2557,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061074","nama":"DEDEH KODARIAH","alamat":"KP PATROL RT 01 RW 09","import_id":8,"status":"0","c1":"2802100","c2":"34.65","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":578}',
+            ),
+            52 => 
+            array (
+                'id' => 2558,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061025","nama":"DETI","alamat":"KP. SARPEUNDEUY RT 002 \\/ RW 011","import_id":8,"status":"0","c1":"3180100","c2":"80.59","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":579}',
+            ),
+            53 => 
+            array (
+                'id' => 2559,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060960","nama":"DEVITA","alamat":"KP DANGDEUR RT 01 RW 01","import_id":8,"status":"0","c1":"1153950","c2":"29.74","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":580}',
+            ),
+            54 => 
+            array (
+                'id' => 2560,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300853","nama":"DEWI KODARIAH","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"2312800","c2":"72.14","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":581}',
+            ),
+            55 => 
+            array (
+                'id' => 2561,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300822","nama":"DEWI MARDIANA","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"2502150","c2":"92.36","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":582}',
+            ),
+            56 => 
+            array (
+                'id' => 2562,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:15',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300076","nama":"DUDUNG EYE","alamat":"KP. CISALAM RT 02\\/06","import_id":8,"status":"0","c1":"3323950","c2":"73.75","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:15.000000Z","created_at":"2023-08-14T17:26:15.000000Z","id":583}',
+            ),
+            57 => 
+            array (
+                'id' => 2563,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061116","nama":"ECIN","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":8,"status":"0","c1":"3029250","c2":"50.63","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":584}',
+            ),
+            58 => 
+            array (
+                'id' => 2564,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300836","nama":"EEN","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":8,"status":"0","c1":"3392900","c2":"34.78","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":585}',
+            ),
+            59 => 
+            array (
+                'id' => 2565,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300898","nama":"EET","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":8,"status":"0","c1":"2579500","c2":"78.46","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":586}',
+            ),
+            60 => 
+            array (
+                'id' => 2566,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300017","nama":"ELA NURLAELA","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":8,"status":"0","c1":"1025500","c2":"65.02","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":587}',
+            ),
+            61 => 
+            array (
+                'id' => 2567,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300035","nama":"ELIN","alamat":"KP. PATROL RT. 04 RW. 02","import_id":8,"status":"0","c1":"2804900","c2":"89","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":588}',
+            ),
+            62 => 
+            array (
+                'id' => 2568,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001380055","nama":"ELIS LISNAWATI","alamat":"SARIPEUNDEUY RT 04\\/04","import_id":8,"status":"0","c1":"1548050","c2":"34.93","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":589}',
+            ),
+            63 => 
+            array (
+                'id' => 2569,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061055","nama":"EMIN","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"3499300","c2":"53.09","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":590}',
+            ),
+            64 => 
+            array (
+                'id' => 2570,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300018","nama":"EMPOL SITI HULAELAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":8,"status":"0","c1":"2425150","c2":"59.86","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":591}',
+            ),
+            65 => 
+            array (
+                'id' => 2571,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061007","nama":"EMPONG KOMARIAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":8,"status":"0","c1":"2355150","c2":"39.48","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":592}',
+            ),
+            66 => 
+            array (
+                'id' => 2572,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300839","nama":"ENCENG","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":8,"status":"0","c1":"2786350","c2":"94.63","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":593}',
+            ),
+            67 => 
+            array (
+                'id' => 2573,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060997","nama":"ENCUM","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"1668800","c2":"66.93","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":594}',
+            ),
+            68 => 
+            array (
+                'id' => 2574,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300894","nama":"ENI MARLENI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":8,"status":"0","c1":"1798300","c2":"41.84","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":595}',
+            ),
+            69 => 
+            array (
+                'id' => 2575,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061090","nama":"ENIS","alamat":"KP PATROL RT 02 RW 09","import_id":8,"status":"0","c1":"2573900","c2":"37.7","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":596}',
+            ),
+            70 => 
+            array (
+                'id' => 2576,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300012","nama":"ENJANG JAMALUDIN","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":8,"status":"0","c1":"2737350","c2":"83.87","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":597}',
+            ),
+            71 => 
+            array (
+                'id' => 2577,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061050","nama":"ENOH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":8,"status":"0","c1":"1572550","c2":"59.39","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":598}',
+            ),
+            72 => 
+            array (
+                'id' => 2578,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300857","nama":"ENOK","alamat":"KP GEGERLOA RT 01 RW 07","import_id":8,"status":"0","c1":"1273650","c2":"66.59","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":599}',
+            ),
+            73 => 
+            array (
+                'id' => 2579,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013743","nama":"ENTI NURHAETI","alamat":"KP JATI RT 01 RW 03","import_id":8,"status":"0","c1":"3362100","c2":"70.42","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":600}',
+            ),
+            74 => 
+            array (
+                'id' => 2580,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000176","nama":"ENUNG","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"2867550","c2":"51.71","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":601}',
+            ),
+            75 => 
+            array (
+                'id' => 2581,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980486","nama":"ENUNG HAYATI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"2599800","c2":"51.48","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":602}',
+            ),
+            76 => 
+            array (
+                'id' => 2582,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050701","nama":"ENUNG HOIROH","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"1621900","c2":"93.6","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":603}',
+            ),
+            77 => 
+            array (
+                'id' => 2583,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300077","nama":"ENUR","alamat":"KP. CISALAM RT 02\\/06","import_id":8,"status":"0","c1":"1312150","c2":"65.54","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":604}',
+            ),
+            78 => 
+            array (
+                'id' => 2584,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300895","nama":"EPON","alamat":"K SARPEUNDEUY RW 11 RT 02","import_id":8,"status":"0","c1":"3238550","c2":"40.47","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":605}',
+            ),
+            79 => 
+            array (
+                'id' => 2585,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300834","nama":"ERAT","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":8,"status":"0","c1":"1707650","c2":"71.65","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":606}',
+            ),
+            80 => 
+            array (
+                'id' => 2586,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300079","nama":"EROS ROSITA","alamat":"KP. CISALAM RT 02\\/06","import_id":8,"status":"0","c1":"1529500","c2":"46.2","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":607}',
+            ),
+            81 => 
+            array (
+                'id' => 2587,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300813","nama":"ESAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":8,"status":"0","c1":"2793700","c2":"60.23","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":608}',
+            ),
+            82 => 
+            array (
+                'id' => 2588,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050710","nama":"ETI","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":8,"status":"0","c1":"998200","c2":"62.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":609}',
+            ),
+            83 => 
+            array (
+                'id' => 2589,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300815","nama":"ETI","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":8,"status":"0","c1":"3232250","c2":"26.73","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":610}',
+            ),
+            84 => 
+            array (
+                'id' => 2590,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300873","nama":"ETI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"1741950","c2":"72.7","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":611}',
+            ),
+            85 => 
+            array (
+                'id' => 2591,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980208","nama":"ETI KUSMIATI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":8,"status":"0","c1":"3035550","c2":"63.41","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":612}',
+            ),
+            86 => 
+            array (
+                'id' => 2592,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980107","nama":"ETI MULYANI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"3232600","c2":"82.64","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":613}',
+            ),
+            87 => 
+            array (
+                'id' => 2593,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061021","nama":"ETI SUMIATI","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"3453450","c2":"34.39","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":614}',
+            ),
+            88 => 
+            array (
+                'id' => 2594,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050703","nama":"EUIS LATIPAH","alamat":"KP CISALAM RW 06 RT 02","import_id":8,"status":"0","c1":"3093300","c2":"68.24","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":615}',
+            ),
+            89 => 
+            array (
+                'id' => 2595,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061117","nama":"EUIS SUSILAWATI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":8,"status":"0","c1":"1463000","c2":"34.29","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":616}',
+            ),
+            90 => 
+            array (
+                'id' => 2596,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050706","nama":"EULIS HARYANTI","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"3053750","c2":"52.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":617}',
+            ),
+            91 => 
+            array (
+                'id' => 2597,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000049","nama":"EULIS MARDIAH","alamat":"KP PATROL RT 01 RW 09","import_id":8,"status":"0","c1":"2937550","c2":"91.47","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":618}',
+            ),
+            92 => 
+            array (
+                'id' => 2598,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300854","nama":"EULIS ROHIMAH","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"2184700","c2":"46.69","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":619}',
+            ),
+            93 => 
+            array (
+                'id' => 2599,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300034","nama":"EUTIK","alamat":"KP. PATROL RT. 04 RW. 02","import_id":8,"status":"0","c1":"1554700","c2":"39.24","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":620}',
+            ),
+            94 => 
+            array (
+                'id' => 2600,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300083","nama":"EUTIK","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":8,"status":"0","c1":"2898000","c2":"69.03","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":621}',
+            ),
+            95 => 
+            array (
+                'id' => 2601,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061057","nama":"FATIMAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"1823500","c2":"72.72","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":622}',
+            ),
+            96 => 
+            array (
+                'id' => 2602,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026002","nama":"FATMAWATI","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"2358300","c2":"66.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":623}',
+            ),
+            97 => 
+            array (
+                'id' => 2603,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300823","nama":"GEUGEU","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"1318450","c2":"92.39","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":624}',
+            ),
+            98 => 
+            array (
+                'id' => 2604,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980448","nama":"HABSAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"2710400","c2":"54.32","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":625}',
+            ),
+            99 => 
+            array (
+                'id' => 2605,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061113","nama":"HAJAR","alamat":"KP JATI RT 03 RW 10","import_id":8,"status":"0","c1":"1073450","c2":"99.27","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":626}',
+            ),
+            100 => 
+            array (
+                'id' => 2606,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300027","nama":"HALIAH","alamat":"KP PASIR MUNCANG RT 02 RW 02","import_id":8,"status":"0","c1":"1814050","c2":"31.79","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":627}',
+            ),
+            101 => 
+            array (
+                'id' => 2607,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300016","nama":"HANA REHANA","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":8,"status":"0","c1":"2850400","c2":"90.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":628}',
+            ),
+            102 => 
+            array (
+                'id' => 2608,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300887","nama":"HANI NURHANIFAH","alamat":"KP JATI RW 10 RT 02","import_id":8,"status":"0","c1":"1303750","c2":"97.74","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":629}',
+            ),
+            103 => 
+            array (
+                'id' => 2609,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300869","nama":"HASANAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"2177350","c2":"26.56","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":630}',
+            ),
+            104 => 
+            array (
+                'id' => 2610,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300876","nama":"HENI HANDAYANI","alamat":"KP PATROL RT 02 RW 09","import_id":8,"status":"0","c1":"2345350","c2":"34.99","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":631}',
+            ),
+            105 => 
+            array (
+                'id' => 2611,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300858","nama":"HERLINA","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":8,"status":"0","c1":"3431400","c2":"39.7","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":632}',
+            ),
+            106 => 
+            array (
+                'id' => 2612,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061081","nama":"IBAH","alamat":"KP PATROL RT 01 RW 09","import_id":8,"status":"0","c1":"1709400","c2":"74.98","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":633}',
+            ),
+            107 => 
+            array (
+                'id' => 2613,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300049","nama":"IDA","alamat":"KP. JATI RT 03\\/03","import_id":8,"status":"0","c1":"907550","c2":"52.38","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":634}',
+            ),
+            108 => 
+            array (
+                'id' => 2614,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300872","nama":"IDAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"2249100","c2":"45.4","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":635}',
+            ),
+            109 => 
+            array (
+                'id' => 2615,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300074","nama":"IHAT SOLIHAT","alamat":"KP. CISALAM RT 02\\/06","import_id":8,"status":"0","c1":"1535800","c2":"61.17","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":636}',
+            ),
+            110 => 
+            array (
+                'id' => 2616,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000048","nama":"IHIN","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"1452850","c2":"86.52","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":637}',
+            ),
+            111 => 
+            array (
+                'id' => 2617,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300803","nama":"IIK NURHIKMAH","alamat":"KP DANGDEUR RT 02 RW 01","import_id":8,"status":"0","c1":"1132950","c2":"93.85","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":638}',
+            ),
+            112 => 
+            array (
+                'id' => 2618,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061010","nama":"IING SOLIHIN","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":8,"status":"0","c1":"1322300","c2":"40.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":639}',
+            ),
+            113 => 
+            array (
+                'id' => 2619,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300030","nama":"IIS","alamat":"KP. PATROL RT. 03 RW. 02","import_id":8,"status":"0","c1":"2051350","c2":"97.85","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":640}',
+            ),
+            114 => 
+            array (
+                'id' => 2620,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060988","nama":"IIS ISMAYANTINI","alamat":"KP JATI RT 01 RW 03","import_id":8,"status":"0","c1":"1030750","c2":"70.01","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":641}',
+            ),
+            115 => 
+            array (
+                'id' => 2621,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320520001800099","nama":"IIS KARIMAH","alamat":"KP. CISALAM","import_id":8,"status":"0","c1":"3339350","c2":"40.41","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":642}',
+            ),
+            116 => 
+            array (
+                'id' => 2622,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300100","nama":"IJANG ABDULAH SAHRONI","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":8,"status":"0","c1":"1311800","c2":"62.96","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":643}',
+            ),
+            117 => 
+            array (
+                'id' => 2623,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300805","nama":"IKAH","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":8,"status":"0","c1":"1750000","c2":"80.88","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":644}',
+            ),
+            118 => 
+            array (
+                'id' => 2624,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001380089","nama":"ILAH","alamat":"DUSUN BATUKARUT RT 02 RW 02 DESA DANGDEUR KEC BANYURESMI","import_id":8,"status":"0","c1":"3228400","c2":"57.11","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":645}',
+            ),
+            119 => 
+            array (
+                'id' => 2625,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300003","nama":"IMAS KOMALA","alamat":"KP. DANGDEUR RT. 01 RW. 01","import_id":8,"status":"0","c1":"1457050","c2":"62.06","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":646}',
+            ),
+            120 => 
+            array (
+                'id' => 2626,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300080","nama":"IMAS MAEMUNAH","alamat":"KP. CISALAM RT 02\\/06","import_id":8,"status":"0","c1":"1131550","c2":"56.05","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":647}',
+            ),
+            121 => 
+            array (
+                'id' => 2627,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300036","nama":"IMAS MASRIAH","alamat":"KP. PATROL RT. 04 RW. 02","import_id":8,"status":"0","c1":"1316350","c2":"50.38","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":648}',
+            ),
+            122 => 
+            array (
+                'id' => 2628,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000172","nama":"IMAS MINTARSIH","alamat":"KP CISALAM RW 06 RT 02","import_id":8,"status":"0","c1":"2774800","c2":"64.6","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":649}',
+            ),
+            123 => 
+            array (
+                'id' => 2629,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016015803","nama":"IMAS NIA","alamat":"KP JATI RT 02 RW 03","import_id":8,"status":"0","c1":"2311750","c2":"37.3","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":650}',
+            ),
+            124 => 
+            array (
+                'id' => 2630,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300059","nama":"IMAS SITI NURJANAH","alamat":"KP. SARPEUNDEUY RT. 05 RW. 04","import_id":8,"status":"0","c1":"2245950","c2":"34.57","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":651}',
+            ),
+            125 => 
+            array (
+                'id' => 2631,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300871","nama":"IMAS WAWAT","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"3349500","c2":"83.68","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":652}',
+            ),
+            126 => 
+            array (
+                'id' => 2632,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300023","nama":"IPAH","alamat":"KP PASIRMUNCANG RT. 02 RW. 02","import_id":8,"status":"0","c1":"1404900","c2":"64.9","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":653}',
+            ),
+            127 => 
+            array (
+                'id' => 2633,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000264","nama":"IPAH HANIPAH","alamat":"KP JATI RT 03 RW 03","import_id":8,"status":"0","c1":"1238650","c2":"38.78","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":654}',
+            ),
+            128 => 
+            array (
+                'id' => 2634,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300899","nama":"IRNA ALIFAH","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":8,"status":"0","c1":"1489950","c2":"74.14","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":655}',
+            ),
+            129 => 
+            array (
+                'id' => 2635,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061053","nama":"ISAH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":8,"status":"0","c1":"1974000","c2":"56.99","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":656}',
+            ),
+            130 => 
+            array (
+                'id' => 2636,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300033","nama":"IYAM MARYANI","alamat":"KP PATROL RT 03 RW 02","import_id":8,"status":"0","c1":"2018450","c2":"28.58","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":657}',
+            ),
+            131 => 
+            array (
+                'id' => 2637,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300889","nama":"JUA","alamat":"JKP JATI RW 10 RT 02","import_id":8,"status":"0","c1":"2810850","c2":"30.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":658}',
+            ),
+            132 => 
+            array (
+                'id' => 2638,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300008","nama":"JUJU","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":8,"status":"0","c1":"2446500","c2":"80.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":659}',
+            ),
+            133 => 
+            array (
+                'id' => 2639,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061108","nama":"JUMA","alamat":"KP JATI RT 03 RW 10","import_id":8,"status":"0","c1":"3198300","c2":"94.76","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":660}',
+            ),
+            134 => 
+            array (
+                'id' => 2640,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300878","nama":"KARMASIH","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"1475600","c2":"73.06","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":661}',
+            ),
+            135 => 
+            array (
+                'id' => 2641,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016018086","nama":"KARYATI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"1274350","c2":"80.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":662}',
+            ),
+            136 => 
+            array (
+                'id' => 2642,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300068","nama":"KOKOM","alamat":"KP. BOJONG GEDE RT 03\\/05","import_id":8,"status":"0","c1":"3306800","c2":"57.99","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":663}',
+            ),
+            137 => 
+            array (
+                'id' => 2643,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300014","nama":"LANI HERNAWATI","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":8,"status":"0","c1":"1331050","c2":"72.05","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":664}',
+            ),
+            138 => 
+            array (
+                'id' => 2644,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300004","nama":"LELAH","alamat":"KP DANGDEUR RT 01 RW 01","import_id":8,"status":"0","c1":"1421350","c2":"88.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":665}',
+            ),
+            139 => 
+            array (
+                'id' => 2645,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300065","nama":"LENI MARLINA","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":8,"status":"0","c1":"3074400","c2":"53.1","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":666}',
+            ),
+            140 => 
+            array (
+                'id' => 2646,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061126","nama":"LIA","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":8,"status":"0","c1":"3382750","c2":"54.86","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":667}',
+            ),
+            141 => 
+            array (
+                'id' => 2647,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300026","nama":"LILIS","alamat":"KP PASIR MUNCANG RT 02 RW 02","import_id":8,"status":"0","c1":"2166850","c2":"51.14","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":668}',
+            ),
+            142 => 
+            array (
+                'id' => 2648,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000047","nama":"LILIS","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":8,"status":"0","c1":"1081500","c2":"52.73","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":669}',
+            ),
+            143 => 
+            array (
+                'id' => 2649,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016011995","nama":"LILIS K","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":8,"status":"0","c1":"936950","c2":"52.04","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":670}',
+            ),
+            144 => 
+            array (
+                'id' => 2650,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300880","nama":"LILIS LISWANTI","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"2025100","c2":"31.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":671}',
+            ),
+            145 => 
+            array (
+                'id' => 2651,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300819","nama":"LINA","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"3359650","c2":"90.99","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":672}',
+            ),
+            146 => 
+            array (
+                'id' => 2652,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300841","nama":"LISNAWATI","alamat":"KP BOJONG GEDE RT 03 RW 05","import_id":8,"status":"0","c1":"2964150","c2":"31.92","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":673}',
+            ),
+            147 => 
+            array (
+                'id' => 2653,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300002","nama":"MAE","alamat":"KP. DANGDEUR RT. 01 RW. 01","import_id":8,"status":"0","c1":"1296750","c2":"91.38","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":674}',
+            ),
+            148 => 
+            array (
+                'id' => 2654,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980529","nama":"MARLINA","alamat":"KP JATI RW 10 RT 02","import_id":8,"status":"0","c1":"2111200","c2":"47.64","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":675}',
+            ),
+            149 => 
+            array (
+                'id' => 2655,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300058","nama":"MARNI","alamat":"KP. BOJONGGEDE RT. 03 RW. 08","import_id":8,"status":"0","c1":"2152850","c2":"86.93","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":676}',
+            ),
+            150 => 
+            array (
+                'id' => 2656,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016017381","nama":"MARPU AH","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":8,"status":"0","c1":"2015300","c2":"80.17","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":677}',
+            ),
+            151 => 
+            array (
+                'id' => 2657,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300826","nama":"MARWATI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":8,"status":"0","c1":"2877000","c2":"36.63","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":678}',
+            ),
+            152 => 
+            array (
+                'id' => 2658,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016012953","nama":"MAS AAM","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"2396800","c2":"56.78","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":679}',
+            ),
+            153 => 
+            array (
+                'id' => 2659,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061049","nama":"MAS IKOH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":8,"status":"0","c1":"2162650","c2":"34.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":680}',
+            ),
+            154 => 
+            array (
+                'id' => 2660,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060985","nama":"MASITOH","alamat":"KP JATI RT 02 RW 03","import_id":8,"status":"0","c1":"1145550","c2":"95.18","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":681}',
+            ),
+            155 => 
+            array (
+                'id' => 2661,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061038","nama":"MIMIH","alamat":"KP GEGERLOA RT 01 RW 07","import_id":8,"status":"0","c1":"2802450","c2":"66.09","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":682}',
+            ),
+            156 => 
+            array (
+                'id' => 2662,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300855","nama":"MIMIN","alamat":"KP CISALAM RW 06 RT 02","import_id":8,"status":"0","c1":"1631350","c2":"38.61","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":683}',
+            ),
+            157 => 
+            array (
+                'id' => 2663,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300865","nama":"MIMIN","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":8,"status":"0","c1":"3166450","c2":"83.96","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":684}',
+            ),
+            158 => 
+            array (
+                'id' => 2664,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013744","nama":"MIMIN ASMINAH","alamat":"KP JATI RT 02 RW 03","import_id":8,"status":"0","c1":"2750300","c2":"69.65","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":685}',
+            ),
+            159 => 
+            array (
+                'id' => 2665,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061096","nama":"MUNI\'AH","alamat":"KP JATI RW 10 RT 01","import_id":8,"status":"0","c1":"2795100","c2":"90.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":686}',
+            ),
+            160 => 
+            array (
+                'id' => 2666,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000004","nama":"MUTIAH","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":8,"status":"0","c1":"2549400","c2":"68.2","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":687}',
+            ),
+            161 => 
+            array (
+                'id' => 2667,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300800","nama":"NANA RUSMANA","alamat":"KP DANGDEUR RW 01 RT 01","import_id":8,"status":"0","c1":"3459050","c2":"92.4","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":688}',
+            ),
+            162 => 
+            array (
+                'id' => 2668,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061003","nama":"NANI SUMARNI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":8,"status":"0","c1":"2236850","c2":"57.35","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":689}',
+            ),
+            163 => 
+            array (
+                'id' => 2669,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000253","nama":"NENA","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":8,"status":"0","c1":"1038800","c2":"44.56","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":690}',
+            ),
+            164 => 
+            array (
+                'id' => 2670,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300838","nama":"NENDI","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":8,"status":"0","c1":"1659700","c2":"79.77","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":691}',
+            ),
+            165 => 
+            array (
+                'id' => 2671,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300067","nama":"NENENG AMINAH","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":8,"status":"0","c1":"1214500","c2":"51.35","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":692}',
+            ),
+            166 => 
+            array (
+                'id' => 2672,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300019","nama":"NENENG PIPIH SARIPAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":8,"status":"0","c1":"1756300","c2":"32.07","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":693}',
+            ),
+            167 => 
+            array (
+                'id' => 2673,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060756","nama":"NENG SANTIA","alamat":"KP. BOJONG GEDE RT 02 \\/ RW 08","import_id":8,"status":"0","c1":"3464300","c2":"27.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":694}',
+            ),
+            168 => 
+            array (
+                'id' => 2674,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300043","nama":"NENI","alamat":"KP JATI RT 01 RW 03","import_id":8,"status":"0","c1":"2064650","c2":"85.56","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":695}',
+            ),
+            169 => 
+            array (
+                'id' => 2675,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061064","nama":"NENI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"2713200","c2":"82.3","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":696}',
+            ),
+            170 => 
+            array (
+                'id' => 2676,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980493","nama":"NENI ANGGRAENI","alamat":"KP JATI RT 02 RW 03","import_id":8,"status":"0","c1":"1344350","c2":"71.3","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":697}',
+            ),
+            171 => 
+            array (
+                'id' => 2677,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061012","nama":"NEPI NISPIATI","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":8,"status":"0","c1":"3191650","c2":"57.95","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":698}',
+            ),
+            172 => 
+            array (
+                'id' => 2678,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300007","nama":"NINING","alamat":"KP DANGDEUR RT 01 RW 01","import_id":8,"status":"0","c1":"3088050","c2":"57.93","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":699}',
+            ),
+            173 => 
+            array (
+                'id' => 2679,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300094","nama":"NINING YUNINGSIH","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":8,"status":"0","c1":"2012500","c2":"70.04","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":700}',
+            ),
+            174 => 
+            array (
+                'id' => 2680,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060974","nama":"NUNUNG AMINAH","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":8,"status":"0","c1":"3396050","c2":"74.45","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":701}',
+            ),
+            175 => 
+            array (
+                'id' => 2681,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300861","nama":"NUNUNG RUHAITIN","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":8,"status":"0","c1":"1892100","c2":"31.24","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":702}',
+            ),
+            176 => 
+            array (
+                'id' => 2682,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061063","nama":"NUR HASANAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"2820650","c2":"33.11","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":703}',
+            ),
+            177 => 
+            array (
+                'id' => 2683,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300846","nama":"NURAENI","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"3260250","c2":"89.6","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":704}',
+            ),
+            178 => 
+            array (
+                'id' => 2684,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980338","nama":"NURLELA","alamat":"KP JATI RT 03 RW 03","import_id":8,"status":"0","c1":"1262100","c2":"43.01","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":705}',
+            ),
+            179 => 
+            array (
+                'id' => 2685,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300088","nama":"NURLELAH","alamat":"KP. BOJONG GEDE RT 01\\/08","import_id":8,"status":"0","c1":"1361850","c2":"42.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":706}',
+            ),
+            180 => 
+            array (
+                'id' => 2686,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300827","nama":"NURYANI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":8,"status":"0","c1":"3481450","c2":"68.33","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":707}',
+            ),
+            181 => 
+            array (
+                'id' => 2687,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300090","nama":"NURYATI","alamat":"KP. BOJONG GEDE RT 01\\/08","import_id":8,"status":"0","c1":"2566550","c2":"83.7","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":708}',
+            ),
+            182 => 
+            array (
+                'id' => 2688,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050705","nama":"OBAY SOBARIAH","alamat":"KP PATROL RT 01 RW 09","import_id":8,"status":"0","c1":"3199000","c2":"79.76","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":709}',
+            ),
+            183 => 
+            array (
+                'id' => 2689,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300038","nama":"ONEH","alamat":"KP PATROL","import_id":8,"status":"0","c1":"2420600","c2":"79.01","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":710}',
+            ),
+            184 => 
+            array (
+                'id' => 2690,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061129","nama":"OYOH","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":8,"status":"0","c1":"1191050","c2":"47.85","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":711}',
+            ),
+            185 => 
+            array (
+                'id' => 2691,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980271","nama":"PANJI SUGIRI","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":8,"status":"0","c1":"1820700","c2":"34.86","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":712}',
+            ),
+            186 => 
+            array (
+                'id' => 2692,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060986","nama":"PATONAH","alamat":"KP JATI RT 01 RW 03","import_id":8,"status":"0","c1":"1761900","c2":"83.19","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":713}',
+            ),
+            187 => 
+            array (
+                'id' => 2693,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000202","nama":"PIANAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":8,"status":"0","c1":"1157800","c2":"30.88","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":714}',
+            ),
+            188 => 
+            array (
+                'id' => 2694,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061075","nama":"POPON","alamat":"KP PATROL RT 01 RW 09","import_id":8,"status":"0","c1":"1220450","c2":"60.16","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":715}',
+            ),
+            189 => 
+            array (
+                'id' => 2695,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300810","nama":"PUPU MARPUAH","alamat":"KP JATI RT 03 RW 03","import_id":8,"status":"0","c1":"1670200","c2":"34.55","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":716}',
+            ),
+            190 => 
+            array (
+                'id' => 2696,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016021893","nama":"PUPUN","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":8,"status":"0","c1":"3328850","c2":"52.06","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":717}',
+            ),
+            191 => 
+            array (
+                'id' => 2697,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300050","nama":"PUROH","alamat":"KP. JATI RT 04\\/03","import_id":8,"status":"0","c1":"2420600","c2":"93.64","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":718}',
+            ),
+            192 => 
+            array (
+                'id' => 2698,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300006","nama":"RANI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":8,"status":"0","c1":"1455650","c2":"32.35","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":719}',
+            ),
+            193 => 
+            array (
+                'id' => 2699,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523021000064","nama":"RANI FITRI HANDAYANI","alamat":"KP JATI RT 02 RW 10","import_id":8,"status":"0","c1":"1469300","c2":"78.12","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":720}',
+            ),
+            194 => 
+            array (
+                'id' => 2700,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061054","nama":"RENI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"2661050","c2":"30.69","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":721}',
+            ),
+            195 => 
+            array (
+                'id' => 2701,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300877","nama":"ROHANAH","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"1300600","c2":"35.34","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":722}',
+            ),
+            196 => 
+            array (
+                'id' => 2702,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061100","nama":"ROHANAH","alamat":"KP JATI RW 10 RT 01","import_id":8,"status":"0","c1":"2660000","c2":"73.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":723}',
+            ),
+            197 => 
+            array (
+                'id' => 2703,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061000","nama":"ROHANI","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":8,"status":"0","c1":"1330000","c2":"46.85","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":724}',
+            ),
+            198 => 
+            array (
+                'id' => 2704,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300835","nama":"ROHAYANI","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":8,"status":"0","c1":"2881550","c2":"77.88","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":725}',
+            ),
+            199 => 
+            array (
+                'id' => 2705,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300069","nama":"ROKAYAH","alamat":"KP. CISALAM RT 01\\/06","import_id":8,"status":"0","c1":"1718500","c2":"58.4","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":726}',
+            ),
+            200 => 
+            array (
+                'id' => 2706,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061037","nama":"ROKAYAH","alamat":"KP GEGERLOA RT 01 RW 07","import_id":8,"status":"0","c1":"3187450","c2":"65.61","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":727}',
+            ),
+            201 => 
+            array (
+                'id' => 2707,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300086","nama":"ROMI AISYAH","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":8,"status":"0","c1":"2921450","c2":"28.55","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":728}',
+            ),
+            202 => 
+            array (
+                'id' => 2708,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061065","nama":"ROMLAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"1651650","c2":"75.42","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":729}',
+            ),
+            203 => 
+            array (
+                'id' => 2709,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000002","nama":"ROSMAWATI","alamat":"KP PATROL RT 01 RW 09","import_id":8,"status":"0","c1":"1995700","c2":"29.08","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":730}',
+            ),
+            204 => 
+            array (
+                'id' => 2710,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980305","nama":"RUSMIATI","alamat":"KP JATI RW 10 RT 01","import_id":8,"status":"0","c1":"2229850","c2":"45.63","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":731}',
+            ),
+            205 => 
+            array (
+                'id' => 2711,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016019912","nama":"SA\'ADAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"3401650","c2":"35.9","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":732}',
+            ),
+            206 => 
+            array (
+                'id' => 2712,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061094","nama":"SA\'ADAH","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"2078300","c2":"60.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":733}',
+            ),
+            207 => 
+            array (
+                'id' => 2713,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026000","nama":"SAHID","alamat":"KP. PASIR MUNCANG RT 001\\/RW 002","import_id":8,"status":"0","c1":"1161300","c2":"80.94","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":734}',
+            ),
+            208 => 
+            array (
+                'id' => 2714,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000301","nama":"SANTI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"1948100","c2":"61.49","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":735}',
+            ),
+            209 => 
+            array (
+                'id' => 2715,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:16',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980382","nama":"SANTI SUSANTI","alamat":"KP PATROL RT 02 RW 09","import_id":8,"status":"0","c1":"1342250","c2":"91.13","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:16.000000Z","created_at":"2023-08-14T17:26:16.000000Z","id":736}',
+            ),
+            210 => 
+            array (
+                'id' => 2716,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060967","nama":"SINTA SITI FATIMAH","alamat":"KP DANGDEUR RT 01 RW 01","import_id":8,"status":"0","c1":"2291800","c2":"61.87","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":737}',
+            ),
+            211 => 
+            array (
+                'id' => 2717,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300891","nama":"SITI AMINAH","alamat":"KP JATI RT 03 RW 10","import_id":8,"status":"0","c1":"1499050","c2":"48.21","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":738}',
+            ),
+            212 => 
+            array (
+                'id' => 2718,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061115","nama":"SITI AMINAH","alamat":"KP JATI RT 02 RW 03","import_id":8,"status":"0","c1":"1022000","c2":"29.81","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":739}',
+            ),
+            213 => 
+            array (
+                'id' => 2719,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980244","nama":"SITI AMINAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":8,"status":"0","c1":"2320150","c2":"76.98","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":740}',
+            ),
+            214 => 
+            array (
+                'id' => 2720,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061029","nama":"SITI FATIMAH","alamat":"KP CISALAM RW 06 RT 02","import_id":8,"status":"0","c1":"892500","c2":"29.78","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":741}',
+            ),
+            215 => 
+            array (
+                'id' => 2721,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980201","nama":"SITI INAYAH","alamat":"KP JATI RW 10 RT 02","import_id":8,"status":"0","c1":"1776600","c2":"40.9","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":742}',
+            ),
+            216 => 
+            array (
+                'id' => 2722,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300842","nama":"SITI JUBAEDAH","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"2445450","c2":"25.89","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":743}',
+            ),
+            217 => 
+            array (
+                'id' => 2723,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300046","nama":"SITI JULAEHA","alamat":"KP. JATI RT 03\\/03","import_id":8,"status":"0","c1":"2768150","c2":"69.07","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":744}',
+            ),
+            218 => 
+            array (
+                'id' => 2724,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061004","nama":"SITI KHOLISOH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":8,"status":"0","c1":"1353100","c2":"41.97","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":745}',
+            ),
+            219 => 
+            array (
+                'id' => 2725,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300809","nama":"SITI MAESAROH","alamat":"KP JATI RT 03 RW 03","import_id":8,"status":"0","c1":"1122100","c2":"82.22","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":746}',
+            ),
+            220 => 
+            array (
+                'id' => 2726,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980236","nama":"SITI MARSITI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"2665950","c2":"34.76","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":747}',
+            ),
+            221 => 
+            array (
+                'id' => 2727,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300852","nama":"SITI MARYAM","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"3270050","c2":"62.34","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":748}',
+            ),
+            222 => 
+            array (
+                'id' => 2728,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980164","nama":"SITI MARYAM","alamat":"KP JATI RW 10 RT 01","import_id":8,"status":"0","c1":"2170700","c2":"47.87","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":749}',
+            ),
+            223 => 
+            array (
+                'id' => 2729,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980331","nama":"SITI MARYATI","alamat":"KP JATI RT 01 RW 03","import_id":8,"status":"0","c1":"3228750","c2":"73.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":750}',
+            ),
+            224 => 
+            array (
+                'id' => 2730,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000216","nama":"SITI MASITOH","alamat":"KP JATI RT 03 RW 03","import_id":8,"status":"0","c1":"2364600","c2":"97","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":751}',
+            ),
+            225 => 
+            array (
+                'id' => 2731,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980306","nama":"SITI MASUROH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"1799350","c2":"75.89","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":752}',
+            ),
+            226 => 
+            array (
+                'id' => 2732,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300015","nama":"SITI NURJANAH","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":8,"status":"0","c1":"1929200","c2":"49.79","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":753}',
+            ),
+            227 => 
+            array (
+                'id' => 2733,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300845","nama":"SITI ROHAYATI","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"1750350","c2":"69.65","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":754}',
+            ),
+            228 => 
+            array (
+                'id' => 2734,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016021894","nama":"SITI SAIBAH","alamat":"KP JATI RT 01 RW 03","import_id":8,"status":"0","c1":"2501800","c2":"40.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":755}',
+            ),
+            229 => 
+            array (
+                'id' => 2735,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980471","nama":"SITI SUHAENAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"2657550","c2":"29.75","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":756}',
+            ),
+            230 => 
+            array (
+                'id' => 2736,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300057","nama":"SOPAH","alamat":"KP. SARPEUNDEUY RT. 03 RW. 04","import_id":8,"status":"0","c1":"1705200","c2":"98.19","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":757}',
+            ),
+            231 => 
+            array (
+                'id' => 2737,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000223","nama":"SOPIAH","alamat":"KP JATI RT 01 RW 03","import_id":8,"status":"0","c1":"2663850","c2":"39.03","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":758}',
+            ),
+            232 => 
+            array (
+                'id' => 2738,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980295","nama":"SUGIANTO","alamat":"KP GEGERLOA RT 02 RW 07","import_id":8,"status":"0","c1":"2185050","c2":"75.1","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":759}',
+            ),
+            233 => 
+            array (
+                'id' => 2739,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000058","nama":"SUHAENAH","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":8,"status":"0","c1":"1206100","c2":"45.61","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":760}',
+            ),
+            234 => 
+            array (
+                'id' => 2740,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300052","nama":"SUMARNI","alamat":"KP. JATI RT 04\\/03","import_id":8,"status":"0","c1":"1729000","c2":"63.34","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":761}',
+            ),
+            235 => 
+            array (
+                'id' => 2741,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000059","nama":"SUMARNI","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":8,"status":"0","c1":"1069250","c2":"79.54","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":762}',
+            ),
+            236 => 
+            array (
+                'id' => 2742,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300807","nama":"SUMI KULSUM","alamat":"KP JATI RT 01 RW 03","import_id":8,"status":"0","c1":"3258850","c2":"75.47","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":763}',
+            ),
+            237 => 
+            array (
+                'id' => 2743,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000114","nama":"SUSANTI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":8,"status":"0","c1":"1929200","c2":"90.44","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":764}',
+            ),
+            238 => 
+            array (
+                'id' => 2744,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016024802","nama":"SUSI DIANA","alamat":"KP DANGDEUR RT 02 RW 01","import_id":8,"status":"0","c1":"1390900","c2":"53.21","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":765}',
+            ),
+            239 => 
+            array (
+                'id' => 2745,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061080","nama":"SUSUM","alamat":"KP PATROL RT 01 RW 09","import_id":8,"status":"0","c1":"1227100","c2":"72.29","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":766}',
+            ),
+            240 => 
+            array (
+                'id' => 2746,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300011","nama":"TATI","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":8,"status":"0","c1":"3331300","c2":"29.69","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":767}',
+            ),
+            241 => 
+            array (
+                'id' => 2747,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000291","nama":"TATI","alamat":"KP JATI RW 10 RT 02","import_id":8,"status":"0","c1":"3117450","c2":"51.25","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":768}',
+            ),
+            242 => 
+            array (
+                'id' => 2748,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061107","nama":"TATI RAHMAWATI","alamat":"KP JATI RW 10 RT 02","import_id":8,"status":"0","c1":"1894550","c2":"33.34","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":769}',
+            ),
+            243 => 
+            array (
+                'id' => 2749,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300879","nama":"TIAH","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"1162350","c2":"57.45","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":770}',
+            ),
+            244 => 
+            array (
+                'id' => 2750,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026001","nama":"TINI","alamat":"KP PATROL RT 02 RW 09","import_id":8,"status":"0","c1":"1393700","c2":"34.15","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":771}',
+            ),
+            245 => 
+            array (
+                'id' => 2751,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061040","nama":"TINI","alamat":"KP GEGERLOA RT 01 RW 07","import_id":8,"status":"0","c1":"2321900","c2":"54.08","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":772}',
+            ),
+            246 => 
+            array (
+                'id' => 2752,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300874","nama":"TITI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"1632400","c2":"89.31","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":773}',
+            ),
+            247 => 
+            array (
+                'id' => 2753,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061089","nama":"TITI","alamat":"KP PASIR MUNCANG RT 02 RW 09","import_id":8,"status":"0","c1":"3480400","c2":"53.63","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":774}',
+            ),
+            248 => 
+            array (
+                'id' => 2754,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061120","nama":"TITI","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":8,"status":"0","c1":"2118900","c2":"78.06","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":775}',
+            ),
+            249 => 
+            array (
+                'id' => 2755,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300867","nama":"TUKIYAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":8,"status":"0","c1":"1856750","c2":"56.87","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":776}',
+            ),
+            250 => 
+            array (
+                'id' => 2756,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300801","nama":"TUTI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":8,"status":"0","c1":"2046800","c2":"62.55","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":777}',
+            ),
+            251 => 
+            array (
+                'id' => 2757,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300832","nama":"UAY WARLIYAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":8,"status":"0","c1":"2489550","c2":"60.41","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":778}',
+            ),
+            252 => 
+            array (
+                'id' => 2758,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013739","nama":"UJANG HIDAYAT","alamat":"KP. BATU KARUT RT.02 RW. 02","import_id":8,"status":"0","c1":"3433150","c2":"51.59","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":779}',
+            ),
+            253 => 
+            array (
+                'id' => 2759,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300063","nama":"ULIA","alamat":"KP. BOJONG GEDE RT 01\\/05","import_id":8,"status":"0","c1":"2691150","c2":"26.59","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":780}',
+            ),
+            254 => 
+            array (
+                'id' => 2760,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300881","nama":"WATI","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"2220400","c2":"86.41","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":781}',
+            ),
+            255 => 
+            array (
+                'id' => 2761,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061032","nama":"WATI","alamat":"KP CISALAM RW 06 RT 02","import_id":8,"status":"0","c1":"1523550","c2":"27.62","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":782}',
+            ),
+            256 => 
+            array (
+                'id' => 2762,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016018087","nama":"WATI","alamat":"KP JATI RW 10 RT 02","import_id":8,"status":"0","c1":"1705550","c2":"61.22","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":783}',
+            ),
+            257 => 
+            array (
+                'id' => 2763,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980445","nama":"WIDA WIDIA","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":8,"status":"0","c1":"2926000","c2":"39.16","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":784}',
+            ),
+            258 => 
+            array (
+                'id' => 2764,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300147","nama":"WIWI","alamat":"KP. SARPEUNDEUY RT. 02 RW. 04","import_id":8,"status":"0","c1":"1584800","c2":"89.56","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":785}',
+            ),
+            259 => 
+            array (
+                'id' => 2765,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000159","nama":"WIWIN","alamat":"KP PATROL RT 02 RW 09","import_id":8,"status":"0","c1":"3233650","c2":"29.69","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":786}',
+            ),
+            260 => 
+            array (
+                'id' => 2766,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300884","nama":"WIWIN WINARTI","alamat":"KP JATI RW 10 RT 01","import_id":8,"status":"0","c1":"2745050","c2":"69.05","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":787}',
+            ),
+            261 => 
+            array (
+                'id' => 2767,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000287","nama":"YANI","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":8,"status":"0","c1":"2642150","c2":"43.18","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":788}',
+            ),
+            262 => 
+            array (
+                'id' => 2768,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300859","nama":"YANI HARYANI","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":8,"status":"0","c1":"1954400","c2":"80.54","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":789}',
+            ),
+            263 => 
+            array (
+                'id' => 2769,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061066","nama":"YANTI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":8,"status":"0","c1":"1078700","c2":"66.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":790}',
+            ),
+            264 => 
+            array (
+                'id' => 2770,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061026","nama":"YANTI RUSTINI","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"1409100","c2":"34.99","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":791}',
+            ),
+            265 => 
+            array (
+                'id' => 2771,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016015217","nama":"YANTI SITI PATIMAH","alamat":"KP JATI RW 10 RT 02","import_id":8,"status":"0","c1":"2450000","c2":"44.64","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":792}',
+            ),
+            266 => 
+            array (
+                'id' => 2772,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000185","nama":"YANTI SUGIANTI","alamat":"KP GEGERLOA RT 01 RW 07","import_id":8,"status":"0","c1":"1189300","c2":"26.04","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":793}',
+            ),
+            267 => 
+            array (
+                'id' => 2773,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300061","nama":"YATI","alamat":"KP. SARPEUNDEUY RT. 05 RW. 04","import_id":8,"status":"0","c1":"1146950","c2":"82.89","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":794}',
+            ),
+            268 => 
+            array (
+                'id' => 2774,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060961","nama":"YATI","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"3392200","c2":"85.28","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":795}',
+            ),
+            269 => 
+            array (
+                'id' => 2775,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061078","nama":"YATI","alamat":"KP PATROL RT 01 RW 09","import_id":8,"status":"0","c1":"1097250","c2":"33.24","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":796}',
+            ),
+            270 => 
+            array (
+                'id' => 2776,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000169","nama":"YAYA","alamat":"KP CISALAM RW 06 RT 01","import_id":8,"status":"0","c1":"2052050","c2":"77","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":797}',
+            ),
+            271 => 
+            array (
+                'id' => 2777,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300075","nama":"YAYA PARIDAH","alamat":"KP. CISALAM RT 02\\/06","import_id":8,"status":"0","c1":"2850050","c2":"87.37","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":798}',
+            ),
+            272 => 
+            array (
+                'id' => 2778,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061122","nama":"YAYAN","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":8,"status":"0","c1":"1799000","c2":"61.91","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":799}',
+            ),
+            273 => 
+            array (
+                'id' => 2779,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300056","nama":"YAYAT HIDAYAT","alamat":"KP. SARPEUNDEUY RT. 03 RW. 04","import_id":8,"status":"1","c1":"2497600","c2":"94.46","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":800}',
+            ),
+            274 => 
+            array (
+                'id' => 2780,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061002","nama":"YENI PADILAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"1","c1":"2667350","c2":"42.58","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":801}',
+            ),
+            275 => 
+            array (
+                'id' => 2781,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060992","nama":"YETI","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":8,"status":"0","c1":"2118900","c2":"54.75","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":802}',
+            ),
+            276 => 
+            array (
+                'id' => 2782,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300097","nama":"YIYIT","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":8,"status":"0","c1":"2282350","c2":"67.51","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":803}',
+            ),
+            277 => 
+            array (
+                'id' => 2783,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300885","nama":"YOYOH ROBAYAH","alamat":"KP JATI RW 10 RT 01","import_id":8,"status":"1","c1":"919450","c2":"60.43","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":804}',
+            ),
+            278 => 
+            array (
+                'id' => 2784,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300814","nama":"YOYOH ROKAYAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":8,"status":"1","c1":"3293850","c2":"68.95","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":805}',
+            ),
+            279 => 
+            array (
+                'id' => 2785,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000306","nama":"YULI APRILIANTI","alamat":"KP PATROL RT 03 RW 09","import_id":8,"status":"0","c1":"2518600","c2":"30.29","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":806}',
+            ),
+            280 => 
+            array (
+                'id' => 2786,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300071","nama":"YUYU","alamat":"KP. CISALAM RT 02\\/06","import_id":8,"status":"0","c1":"1296750","c2":"51.67","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":807}',
+            ),
+            281 => 
+            array (
+                'id' => 2787,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300054","nama":"YUYUM","alamat":"KP. SARPEUNDEUY RT. 01 RW. 04","import_id":8,"status":"0","c1":"2970800","c2":"76.29","c3":10,"c4":10,"c5":10,"c6":10,"updated_at":"2023-08-14T17:26:17.000000Z","created_at":"2023-08-14T17:26:17.000000Z","id":808}',
+            ),
+            282 => 
+            array (
+                'id' => 2788,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:26:17',
+                'table_name' => 'import_penerima',
+                'log_type' => 'edit',
+                'data' => '{"nama":"Data full","slug":"data-full","updated_at":"2023-08-15 00:26:15","created_at":"2023-08-15 00:26:15","id":8}',
+            ),
+            283 => 
+            array (
+                'id' => 2789,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:27:00',
+                'table_name' => 'import_penerima',
+                'log_type' => 'delete',
+                'data' => '{"id":8,"nama":"Data full","slug":"data-full","file":"20230815122615-data-full.xlsx","count":269,"created_at":"2023-08-15 00:26:15","updated_at":"2023-08-15 00:26:17"}',
+            ),
+            284 => 
+            array (
+                'id' => 2790,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'import_penerima',
+                'log_type' => 'create',
+                'data' => '{"nama":"Data full","slug":"data-full","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":9}',
+            ),
+            285 => 
+            array (
+                'id' => 2791,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061114","nama":"ADE KHODIJAH","alamat":"KP JATI RT 03 RW 10","import_id":9,"status":"1","c1":"2144450","c2":"39136000","c3":"100","c4":"10","c5":"40","c6":"1","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":809}',
+            ),
+            286 => 
+            array (
+                'id' => 2792,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060991","nama":"ADE ROHANAH","alamat":"KP JATI RT 02 RW 03","import_id":9,"status":"2","c1":"3327100","c2":"28752000","c3":"60","c4":"40","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":810}',
+            ),
+            287 => 
+            array (
+                'id' => 2793,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061104","nama":"ADE WATIN","alamat":"KP JATI RW 10 RT 02","import_id":9,"status":"0","c1":"3158050","c2":"12272000","c3":"50","c4":"30","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":811}',
+            ),
+            288 => 
+            array (
+                'id' => 2794,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016023545","nama":"AI ATIKAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":9,"status":"1","c1":"1212050","c2":"14176000","c3":"30","c4":"30","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":812}',
+            ),
+            289 => 
+            array (
+                'id' => 2795,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300085","nama":"AI MARDIAH","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":9,"status":"1","c1":"2014950","c2":"22712000","c3":"90","c4":"30","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":813}',
+            ),
+            290 => 
+            array (
+                'id' => 2796,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300890","nama":"AI MARLINA","alamat":"KP JATI RW 10 RT 02","import_id":9,"status":"0","c1":"2710750","c2":"24092000","c3":"70","c4":"20","c5":"100","c6":"1","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":814}',
+            ),
+            291 => 
+            array (
+                'id' => 2797,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300888","nama":"AI MARPUAH","alamat":"KP JATI RW 10 RT 02","import_id":9,"status":"1","c1":"3214400","c2":"12484000","c3":"10","c4":"70","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":815}',
+            ),
+            292 => 
+            array (
+                'id' => 2798,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980521","nama":"AI NAPISAH","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":9,"status":"1","c1":"3451700","c2":"21592000","c3":"70","c4":"70","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":816}',
+            ),
+            293 => 
+            array (
+                'id' => 2799,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300064","nama":"AI ROHAENI","alamat":"KP. BOJONG GEDE RT 01\\/05","import_id":9,"status":"0","c1":"2644950","c2":"34888000","c3":"60","c4":"80","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":817}',
+            ),
+            294 => 
+            array (
+                'id' => 2800,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300850","nama":"AI ROSTINI","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"2098250","c2":"27004000","c3":"70","c4":"100","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":818}',
+            ),
+            295 => 
+            array (
+                'id' => 2801,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300892","nama":"AISYAH","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":9,"status":"0","c1":"1574650","c2":"29508000","c3":"80","c4":"60","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":819}',
+            ),
+            296 => 
+            array (
+                'id' => 2802,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300082","nama":"ALIS","alamat":"KP. GEGERLOA RT. 01 RW. 07","import_id":9,"status":"0","c1":"1594950","c2":"12008000","c3":"40","c4":"80","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":820}',
+            ),
+            297 => 
+            array (
+                'id' => 2803,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060981","nama":"AMINAH","alamat":"KP JATI RT 01 RW 03","import_id":9,"status":"0","c1":"2256450","c2":"25088000","c3":"100","c4":"20","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":821}',
+            ),
+            298 => 
+            array (
+                'id' => 2804,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300883","nama":"ANI LESTARI","alamat":"KP JATI RW 10 RT 01","import_id":9,"status":"0","c1":"2573200","c2":"11276000","c3":"100","c4":"50","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":822}',
+            ),
+            299 => 
+            array (
+                'id' => 2805,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980524","nama":"ANI NURHAYATI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"3253600","c2":"15520000","c3":"30","c4":"70","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":823}',
+            ),
+            300 => 
+            array (
+                'id' => 2806,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000049","nama":"ANIH","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"960750","c2":"17124000","c3":"40","c4":"100","c5":"40","c6":"1","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":824}',
+            ),
+            301 => 
+            array (
+                'id' => 2807,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980541","nama":"ANISA","alamat":"KP CISALAM RW 06 RT 02","import_id":9,"status":"0","c1":"1454950","c2":"37444000","c3":"60","c4":"20","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":825}',
+            ),
+            302 => 
+            array (
+                'id' => 2808,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:00',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000089","nama":"ANISAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"1651650","c2":"18812000","c3":"10","c4":"90","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:00.000000Z","created_at":"2023-08-14T17:29:00.000000Z","id":826}',
+            ),
+            303 => 
+            array (
+                'id' => 2809,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016024803","nama":"APON","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":9,"status":"0","c1":"2425850","c2":"25488000","c3":"10","c4":"20","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":827}',
+            ),
+            304 => 
+            array (
+                'id' => 2810,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060966","nama":"ASEP TAJUDIN","alamat":"KP DANGDEUR RT 01 RW 01","import_id":9,"status":"0","c1":"1223950","c2":"33148000","c3":"70","c4":"80","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":828}',
+            ),
+            305 => 
+            array (
+                'id' => 2811,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300066","nama":"ATIKAH","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":9,"status":"0","c1":"2970100","c2":"27012000","c3":"90","c4":"70","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":829}',
+            ),
+            306 => 
+            array (
+                'id' => 2812,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061045","nama":"ATING","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":9,"status":"0","c1":"1623650","c2":"34372000","c3":"80","c4":"10","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":830}',
+            ),
+            307 => 
+            array (
+                'id' => 2813,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000224","nama":"AYIN","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"2207450","c2":"26840000","c3":"80","c4":"20","c5":"100","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":831}',
+            ),
+            308 => 
+            array (
+                'id' => 2814,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300829","nama":"BADRIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":9,"status":"0","c1":"2403800","c2":"32352000","c3":"10","c4":"50","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":832}',
+            ),
+            309 => 
+            array (
+                'id' => 2815,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061005","nama":"BADRIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":9,"status":"0","c1":"2175950","c2":"33632000","c3":"100","c4":"90","c5":"100","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":833}',
+            ),
+            310 => 
+            array (
+                'id' => 2816,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061033","nama":"CACIH SUMINAR","alamat":"KP CISALAM RW 06 RT 02","import_id":9,"status":"0","c1":"3300500","c2":"15452000","c3":"40","c4":"90","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":834}',
+            ),
+            311 => 
+            array (
+                'id' => 2817,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300010","nama":"CIAH","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":9,"status":"0","c1":"2038050","c2":"26380000","c3":"90","c4":"60","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":835}',
+            ),
+            312 => 
+            array (
+                'id' => 2818,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300091","nama":"CICAH JULIANTI","alamat":"KP. BOJONG GEDE RT 02\\/08","import_id":9,"status":"0","c1":"3286850","c2":"34996000","c3":"20","c4":"40","c5":"100","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":836}',
+            ),
+            313 => 
+            array (
+                'id' => 2819,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980480","nama":"CUCU SUMIATI","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"2195550","c2":"23488000","c3":"100","c4":"30","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":837}',
+            ),
+            314 => 
+            array (
+                'id' => 2820,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300818","nama":"DEDE","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"2537500","c2":"33268000","c3":"20","c4":"70","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":838}',
+            ),
+            315 => 
+            array (
+                'id' => 2821,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060990","nama":"DEDE ENI","alamat":"KP JATI RT 02 RW 03","import_id":9,"status":"0","c1":"1690150","c2":"25624000","c3":"30","c4":"30","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":839}',
+            ),
+            316 => 
+            array (
+                'id' => 2822,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980506","nama":"DEDE MASRIPAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"2975000","c2":"28416000","c3":"50","c4":"10","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":840}',
+            ),
+            317 => 
+            array (
+                'id' => 2823,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060989","nama":"DEDE NANI","alamat":"KP JATI RT 01 RW 03","import_id":9,"status":"0","c1":"2582300","c2":"37208000","c3":"40","c4":"70","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":841}',
+            ),
+            318 => 
+            array (
+                'id' => 2824,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980276","nama":"DEDE SITI NURJANAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"3314850","c2":"35672000","c3":"50","c4":"100","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":842}',
+            ),
+            319 => 
+            array (
+                'id' => 2825,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000251","nama":"DEDE SOLIHAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":9,"status":"0","c1":"1876000","c2":"19308000","c3":"90","c4":"30","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":843}',
+            ),
+            320 => 
+            array (
+                'id' => 2826,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300856","nama":"DEDE SUPRIATNA","alamat":"KP GEGERLOA RT 01 RW 07","import_id":9,"status":"0","c1":"2248050","c2":"38840000","c3":"60","c4":"80","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":844}',
+            ),
+            321 => 
+            array (
+                'id' => 2827,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300045","nama":"DEDEH","alamat":"KP. JATI RT 03\\/03","import_id":9,"status":"0","c1":"3074750","c2":"38812000","c3":"80","c4":"90","c5":"100","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":845}',
+            ),
+            322 => 
+            array (
+                'id' => 2828,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000250","nama":"DEDEH JUARIAH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":9,"status":"0","c1":"2517550","c2":"17976000","c3":"20","c4":"100","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":846}',
+            ),
+            323 => 
+            array (
+                'id' => 2829,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061074","nama":"DEDEH KODARIAH","alamat":"KP PATROL RT 01 RW 09","import_id":9,"status":"0","c1":"2802100","c2":"19880000","c3":"100","c4":"10","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":847}',
+            ),
+            324 => 
+            array (
+                'id' => 2830,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061025","nama":"DETI","alamat":"KP. SARPEUNDEUY RT 002 \\/ RW 011","import_id":9,"status":"0","c1":"3180100","c2":"29712000","c3":"100","c4":"70","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":848}',
+            ),
+            325 => 
+            array (
+                'id' => 2831,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060960","nama":"DEVITA","alamat":"KP DANGDEUR RT 01 RW 01","import_id":9,"status":"0","c1":"1153950","c2":"31684000","c3":"70","c4":"70","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":849}',
+            ),
+            326 => 
+            array (
+                'id' => 2832,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300853","nama":"DEWI KODARIAH","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"2312800","c2":"17584000","c3":"10","c4":"90","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":850}',
+            ),
+            327 => 
+            array (
+                'id' => 2833,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300822","nama":"DEWI MARDIANA","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"2502150","c2":"12596000","c3":"20","c4":"60","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":851}',
+            ),
+            328 => 
+            array (
+                'id' => 2834,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300076","nama":"DUDUNG EYE","alamat":"KP. CISALAM RT 02\\/06","import_id":9,"status":"0","c1":"3323950","c2":"11816000","c3":"60","c4":"10","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":852}',
+            ),
+            329 => 
+            array (
+                'id' => 2835,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061116","nama":"ECIN","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":9,"status":"0","c1":"3029250","c2":"17936000","c3":"20","c4":"10","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":853}',
+            ),
+            330 => 
+            array (
+                'id' => 2836,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300836","nama":"EEN","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":9,"status":"0","c1":"3392900","c2":"34832000","c3":"100","c4":"90","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":854}',
+            ),
+            331 => 
+            array (
+                'id' => 2837,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300898","nama":"EET","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":9,"status":"0","c1":"2579500","c2":"33528000","c3":"70","c4":"40","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":855}',
+            ),
+            332 => 
+            array (
+                'id' => 2838,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300017","nama":"ELA NURLAELA","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":9,"status":"0","c1":"1025500","c2":"30476000","c3":"50","c4":"60","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":856}',
+            ),
+            333 => 
+            array (
+                'id' => 2839,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300035","nama":"ELIN","alamat":"KP. PATROL RT. 04 RW. 02","import_id":9,"status":"0","c1":"2804900","c2":"37672000","c3":"10","c4":"80","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":857}',
+            ),
+            334 => 
+            array (
+                'id' => 2840,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001380055","nama":"ELIS LISNAWATI","alamat":"SARIPEUNDEUY RT 04\\/04","import_id":9,"status":"0","c1":"1548050","c2":"12788000","c3":"60","c4":"60","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":858}',
+            ),
+            335 => 
+            array (
+                'id' => 2841,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061055","nama":"EMIN","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"3499300","c2":"17020000","c3":"100","c4":"90","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":859}',
+            ),
+            336 => 
+            array (
+                'id' => 2842,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300018","nama":"EMPOL SITI HULAELAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":9,"status":"0","c1":"2425150","c2":"39480000","c3":"50","c4":"50","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":860}',
+            ),
+            337 => 
+            array (
+                'id' => 2843,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061007","nama":"EMPONG KOMARIAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":9,"status":"0","c1":"2355150","c2":"39216000","c3":"100","c4":"100","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":861}',
+            ),
+            338 => 
+            array (
+                'id' => 2844,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300839","nama":"ENCENG","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":9,"status":"0","c1":"2786350","c2":"32784000","c3":"80","c4":"30","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":862}',
+            ),
+            339 => 
+            array (
+                'id' => 2845,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060997","nama":"ENCUM","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"1668800","c2":"27716000","c3":"10","c4":"60","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":863}',
+            ),
+            340 => 
+            array (
+                'id' => 2846,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300894","nama":"ENI MARLENI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":9,"status":"0","c1":"1798300","c2":"27296000","c3":"80","c4":"80","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":864}',
+            ),
+            341 => 
+            array (
+                'id' => 2847,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061090","nama":"ENIS","alamat":"KP PATROL RT 02 RW 09","import_id":9,"status":"0","c1":"2573900","c2":"18136000","c3":"40","c4":"100","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":865}',
+            ),
+            342 => 
+            array (
+                'id' => 2848,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300012","nama":"ENJANG JAMALUDIN","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":9,"status":"0","c1":"2737350","c2":"19540000","c3":"40","c4":"50","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":866}',
+            ),
+            343 => 
+            array (
+                'id' => 2849,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061050","nama":"ENOH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":9,"status":"0","c1":"1572550","c2":"29176000","c3":"50","c4":"40","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":867}',
+            ),
+            344 => 
+            array (
+                'id' => 2850,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300857","nama":"ENOK","alamat":"KP GEGERLOA RT 01 RW 07","import_id":9,"status":"0","c1":"1273650","c2":"18332000","c3":"70","c4":"60","c5":"40","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":868}',
+            ),
+            345 => 
+            array (
+                'id' => 2851,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013743","nama":"ENTI NURHAETI","alamat":"KP JATI RT 01 RW 03","import_id":9,"status":"0","c1":"3362100","c2":"25968000","c3":"100","c4":"20","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":869}',
+            ),
+            346 => 
+            array (
+                'id' => 2852,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000176","nama":"ENUNG","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"2867550","c2":"35168000","c3":"20","c4":"30","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":870}',
+            ),
+            347 => 
+            array (
+                'id' => 2853,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980486","nama":"ENUNG HAYATI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"2599800","c2":"13264000","c3":"100","c4":"40","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":871}',
+            ),
+            348 => 
+            array (
+                'id' => 2854,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050701","nama":"ENUNG HOIROH","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"1621900","c2":"25120000","c3":"90","c4":"60","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":872}',
+            ),
+            349 => 
+            array (
+                'id' => 2855,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300077","nama":"ENUR","alamat":"KP. CISALAM RT 02\\/06","import_id":9,"status":"0","c1":"1312150","c2":"23768000","c3":"80","c4":"60","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":873}',
+            ),
+            350 => 
+            array (
+                'id' => 2856,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300895","nama":"EPON","alamat":"K SARPEUNDEUY RW 11 RT 02","import_id":9,"status":"0","c1":"3238550","c2":"34512000","c3":"70","c4":"50","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":874}',
+            ),
+            351 => 
+            array (
+                'id' => 2857,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300834","nama":"ERAT","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":9,"status":"0","c1":"1707650","c2":"37516000","c3":"30","c4":"70","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":875}',
+            ),
+            352 => 
+            array (
+                'id' => 2858,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300079","nama":"EROS ROSITA","alamat":"KP. CISALAM RT 02\\/06","import_id":9,"status":"0","c1":"1529500","c2":"39708000","c3":"40","c4":"100","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":876}',
+            ),
+            353 => 
+            array (
+                'id' => 2859,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300813","nama":"ESAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":9,"status":"0","c1":"2793700","c2":"27384000","c3":"90","c4":"30","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":877}',
+            ),
+            354 => 
+            array (
+                'id' => 2860,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050710","nama":"ETI","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":9,"status":"0","c1":"998200","c2":"24496000","c3":"60","c4":"40","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":878}',
+            ),
+            355 => 
+            array (
+                'id' => 2861,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300815","nama":"ETI","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":9,"status":"0","c1":"3232250","c2":"24536000","c3":"70","c4":"20","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":879}',
+            ),
+            356 => 
+            array (
+                'id' => 2862,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300873","nama":"ETI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"1741950","c2":"29508000","c3":"10","c4":"80","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":880}',
+            ),
+            357 => 
+            array (
+                'id' => 2863,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980208","nama":"ETI KUSMIATI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":9,"status":"0","c1":"3035550","c2":"18940000","c3":"20","c4":"50","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":881}',
+            ),
+            358 => 
+            array (
+                'id' => 2864,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980107","nama":"ETI MULYANI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"3232600","c2":"39872000","c3":"90","c4":"40","c5":"100","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":882}',
+            ),
+            359 => 
+            array (
+                'id' => 2865,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061021","nama":"ETI SUMIATI","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"3453450","c2":"30276000","c3":"80","c4":"60","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":883}',
+            ),
+            360 => 
+            array (
+                'id' => 2866,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050703","nama":"EUIS LATIPAH","alamat":"KP CISALAM RW 06 RT 02","import_id":9,"status":"0","c1":"3093300","c2":"37720000","c3":"30","c4":"60","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":884}',
+            ),
+            361 => 
+            array (
+                'id' => 2867,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061117","nama":"EUIS SUSILAWATI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":9,"status":"0","c1":"1463000","c2":"22096000","c3":"80","c4":"40","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":885}',
+            ),
+            362 => 
+            array (
+                'id' => 2868,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050706","nama":"EULIS HARYANTI","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"3053750","c2":"26804000","c3":"90","c4":"50","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":886}',
+            ),
+            363 => 
+            array (
+                'id' => 2869,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000049","nama":"EULIS MARDIAH","alamat":"KP PATROL RT 01 RW 09","import_id":9,"status":"0","c1":"2937550","c2":"28736000","c3":"80","c4":"40","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":887}',
+            ),
+            364 => 
+            array (
+                'id' => 2870,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300854","nama":"EULIS ROHIMAH","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"2184700","c2":"29864000","c3":"10","c4":"50","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":888}',
+            ),
+            365 => 
+            array (
+                'id' => 2871,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300034","nama":"EUTIK","alamat":"KP. PATROL RT. 04 RW. 02","import_id":9,"status":"0","c1":"1554700","c2":"29780000","c3":"60","c4":"90","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":889}',
+            ),
+            366 => 
+            array (
+                'id' => 2872,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300083","nama":"EUTIK","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":9,"status":"0","c1":"2898000","c2":"35796000","c3":"30","c4":"20","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":890}',
+            ),
+            367 => 
+            array (
+                'id' => 2873,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061057","nama":"FATIMAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"1823500","c2":"15472000","c3":"30","c4":"70","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":891}',
+            ),
+            368 => 
+            array (
+                'id' => 2874,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026002","nama":"FATMAWATI","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"2358300","c2":"39088000","c3":"60","c4":"80","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":892}',
+            ),
+            369 => 
+            array (
+                'id' => 2875,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300823","nama":"GEUGEU","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"1318450","c2":"34424000","c3":"80","c4":"100","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":893}',
+            ),
+            370 => 
+            array (
+                'id' => 2876,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980448","nama":"HABSAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"2710400","c2":"36212000","c3":"50","c4":"90","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":894}',
+            ),
+            371 => 
+            array (
+                'id' => 2877,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061113","nama":"HAJAR","alamat":"KP JATI RT 03 RW 10","import_id":9,"status":"0","c1":"1073450","c2":"17584000","c3":"80","c4":"50","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":895}',
+            ),
+            372 => 
+            array (
+                'id' => 2878,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300027","nama":"HALIAH","alamat":"KP PASIR MUNCANG RT 02 RW 02","import_id":9,"status":"0","c1":"1814050","c2":"22760000","c3":"50","c4":"20","c5":"100","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":896}',
+            ),
+            373 => 
+            array (
+                'id' => 2879,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300016","nama":"HANA REHANA","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":9,"status":"0","c1":"2850400","c2":"25392000","c3":"80","c4":"40","c5":"100","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":897}',
+            ),
+            374 => 
+            array (
+                'id' => 2880,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300887","nama":"HANI NURHANIFAH","alamat":"KP JATI RW 10 RT 02","import_id":9,"status":"0","c1":"1303750","c2":"17640000","c3":"90","c4":"50","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":898}',
+            ),
+            375 => 
+            array (
+                'id' => 2881,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300869","nama":"HASANAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"2177350","c2":"11244000","c3":"90","c4":"80","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":899}',
+            ),
+            376 => 
+            array (
+                'id' => 2882,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300876","nama":"HENI HANDAYANI","alamat":"KP PATROL RT 02 RW 09","import_id":9,"status":"0","c1":"2345350","c2":"27756000","c3":"80","c4":"20","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":900}',
+            ),
+            377 => 
+            array (
+                'id' => 2883,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300858","nama":"HERLINA","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":9,"status":"0","c1":"3431400","c2":"35836000","c3":"20","c4":"90","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":901}',
+            ),
+            378 => 
+            array (
+                'id' => 2884,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061081","nama":"IBAH","alamat":"KP PATROL RT 01 RW 09","import_id":9,"status":"0","c1":"1709400","c2":"27860000","c3":"70","c4":"40","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":902}',
+            ),
+            379 => 
+            array (
+                'id' => 2885,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300049","nama":"IDA","alamat":"KP. JATI RT 03\\/03","import_id":9,"status":"0","c1":"907550","c2":"26952000","c3":"40","c4":"10","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":903}',
+            ),
+            380 => 
+            array (
+                'id' => 2886,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300872","nama":"IDAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"2249100","c2":"12100000","c3":"90","c4":"90","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":904}',
+            ),
+            381 => 
+            array (
+                'id' => 2887,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300074","nama":"IHAT SOLIHAT","alamat":"KP. CISALAM RT 02\\/06","import_id":9,"status":"0","c1":"1535800","c2":"33964000","c3":"100","c4":"60","c5":"100","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":905}',
+            ),
+            382 => 
+            array (
+                'id' => 2888,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000048","nama":"IHIN","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"1452850","c2":"10868000","c3":"50","c4":"60","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":906}',
+            ),
+            383 => 
+            array (
+                'id' => 2889,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300803","nama":"IIK NURHIKMAH","alamat":"KP DANGDEUR RT 02 RW 01","import_id":9,"status":"0","c1":"1132950","c2":"16444000","c3":"60","c4":"20","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":907}',
+            ),
+            384 => 
+            array (
+                'id' => 2890,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061010","nama":"IING SOLIHIN","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":9,"status":"0","c1":"1322300","c2":"28740000","c3":"100","c4":"30","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":908}',
+            ),
+            385 => 
+            array (
+                'id' => 2891,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300030","nama":"IIS","alamat":"KP. PATROL RT. 03 RW. 02","import_id":9,"status":"0","c1":"2051350","c2":"37900000","c3":"100","c4":"80","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":909}',
+            ),
+            386 => 
+            array (
+                'id' => 2892,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060988","nama":"IIS ISMAYANTINI","alamat":"KP JATI RT 01 RW 03","import_id":9,"status":"0","c1":"1030750","c2":"34044000","c3":"90","c4":"70","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":910}',
+            ),
+            387 => 
+            array (
+                'id' => 2893,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320520001800099","nama":"IIS KARIMAH","alamat":"KP. CISALAM","import_id":9,"status":"0","c1":"3339350","c2":"15636000","c3":"90","c4":"30","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":911}',
+            ),
+            388 => 
+            array (
+                'id' => 2894,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300100","nama":"IJANG ABDULAH SAHRONI","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":9,"status":"0","c1":"1311800","c2":"11436000","c3":"80","c4":"10","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":912}',
+            ),
+            389 => 
+            array (
+                'id' => 2895,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300805","nama":"IKAH","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":9,"status":"0","c1":"1750000","c2":"19752000","c3":"40","c4":"10","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":913}',
+            ),
+            390 => 
+            array (
+                'id' => 2896,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001380089","nama":"ILAH","alamat":"DUSUN BATUKARUT RT 02 RW 02 DESA DANGDEUR KEC BANYURESMI","import_id":9,"status":"0","c1":"3228400","c2":"31552000","c3":"100","c4":"10","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":914}',
+            ),
+            391 => 
+            array (
+                'id' => 2897,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300003","nama":"IMAS KOMALA","alamat":"KP. DANGDEUR RT. 01 RW. 01","import_id":9,"status":"0","c1":"1457050","c2":"29988000","c3":"80","c4":"40","c5":"40","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":915}',
+            ),
+            392 => 
+            array (
+                'id' => 2898,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300080","nama":"IMAS MAEMUNAH","alamat":"KP. CISALAM RT 02\\/06","import_id":9,"status":"0","c1":"1131550","c2":"35508000","c3":"100","c4":"10","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":916}',
+            ),
+            393 => 
+            array (
+                'id' => 2899,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300036","nama":"IMAS MASRIAH","alamat":"KP. PATROL RT. 04 RW. 02","import_id":9,"status":"0","c1":"1316350","c2":"13092000","c3":"10","c4":"20","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":917}',
+            ),
+            394 => 
+            array (
+                'id' => 2900,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000172","nama":"IMAS MINTARSIH","alamat":"KP CISALAM RW 06 RT 02","import_id":9,"status":"0","c1":"2774800","c2":"37148000","c3":"60","c4":"40","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":918}',
+            ),
+            395 => 
+            array (
+                'id' => 2901,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016015803","nama":"IMAS NIA","alamat":"KP JATI RT 02 RW 03","import_id":9,"status":"0","c1":"2311750","c2":"14264000","c3":"50","c4":"60","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":919}',
+            ),
+            396 => 
+            array (
+                'id' => 2902,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300059","nama":"IMAS SITI NURJANAH","alamat":"KP. SARPEUNDEUY RT. 05 RW. 04","import_id":9,"status":"0","c1":"2245950","c2":"39400000","c3":"90","c4":"80","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":920}',
+            ),
+            397 => 
+            array (
+                'id' => 2903,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300871","nama":"IMAS WAWAT","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"3349500","c2":"35716000","c3":"10","c4":"90","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":921}',
+            ),
+            398 => 
+            array (
+                'id' => 2904,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300023","nama":"IPAH","alamat":"KP PASIRMUNCANG RT. 02 RW. 02","import_id":9,"status":"0","c1":"1404900","c2":"33284000","c3":"80","c4":"50","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":922}',
+            ),
+            399 => 
+            array (
+                'id' => 2905,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000264","nama":"IPAH HANIPAH","alamat":"KP JATI RT 03 RW 03","import_id":9,"status":"0","c1":"1238650","c2":"37688000","c3":"20","c4":"80","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":923}',
+            ),
+            400 => 
+            array (
+                'id' => 2906,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300899","nama":"IRNA ALIFAH","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":9,"status":"0","c1":"1489950","c2":"13180000","c3":"100","c4":"90","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":924}',
+            ),
+            401 => 
+            array (
+                'id' => 2907,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061053","nama":"ISAH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":9,"status":"0","c1":"1974000","c2":"39972000","c3":"20","c4":"90","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":925}',
+            ),
+            402 => 
+            array (
+                'id' => 2908,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300033","nama":"IYAM MARYANI","alamat":"KP PATROL RT 03 RW 02","import_id":9,"status":"0","c1":"2018450","c2":"38760000","c3":"10","c4":"50","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":926}',
+            ),
+            403 => 
+            array (
+                'id' => 2909,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300889","nama":"JUA","alamat":"JKP JATI RW 10 RT 02","import_id":9,"status":"0","c1":"2810850","c2":"19604000","c3":"40","c4":"70","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":927}',
+            ),
+            404 => 
+            array (
+                'id' => 2910,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300008","nama":"JUJU","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":9,"status":"0","c1":"2446500","c2":"35544000","c3":"90","c4":"50","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":928}',
+            ),
+            405 => 
+            array (
+                'id' => 2911,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061108","nama":"JUMA","alamat":"KP JATI RT 03 RW 10","import_id":9,"status":"0","c1":"3198300","c2":"10472000","c3":"90","c4":"100","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":929}',
+            ),
+            406 => 
+            array (
+                'id' => 2912,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300878","nama":"KARMASIH","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"1475600","c2":"26628000","c3":"20","c4":"80","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":930}',
+            ),
+            407 => 
+            array (
+                'id' => 2913,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016018086","nama":"KARYATI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"1274350","c2":"29580000","c3":"50","c4":"40","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":931}',
+            ),
+            408 => 
+            array (
+                'id' => 2914,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300068","nama":"KOKOM","alamat":"KP. BOJONG GEDE RT 03\\/05","import_id":9,"status":"0","c1":"3306800","c2":"10488000","c3":"60","c4":"40","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":932}',
+            ),
+            409 => 
+            array (
+                'id' => 2915,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300014","nama":"LANI HERNAWATI","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":9,"status":"0","c1":"1331050","c2":"30092000","c3":"30","c4":"20","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":933}',
+            ),
+            410 => 
+            array (
+                'id' => 2916,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300004","nama":"LELAH","alamat":"KP DANGDEUR RT 01 RW 01","import_id":9,"status":"0","c1":"1421350","c2":"38324000","c3":"30","c4":"30","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":934}',
+            ),
+            411 => 
+            array (
+                'id' => 2917,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300065","nama":"LENI MARLINA","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":9,"status":"0","c1":"3074400","c2":"33724000","c3":"10","c4":"10","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":935}',
+            ),
+            412 => 
+            array (
+                'id' => 2918,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061126","nama":"LIA","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":9,"status":"0","c1":"3382750","c2":"27792000","c3":"100","c4":"70","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":936}',
+            ),
+            413 => 
+            array (
+                'id' => 2919,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300026","nama":"LILIS","alamat":"KP PASIR MUNCANG RT 02 RW 02","import_id":9,"status":"0","c1":"2166850","c2":"29440000","c3":"70","c4":"50","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":937}',
+            ),
+            414 => 
+            array (
+                'id' => 2920,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000047","nama":"LILIS","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":9,"status":"0","c1":"1081500","c2":"24228000","c3":"90","c4":"90","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":938}',
+            ),
+            415 => 
+            array (
+                'id' => 2921,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016011995","nama":"LILIS K","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":9,"status":"0","c1":"936950","c2":"15940000","c3":"70","c4":"20","c5":"40","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":939}',
+            ),
+            416 => 
+            array (
+                'id' => 2922,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300880","nama":"LILIS LISWANTI","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"2025100","c2":"28056000","c3":"80","c4":"90","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":940}',
+            ),
+            417 => 
+            array (
+                'id' => 2923,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300819","nama":"LINA","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"3359650","c2":"18868000","c3":"80","c4":"80","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":941}',
+            ),
+            418 => 
+            array (
+                'id' => 2924,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300841","nama":"LISNAWATI","alamat":"KP BOJONG GEDE RT 03 RW 05","import_id":9,"status":"0","c1":"2964150","c2":"30888000","c3":"70","c4":"70","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":942}',
+            ),
+            419 => 
+            array (
+                'id' => 2925,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300002","nama":"MAE","alamat":"KP. DANGDEUR RT. 01 RW. 01","import_id":9,"status":"0","c1":"1296750","c2":"29160000","c3":"10","c4":"60","c5":"100","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":943}',
+            ),
+            420 => 
+            array (
+                'id' => 2926,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980529","nama":"MARLINA","alamat":"KP JATI RW 10 RT 02","import_id":9,"status":"0","c1":"2111200","c2":"31752000","c3":"30","c4":"60","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":944}',
+            ),
+            421 => 
+            array (
+                'id' => 2927,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300058","nama":"MARNI","alamat":"KP. BOJONGGEDE RT. 03 RW. 08","import_id":9,"status":"0","c1":"2152850","c2":"11308000","c3":"80","c4":"100","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":945}',
+            ),
+            422 => 
+            array (
+                'id' => 2928,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016017381","nama":"MARPU AH","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":9,"status":"0","c1":"2015300","c2":"10724000","c3":"20","c4":"50","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":946}',
+            ),
+            423 => 
+            array (
+                'id' => 2929,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300826","nama":"MARWATI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":9,"status":"0","c1":"2877000","c2":"22648000","c3":"90","c4":"80","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":947}',
+            ),
+            424 => 
+            array (
+                'id' => 2930,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016012953","nama":"MAS AAM","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"2396800","c2":"22648000","c3":"60","c4":"10","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":948}',
+            ),
+            425 => 
+            array (
+                'id' => 2931,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061049","nama":"MAS IKOH","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":9,"status":"0","c1":"2162650","c2":"16532000","c3":"40","c4":"90","c5":"40","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":949}',
+            ),
+            426 => 
+            array (
+                'id' => 2932,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060985","nama":"MASITOH","alamat":"KP JATI RT 02 RW 03","import_id":9,"status":"0","c1":"1145550","c2":"27564000","c3":"70","c4":"90","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":950}',
+            ),
+            427 => 
+            array (
+                'id' => 2933,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061038","nama":"MIMIH","alamat":"KP GEGERLOA RT 01 RW 07","import_id":9,"status":"0","c1":"2802450","c2":"27368000","c3":"60","c4":"40","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":951}',
+            ),
+            428 => 
+            array (
+                'id' => 2934,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300855","nama":"MIMIN","alamat":"KP CISALAM RW 06 RT 02","import_id":9,"status":"0","c1":"1631350","c2":"20000000","c3":"70","c4":"30","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":952}',
+            ),
+            429 => 
+            array (
+                'id' => 2935,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300865","nama":"MIMIN","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":9,"status":"0","c1":"3166450","c2":"38008000","c3":"100","c4":"90","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":953}',
+            ),
+            430 => 
+            array (
+                'id' => 2936,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013744","nama":"MIMIN ASMINAH","alamat":"KP JATI RT 02 RW 03","import_id":9,"status":"0","c1":"2750300","c2":"21244000","c3":"20","c4":"10","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":954}',
+            ),
+            431 => 
+            array (
+                'id' => 2937,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061096","nama":"MUNI\'AH","alamat":"KP JATI RW 10 RT 01","import_id":9,"status":"0","c1":"2795100","c2":"31776000","c3":"30","c4":"50","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":955}',
+            ),
+            432 => 
+            array (
+                'id' => 2938,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523019000004","nama":"MUTIAH","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":9,"status":"0","c1":"2549400","c2":"25492000","c3":"50","c4":"30","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":956}',
+            ),
+            433 => 
+            array (
+                'id' => 2939,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300800","nama":"NANA RUSMANA","alamat":"KP DANGDEUR RW 01 RT 01","import_id":9,"status":"0","c1":"3459050","c2":"16164000","c3":"100","c4":"50","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":957}',
+            ),
+            434 => 
+            array (
+                'id' => 2940,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061003","nama":"NANI SUMARNI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":9,"status":"0","c1":"2236850","c2":"25496000","c3":"90","c4":"20","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":958}',
+            ),
+            435 => 
+            array (
+                'id' => 2941,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000253","nama":"NENA","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":9,"status":"0","c1":"1038800","c2":"10796000","c3":"20","c4":"30","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":959}',
+            ),
+            436 => 
+            array (
+                'id' => 2942,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300838","nama":"NENDI","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":9,"status":"0","c1":"1659700","c2":"38440000","c3":"80","c4":"40","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":960}',
+            ),
+            437 => 
+            array (
+                'id' => 2943,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300067","nama":"NENENG AMINAH","alamat":"KP. BOJONG GEDE RT 02\\/05","import_id":9,"status":"0","c1":"1214500","c2":"18728000","c3":"10","c4":"80","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":961}',
+            ),
+            438 => 
+            array (
+                'id' => 2944,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300019","nama":"NENENG PIPIH SARIPAH","alamat":"KP PASIR MUNCANG RT 01 RW 02","import_id":9,"status":"0","c1":"1756300","c2":"14592000","c3":"50","c4":"90","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":962}',
+            ),
+            439 => 
+            array (
+                'id' => 2945,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060756","nama":"NENG SANTIA","alamat":"KP. BOJONG GEDE RT 02 \\/ RW 08","import_id":9,"status":"0","c1":"3464300","c2":"20976000","c3":"20","c4":"90","c5":"100","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":963}',
+            ),
+            440 => 
+            array (
+                'id' => 2946,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300043","nama":"NENI","alamat":"KP JATI RT 01 RW 03","import_id":9,"status":"0","c1":"2064650","c2":"23768000","c3":"60","c4":"50","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":964}',
+            ),
+            441 => 
+            array (
+                'id' => 2947,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061064","nama":"NENI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"2713200","c2":"39780000","c3":"40","c4":"10","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":965}',
+            ),
+            442 => 
+            array (
+                'id' => 2948,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980493","nama":"NENI ANGGRAENI","alamat":"KP JATI RT 02 RW 03","import_id":9,"status":"0","c1":"1344350","c2":"39520000","c3":"20","c4":"60","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":966}',
+            ),
+            443 => 
+            array (
+                'id' => 2949,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061012","nama":"NEPI NISPIATI","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":9,"status":"0","c1":"3191650","c2":"22524000","c3":"10","c4":"70","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":967}',
+            ),
+            444 => 
+            array (
+                'id' => 2950,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300007","nama":"NINING","alamat":"KP DANGDEUR RT 01 RW 01","import_id":9,"status":"0","c1":"3088050","c2":"17748000","c3":"90","c4":"60","c5":"40","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":968}',
+            ),
+            445 => 
+            array (
+                'id' => 2951,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300094","nama":"NINING YUNINGSIH","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":9,"status":"0","c1":"2012500","c2":"38192000","c3":"10","c4":"100","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":969}',
+            ),
+            446 => 
+            array (
+                'id' => 2952,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060974","nama":"NUNUNG AMINAH","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":9,"status":"0","c1":"3396050","c2":"30752000","c3":"70","c4":"100","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":970}',
+            ),
+            447 => 
+            array (
+                'id' => 2953,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300861","nama":"NUNUNG RUHAITIN","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":9,"status":"0","c1":"1892100","c2":"18328000","c3":"90","c4":"60","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":971}',
+            ),
+            448 => 
+            array (
+                'id' => 2954,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061063","nama":"NUR HASANAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"2820650","c2":"30344000","c3":"10","c4":"10","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":972}',
+            ),
+            449 => 
+            array (
+                'id' => 2955,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300846","nama":"NURAENI","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"3260250","c2":"20836000","c3":"40","c4":"20","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":973}',
+            ),
+            450 => 
+            array (
+                'id' => 2956,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980338","nama":"NURLELA","alamat":"KP JATI RT 03 RW 03","import_id":9,"status":"0","c1":"1262100","c2":"35180000","c3":"90","c4":"70","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":974}',
+            ),
+            451 => 
+            array (
+                'id' => 2957,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300088","nama":"NURLELAH","alamat":"KP. BOJONG GEDE RT 01\\/08","import_id":9,"status":"0","c1":"1361850","c2":"33664000","c3":"70","c4":"10","c5":"100","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":975}',
+            ),
+            452 => 
+            array (
+                'id' => 2958,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300827","nama":"NURYANI","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":9,"status":"0","c1":"3481450","c2":"27044000","c3":"50","c4":"30","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":976}',
+            ),
+            453 => 
+            array (
+                'id' => 2959,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300090","nama":"NURYATI","alamat":"KP. BOJONG GEDE RT 01\\/08","import_id":9,"status":"0","c1":"2566550","c2":"34292000","c3":"60","c4":"70","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":977}',
+            ),
+            454 => 
+            array (
+                'id' => 2960,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016050705","nama":"OBAY SOBARIAH","alamat":"KP PATROL RT 01 RW 09","import_id":9,"status":"0","c1":"3199000","c2":"35640000","c3":"30","c4":"80","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":978}',
+            ),
+            455 => 
+            array (
+                'id' => 2961,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300038","nama":"ONEH","alamat":"KP PATROL","import_id":9,"status":"0","c1":"2420600","c2":"30352000","c3":"40","c4":"30","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":979}',
+            ),
+            456 => 
+            array (
+                'id' => 2962,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061129","nama":"OYOH","alamat":"KP SARPEUNDEUY RT 003 RW 011","import_id":9,"status":"0","c1":"1191050","c2":"11640000","c3":"20","c4":"60","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":980}',
+            ),
+            457 => 
+            array (
+                'id' => 2963,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980271","nama":"PANJI SUGIRI","alamat":"KP BOJONGGEDE RT 03 RW 05","import_id":9,"status":"0","c1":"1820700","c2":"13412000","c3":"60","c4":"70","c5":"100","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":981}',
+            ),
+            458 => 
+            array (
+                'id' => 2964,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060986","nama":"PATONAH","alamat":"KP JATI RT 01 RW 03","import_id":9,"status":"0","c1":"1761900","c2":"14900000","c3":"10","c4":"60","c5":"100","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":982}',
+            ),
+            459 => 
+            array (
+                'id' => 2965,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000202","nama":"PIANAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":9,"status":"0","c1":"1157800","c2":"32948000","c3":"100","c4":"70","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":983}',
+            ),
+            460 => 
+            array (
+                'id' => 2966,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061075","nama":"POPON","alamat":"KP PATROL RT 01 RW 09","import_id":9,"status":"0","c1":"1220450","c2":"21408000","c3":"60","c4":"70","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":984}',
+            ),
+            461 => 
+            array (
+                'id' => 2967,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300810","nama":"PUPU MARPUAH","alamat":"KP JATI RT 03 RW 03","import_id":9,"status":"0","c1":"1670200","c2":"27700000","c3":"50","c4":"100","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":985}',
+            ),
+            462 => 
+            array (
+                'id' => 2968,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016021893","nama":"PUPUN","alamat":"KP PASIRMUNCANG RT 01 RW 02","import_id":9,"status":"0","c1":"3328850","c2":"34696000","c3":"60","c4":"30","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":986}',
+            ),
+            463 => 
+            array (
+                'id' => 2969,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300050","nama":"PUROH","alamat":"KP. JATI RT 04\\/03","import_id":9,"status":"0","c1":"2420600","c2":"11416000","c3":"100","c4":"20","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":987}',
+            ),
+            464 => 
+            array (
+                'id' => 2970,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300006","nama":"RANI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":9,"status":"0","c1":"1455650","c2":"19500000","c3":"90","c4":"70","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":988}',
+            ),
+            465 => 
+            array (
+                'id' => 2971,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523021000064","nama":"RANI FITRI HANDAYANI","alamat":"KP JATI RT 02 RW 10","import_id":9,"status":"0","c1":"1469300","c2":"20988000","c3":"70","c4":"10","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":989}',
+            ),
+            466 => 
+            array (
+                'id' => 2972,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061054","nama":"RENI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"2661050","c2":"18800000","c3":"60","c4":"100","c5":"100","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":990}',
+            ),
+            467 => 
+            array (
+                'id' => 2973,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300877","nama":"ROHANAH","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"1300600","c2":"35400000","c3":"60","c4":"90","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":991}',
+            ),
+            468 => 
+            array (
+                'id' => 2974,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061100","nama":"ROHANAH","alamat":"KP JATI RW 10 RT 01","import_id":9,"status":"0","c1":"2660000","c2":"31376000","c3":"30","c4":"40","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":992}',
+            ),
+            469 => 
+            array (
+                'id' => 2975,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061000","nama":"ROHANI","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":9,"status":"0","c1":"1330000","c2":"24552000","c3":"60","c4":"40","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":993}',
+            ),
+            470 => 
+            array (
+                'id' => 2976,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300835","nama":"ROHAYANI","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":9,"status":"0","c1":"2881550","c2":"35504000","c3":"10","c4":"60","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":994}',
+            ),
+            471 => 
+            array (
+                'id' => 2977,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300069","nama":"ROKAYAH","alamat":"KP. CISALAM RT 01\\/06","import_id":9,"status":"0","c1":"1718500","c2":"20344000","c3":"60","c4":"60","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":995}',
+            ),
+            472 => 
+            array (
+                'id' => 2978,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061037","nama":"ROKAYAH","alamat":"KP GEGERLOA RT 01 RW 07","import_id":9,"status":"0","c1":"3187450","c2":"22524000","c3":"90","c4":"90","c5":"40","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":996}',
+            ),
+            473 => 
+            array (
+                'id' => 2979,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300086","nama":"ROMI AISYAH","alamat":"KP. PASIR MUNCANG RT. 02 RW. 07","import_id":9,"status":"0","c1":"2921450","c2":"37648000","c3":"50","c4":"30","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":997}',
+            ),
+            474 => 
+            array (
+                'id' => 2980,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061065","nama":"ROMLAH","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"1651650","c2":"18012000","c3":"90","c4":"30","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":998}',
+            ),
+            475 => 
+            array (
+                'id' => 2981,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000002","nama":"ROSMAWATI","alamat":"KP PATROL RT 01 RW 09","import_id":9,"status":"0","c1":"1995700","c2":"32676000","c3":"60","c4":"40","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":999}',
+            ),
+            476 => 
+            array (
+                'id' => 2982,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980305","nama":"RUSMIATI","alamat":"KP JATI RW 10 RT 01","import_id":9,"status":"0","c1":"2229850","c2":"25536000","c3":"40","c4":"10","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1000}',
+            ),
+            477 => 
+            array (
+                'id' => 2983,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016019912","nama":"SA\'ADAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"3401650","c2":"35548000","c3":"80","c4":"100","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1001}',
+            ),
+            478 => 
+            array (
+                'id' => 2984,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061094","nama":"SA\'ADAH","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"2078300","c2":"39236000","c3":"40","c4":"100","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1002}',
+            ),
+            479 => 
+            array (
+                'id' => 2985,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026000","nama":"SAHID","alamat":"KP. PASIR MUNCANG RT 001\\/RW 002","import_id":9,"status":"0","c1":"1161300","c2":"12520000","c3":"100","c4":"80","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1003}',
+            ),
+            480 => 
+            array (
+                'id' => 2986,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000301","nama":"SANTI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"1948100","c2":"10296000","c3":"70","c4":"20","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1004}',
+            ),
+            481 => 
+            array (
+                'id' => 2987,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980382","nama":"SANTI SUSANTI","alamat":"KP PATROL RT 02 RW 09","import_id":9,"status":"0","c1":"1342250","c2":"29160000","c3":"70","c4":"30","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1005}',
+            ),
+            482 => 
+            array (
+                'id' => 2988,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060967","nama":"SINTA SITI FATIMAH","alamat":"KP DANGDEUR RT 01 RW 01","import_id":9,"status":"0","c1":"2291800","c2":"38972000","c3":"70","c4":"50","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1006}',
+            ),
+            483 => 
+            array (
+                'id' => 2989,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300891","nama":"SITI AMINAH","alamat":"KP JATI RT 03 RW 10","import_id":9,"status":"0","c1":"1499050","c2":"32724000","c3":"40","c4":"20","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1007}',
+            ),
+            484 => 
+            array (
+                'id' => 2990,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061115","nama":"SITI AMINAH","alamat":"KP JATI RT 02 RW 03","import_id":9,"status":"0","c1":"1022000","c2":"28812000","c3":"20","c4":"60","c5":"100","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1008}',
+            ),
+            485 => 
+            array (
+                'id' => 2991,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980244","nama":"SITI AMINAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":9,"status":"0","c1":"2320150","c2":"26848000","c3":"70","c4":"60","c5":"100","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1009}',
+            ),
+            486 => 
+            array (
+                'id' => 2992,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061029","nama":"SITI FATIMAH","alamat":"KP CISALAM RW 06 RT 02","import_id":9,"status":"0","c1":"892500","c2":"37612000","c3":"90","c4":"50","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1010}',
+            ),
+            487 => 
+            array (
+                'id' => 2993,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980201","nama":"SITI INAYAH","alamat":"KP JATI RW 10 RT 02","import_id":9,"status":"0","c1":"1776600","c2":"10596000","c3":"30","c4":"40","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1011}',
+            ),
+            488 => 
+            array (
+                'id' => 2994,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300842","nama":"SITI JUBAEDAH","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"2445450","c2":"17904000","c3":"50","c4":"50","c5":"40","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1012}',
+            ),
+            489 => 
+            array (
+                'id' => 2995,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300046","nama":"SITI JULAEHA","alamat":"KP. JATI RT 03\\/03","import_id":9,"status":"0","c1":"2768150","c2":"17620000","c3":"80","c4":"20","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1013}',
+            ),
+            490 => 
+            array (
+                'id' => 2996,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061004","nama":"SITI KHOLISOH","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":9,"status":"0","c1":"1353100","c2":"29924000","c3":"60","c4":"100","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1014}',
+            ),
+            491 => 
+            array (
+                'id' => 2997,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300809","nama":"SITI MAESAROH","alamat":"KP JATI RT 03 RW 03","import_id":9,"status":"0","c1":"1122100","c2":"18616000","c3":"70","c4":"40","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1015}',
+            ),
+            492 => 
+            array (
+                'id' => 2998,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980236","nama":"SITI MARSITI","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"2665950","c2":"26252000","c3":"80","c4":"30","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1016}',
+            ),
+            493 => 
+            array (
+                'id' => 2999,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300852","nama":"SITI MARYAM","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"3270050","c2":"27820000","c3":"50","c4":"90","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1017}',
+            ),
+            494 => 
+            array (
+                'id' => 3000,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980164","nama":"SITI MARYAM","alamat":"KP JATI RW 10 RT 01","import_id":9,"status":"0","c1":"2170700","c2":"25300000","c3":"30","c4":"20","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1018}',
+            ),
+            495 => 
+            array (
+                'id' => 3001,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:01',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980331","nama":"SITI MARYATI","alamat":"KP JATI RT 01 RW 03","import_id":9,"status":"0","c1":"3228750","c2":"14292000","c3":"100","c4":"60","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:01.000000Z","created_at":"2023-08-14T17:29:01.000000Z","id":1019}',
+            ),
+            496 => 
+            array (
+                'id' => 3002,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000216","nama":"SITI MASITOH","alamat":"KP JATI RT 03 RW 03","import_id":9,"status":"0","c1":"2364600","c2":"33152000","c3":"40","c4":"50","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1020}',
+            ),
+            497 => 
+            array (
+                'id' => 3003,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980306","nama":"SITI MASUROH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"1799350","c2":"11840000","c3":"100","c4":"60","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1021}',
+            ),
+            498 => 
+            array (
+                'id' => 3004,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300015","nama":"SITI NURJANAH","alamat":"KP PASIRMUNCANG RT. 01 RW. 02","import_id":9,"status":"0","c1":"1929200","c2":"34840000","c3":"80","c4":"30","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1022}',
+            ),
+            499 => 
+            array (
+                'id' => 3005,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300845","nama":"SITI ROHAYATI","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"1750350","c2":"39176000","c3":"100","c4":"60","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1023}',
+            ),
+        ));
+        \DB::table('logs')->insert(array (
+            0 => 
+            array (
+                'id' => 3006,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016021894","nama":"SITI SAIBAH","alamat":"KP JATI RT 01 RW 03","import_id":9,"status":"0","c1":"2501800","c2":"25872000","c3":"90","c4":"70","c5":"100","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1024}',
+            ),
+            1 => 
+            array (
+                'id' => 3007,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980471","nama":"SITI SUHAENAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"2657550","c2":"19040000","c3":"40","c4":"30","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1025}',
+            ),
+            2 => 
+            array (
+                'id' => 3008,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300057","nama":"SOPAH","alamat":"KP. SARPEUNDEUY RT. 03 RW. 04","import_id":9,"status":"0","c1":"1705200","c2":"13796000","c3":"50","c4":"70","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1026}',
+            ),
+            3 => 
+            array (
+                'id' => 3009,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000223","nama":"SOPIAH","alamat":"KP JATI RT 01 RW 03","import_id":9,"status":"0","c1":"2663850","c2":"31484000","c3":"50","c4":"90","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1027}',
+            ),
+            4 => 
+            array (
+                'id' => 3010,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980295","nama":"SUGIANTO","alamat":"KP GEGERLOA RT 02 RW 07","import_id":9,"status":"0","c1":"2185050","c2":"22756000","c3":"10","c4":"30","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1028}',
+            ),
+            5 => 
+            array (
+                'id' => 3011,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000058","nama":"SUHAENAH","alamat":"KP BOJONGGEDE RT 02 RW 05","import_id":9,"status":"0","c1":"1206100","c2":"11080000","c3":"100","c4":"40","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1029}',
+            ),
+            6 => 
+            array (
+                'id' => 3012,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300052","nama":"SUMARNI","alamat":"KP. JATI RT 04\\/03","import_id":9,"status":"0","c1":"1729000","c2":"31720000","c3":"70","c4":"20","c5":"40","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1030}',
+            ),
+            7 => 
+            array (
+                'id' => 3013,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000059","nama":"SUMARNI","alamat":"KP BOJONG GEDE RT 01 RW 08","import_id":9,"status":"0","c1":"1069250","c2":"32984000","c3":"100","c4":"80","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1031}',
+            ),
+            8 => 
+            array (
+                'id' => 3014,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300807","nama":"SUMI KULSUM","alamat":"KP JATI RT 01 RW 03","import_id":9,"status":"0","c1":"3258850","c2":"21004000","c3":"20","c4":"80","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1032}',
+            ),
+            9 => 
+            array (
+                'id' => 3015,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000114","nama":"SUSANTI","alamat":"KP SARPEUNDEUY RT 001 RW 011","import_id":9,"status":"0","c1":"1929200","c2":"22032000","c3":"60","c4":"40","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1033}',
+            ),
+            10 => 
+            array (
+                'id' => 3016,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016024802","nama":"SUSI DIANA","alamat":"KP DANGDEUR RT 02 RW 01","import_id":9,"status":"0","c1":"1390900","c2":"31284000","c3":"20","c4":"70","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1034}',
+            ),
+            11 => 
+            array (
+                'id' => 3017,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061080","nama":"SUSUM","alamat":"KP PATROL RT 01 RW 09","import_id":9,"status":"0","c1":"1227100","c2":"13760000","c3":"80","c4":"90","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1035}',
+            ),
+            12 => 
+            array (
+                'id' => 3018,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300011","nama":"TATI","alamat":"KP. DANGDEUR RT. 02 RW. 01","import_id":9,"status":"0","c1":"3331300","c2":"16540000","c3":"100","c4":"10","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1036}',
+            ),
+            13 => 
+            array (
+                'id' => 3019,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000291","nama":"TATI","alamat":"KP JATI RW 10 RT 02","import_id":9,"status":"0","c1":"3117450","c2":"39484000","c3":"10","c4":"60","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1037}',
+            ),
+            14 => 
+            array (
+                'id' => 3020,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061107","nama":"TATI RAHMAWATI","alamat":"KP JATI RW 10 RT 02","import_id":9,"status":"0","c1":"1894550","c2":"30548000","c3":"90","c4":"60","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1038}',
+            ),
+            15 => 
+            array (
+                'id' => 3021,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300879","nama":"TIAH","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"1162350","c2":"29948000","c3":"10","c4":"30","c5":"80","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1039}',
+            ),
+            16 => 
+            array (
+                'id' => 3022,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016026001","nama":"TINI","alamat":"KP PATROL RT 02 RW 09","import_id":9,"status":"0","c1":"1393700","c2":"17148000","c3":"70","c4":"30","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1040}',
+            ),
+            17 => 
+            array (
+                'id' => 3023,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061040","nama":"TINI","alamat":"KP GEGERLOA RT 01 RW 07","import_id":9,"status":"0","c1":"2321900","c2":"15144000","c3":"90","c4":"10","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1041}',
+            ),
+            18 => 
+            array (
+                'id' => 3024,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300874","nama":"TITI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"1632400","c2":"23644000","c3":"40","c4":"10","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1042}',
+            ),
+            19 => 
+            array (
+                'id' => 3025,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061089","nama":"TITI","alamat":"KP PASIR MUNCANG RT 02 RW 09","import_id":9,"status":"0","c1":"3480400","c2":"38052000","c3":"40","c4":"90","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1043}',
+            ),
+            20 => 
+            array (
+                'id' => 3026,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061120","nama":"TITI","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":9,"status":"0","c1":"2118900","c2":"20564000","c3":"70","c4":"40","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1044}',
+            ),
+            21 => 
+            array (
+                'id' => 3027,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300867","nama":"TUKIYAH","alamat":"KP BOJONG GEDE RT 02 RW 08","import_id":9,"status":"0","c1":"1856750","c2":"36656000","c3":"50","c4":"60","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1045}',
+            ),
+            22 => 
+            array (
+                'id' => 3028,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300801","nama":"TUTI","alamat":"KP DANGDEUR RT 01 RW 01","import_id":9,"status":"0","c1":"2046800","c2":"36632000","c3":"60","c4":"100","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1046}',
+            ),
+            23 => 
+            array (
+                'id' => 3029,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300832","nama":"UAY WARLIYAH","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":9,"status":"0","c1":"2489550","c2":"37372000","c3":"40","c4":"100","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1047}',
+            ),
+            24 => 
+            array (
+                'id' => 3030,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016013739","nama":"UJANG HIDAYAT","alamat":"KP. BATU KARUT RT.02 RW. 02","import_id":9,"status":"0","c1":"3433150","c2":"14632000","c3":"70","c4":"30","c5":"90","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1048}',
+            ),
+            25 => 
+            array (
+                'id' => 3031,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300063","nama":"ULIA","alamat":"KP. BOJONG GEDE RT 01\\/05","import_id":9,"status":"0","c1":"2691150","c2":"25628000","c3":"80","c4":"40","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1049}',
+            ),
+            26 => 
+            array (
+                'id' => 3032,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300881","nama":"WATI","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"2220400","c2":"28268000","c3":"20","c4":"20","c5":"40","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1050}',
+            ),
+            27 => 
+            array (
+                'id' => 3033,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061032","nama":"WATI","alamat":"KP CISALAM RW 06 RT 02","import_id":9,"status":"0","c1":"1523550","c2":"28952000","c3":"90","c4":"10","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1051}',
+            ),
+            28 => 
+            array (
+                'id' => 3034,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016018087","nama":"WATI","alamat":"KP JATI RW 10 RT 02","import_id":9,"status":"0","c1":"1705550","c2":"16988000","c3":"50","c4":"80","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1052}',
+            ),
+            29 => 
+            array (
+                'id' => 3035,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020980445","nama":"WIDA WIDIA","alamat":"KP SARPEUNDEUY RT 03 RW 04","import_id":9,"status":"0","c1":"2926000","c2":"31296000","c3":"40","c4":"20","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1053}',
+            ),
+            30 => 
+            array (
+                'id' => 3036,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300147","nama":"WIWI","alamat":"KP. SARPEUNDEUY RT. 02 RW. 04","import_id":9,"status":"0","c1":"1584800","c2":"36488000","c3":"100","c4":"50","c5":"60","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1054}',
+            ),
+            31 => 
+            array (
+                'id' => 3037,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000159","nama":"WIWIN","alamat":"KP PATROL RT 02 RW 09","import_id":9,"status":"0","c1":"3233650","c2":"28332000","c3":"10","c4":"70","c5":"50","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1055}',
+            ),
+            32 => 
+            array (
+                'id' => 3038,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300884","nama":"WIWIN WINARTI","alamat":"KP JATI RW 10 RT 01","import_id":9,"status":"0","c1":"2745050","c2":"15152000","c3":"50","c4":"70","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1056}',
+            ),
+            33 => 
+            array (
+                'id' => 3039,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000287","nama":"YANI","alamat":"KP BOJONG GEDE RW 05 RT 01","import_id":9,"status":"0","c1":"2642150","c2":"35080000","c3":"100","c4":"60","c5":"90","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1057}',
+            ),
+            34 => 
+            array (
+                'id' => 3040,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300859","nama":"YANI HARYANI","alamat":"KP PASIRMUNCANG RT 02 RW 07","import_id":9,"status":"0","c1":"1954400","c2":"21364000","c3":"90","c4":"40","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1058}',
+            ),
+            35 => 
+            array (
+                'id' => 3041,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061066","nama":"YANTI","alamat":"KP BOJONG GEDE RT 03 RW 08","import_id":9,"status":"0","c1":"1078700","c2":"35116000","c3":"70","c4":"100","c5":"10","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1059}',
+            ),
+            36 => 
+            array (
+                'id' => 3042,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061026","nama":"YANTI RUSTINI","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"1409100","c2":"28072000","c3":"90","c4":"80","c5":"100","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1060}',
+            ),
+            37 => 
+            array (
+                'id' => 3043,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016015217","nama":"YANTI SITI PATIMAH","alamat":"KP JATI RW 10 RT 02","import_id":9,"status":"0","c1":"2450000","c2":"17008000","c3":"60","c4":"30","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1061}',
+            ),
+            38 => 
+            array (
+                'id' => 3044,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000185","nama":"YANTI SUGIANTI","alamat":"KP GEGERLOA RT 01 RW 07","import_id":9,"status":"0","c1":"1189300","c2":"21284000","c3":"80","c4":"80","c5":"70","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1062}',
+            ),
+            39 => 
+            array (
+                'id' => 3045,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300061","nama":"YATI","alamat":"KP. SARPEUNDEUY RT. 05 RW. 04","import_id":9,"status":"0","c1":"1146950","c2":"13968000","c3":"10","c4":"100","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1063}',
+            ),
+            40 => 
+            array (
+                'id' => 3046,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060961","nama":"YATI","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"3392200","c2":"32224000","c3":"20","c4":"90","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1064}',
+            ),
+            41 => 
+            array (
+                'id' => 3047,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061078","nama":"YATI","alamat":"KP PATROL RT 01 RW 09","import_id":9,"status":"0","c1":"1097250","c2":"31512000","c3":"20","c4":"50","c5":"30","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1065}',
+            ),
+            42 => 
+            array (
+                'id' => 3048,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000169","nama":"YAYA","alamat":"KP CISALAM RW 06 RT 01","import_id":9,"status":"0","c1":"2052050","c2":"16120000","c3":"80","c4":"60","c5":"20","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1066}',
+            ),
+            43 => 
+            array (
+                'id' => 3049,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300075","nama":"YAYA PARIDAH","alamat":"KP. CISALAM RT 02\\/06","import_id":9,"status":"0","c1":"2850050","c2":"36408000","c3":"30","c4":"10","c5":"50","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1067}',
+            ),
+            44 => 
+            array (
+                'id' => 3050,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061122","nama":"YAYAN","alamat":"KP SARPEUNDEUY RW 11 RT 02","import_id":9,"status":"0","c1":"1799000","c2":"25704000","c3":"100","c4":"30","c5":"20","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1068}',
+            ),
+            45 => 
+            array (
+                'id' => 3051,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300056","nama":"YAYAT HIDAYAT","alamat":"KP. SARPEUNDEUY RT. 03 RW. 04","import_id":9,"status":"1","c1":"2497600","c2":"14480000","c3":"20","c4":"60","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1069}',
+            ),
+            46 => 
+            array (
+                'id' => 3052,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017061002","nama":"YENI PADILAH","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"1","c1":"2667350","c2":"12344000","c3":"80","c4":"20","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1070}',
+            ),
+            47 => 
+            array (
+                'id' => 3053,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523017060992","nama":"YETI","alamat":"KP SARPEUNDEUY RT 02 RW 04","import_id":9,"status":"0","c1":"2118900","c2":"39296000","c3":"100","c4":"90","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1071}',
+            ),
+            48 => 
+            array (
+                'id' => 3054,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300097","nama":"YIYIT","alamat":"KP. BOJONG GEDE RT 03\\/08","import_id":9,"status":"0","c1":"2282350","c2":"23260000","c3":"50","c4":"40","c5":"10","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1072}',
+            ),
+            49 => 
+            array (
+                'id' => 3055,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300885","nama":"YOYOH ROBAYAH","alamat":"KP JATI RW 10 RT 01","import_id":9,"status":"1","c1":"919450","c2":"17544000","c3":"20","c4":"90","c5":"80","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1073}',
+            ),
+            50 => 
+            array (
+                'id' => 3056,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523016300814","nama":"YOYOH ROKAYAH","alamat":"KP SARPEUNDEUY RT 01 RW 04","import_id":9,"status":"1","c1":"3293850","c2":"35124000","c3":"20","c4":"60","c5":"70","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1074}',
+            ),
+            51 => 
+            array (
+                'id' => 3057,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523020000306","nama":"YULI APRILIANTI","alamat":"KP PATROL RT 03 RW 09","import_id":9,"status":"0","c1":"2518600","c2":"32908000","c3":"70","c4":"90","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1075}',
+            ),
+            52 => 
+            array (
+                'id' => 3058,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300071","nama":"YUYU","alamat":"KP. CISALAM RT 02\\/06","import_id":9,"status":"0","c1":"1296750","c2":"33444000","c3":"20","c4":"30","c5":"60","c6":"1","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1076}',
+            ),
+            53 => 
+            array (
+                'id' => 3059,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'penerima',
+                'log_type' => 'create',
+                'data' => '{"nik":"320523001300054","nama":"YUYUM","alamat":"KP. SARPEUNDEUY RT. 01 RW. 04","import_id":9,"status":"0","c1":"2970800","c2":"12360000","c3":"10","c4":"10","c5":"30","c6":"0","updated_at":"2023-08-14T17:29:02.000000Z","created_at":"2023-08-14T17:29:02.000000Z","id":1077}',
+            ),
+            54 => 
+            array (
+                'id' => 3060,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:29:02',
+                'table_name' => 'import_penerima',
+                'log_type' => 'edit',
+                'data' => '{"nama":"Data full","slug":"data-full","updated_at":"2023-08-15 00:29:00","created_at":"2023-08-15 00:29:00","id":9}',
+            ),
+            55 => 
+            array (
+                'id' => 3061,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:31:22',
+                'table_name' => 'p_menu',
+                'log_type' => 'delete',
+                'data' => '{"id":436,"parent_id":430,"title":"Kriteria","icon":null,"route":"admin.import.kriteria","sequence":7,"active":1,"type":1,"created_at":"2023-05-29 14:59:27","updated_at":"2023-08-08 23:51:32"}',
+            ),
+            56 => 
+            array (
+                'id' => 3062,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:31:38',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":435,"parent_id":430,"title":"Penduduk","icon":null,"route":"admin.import.penduduk","sequence":8,"active":1,"type":1,"created_at":"2023-05-29 02:19:06","updated_at":"2023-08-08 23:51:32"}',
+            ),
+            57 => 
+            array (
+                'id' => 3063,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:31:38',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":435,"updated_at":"2023-08-14T17:31:38.000000Z","created_at":"2023-08-14T17:31:38.000000Z","id":330}',
+            ),
+            58 => 
+            array (
+                'id' => 3064,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:31:53',
+                'table_name' => 'p_menu',
+                'log_type' => 'edit',
+                'data' => '{"id":437,"parent_id":null,"title":"Penerima","icon":"fas fa-user-edit","route":"admin.penduduk","sequence":3,"active":1,"type":1,"created_at":"2023-05-29 18:08:18","updated_at":"2023-08-08 22:50:21"}',
+            ),
+            59 => 
+            array (
+                'id' => 3065,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:31:53',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":1,"menu_id":437,"updated_at":"2023-08-14T17:31:53.000000Z","created_at":"2023-08-14T17:31:53.000000Z","id":331}',
+            ),
+            60 => 
+            array (
+                'id' => 3066,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:31:53',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":9,"menu_id":437,"updated_at":"2023-08-14T17:31:53.000000Z","created_at":"2023-08-14T17:31:53.000000Z","id":332}',
+            ),
+            61 => 
+            array (
+                'id' => 3067,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 00:31:53',
+                'table_name' => 'p_role_has_menu',
+                'log_type' => 'create',
+                'data' => '{"role_id":10,"menu_id":437,"updated_at":"2023-08-14T17:31:53.000000Z","created_at":"2023-08-14T17:31:53.000000Z","id":333}',
+            ),
         ));
         
         

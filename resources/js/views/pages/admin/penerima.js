@@ -28,7 +28,7 @@ $(document).ready(function () {
         ajax: {
             url: "{{ route(l_prefix($hpu)) }}",
             data: function (d) {
-                d['filter[dibuka]'] = $('#filter_dibuka').val();
+                d['filter[status]'] = $('#filter_status').val();
             },
             complete: function (data) {
                 data.responseJSON.data.forEach(e => {
