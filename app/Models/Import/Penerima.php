@@ -609,10 +609,9 @@ class Penerima extends Model
         ];
         $start_tabel = $row + 1;
 
-        foreach ($details['body'] as $detail) {
+        foreach ($details as $detail) {
             $c = 0;
             $row++;
-            $detail = (object)$detail;
             $sheet->setCellValue(chr(65 + $c) . "$row", ($row - 5));
             $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->nik);
             $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->nama);
@@ -621,13 +620,14 @@ class Penerima extends Model
             // status
             $status_str = $detail->status == 1 ? "1 | Sesuai" : ($detail->status == 2 ? "2 | Tidak Sesuai" : "0 | Diproses");
             $sheet->setCellValue(chr(65 + ++$c) . "$row", $status_str);
-            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c1);
-            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c2);
-            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c3);
-            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c4);
-            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c5);
-            $sheet->setCellValue(chr(65 + ++$c) . "$row", $$detail->c6);
-        }
+
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->c1);
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->c2);
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->c3);
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->c4);
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->c5);
+            $sheet->setCellValue(chr(65 + ++$c) . "$row", $detail->c6);
+        };
         // format
         // nomor center
         $sheet->getStyle($col_start . $start_tabel . ":" . $col_start . $row)->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);

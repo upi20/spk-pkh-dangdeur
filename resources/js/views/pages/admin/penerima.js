@@ -23,7 +23,7 @@ $(document).ready(function () {
         scrollX: true,
         aAutoWidth: false,
         bAutoWidth: false,
-        pageLength: 100,
+        pageLength: 10,
         type: 'GET',
         ajax: {
             url: "{{ route(l_prefix($hpu)) }}",

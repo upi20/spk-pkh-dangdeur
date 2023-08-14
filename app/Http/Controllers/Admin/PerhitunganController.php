@@ -3,8 +3,6 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\Kriteria;
-use App\Models\PendudukNilai;
 use App\Models\Penerima;
 use Illuminate\Http\Request;
 
@@ -35,7 +33,7 @@ class PerhitunganController extends Controller
     {
         $resutls = [];
         // nilai kriteria
-        $penerimas = Penerima::orderBy('nama')->limit(10)->get();
+        $penerimas = Penerima::orderBy('nama')->get();
 
         $resutls[] = $penerimas;
         // sub kriteria

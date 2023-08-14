@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Import\Penerima as ImportPenerima;
 use App\Models\Penerima;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -132,5 +133,10 @@ class PenerimaController extends Controller
         $penduduk->status = in_array($request->status, [0, 1, 2]) ? $request->status : $penduduk->status;
         $penduduk->save();
         return response()->json($penduduk);
+    }
+
+    public function export(Request $request)
+    {
+        return ImportPenerima::export($request);
     }
 }
