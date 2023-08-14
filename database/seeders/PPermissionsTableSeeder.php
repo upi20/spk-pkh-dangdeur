@@ -166,42 +166,42 @@ class PPermissionsTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 46,
-                'name' => 'admin.penduduk',
+                'name' => 'admin.penerima',
                 'guard_name' => 'web',
                 'created_at' => '2023-05-30 01:43:13',
-                'updated_at' => '2023-05-30 01:43:13',
+                'updated_at' => '2023-08-15 00:56:16',
             ),
             19 => 
             array (
                 'id' => 51,
-                'name' => 'admin.penduduk.insert',
+                'name' => 'admin.penerima.insert',
                 'guard_name' => 'web',
                 'created_at' => '2023-05-30 01:43:13',
-                'updated_at' => '2023-05-30 01:43:13',
+                'updated_at' => '2023-08-15 00:56:19',
             ),
             20 => 
             array (
                 'id' => 52,
-                'name' => 'admin.penduduk.update',
+                'name' => 'admin.penerima.update',
                 'guard_name' => 'web',
                 'created_at' => '2023-05-30 01:43:13',
-                'updated_at' => '2023-05-30 01:43:13',
+                'updated_at' => '2023-08-15 00:56:29',
             ),
             21 => 
             array (
                 'id' => 53,
-                'name' => 'admin.penduduk.set_status',
+                'name' => 'admin.penerima.set_status',
                 'guard_name' => 'web',
                 'created_at' => '2023-05-30 01:43:13',
-                'updated_at' => '2023-05-30 01:43:13',
+                'updated_at' => '2023-08-15 00:56:24',
             ),
             22 => 
             array (
                 'id' => 54,
-                'name' => 'admin.penduduk.delete',
+                'name' => 'admin.penerima.delete',
                 'guard_name' => 'web',
                 'created_at' => '2023-05-30 01:43:13',
-                'updated_at' => '2023-05-30 01:43:13',
+                'updated_at' => '2023-08-15 00:56:11',
             ),
             23 => 
             array (
@@ -238,34 +238,34 @@ class PPermissionsTableSeeder extends Seeder
             27 => 
             array (
                 'id' => 61,
-                'name' => 'admin.import.penduduk',
+                'name' => 'admin.import.penerima',
                 'guard_name' => 'web',
                 'created_at' => '2023-05-30 01:43:13',
-                'updated_at' => '2023-05-30 01:43:13',
+                'updated_at' => '2023-08-15 00:56:33',
             ),
             28 => 
             array (
                 'id' => 64,
-                'name' => 'admin.import.penduduk.insert',
+                'name' => 'admin.import.penerima.insert',
                 'guard_name' => 'web',
                 'created_at' => '2023-05-30 01:43:13',
-                'updated_at' => '2023-05-30 01:43:13',
+                'updated_at' => '2023-08-15 00:56:41',
             ),
             29 => 
             array (
                 'id' => 65,
-                'name' => 'admin.import.penduduk.update',
+                'name' => 'admin.import.penerima.update',
                 'guard_name' => 'web',
                 'created_at' => '2023-05-30 01:43:13',
-                'updated_at' => '2023-05-30 01:43:13',
+                'updated_at' => '2023-08-15 00:56:45',
             ),
             30 => 
             array (
                 'id' => 66,
-                'name' => 'admin.import.penduduk.delete',
+                'name' => 'admin.import.penerima.delete',
                 'guard_name' => 'web',
                 'created_at' => '2023-05-30 01:43:13',
-                'updated_at' => '2023-05-30 01:43:13',
+                'updated_at' => '2023-08-15 00:56:37',
             ),
         ));
         

@@ -27589,6 +27589,15 @@ class LogsTableSeeder extends Seeder
                 'log_type' => 'create',
                 'data' => '{"role_id":10,"menu_id":437,"updated_at":"2023-08-14T17:31:53.000000Z","created_at":"2023-08-14T17:31:53.000000Z","id":333}',
             ),
+            62 => 
+            array (
+                'id' => 3068,
+                'user_id' => 3,
+                'log_date' => '2023-08-15 01:10:34',
+                'table_name' => '',
+                'log_type' => 'login',
+            'data' => '{"ip":"127.0.0.1","user_agent":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/115.0.0.0 Safari\\/537.36 Edg\\/115.0.1901.203"}',
+            ),
         ));
         
         
